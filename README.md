@@ -19,7 +19,7 @@ The work has three parts, each with a chapter range:
 - **Part I, the architecture of dominance:** chapters 1-3, market structure.
 - **Part II, the economics of banking profits:** chapters 4-8, profitability, persistence, funding, capital and
   credit risk.
-- **Part III, investment valuation:** chapters 9-12, value, market-implied persistence, scenarios and USD returns.
+- **Part III, investment valuation:** chapters 9-14, value, market-implied persistence, scenarios, USD returns, market evidence: peers, analyst views, price formation and liquidity.
 
 The hypotheses were set before the analysis was run ([`docs/RESEARCH_HYPOTHESES.md`](docs/RESEARCH_HYPOTHESES.md)).
 The valuation method is in [`docs/VALUATION_SPEC.md`](docs/VALUATION_SPEC.md).
