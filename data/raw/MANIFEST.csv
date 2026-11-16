@@ -25,7 +25,7 @@ analyst_reports/TSL_CRDB_2024-06-03.pdf,0c1f8b917625e264c50119ae71cf9e8423bf2545
 analyst_reports/TSL_NMB_2023-07-11.pdf,2135e57bed6d32d54518614f60450d58fe2cbce840fe10d907761cc3b581874e,864940,2026-11-14,Raw input,Owner,N
 analyst_reports/VERTEX_MARKET_2025.pdf,8e473ca38b5733c6ee0db75521a921040e46240aec600da5a8179569eb4d072c,3619886,2026-11-14,Raw input,Owner,N
 analyst_reports/analyst_register_seed.csv,829b55e7fe7014beaeee34e8433f701d4cdf74920a02a87d07c956eb6fc8463c,4112,2026-11-14,Raw input,Owner,Y
-analyst_reports/register.csv,88737af8eec4bbe9c5880c1bb06423357d5e36f2751b1a924e2b73b85b7536da,7708,2026-11-14,Merged analyst register: owner seed + collected rows; TSL notes verified against the PDFs,Owner,Y
+analyst_reports/register.csv,e0611c20ca5de501ad931b687e9f579517a52996327bafec6aec82be348e0259,7286,2026-11-14,Merged analyst register: owner seed + collected rows; TSL notes verified against the PDFs (public copy: analyst-name column dropped; text quoted from the broker notes removed from the note columns the pipeline does not read),Owner,Y
 bot/.gitkeep,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,2026-11-06,Further BoT data file,Bank of Tanzania,N
 bot/TEMPLATE_bot_series.csv,850f0f329c1acf900a9c827b63ad0c104caac6e1740e0dca7ef55a147f2dc7d1,140,2026-11-06,Further BoT data file,Bank of Tanzania,Y
 bot/auctions/315_1.json,0934a52cdf7a366f8b72c3f10202bf111101c253a12994af44ccb95fdc8c92b9,1789,2026-11-06,Further BoT data file,Bank of Tanzania,N
@@ -3657,7 +3657,7 @@ dse/trading_history/ZAN-ETF_20261113T064913Z.html.gz,792f8ea15686dbff5c09cd6ac1f
 dse/trading_history/ZAN-ETF_20261113T064913Z.json,2fb5e6e88223741e6af6824726cb47a38e87bf5378e4467e1c4ad5e194ae0dec,390,2026-11-13,"DSE company-profile trading-history page for one security, saved unchanged (gzip) with a metadata JSON (URL, UTC collection time, HTTP status, body sha256); one immutable snapshot per collection","Dar es Salaam Stock Exchange website (dse.co.tz), collected by tzbank.ingest.dse_trading_history",N
 finscope/FinScope.csv,f55c4f885dee09d32184e4263eb5cb053485ece8d2bc33a80b8c102c026af984,40480960,2026-07-22,"FinScope Tanzania microdata (9,915 respondents, 721 variables)",FSD Tanzania / FinScope Tanzania survey microdata,N
 finscope/FinScope_Datamap.xlsx,c9bedf08f6bd1db1ddb72d87c568ce8ed7549abe4feae18dc9b325eb486d0dfa,106805,2026-07-22,FinScope Tanzania data map (variables and value labels). Received as 'FinScope Datamap.xlsx',FSD Tanzania / FinScope Tanzania,N
-manual_entries/analyst_notes_extracted.csv,9e1530768e95577f3b1bff6a2597d1719c6dddf687f3dc4b50a1c5d36ca66553,47935,2026-11-14,Manual entries read by a person,Owner,Y
+manual_entries/analyst_notes_extracted.csv,ffb7232604b41c9af586ce0578b4d00b0fcc8536a62b1b3f5d3a2bf9f4d2d828,47303,2026-11-14,"Manual entries read by a person (public copy: text quoted from the broker notes removed; figures, dates and sources kept)",Owner,Y
 manual_entries/analyst_notes_issues.md,ea9c035e76650c9b0e36ad08e673a18dc1b896d1a216b8e60ede9a0038aecd47,8450,2026-11-14,Manual entries read by a person,Owner,N
 manual_entries/analyst_register_merge.csv,b72d8eedc9f730ee63377bd967362b3dbceedb524c7766cee01996951cd47ab2,1857,2026-11-14,Manual entries read by a person,Owner,Y
 manual_entries/annual_report_items.csv,298e0e57df3dd2635b121d7d139117cb95ea4dcfe3f3f91a0ca7a58f8b7a1ff1,9494,2026-11-13,"Annual-report items FY2023-25, value as printed and page; checked on the page in the pipeline","Transcribed by Claude for the owner, 2026-11-13 (bank annual reports held)",Y

@@ -14,11 +14,11 @@ date-released: "2026-11-16"
 license: MIT
 repository-code: "https://github.com/JascoJohn/tanzania-banking-rents"
 url: "https://tanzania-banking-rents.streamlit.app/"
-doi: "10.5281/zenodo.24280124"  # code: the Zenodo record of the GitHub release v0.9.0
+doi: "10.5281/zenodo.24280124"  # code: concept DOI, all versions
 identifiers:
   - type: doi
     value: "10.5281/zenodo.24280124"
-    description: "Code (GitHub release v0.9.0, archived on Zenodo)"
+    description: "Code (concept DOI, all versions; archived on Zenodo from the GitHub releases)"
   - type: doi
     value: "10.5281/zenodo.24280285"
     description: "Dataset (derived tables, findings pack v1.17, MANIFEST)"

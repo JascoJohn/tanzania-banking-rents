@@ -11,7 +11,7 @@ International licence (CC BY 4.0)**, <https://creativecommons.org/licenses/by/4.
 - the derived tables, figures and notes in `outputs/` (including the findings pack), `DATA_README.md` and
   `DATA_SHA256SUMS.txt`;
 - the owner-compiled input workbooks and manual-entry files in `data/raw/` (values transcribed from published
-  sources, each with its document and page);
+  sources, each with its document and page), except the DSE daily trading data in them (below);
 - the documentation in `docs/` and the four research reports (PDF, on Zenodo).
 
 You may share and adapt this material for any purpose, provided you give appropriate credit (see
@@ -26,8 +26,10 @@ documents or datasets, which remain under their owners' terms.
 
 - **Source documents are not redistributed.** PDFs and other third-party files are git-ignored. Each is listed in
   `data/raw/MANIFEST.csv` with its sha256 hash and described, with its URL, in `docs/SOURCE_REGISTER.md`.
-- **DSE data.** The repository carries derived figures and short price series only; the DSE site snapshots and the
-  price library built from them are not included.
+- **DSE daily trading data:** source Dar es Salaam Stock Exchange; included for non-commercial research reproducibility; remains subject to the DSE’s own terms and is not covered by this project’s CC BY 4.0 licence. It is in
+  `data/raw/NMB_CRDB_52wk_and_trading_value.xlsx` and the "Daily Market Data" sheet of
+  `data/raw/NMB_CRDB_Valuation_Inputs.xlsx`. Otherwise the repository carries derived figures and short price series;
+  the DSE site snapshots and the price library built from them are not included.
 - **FinScope Tanzania microdata and data map** are FSD Tanzania's and are not included. Request them from FSD
   Tanzania.
 

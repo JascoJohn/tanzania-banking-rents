@@ -8,7 +8,7 @@ Code version 1.0; findings pack v1.17; valuation date 31 October 2026.
 | | Link |
 | --- | --- |
 | Reports (PDF) | [doi.org/10.5281/zenodo.24280749](https://doi.org/10.5281/zenodo.24280749) |
-| Code (this repository; v0.9.0 record) | [doi.org/10.5281/zenodo.24280124](https://doi.org/10.5281/zenodo.24280124) |
+| Code (this repository; concept DOI, all versions) | [doi.org/10.5281/zenodo.24280124](https://doi.org/10.5281/zenodo.24280124) |
 | Data | [doi.org/10.5281/zenodo.24280285](https://doi.org/10.5281/zenodo.24280285) |
 | Dashboard | [tanzania-banking-rents.streamlit.app](https://tanzania-banking-rents.streamlit.app/) |
 
@@ -149,6 +149,9 @@ Further references:
 | Broker notes and peer-bank reports | Analyst comparison, African peers |
 | FinScope Tanzania (FSD Tanzania) | Financial inclusion profile |
 
+**DSE daily trading data:** source Dar es Salaam Stock Exchange; included for non-commercial research reproducibility; remains subject to the DSE’s own terms and is not covered by this project’s CC BY 4.0 licence. It is in `data/raw/NMB_CRDB_52wk_and_trading_value.xlsx` and the
+"Daily Market Data" sheet of `data/raw/NMB_CRDB_Valuation_Inputs.xlsx` (NMB and CRDB, 21 Aug 2025 – 5 Nov 2026).
+
 ## Dashboard
 
 ```bash
@@ -203,7 +206,7 @@ use entry file `dashboard/app.py`; the requirements are in `dashboard/requiremen
 John, J. (2026). *Dominant Banks, Conditional Rents: NMB, CRDB and the price of dominance in Tanzania*. Independent
 research report, 31 October 2026. https://doi.org/10.5281/zenodo.24280749
 
-- **Code:** John, J. (2026). *Dominant Banks, Conditional Rents* (code, version 0.9).
+- **Code:** John, J. (2026). *Dominant Banks, Conditional Rents* (code; concept DOI, all versions).
   https://doi.org/10.5281/zenodo.24280124
 - **Data:** John, J. (2026). *Dominant Banks, Conditional Rents: dataset*.
   https://doi.org/10.5281/zenodo.24280285
