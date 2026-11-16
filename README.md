@@ -3,12 +3,12 @@
 *NMB, CRDB and the price of dominance in Tanzania*
 
 Independent research by Jasco John, CPA(T) (ORCID [0009-0007-3630-7943](https://orcid.org/0009-0007-3630-7943)).
-Code version 0.9; findings pack v1.17; valuation date 31 October 2026.
+Code version 1.0; findings pack v1.17; valuation date 31 October 2026.
 
 | | Link |
 | --- | --- |
 | Reports (PDF) | [doi.org/10.5281/zenodo.24280749](https://doi.org/10.5281/zenodo.24280749) |
-| Code (this repository, v0.9.0) | [doi.org/10.5281/zenodo.24280124](https://doi.org/10.5281/zenodo.24280124) |
+| Code (this repository; v0.9.0 record) | [doi.org/10.5281/zenodo.24280124](https://doi.org/10.5281/zenodo.24280124) |
 | Data | [doi.org/10.5281/zenodo.24280285](https://doi.org/10.5281/zenodo.24280285) |
 | Dashboard | [tanzania-banking-rents.streamlit.app](https://tanzania-banking-rents.streamlit.app/) |
 
@@ -162,13 +162,41 @@ subpages 4.0-4.7. Each page shows:
 - the limitations;
 - the run-log ID of what it displays.
 
+The dashboard is interactive (v1.0). It selects, filters and re-plots the published tables; it computes no new
+estimate, and every number on screen is a value in `outputs/tables/`, `outputs/valuation/` or the findings pack.
+
+- **Choose and compare (every chapter page).** Pick NMB, CRDB or both; a year range (or date range for market
+  data); a measure where a chapter has several (ROE, ROA, NIM, cost-to-income, cost of risk, NPL ratio, capital
+  ratios, loan-to-deposit and others). Charts are Plotly (hover values, zoom, legend toggling) in the house colours
+  (NMB orange, CRDB blue) and carry their evidence class and source table. Every chart and table has a
+  "Download the data shown (CSV)" button that writes exactly what is drawn.
+- **Other banks.** On the profitability, cost, funding, credit and capital pages, add any of the seven listed
+  Tanzanian banks (FY2006-2025 where reported), with the BoT sector ROA and the smaller banks' median deposit cost
+  as reference lines where published. On the valuation and peer pages, compare seven African listed banks on P/B,
+  P/E, ROE, cost of equity, justified P/B, capital and NPL ratios at either valuation date, with the McKinsey global
+  averages (ROE, P/B) as reference lines; banks without a traded price are labelled so, and GCB's and GTCO's
+  one-off years are marked, with a toggle for ROE with or without them.
+- **Richer pages.** Valuation (the three cases, the weight on the 2015-18 reading and the crossing weights, the
+  rating map, sensitivity grids, P/B and P/E history); market-implied iso-value surface and value bridge; scenarios,
+  Monte Carlo percentiles and the assumption tornado; USD returns by depreciation case; DSE prices and turnover with
+  the NMB split marked, liquidity and microstructure; analyst targets and this study's values against the price, by
+  broker; the quarterly statements by bank and measure.
+- Every page keeps its research question, hypotheses, evidence classes, limitations and run-log ID; the report
+  figures as published and every chapter table remain available (with downloads) under each page.
+
 Public URL: <https://tanzania-banking-rents.streamlit.app/>. To deploy your own copy on Streamlit Community Cloud,
 use entry file `dashboard/app.py`; the requirements are in `dashboard/requirements.txt` and the theme in
 `.streamlit/config.toml`. No secrets are needed.
 
-| Landing page | Chapter 5: persistence |
+| Landing page | Chapter 4: profitability, listed banks |
 | --- | --- |
-| ![Landing page](docs/screenshots/dashboard_landing.png) | ![Chapter 5](docs/screenshots/dashboard_ch05.png) |
+| ![Landing page](docs/screenshots/dashboard_landing.png) | ![Chapter 4](docs/screenshots/dashboard_ch04.png) |
+| **Chapter 5: persistence** | **Chapter 9: valuation cases** |
+| ![Chapter 5](docs/screenshots/dashboard_ch05.png) | ![Chapter 9](docs/screenshots/dashboard_ch09.png) |
+| **Chapter 11: Monte Carlo percentiles** | **Chapter 12: USD returns** |
+| ![Chapter 11](docs/screenshots/dashboard_ch11.png) | ![Chapter 12](docs/screenshots/dashboard_ch12.png) |
+| **African peers** | **DSE market data** |
+| ![Peers](docs/screenshots/dashboard_ch13_peers.png) | ![Market](docs/screenshots/dashboard_ch14_market.png) |
 
 ## How to cite
 

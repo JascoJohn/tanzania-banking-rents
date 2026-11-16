@@ -25,7 +25,8 @@ SLUGS = {1: "01_concentration", 2: "02_credit_allocation", 3: "03_systemic_impor
          4: "04_banking_economics/04_0_overview", 5: "05_persistence", 6: "06_funding_architecture",
          7: "07_capital_allocation", 8: "08_credit_risk", 9: "09_comparative_valuation", 10: "10_market_implied",
          11: "11_strategic_scenarios", 12: "12_usd_implementation"}
-SUBS = {"4.1": "04_1_revenue", "4.2": "04_2_funding", "4.3": "04_3_deployment", "4.4": "04_4_transactions",
+SUBS = {"4.0": "04_0a_dupont_attribution",
+        "4.1": "04_1_revenue", "4.2": "04_2_funding", "4.3": "04_3_deployment", "4.4": "04_4_transactions",
         "4.5": "04_5_operating_leverage", "4.6": "04_6_risk", "4.7": "04_7_business_model_map"}
 
 CHAPTERS = {c["number"]: c for c in bp.chapters(ROOT)}

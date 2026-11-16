@@ -43,7 +43,7 @@ PRESET = {"full": "full", "half": "half", "side": "side", "landscape": "landscap
           "page1": "full"}  # page1: investment-report page 1, full width under the opening text (prompt 24b)
 PAGE1_ASPECT = 0.40  # the page-1 price chart in a landscape aspect (owner, prompt 24b)
 JUSTIFY_MIN = 5103  # twips (9 cm): narrower text keeps left alignment (justification opens wide gaps; prompt 21)
-LINKS = ("report_doi", "zenodo_doi", "dashboard_url", "github_url")
+LINKS = ("report_doi", "zenodo_doi", "dashboard_url", "github_url", "code_doi")
 TITLES = {"inbrief": "In brief", "finding": "Key finding", "limitation": "Limitation", "thesis": "Investment thesis",
           "method": "Method note", "case": "Case"}
 
@@ -147,6 +147,8 @@ class Built:
     side_blocks: list = field(default_factory=list)  # each side-by-side block and what fills its text column
     page_breaks: list = field(default_factory=list)  # first words after each {{pagebreak}} (layout check)
     remedies: dict = field(default_factory=dict)  # half-empty page remedies applied (prompt 26)
+    links: int = 0  # URLs turned into hyperlinks (D99)
+    plain_blocks: list = field(default_factory=list)  # :::plain blocks: section, first and last words (D100)
 
 
 class Builder:
@@ -171,6 +173,7 @@ class Builder:
         self.annex_heading: Node | None = None  # the "## Annex X. title" section being laid out
         self.annexes_started = False
         self.break_next = False
+        self.section = ""  # the current # or ## heading, lower case (":::plain" sizes differ in the disclosures)
         self.page_one_marks: list[str] = []
         self.has_disclosures = any(n.kind in ("part", "chapter") and n.text.strip().lower() == "disclosures"
                                    for n in src.nodes)
@@ -258,7 +261,11 @@ class Builder:
             return text
         from tzbank.reporting.findings import latest_pack
 
-        for k in LINKS:
+        for k in LINKS:  # [[k:short]] is the address without https:// and a closing slash (footer display, D100)
+            v = str(self.c.get(k) or "")
+            text = text.replace(f"[[{k}:short]]", re.sub(r"^https?://", "", v).rstrip("/") or "[to be added]")
+            text = text.replace(f"[[{k}]]", v or "[to be added]")
+        for k in ("code_title", "data_title"):  # the Zenodo record titles (D100)
             text = text.replace(f"[[{k}]]", str(self.c.get(k) or "[to be added]"))
         pack = latest_pack(self.root)
         if "[[register]]" in text:  # the inputs-register version the pack was built on (prompt 23: stated once)
@@ -273,7 +280,10 @@ class Builder:
              italic: bool = False) -> None:
         text = self.tokens(text)
         for t, f in inline(text):
-            if "ref" in f:
+            if f.get("link"):  # [display text](url): the text prints, the address is linked (D100)
+                H.link_run(p, t, f["link"], size, H.C["green"], bold or f.get("bold", False),
+                           italic or f.get("italic", False))
+            elif "ref" in f:
                 H.run(p, f"Exhibit {self.numbers[f['ref']]}", size, color, bold or f.get("bold", False),
                       italic or f.get("italic", False))
             else:
@@ -384,8 +394,58 @@ class Builder:
             self._text = "\n".join(p for p in parts if p)
         return self._text
 
+    def plain(self, cont, n: Node) -> None:
+        """:::plain (D100): contact, materials and citation blocks, and the disclosures. No box; left-aligned; a
+        paragraph that is entirely bold and does not end with ':' is a sub-heading; every source line of a paragraph
+        is its own printed line; lists are left-aligned bullets; the whole block is kept on one page. Size and
+        spacing come from ``plain_blocks`` in config/reports.yaml (per report and per section)."""
+        pb = self.c.get("plain_blocks") or {}
+        sec = "disclosures" if self.section == "disclosures" else "body"
+        over = (pb.get(self.rep) or {}).get(sec) or {}
+        size = float(over.get("size", pb.get("size", 10)))
+        gap = float(over.get("after", pb.get("after", 3)))
+        kids = list(n.children)
+        start = len(self.doc.paragraphs)
+        for i, k in enumerate(kids):
+            last = i == len(kids) - 1
+            if k.kind == "para" and _all_bold(k.text) and not k.text.strip().strip("*").rstrip().endswith(":"):
+                p = H.para(cont, 0 if i == 0 else gap + 2, 2, keep_next=True)
+                self.runs(p, k.text, size + 0.5, H.C["bottle"], bold=True)
+            elif k.kind == "para":
+                p = H.para(cont, 0, gap, keep_next=not last)
+                p.paragraph_format.keep_together = True
+                H._no_hyphens(p._p)  # left-aligned text: no automatic hyphenation
+                for j, line in enumerate(k.raw or [k.text]):
+                    if j:
+                        p.add_run().add_break()
+                    self.runs(p, line, size)
+            elif k.kind == "list":
+                num = H.list_num(self.doc, k.ordered)
+                for j, it in enumerate(k.items):
+                    p = H.list_para(cont, num, after=1 if j < len(k.items) - 1 else gap, size=size)
+                    p.paragraph_format.keep_together = True
+                    p.paragraph_format.keep_with_next = not (last and j == len(k.items) - 1)
+                    H._no_hyphens(p._p)
+                    self.runs(p, it, size)
+            else:
+                raise BuildError(f"{k.where}: only paragraphs and lists are allowed in :::plain")
+        # marks from the printed text (links show their display text), leaving out addresses, which can wrap
+        runs_: list[list[str]] = [[]]  # runs of consecutive plain words (an address or e-mail ends a run)
+        for w in (w for p in self.doc.paragraphs[start:] for w in p.text.split() if re.search(r"\w", w)):
+            if "/" in w or "@" in w:
+                runs_.append([])
+            else:
+                runs_[-1].append(w)
+        runs_ = [r for r in runs_ if r] or [[]]
+        self.built.plain_blocks.append({"section": self.section, "first": " ".join(runs_[0][:5]),
+                                        "last": " ".join(runs_[-1][-4:]), "size": size,
+                                        "paragraphs": len(self.doc.paragraphs) - start})
+        H.spacer(cont, gap + 3)
+
     def block(self, cont, n: Node, width: int) -> None:
         kind = n.label
+        if kind == "plain":
+            return self.plain(cont, n)
         if kind == "sidebar":
             raise BuildError(f"{n.where}: :::sidebar belongs before the first ## heading (page 1)")
         fill, edge, border, ink = {
@@ -560,6 +620,7 @@ class Builder:
             if n.kind in ("part", "chapter") and not exec_level and n.text.lower().startswith("executive summary"):
                 exec_level = 1 if n.kind == "part" else 2
             if n.kind in ("part", "chapter"):
+                self.section = n.text.strip().lower()
                 is_annex = n.label.lower().startswith("annex") or n.text.lower().startswith("annex")
                 self.annex_heading = n if n.kind == "chapter" and n.label.lower().startswith("annex") else None
                 if self.flow:  # investment reports: forced breaks only before the first annex and the disclosures
@@ -820,6 +881,7 @@ class Builder:
         core.title, core.author, core.subject = self.meta["title"], self.meta["author"], self.meta["subtitle"]
         core.comments = "Built by tzbank.reporting.build_reports (prompt 16); text from " + \
             self.src.path.name
+        self.built.links = H.link_urls(self.doc)  # every printed URL becomes a hyperlink (D99)
         self.doc.save(out)
         self.built.docx = out
         return self.built
@@ -1087,6 +1149,7 @@ def build(root: Path, report: str, source: Path | None = None, pdf: bool = True)
                         for e in b.exhibits],
            "annexes": b.annexes, "page_one": page_one, "fonts_embedded": b.fonts, "figure_check": b.figures,
            "side_blocks": b.side_blocks, "page_breaks": b.page_breaks, "page_remedies": b.remedies,
+           "plain_blocks": b.plain_blocks, "one_page_sections": cfg(root).get("one_page_sections", {}).get(name, {}),
            "warnings": b.warnings,
            "previews": [p.relative_to(root).as_posix() for p in b.previews]}
     out.with_name(f"{name}_build.json").write_text(json.dumps(log, indent=2, default=str), encoding="utf-8")

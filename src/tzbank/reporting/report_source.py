@@ -26,7 +26,7 @@ FRONT = ("report", "title", "subtitle", "question", "date", "author")
 INVESTMENT = ("nmb", "crdb")  # investment reports: front matter also carries ticker, sector and rating (page 1)
 INVEST_FRONT = ("ticker", "sector", "rating")
 RATINGS = ("Buy", "Hold", "Sell")
-BLOCKS = ("inbrief", "finding", "limitation", "thesis", "sidebar", "method", "case")
+BLOCKS = ("inbrief", "finding", "limitation", "thesis", "sidebar", "method", "case", "plain")
 LAYOUTS = ("full", "side", "half", "landscape", "page1")  # landscape: full-page section (prompt 21); page1: 24b
 ANNEX_TYPES = ("price_history", "financials", "ratios", "valuation", "scenarios", "montecarlo", "peers", "glossary")
 BANK_ANNEXES = ("price_history", "financials", "ratios", "valuation", "scenarios", "montecarlo")
@@ -40,7 +40,8 @@ MARKERS = {  # marker: (required attributes, optional attributes)
 ATTR = re.compile(r'(\w+)="([^"]*)"')
 MARK = re.compile(r"\{\{\s*(\w+)((?:\s+\w+=\"[^\"]*\")*)\s*\}\}")
 STAR_ESC, STAR_HOLD = "\\*", "\u2063"  # escaped asterisk and its placeholder (invisible separator)
-INLINE = re.compile(r"(\*\*.+?\*\*|\*[^*\s][^*]*?\*|\{\{.*?\}\})")
+INLINE = re.compile(r"(\[[^\]\n]+\]\([^)\s]+\)|\*\*.+?\*\*|\*[^*\s][^*]*?\*|\{\{.*?\}\})")
+LINK = re.compile(r"\[([^\]\n]+)\]\(([^)\s]+)\)")  # [display text](url): the text prints, the url is linked (D100)
 
 
 class SourceError(ValueError):
@@ -106,7 +107,10 @@ def inline(text: str, where: str = "") -> list[tuple[str, dict]]:
     for part in INLINE.split(text):
         if not part:
             continue
-        if part.startswith("{{"):
+        if part.startswith("[") and LINK.fullmatch(part):
+            m = LINK.fullmatch(part)
+            runs += [(t, f | {"link": m.group(2)}) for t, f in inline(m.group(1), where)]
+        elif part.startswith("{{"):
             m = MARK.fullmatch(part)
             if not m:
                 raise SourceError(f"{where}: unreadable marker {part!r}")

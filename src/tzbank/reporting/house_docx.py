@@ -56,6 +56,137 @@ def run(p, text: str, size: float = 10, color: str = C["text"], bold: bool = Fal
     return r
 
 
+URL = re.compile(r"https?://[^\s<>\"'·]+")
+MD_LINK = re.compile(r"\[([^\]\n]+)\]\(([^)\s]+)\)")  # [display text](url), as in the report sources (D100)
+
+
+def _link_style(r_el, color: str) -> None:
+    """House link style on a run element: house green, dotted underline (owner's reference image, D100)."""
+    from docx.enum.text import WD_UNDERLINE
+    from docx.text.run import Run
+
+    f = Run(r_el, None).font
+    f.color.rgb = _rgb(color)
+    f.underline = WD_UNDERLINE.DOTTED
+
+
+def _wrap_link(r_el, part, url: str):
+    """Wrap a run element in w:hyperlink pointing at ``url`` (external relationship of ``part``)."""
+    from docx.opc.constants import RELATIONSHIP_TYPE as RT
+
+    h = OxmlElement("w:hyperlink")
+    h.set(qn("r:id"), part.relate_to(url, RT.HYPERLINK, is_external=True))
+    h.set(qn("w:history"), "1")
+    r_el.addprevious(h)
+    h.append(r_el)
+    return h
+
+
+def link_run(p, text: str, url: str, size: float = 10, color: str = C["green"], bold: bool = False,
+             italic: bool = False):
+    """A run printing ``text`` and linking ``url`` (https: or mailto:), in the house link style (D100)."""
+    r = run(p, text, size, color, bold, italic)
+    _link_style(r._r, color)
+    _wrap_link(r._r, p.part, url)
+    _no_hyphens(p._p)
+    return r
+
+
+def runs_with_links(p, text: str, size: float, color: str) -> None:
+    """Plain text with [display](url) links (the footer's second line)."""
+    pos = 0
+    for m in MD_LINK.finditer(text):
+        if m.start() > pos:
+            run(p, text[pos:m.start()], size, color)
+        link_run(p, m.group(1), m.group(2), size)
+        pos = m.end()
+    if pos < len(text):
+        run(p, text[pos:], size, color)
+
+
+def _url_end(u: str) -> str:
+    """A URL without the sentence punctuation that follows it ('…/zenodo.1.' -> '…/zenodo.1')."""
+    while u and u[-1] in ".,;:)]":
+        u = u[:-1]
+    return u
+
+
+def link_urls(doc, color: str = C["green"]) -> int:
+    """Turn every printed URL into a Word hyperlink (D99), in the body, tables, text boxes, headers and footers.
+
+    A run holding a URL is split into the text before, the URL and the text after; the URL run keeps the run's
+    font and size, takes the house green, and is wrapped in ``w:hyperlink`` with an external relationship, which
+    Word's PDF export writes as a link annotation. Returns the number of links made."""
+    import copy
+
+    from docx.opc.constants import RELATIONSHIP_TYPE as RT
+
+    parts = {id(doc.part): doc.part}
+    for s in doc.sections:
+        for hf in (s.header, s.footer, s.first_page_header, s.first_page_footer, s.even_page_header,
+                   s.even_page_footer):
+            if not hf.is_linked_to_previous:
+                parts[id(hf.part)] = hf.part
+    n = 0
+    for part in parts.values():
+        for r in list(part.element.iter(qn("w:r"))):
+            if r.getparent() is None or r.getparent().tag == qn("w:hyperlink"):
+                continue
+            ts = r.findall(qn("w:t"))
+            if len(ts) != 1 or not ts[0].text or "http" not in ts[0].text:
+                continue
+            text, pieces, pos = ts[0].text, [], 0
+            for m in URL.finditer(text):
+                a, b = m.start(), m.start() + len(_url_end(m.group()))
+                if a > pos:
+                    pieces.append((text[pos:a], None))
+                pieces.append((text[a:b], text[a:b]))
+                pos = b
+            if not any(u for _, u in pieces):
+                continue
+            if pos < len(text):
+                pieces.append((text[pos:], None))
+            parent = r.getparent()
+            idx = parent.index(r)
+            for txt, url in pieces:
+                nr = copy.deepcopy(r)
+                t = nr.find(qn("w:t"))
+                t.text = txt
+                t.set(qn("xml:space"), "preserve")
+                node = nr
+                if url:
+                    _link_style(nr, color)
+                    node = OxmlElement("w:hyperlink")
+                    node.set(qn("r:id"), part.relate_to(url, RT.HYPERLINK, is_external=True))
+                    node.set(qn("w:history"), "1")
+                    node.append(nr)
+                    n += 1
+                parent.insert(idx, node)
+                idx += 1
+            parent.remove(r)
+            _no_hyphens(parent)
+    return n
+
+
+# successors of w:suppressAutoHyphens in CT_PPr (ECMA-376 order), so the element lands where Word expects it
+_PPR_AFTER_HYPHENS = ("w:kinsoku", "w:wordWrap", "w:overflowPunct", "w:topLinePunct", "w:autoSpaceDE", "w:autoSpaceDN",
+                      "w:bidi", "w:adjustRightInd", "w:snapToGrid", "w:spacing", "w:ind", "w:contextualSpacing",
+                      "w:mirrorIndents", "w:suppressOverlap", "w:jc", "w:textDirection", "w:textAlignment",
+                      "w:textboxTightWrap", "w:outlineLvl", "w:divId", "w:cnfStyle", "w:rPr", "w:sectPr",
+                      "w:pPrChange")
+
+
+def _no_hyphens(node) -> None:
+    """No automatic hyphenation in the paragraph holding a link, so a wrapped URL never gains a hyphen (D99)."""
+    while node is not None and node.tag != qn("w:p"):
+        node = node.getparent()
+    if node is None:
+        return
+    ppr = node.get_or_add_pPr()
+    if ppr.find(qn("w:suppressAutoHyphens")) is None:
+        ppr.insert_element_before(el("w:suppressAutoHyphens"), *_PPR_AFTER_HYPHENS)
+
+
 def fmt(p, before: float = 0, after: float = 6, line: float | None = 1.15, align=None, indent_left: int = 0,
         indent_right: int = 0, keep_next: bool = False, exact: float | None = None):
     pf = p.paragraph_format
@@ -411,7 +542,8 @@ def header_footer(sec, label: str, date: str, footer: dict, pattern: Path | None
     if footer.get("line2"):  # a proper second line (owner, prompt 25), not spaces pushing text over
         f2 = sec.footer.add_paragraph()
         fmt(f2, 1, 0, line=None, align="center")
-        run(f2, footer["line2"], 7, C["grey"])
+        # short display text linked to the full address (D100), so the line reads at 7 pt
+        runs_with_links(f2, footer["line2"], float(footer.get("line2_size", 7)), C["grey"])
 
 
 def blank_header_footer(sec) -> None:

@@ -100,7 +100,8 @@ def _find_seq(words: list[tuple], tokens: list[str]) -> tuple | None:
         if t.endswith("-") and k + 1 < len(words):
             t, w = t[:-1] + words[k + 1][4], words[k + 1]
             k += 1
-        norm.append((re.sub(r"[^\w%]", "", t).lower(), w))
+        if re.sub(r"[^\w%]", "", t):  # bullet glyphs and lone punctuation do not break a sequence (D100)
+            norm.append((re.sub(r"[^\w%]", "", t).lower(), w))
         k += 1
     want = [re.sub(r"[^\w%]", "", t).lower() for t in tokens]
     want = [t for t in want if t]
@@ -183,11 +184,66 @@ def check(pdf: Path, log: dict) -> pd.DataFrame:
                     rows.append({"page": i + 1, "kind": "blank end", "item": "",
                                  "detail": f"{free / CM:.1f} cm blank; the next page's first element "
                                            f"({fh / CM:.1f} cm) would fit"})
+        rows += one_page_sections(d, log)  # D100: contact, materials, citation and disclosures stay on their page
         for g in exhibit_gaps(d, log):  # prompt 26: a half-empty page before an exhibit the build could not fix
             rows.append({"page": g["page"], "kind": "half-empty page", "item": g["exhibit"],
                          "detail": f"{g['free_cm']:.1f} cm blank; the exhibit on the next page "
                                    f"({g['panel_cm']:.1f} cm) does not fit"})
     return pd.DataFrame(rows, columns=["page", "kind", "item", "detail"])
+
+
+def _first_mark_page(d, mark: str, after: int = 0) -> int | None:
+    """The first page (0-based, from ``after``) holding a word sequence (a block's opening or closing words)."""
+    toks = mark.split()[:5]
+    for i in range(after, d.page_count):
+        words = sorted(_body_words(d[i]), key=lambda w: (w[5], w[6], w[7]))
+        if toks and _find_seq(words, toks) is not None:
+            return i
+    return None
+
+
+def one_page_sections(d, log: dict) -> list[dict]:
+    """Sections that must stay on their page(s) (owner, D100).
+
+    - ``block split``: a :::plain block (contact, research materials, suggested citation, disclosures) whose first
+      and last lines are on different pages.
+    - ``section overflow``: the disclosures do not sit entirely on the last page; or a section listed in
+      ``one_page_sections`` (config/reports.yaml, per report: ``{section: {pages: n, next: "HEADING"}}``) runs past
+      its pages, i.e. its blocks are not on its first ``pages`` pages or the next heading does not start right after.
+    """
+    rows: list[dict] = []
+    n = d.page_count
+    spans: dict[str, list[int]] = {}
+    cursor = 1  # blocks in reading order: the same block text appears in About and in the disclosures
+    for b in log.get("plain_blocks", []):
+        p0 = _first_mark_page(d, b["first"], after=cursor)
+        p1 = _first_mark_page(d, b["last"], after=p0) if p0 is not None else None
+        cursor = p1 if p1 is not None else cursor
+        if p0 is None or p1 is None:
+            rows.append({"page": None, "kind": "block split", "item": b["section"],
+                         "detail": f"block '{b['first']}' not found"})
+            continue
+        if p0 != p1:
+            rows.append({"page": p0 + 1, "kind": "block split", "item": b["section"],
+                         "detail": f"block '{b['first']}' runs from page {p0 + 1} to {p1 + 1}"})
+        spans.setdefault(b["section"], []).extend([p0, p1])
+    dis = spans.get("disclosures")
+    if dis and (min(dis) != n - 1 or max(dis) != n - 1):
+        rows.append({"page": min(dis) + 1, "kind": "section overflow", "item": "disclosures",
+                     "detail": f"the disclosures run over pages {min(dis) + 1}-{max(dis) + 1}; "
+                               f"they must sit on the last page ({n})"})
+    for sec, rule in (log.get("one_page_sections") or {}).items():
+        pages = spans.get(sec)
+        if not pages:
+            continue
+        start, want = min(pages), int(rule.get("pages", 1))
+        nxt = _first_mark_page(d, rule.get("next", ""), start) if rule.get("next") else None
+        if max(pages) > start + want - 1 or (nxt is not None and nxt != start + want):
+            rows.append({"page": start + 1, "kind": "section overflow", "item": sec,
+                         "detail": f"'{sec}' should end on page {start + want}; its blocks reach page "
+                                   f"{max(pages) + 1} and '{rule.get('next', '')}' starts on page "
+                                   f"{(nxt + 1) if nxt is not None else '?'}"})
+    return rows
 
 
 def exhibit_gaps(d, log: dict) -> list[dict]:

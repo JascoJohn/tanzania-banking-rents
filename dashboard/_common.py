@@ -22,6 +22,22 @@ from tzbank.reporting import blueprint as bp  # noqa: E402
 ROOT = find_root()
 OUTPUTS = ROOT / "outputs"
 
+try:  # private repository: the release tool's cleaner; the public copies are already cleaned by it
+    sys.path.insert(0, str(ROOT / "release"))
+    from sanitise import clean_line as _clean_line  # type: ignore[import-not-found]
+except ImportError:  # public repository (no release/ folder)
+    _clean_line = None
+
+_IDS = re.compile(r"\s*\((?:D\d+|prompts? \d+[a-z]?|TO_VERIFY [A-Z]?\d+)(?:[,;/ ]+(?:D\d+|prompts? \d+[a-z]?))*\)")
+
+
+def plain(text: str) -> str:
+    """On-screen text without internal decision ids, prompt numbers or module names (plain labels only)."""
+    if not isinstance(text, str):
+        return text
+    out = "\n".join(_clean_line(ln) for ln in text.split("\n")) if _clean_line else text
+    return _IDS.sub("", out)
+
 
 @st.cache_data
 def manifest(chapter: str) -> dict | None:
@@ -64,29 +80,49 @@ def show_png(f, caption: str) -> None:
     st.caption(caption)
 
 
-def render_outputs(chapter: str) -> None:
-    """Show tables, figures and notes listed in the chapter manifest, or 'not yet built'."""
+def render_outputs(chapter: str, *, heading: str = "Published tables, figures and notes") -> None:
+    """Tables, figures and notes listed in the chapter manifest, each table with a CSV download, or 'not yet built'."""
     m = manifest(chapter)
     if not m:
         st.info("Not yet built: no outputs in `outputs/manifests/` for this page.")
         return
-    st.caption(f"Status: {m.get('status', '')} · module `{m.get('module', '')}`")
     paths = tuple([t["path"] for t in m.get("tables", [])] + [f["path"] for f in m.get("figures", [])])
     st.caption(f"Run-log ID: `{run_log_for(paths) or 'unknown'}`")
-    for fig in m.get("figures", []):
-        st.subheader(fig["description"])
-        show_png(ROOT / fig["path"], f"Evidence class: {fig['evidence_class']}")
-    for tab in m.get("tables", []):
-        st.subheader(tab["description"])
-        st.caption(f"`{tab['path']}` · each row carries its evidence_class")
-        st.dataframe(pd.read_csv(ROOT / tab["path"]), hide_index=True)
-    for note in m.get("notes", []):
-        with st.expander(f"Notes, interpretation and limitations: {note}"):
-            st.markdown((ROOT / note).read_text(encoding="utf-8"))
+    if heading:
+        st.markdown(f"#### {heading}")
+    figs = m.get("figures", [])
+    if figs:
+        with st.expander(f"Report figures as published ({len(figs)})"):
+            for fig in figs:
+                st.markdown(f"**{plain(fig['description'])}**")
+                show_png(ROOT / fig["path"], f"Evidence class: {fig['evidence_class']}")
+                if fig.get("data") and (ROOT / fig["data"]).exists():
+                    st.download_button("Download the plotted data (CSV)", (ROOT / fig["data"]).read_bytes(),
+                                       file_name=Path(fig["data"]).name, mime="text/csv", key=f"dlf_{fig['path']}")
+    tabs = m.get("tables", [])
+    if tabs:
+        with st.expander(f"Published tables ({len(tabs)})"):
+            for tab in tabs:
+                st.markdown(f"**{plain(tab['description'])}**")
+                d = read_table(tab["path"])
+                st.dataframe(d, hide_index=True)
+                st.caption(f"Evidence class: {tab['evidence_class']} · Source table: {Path(tab['path']).name}")
+                st.download_button("Download this table (CSV)", d.to_csv(index=False).encode("utf-8"),
+                                   file_name=Path(tab["path"]).name, mime="text/csv", key=f"dlt_{tab['path']}")
+    notes = m.get("notes", [])
+    for note in notes if isinstance(notes, list) else [notes]:
+        if note and (ROOT / note).exists():
+            with st.expander("Notes: interpretation and limitations"):
+                st.markdown(plain((ROOT / note).read_text(encoding="utf-8")))
 
 
-def render_chapter(number: int) -> None:
-    """Research question, hypotheses, outputs and limitations for one chapter."""
+@st.cache_data(show_spinner=False)
+def read_table(rel: str) -> pd.DataFrame:
+    return pd.read_csv(ROOT / rel, low_memory=False)
+
+
+def render_chapter(number: int, explore=None) -> None:
+    """Research question, hypotheses, interactive views, published outputs and limitations for one chapter."""
     ch = {c["number"]: c for c in bp.chapters(ROOT)}[number]
     hyp = bp.hypotheses(ROOT).get(number, {})
     st.caption(f"Part {ch['part']}")
@@ -97,15 +133,17 @@ def render_chapter(number: int) -> None:
         st.markdown("\n".join(f"- {h}" for h in hyp["hypotheses"]))
         st.markdown(f"**Test.** {hyp['test']}")
     st.divider()
-    st.markdown("#### Results")
+    if explore:
+        st.markdown("#### Explore the results")
+        explore()
     render_outputs(f"{number:02d}")
     lim = limitations_for(number)
     if len(lim):
-        st.markdown("#### Limitations (blueprint section 7)")
-        st.dataframe(lim, hide_index=True)
+        st.markdown("#### Limitations")
+        st.dataframe(lim.map(plain), hide_index=True)
 
 
-def render_subsection(number: str) -> None:
+def render_subsection(number: str, explore=None) -> None:
     """Chapter 4 subsection page (4.0-4.7)."""
     sub = {s["number"]: s for s in bp.ch4_subsections(ROOT)}[number]
     hyp = bp.hypotheses(ROOT).get(4, {})
@@ -115,9 +153,11 @@ def render_subsection(number: str) -> None:
         st.markdown("**Chapter 4 hypotheses**")
         st.markdown("\n".join(f"- {h}" for h in hyp["hypotheses"]))
     st.divider()
-    st.markdown("#### Results")
+    if explore:
+        st.markdown("#### Explore the results")
+        explore()
     render_outputs(f"04_{number.replace('.', '_')}")
     lim = limitations_for(4)
     if len(lim):
-        st.markdown("#### Limitations (blueprint section 7)")
-        st.dataframe(lim, hide_index=True)
+        st.markdown("#### Limitations")
+        st.dataframe(lim.map(plain), hide_index=True)
