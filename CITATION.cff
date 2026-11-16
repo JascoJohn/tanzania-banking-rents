@@ -12,9 +12,19 @@ authors:
 version: "0.9.0"
 date-released: "2026-11-16"
 license: MIT
-# Placeholders, set at release (docs/RELEASE.md): the repository URL (step 1) and the code DOI (step 2)
-repository-code: "https://github.com/OWNER/tanzania-banking-rents"
-doi: "10.5281/zenodo.0000000"
+repository-code: "https://github.com/JascoJohn/tanzania-banking-rents"
+url: "https://tanzania-banking-rents.streamlit.app/"
+doi: "10.5281/zenodo.24280124"  # code: the Zenodo record of the GitHub release v0.9.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24280124"
+    description: "Code (GitHub release v0.9.0, archived on Zenodo)"
+  - type: doi
+    value: "10.5281/zenodo.24280285"
+    description: "Dataset (derived tables, findings pack v1.17, MANIFEST)"
+  - type: doi
+    value: "10.5281/zenodo.24280749"
+    description: "The four reports (PDF)"
 keywords:
   - banking
   - Tanzania
@@ -33,7 +43,7 @@ references:
         given-names: Jasco
         orcid: "https://orcid.org/0009-0007-3630-7943"
     year: 2026
-    doi: "10.5281/zenodo.0000000"  # placeholder: the report DOI (docs/RELEASE.md step 5)
+    doi: "10.5281/zenodo.24280749"
     license: CC-BY-4.0
   - type: dataset
     title: "Dominant Banks, Conditional Rents: derived tables and findings packs"
@@ -42,5 +52,5 @@ references:
         given-names: Jasco
         orcid: "https://orcid.org/0009-0007-3630-7943"
     year: 2026
-    doi: "10.5281/zenodo.0000000"  # placeholder: the dataset DOI (docs/RELEASE.md step 3)
+    doi: "10.5281/zenodo.24280285"
     license: CC-BY-4.0

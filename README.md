@@ -5,6 +5,13 @@
 Independent research by Jasco John, CPA(T) (ORCID [0009-0007-3630-7943](https://orcid.org/0009-0007-3630-7943)).
 Code version 0.9; findings pack v1.17; valuation date 31 October 2026.
 
+| | Link |
+| --- | --- |
+| Reports (PDF) | [doi.org/10.5281/zenodo.24280749](https://doi.org/10.5281/zenodo.24280749) |
+| Code (this repository, v0.9.0) | [doi.org/10.5281/zenodo.24280124](https://doi.org/10.5281/zenodo.24280124) |
+| Data | [doi.org/10.5281/zenodo.24280285](https://doi.org/10.5281/zenodo.24280285) |
+| Dashboard | [tanzania-banking-rents.streamlit.app](https://tanzania-banking-rents.streamlit.app/) |
+
 ## What this is
 
 NMB Bank and CRDB Bank hold about half of Tanzania's banking assets and most of the domestic market value of the Dar
@@ -20,6 +27,7 @@ The work has three parts, each with a chapter range:
 - **Part II, the economics of banking profits:** chapters 4-8, profitability, persistence, funding, capital and
   credit risk.
 - **Part III, investment valuation:** chapters 9-12, value, market-implied persistence, scenarios and USD returns.
+- **Chapters 13-14, market evidence:** peers, analyst views, price formation and liquidity.
 
 The hypotheses were set before the analysis was run ([`docs/RESEARCH_HYPOTHESES.md`](docs/RESEARCH_HYPOTHESES.md)).
 The valuation method is in [`docs/VALUATION_SPEC.md`](docs/VALUATION_SPEC.md).
@@ -33,9 +41,9 @@ This repository holds:
 
 ## The four reports
 
-- **Dominant Banks, Conditional Rents** (main report). NMB and CRDB are central and highly profitable: 51.4% of
-  banking assets and 65.2% of sector pre-tax profit in 2025. But their rents depend on the credit cycle and on
-  policy, and today's prices already pay for more than the record supports.
+- **Dominant Banks, Conditional Rents** (main report). NMB and CRDB are central and highly profitable: on a group
+  basis, 51.4% of banking assets and 65.2% of sector pre-tax profit in 2025. But their rents depend on the credit
+  cycle and on policy, and today's prices already pay for more than the record supports.
 - **NMB Bank Plc, company report: Sell.** The stronger franchise, already priced for a rent that must last. Value
   TZS 1,388 against a price of TZS 1,820; expected 12-month return −12.7%.
 - **CRDB Bank Plc, company report: Sell.** A leveraged growth franchise, priced for a rent it has not yet proved.
@@ -44,7 +52,8 @@ This repository holds:
   investor: the expected 12-month USD return is −16.1% for NMB and −28.5% for CRDB (at 3.8% a year depreciation),
   against a USD hurdle of 12.7%.
 
-The report PDFs are on Zenodo (report DOI: to be added). Every figure in them is a row of the findings pack
+The report PDFs are on Zenodo ([10.5281/zenodo.24280749](https://doi.org/10.5281/zenodo.24280749)). Every figure
+in them is a row of the findings pack
 [`outputs/findings/findings_pack_v1.17.csv`](outputs/findings/findings_pack_v1.17.csv), which is also what the
 dashboard shows.
 
@@ -108,7 +117,8 @@ counted as public at each valuation date.
 
 ## Data
 
-The final dataset is in this repository and, as the same files, in the Zenodo dataset record (data DOI: to be added).
+The final dataset is in this repository and, as the same files, in the Zenodo dataset record
+([10.5281/zenodo.24280285](https://doi.org/10.5281/zenodo.24280285)).
 It contains:
 
 - the derived tables in `outputs/tables/` and `outputs/valuation/`;
@@ -152,8 +162,9 @@ subpages 4.0-4.7. Each page shows:
 - the limitations;
 - the run-log ID of what it displays.
 
-Public URL: to be added. To deploy on Streamlit Community Cloud, use entry file `dashboard/app.py`; the requirements
-are in `dashboard/requirements.txt` and the theme in `.streamlit/config.toml`. No secrets are needed.
+Public URL: <https://tanzania-banking-rents.streamlit.app/>. To deploy your own copy on Streamlit Community Cloud,
+use entry file `dashboard/app.py`; the requirements are in `dashboard/requirements.txt` and the theme in
+`.streamlit/config.toml`. No secrets are needed.
 
 | Landing page | Chapter 5: persistence |
 | --- | --- |
@@ -162,10 +173,12 @@ are in `dashboard/requirements.txt` and the theme in `.streamlit/config.toml`. N
 ## How to cite
 
 John, J. (2026). *Dominant Banks, Conditional Rents: NMB, CRDB and the price of dominance in Tanzania*. Independent
-research report, 31 October 2026. DOI: to be added.
+research report, 31 October 2026. https://doi.org/10.5281/zenodo.24280749
 
-- **Code:** John, J. (2026). *Dominant Banks, Conditional Rents* (code, version 0.9). DOI: to be added.
-- **Data:** John, J. (2026). *Dominant Banks, Conditional Rents: dataset*. DOI: to be added.
+- **Code:** John, J. (2026). *Dominant Banks, Conditional Rents* (code, version 0.9).
+  https://doi.org/10.5281/zenodo.24280124
+- **Data:** John, J. (2026). *Dominant Banks, Conditional Rents: dataset*.
+  https://doi.org/10.5281/zenodo.24280285
 - **Machine-readable:** [`CITATION.cff`](CITATION.cff).
 
 ## Licences
