@@ -1,0 +1,10 @@
+bank,country,pb,roe,coe,roe_minus_coe,equity_assets,tier1_ratio,loan_growth,g_assumed,justified_pb,pb_minus_justified,pb_basis,evidence_class,register_version,input_hash
+KCB Group,Kenya,0.9302884615384616,0.225,0.1612643999999999,0.06373560000000011,0.1544,,0.163,0.06,1.629397893040399,-0.6991094315019374,price / (EPS / ROE): average-equity book (Derived),Scenario,v1.3,cc2c85e4eef09300
+Equity Group Holdings,Kenya,1.3848977451494495,0.278,0.1612643999999999,0.11673560000000013,0.157,,0.077,0.06,2.152780246562467,-0.7678825014130173,price / (EPS / ROE): average-equity book (Derived),Scenario,v1.3,cc2c85e4eef09300
+Co-operative Bank of Kenya,Kenya,1.3453373015873016,0.191,0.1612643999999999,0.029735600000000112,0.2,,0.127,0.06,1.2936431756866198,0.05169412590068179,price / (EPS / ROE): average-equity book (Derived),Scenario,v1.3,cc2c85e4eef09300
+Stanbic Uganda Holdings,Uganda,2.2415389948006936,0.268,0.2128296,0.05517040000000001,0.2045,,0.162,0.06,1.360992896663997,0.8805460981366966,price / (EPS / ROE): average-equity book (Derived),Scenario,v1.3,cc2c85e4eef09300
+BK Group,Rwanda,,0.2289999999999999,,,0.1796,,0.161,0.06,,,"not computed: price held in KES (secondary listing), per-share data in RWF",Scenario,v1.3,cc2c85e4eef09300
+GTCO,Nigeria,1.3354305937868658,0.283,0.2062796,0.07672039999999997,0.191,,0.124,0.06,1.5244777809072485,-0.1890471871203827,price / (EPS / ROE): average-equity book (Derived),Scenario,v1.3,cc2c85e4eef09300
+GCB Bank,Ghana,2.109408740359897,0.39,,,,,0.568,0.06,,,price / (EPS / ROE): average-equity book (Derived),Scenario,v1.3,cc2c85e4eef09300
+NMB,Tanzania,2.934044296330736,0.2686198627781666,0.1483445388420019,0.12027532393616466,,0.2471,,0.07,2.5352100569348544,0.3988342393958817,market cap / year-end attributable equity; COE = register (31 Dec 2025 / 31 Oct 2026),Scenario,v1.3,cc2c85e4eef09300
+CRDB,Tanzania,2.7002086156119915,0.3002091955888585,0.1483445388420019,0.1518646567468566,,0.161,,0.07,2.938420456505888,-0.23821184089389646,market cap / year-end attributable equity; COE = register (31 Dec 2025 / 31 Oct 2026),Scenario,v1.3,cc2c85e4eef09300

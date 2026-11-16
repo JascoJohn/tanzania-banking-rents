@@ -1,0 +1,125 @@
+{
+  "chapter": "13_text",
+  "title": "Report text exports",
+  "status": "complete",
+  "hypotheses": [],
+  "tables": [
+    {
+      "path": "outputs/tables/ch13_text_loan_mix.csv",
+      "description": "B1. Loan mix by sector, FY2023 vs latest, change in points",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_text.md"
+    },
+    {
+      "path": "outputs/tables/ch13_text_fee_mix.csv",
+      "description": "B2. Fee income by type, fee income (TZS), fees / income; NMB other fees",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_text.md"
+    },
+    {
+      "path": "outputs/tables/ch13_text_implied_growth.csv",
+      "description": "B3. Implied-growth guard: value at the COE - 4 pt guard and at base g (NMB 31 Dec 2025 also post-split)",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_text.md"
+    },
+    {
+      "path": "outputs/tables/ch13_text_thesis_breaks.csv",
+      "description": "B4. Thesis-break monitor: trigger, current, threshold, margin",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_text.md"
+    },
+    {
+      "path": "outputs/tables/ch13_text_yield_minus_tbill.csv",
+      "description": "B5. Dividend yield less the T-bill rate",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_text.md"
+    },
+    {
+      "path": "outputs/tables/ch13_text_real_excess.csv",
+      "description": "B6. Real ROE less real COE, FY2010-FY2025",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_text.md"
+    },
+    {
+      "path": "outputs/tables/ch13_text_rore.csv",
+      "description": "B7. CRDB RORE, primary vs raise-adjusted, and on common windows",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_text.md"
+    },
+    {
+      "path": "outputs/tables/ch13_text_usd_ytd.csv",
+      "description": "B8. Currency 2026 YTD and the realised-move USD sensitivity",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_text.md"
+    },
+    {
+      "path": "outputs/tables/ch13_split_restated.csv",
+      "description": "A5. NMB per-share figures restated for the 1:10 split",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_text.md"
+    },
+    {
+      "path": "outputs/tables/ch13_text_fee_bases.csv",
+      "description": "Issue 70: CRDB FY2025 fee totals on three bases",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch13_text.md"
+    },
+    {
+      "path": "outputs/tables/ch13_text_governance.csv",
+      "description": "Related-party lending and management pay as shares of capital, profit and lending, FY2025",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_text.md"
+    },
+    {
+      "path": "outputs/tables/ch13_text_agri_support.csv",
+      "description": "CRDB agricultural support: concessional funding, guarantees, claims paid",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch13_text.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch13_text_loan_mix.png",
+      "data": "outputs/figures/ch13_text_loan_mix_data.csv",
+      "description": "B1. Loan book by sector, latest year and FY2023",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_text.md"
+    },
+    {
+      "path": "outputs/figures/ch13_text_fee_mix.png",
+      "data": "outputs/figures/ch13_text_fee_mix_data.csv",
+      "description": "B2. CRDB fee mix and fee income",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_text.md"
+    },
+    {
+      "path": "outputs/figures/ch13_text_yield_minus_tbill.png",
+      "data": "outputs/figures/ch13_text_yield_minus_tbill_data.csv",
+      "description": "B5. Dividend yield less the T-bill rate",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_text.md"
+    },
+    {
+      "path": "outputs/figures/ch13_text_real_excess.png",
+      "data": "outputs/figures/ch13_text_real_excess_data.csv",
+      "description": "B6. Real excess return",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_text.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch13_text.md"
+  ],
+  "inputs": [
+    "outputs/tables/ch02_loan_mix.csv",
+    "outputs/tables/ch04_4_1_composition.csv",
+    "outputs/tables/ch14_implied_growth.csv",
+    "outputs/tables/ch14_thesis_breaks.csv",
+    "outputs/tables/ch14_yield_minus_tbill.csv",
+    "outputs/tables/ch14_real_roe_coe.csv",
+    "outputs/tables/ch07_rore_summary.csv",
+    "outputs/tables/ch12_expected_usd.csv"
+  ],
+  "module": "tzbank.chapters.ch13_text_exports",
+  "run_log_stage": "market_ext"
+}

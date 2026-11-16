@@ -1,0 +1,5 @@
+valuation,bank,coe_a,coe_b,a_minus_b,pi_tz,pi_us,coe_used,central_rule,spec_rule,evidence_class,register_version,input_hash
+HIST,NMB,0.156309872,0.1339277783398436,0.022382093660156394,0.035,0.024,0.156309872,"Registered rule: A and B differ by 150 bp or more, so approach A",|A - B| >= 150 bp: investigate; central = A pending the register,Derived,v1.3,cc2c85e4eef09300
+HIST,CRDB,0.156309872,0.1339277783398436,0.022382093660156394,0.035,0.024,0.156309872,"Registered rule: A and B differ by 150 bp or more, so approach A",|A - B| >= 150 bp: investigate; central = A pending the register,Derived,v1.3,cc2c85e4eef09300
+CURR,NMB,0.1465482399999998,0.1501408376840041,-0.0035925976840043006,0.04,0.019,0.14834453884200194,"Registered rule, applied as registered: A and B differ by less than 150 bp, so the midpoint",|A - B| < 150 bp: midpoint,Derived,v1.3,cc2c85e4eef09300
+CURR,CRDB,0.1465482399999998,0.1501408376840041,-0.0035925976840043006,0.04,0.019,0.14834453884200194,"Registered rule, applied as registered: A and B differ by less than 150 bp, so the midpoint",|A - B| < 150 bp: midpoint,Derived,v1.3,cc2c85e4eef09300

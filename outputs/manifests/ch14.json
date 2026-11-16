@@ -1,0 +1,191 @@
+{
+  "chapter": "14",
+  "title": "Market behaviour and valuation extensions",
+  "hypotheses": [],
+  "status": "built (no register changes)",
+  "register_version": "v1.3",
+  "input_hash": "cc2c85e4eef09300",
+  "tables": [
+    {
+      "path": "outputs/tables/ch14_return_attribution.csv",
+      "description": "1. Long-horizon return attribution",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_event_study.csv",
+      "description": "2. Event study: CARs vs the market proxy",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_split_study.csv",
+      "description": "3. NMB split: DiD vs CRDB and the market (+/-5, 20, 60 days)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_split_objectives.csv",
+      "description": "3. NMB split: stated objectives vs outcomes",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_split_benchmarks.csv",
+      "description": "3. Earlier DSE splits (benchmark set)",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_seasonality.csv",
+      "description": "4. Seasonality 2015-2026 (monthly; HAC tests)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_results_events.csv",
+      "description": "2. Results releases with confirmed dates: CARs vs the market proxy, [0,+5] and [0,+20]",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_comovement.csv",
+      "description": "5. NMB-CRDB co-movement (daily, weekly, monthly, Dimson)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_rolling_correlation.csv",
+      "description": "5. Rolling correlation (60 days daily; 12 months monthly)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_daily_coverage.csv",
+      "description": "5. Daily-data coverage by bank and year (non-stale days)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_microstructure.csv",
+      "description": "6. Microstructure (unfiltered and stale-filtered)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_index_proxy_check.csv",
+      "description": "7. Market proxy vs DSE indices",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_data_quality.csv",
+      "description": "7. DSE library vs the owner's daily file; block matching",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_quarterly_fundamentals.csv",
+      "description": "7. Quarterly NIM, cost of risk, profit, deposits, loans",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_implied_growth.csv",
+      "description": "8. Price-implied terminal growth",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_price_lines_scenarios.csv",
+      "description": "8. Bear / base / bull price lines",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_roe_lambda_grid.csv",
+      "description": "8. Terminal ROE x persistence grid",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_real_roe_coe.csv",
+      "description": "8. Real ROE vs real COE (IMF CPI)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_yield_minus_tbill.csv",
+      "description": "8. Dividend yield minus the T-bill",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_annual_report_items.csv",
+      "description": "9. Annual-report items FY2023-25 (page-checked)",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_catalysts.csv",
+      "description": "10. Catalyst calendar",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/tables/ch14_thesis_breaks.csv",
+      "description": "10. Thesis-break indicators",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch14_return_attribution.png",
+      "data": "outputs/figures/ch14_return_attribution_data.csv",
+      "description": "Return attribution: EPS growth, P/E change, dividends",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/figures/ch14_roe_lambda_grid.png",
+      "data": "outputs/figures/ch14_roe_lambda_grid_data.csv",
+      "description": "Terminal ROE x persistence grid (value / price)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/figures/ch14_event_windows.png",
+      "data": "outputs/figures/ch14_event_windows_data.csv",
+      "description": "Results releases: CAR vs the market proxy, by bank",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/figures/ch14_split_study.png",
+      "data": "outputs/figures/ch14_split_study_data.csv",
+      "description": "NMB split: turnover and shares traded, NMB vs CRDB",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/figures/ch14_seasonality.png",
+      "data": "outputs/figures/ch14_seasonality_data.csv",
+      "description": "Seasonality: mean monthly returns",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    },
+    {
+      "path": "outputs/figures/ch14_rolling_correlation.png",
+      "data": "outputs/figures/ch14_rolling_correlation_data.csv",
+      "description": "NMB-CRDB rolling correlation",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch14.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch14.md"
+  ],
+  "module": "tzbank.chapters.ch14_market_extensions",
+  "run_log_stage": "market_ext"
+}

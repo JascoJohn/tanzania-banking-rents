@@ -1,0 +1,89 @@
+{
+  "chapter": "06",
+  "title": "Funding architecture",
+  "hypotheses": [
+    "H6.1",
+    "H6.2",
+    "H5.3"
+  ],
+  "status": "built",
+  "tables": [
+    {
+      "path": "outputs/tables/ch06_smr_annual.csv",
+      "description": "SMR, annual time-weighted average",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch06.md"
+    },
+    {
+      "path": "outputs/tables/ch06_rates_used.csv",
+      "description": "Rates used (T-bill, policy rate) with their dates",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch06.md"
+    },
+    {
+      "path": "outputs/tables/ch06_deposits.csv",
+      "description": "Cost of deposits and deposit mix",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch06.md"
+    },
+    {
+      "path": "outputs/tables/ch06_deposit_beta.csv",
+      "description": "Deposit betas (T-bill, policy rate; asymmetric)",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch06.md"
+    },
+    {
+      "path": "outputs/tables/ch06_franchise.csv",
+      "description": "GDFA (proxy) and net deposit franchise with bands; reconciliation with 4.0",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch06.md"
+    },
+    {
+      "path": "outputs/tables/ch06_liquidity.csv",
+      "description": "Liquidity: LDR, wholesale share, funding gap cost",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch06.md"
+    },
+    {
+      "path": "outputs/tables/ch06_hypotheses.csv",
+      "description": "H6.1, H6.2 and H5.3 revisited",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/ch06.md"
+    },
+    {
+      "path": "outputs/tables/ch06_h61_parts.csv",
+      "description": "H6.1 parts: NMB, CRDB and the smaller banks' median per metric",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch06.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch06_cost_of_deposits.png",
+      "data": "outputs/figures/ch06_cost_of_deposits_data.csv",
+      "description": "Cost of deposits and rates",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch06.md"
+    },
+    {
+      "path": "outputs/figures/ch06_franchise.png",
+      "data": "outputs/figures/ch06_franchise_data.csv",
+      "description": "Gross and net deposit franchise (ROE points, band)",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch06.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch06.md"
+  ],
+  "inputs": [
+    "data/processed/bank_year_wide.csv",
+    "data/processed/rates_quarterly.csv",
+    "data/processed/rates_annual.csv",
+    "data/interim/bot_policy_text.csv",
+    "outputs/tables/ch04_4_0_components.csv",
+    "outputs/tables/ch05_persistence.csv"
+  ],
+  "module": "tzbank.chapters.ch06_funding",
+  "run_log_stage": "funding"
+}

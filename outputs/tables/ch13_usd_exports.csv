@@ -1,0 +1,45 @@
+valuation,bank,measure,depreciation,value,usd_hurdle,evidence_class,year,register_version,input_hash
+HIST,NMB,expected USD return,0.0,0.511028050600016,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,NMB,entry price meeting the USD hurdle,0.0,11327.22483752081,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,NMB,expected USD return,0.023,0.4776623060477603,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,NMB,entry price meeting the USD hurdle,0.023,11077.10288229661,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,NMB,expected USD return,0.038,0.4566950741840241,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,NMB,entry price meeting the USD hurdle,0.038,10919.924761449243,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,NMB,expected USD return,0.245,0.21872641678100258,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,NMB,entry price meeting the USD hurdle,0.245,9136.023737496302,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,NMB,break-even depreciation,,0.3548115732854438,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,NMB,"joint 2015-style stress (bear value, +24.5% depreciation)",0.245,-0.4608396406289067,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,CRDB,expected USD return,0.0,-0.15438567138008708,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,CRDB,entry price meeting the USD hurdle,0.0,1153.2375180359595,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,CRDB,expected USD return,0.023,-0.17339752823077903,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,CRDB,entry price meeting the USD hurdle,0.023,1127.309401794682,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,CRDB,expected USD return,0.038,-0.18534265065518984,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,CRDB,entry price meeting the USD hurdle,0.038,1111.0188035028511,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,CRDB,expected USD return,0.245,-0.32079170391974876,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,CRDB,entry price meeting the USD hurdle,0.245,926.2951952096059,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,CRDB,break-even depreciation,,-0.2462499882117908,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+HIST,CRDB,"joint 2015-style stress (bear value, +24.5% depreciation)",0.245,-0.7333825533104661,0.121876372,Scenario,,v1.3,cc2c85e4eef09300
+CURR,NMB,expected USD return,0.0,-0.12872823343899142,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,NMB,entry price meeting the USD hurdle,0.0,1407.1265588160309,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,NMB,expected USD return,0.023,-0.14805275264626816,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,NMB,entry price meeting the USD hurdle,0.023,1375.916957797695,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,NMB,expected USD return,0.038,-0.1601964036284087,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,NMB,entry price meeting the USD hurdle,0.038,1356.3046456882269,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,NMB,expected USD return,0.245,-0.2980203763308201,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,NMB,entry price meeting the USD hurdle,0.245,1133.7153459148835,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,NMB,break-even depreciation,,-0.22947538064758452,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,NMB,"joint 2015-style stress (bear value, +24.5% depreciation)",0.245,-0.7350500368189191,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,CRDB,expected USD return,0.0,-0.258191723422458,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,CRDB,entry price meeting the USD hurdle,0.0,1869.4684742489244,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,CRDB,expected USD return,0.023,-0.274707034466229,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,CRDB,entry price meeting the USD hurdle,0.023,1827.8474054180513,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,CRDB,expected USD return,0.038,-0.2850848635726193,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,CRDB,entry price meeting the USD hurdle,0.038,1801.6937145546258,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,CRDB,expected USD return,0.245,-0.4028381466682448,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,CRDB,entry price meeting the USD hurdle,0.245,1504.937723232696,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,CRDB,break-even depreciation,,-0.3442813159154046,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+CURR,CRDB,"joint 2015-style stress (bear value, +24.5% depreciation)",0.245,-0.7695449895475548,0.12691684,Scenario,,v1.3,cc2c85e4eef09300
+history,CRDB,worst calendar-year USD return,0.011217128228997,-0.3480537059198572,,Derived,2016.0,v1.3,cc2c85e4eef09300
+history,CRDB,year of the worst calendar-year USD return,,2016.0,,Derived,2016.0,v1.3,cc2c85e4eef09300
+history,NMB,worst calendar-year USD return,0.2449298875883647,-0.3847988062807157,,Derived,2015.0,v1.3,cc2c85e4eef09300
+history,NMB,year of the worst calendar-year USD return,,2015.0,,Derived,2015.0,v1.3,cc2c85e4eef09300

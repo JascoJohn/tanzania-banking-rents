@@ -1,0 +1,8 @@
+bank_id,bank,years_with_return_on_rwa,years,mean_return_on_rwa,mean_return_on_rwa_2019_25,years_with_risk_adjusted,mean_risk_adjusted_rorwa,ttc_cost_of_risk,ttc_years,ttc_covers_2015_18,mean_rwa_density,coverage_flag,evidence_class
+B01,CRDB,16,2010-2025,0.03748992756140829,0.04598735162001082,16,0.052923781362620784,0.01998263202115325,16,True,0.6538398601986193,full,Derived
+B02,NMB,17,2009-2025,0.05814448407627453,0.06044344415959705,17,0.08249910039243048,0.018360756320260817,16,True,0.628468204450866,full,Derived
+B03,DCB,5,2010-2024,0.007085444171000023,-0.005680390513468118,3,0.013659580253643486,0.03301091396302764,3,False,0.6282359913425536,PARTIAL; TTC cost of risk does not cover 2015-18 (gross loans not held),Derived
+B04,MBP,10,2016-2025,0.02205919070413866,0.022074763794188212,0,,,0,False,0.6664257353100066,PARTIAL; TTC cost of risk does not cover 2015-18 (gross loans not held),Derived
+B05,MKCB,0,none,,,0,,0.022102262935696514,4,False,0.6783411027432555,LOW: RWA held for few years; TTC cost of risk does not cover 2015-18 (gross loans not held),Derived
+B06,MCB,10,2016-2025,-0.11072233585189561,-0.058427849313117855,5,-0.0504479914434671,0.006003584104428884,5,False,0.619670585259829,PARTIAL; TTC cost of risk does not cover 2015-18 (gross loans not held),Derived
+B07,MUCOBA,0,none,,,0,,,0,False,0.7668681732125416,LOW: RWA held for few years; TTC cost of risk does not cover 2015-18 (gross loans not held),Derived

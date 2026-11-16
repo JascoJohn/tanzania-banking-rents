@@ -1,0 +1,7 @@
+bank,fy,item,value,source_file,page,note
+GCB,2025,shareholder,Social Security and National Insurance Trust (SSNIT): 29.88%,GCB_AR_FY2025.pdf,193,"Top-20 shareholder list at 31 Dec 2025 (79,199,550 shares); Directors' report p50 rounds to 29.9%. SSNIT is the state social-security fund"
+GCB,2025,shareholder,Government of Ghana C/O Ministry of Finance: 21.36%,GCB_AR_FY2025.pdf,193,"56,608,613 shares; Directors' report p50 rounds to 21.4%"
+GCB,2025,shareholder,Daniel Ofori: 6.56%,GCB_AR_FY2025.pdf,193,"17,390,913 shares; individual; next largest holder 4.96% (nominee account)"
+GCB,2025,government_stake,21.36,GCB_AR_FY2025.pdf,185,"Direct holding via Ministry of Finance. Note 37 states GoG holds 21.36% directly and 29.89% indirectly through SSNIT, total 51.25%"
+GCB,2025,listing,Ghana Stock Exchange,GCB_AR_FY2022.pdf,2,"Listed on the GSE since 1996 (company profile)"
+GCB,2025,foreign_subsidiary,none,GCB_AR_FY2025.pdf,50,"Subsidiaries GCB Capital Ltd and G-Money Financial Services Ltd are incorporated in Ghana. Foreign interest is an ASSOCIATE only: 20% of Ghana International Bank PLC (United Kingdom)"

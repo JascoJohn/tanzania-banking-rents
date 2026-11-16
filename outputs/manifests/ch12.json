@@ -1,0 +1,91 @@
+{
+  "chapter": "12",
+  "title": "USD returns and implementation",
+  "hypotheses": [
+    "H12.1",
+    "H12.2"
+  ],
+  "status": "built",
+  "tables": [
+    {
+      "path": "outputs/tables/ch12_fx.csv",
+      "description": "TZS per USD used (end-December BoT; workbook at the dates)",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch12.md"
+    },
+    {
+      "path": "outputs/tables/ch12_returns_annual.csv",
+      "description": "Annual TZS and USD total returns",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch12.md"
+    },
+    {
+      "path": "outputs/tables/ch12_returns_spans.csv",
+      "description": "TZS and USD returns over held FX spans",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch12.md"
+    },
+    {
+      "path": "outputs/tables/ch12_depreciation.csv",
+      "description": "Depreciation scenarios at each date",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch12.md"
+    },
+    {
+      "path": "outputs/tables/ch12_liquidity.csv",
+      "description": "Liquidity, zero-trade days, blocks, Amihud (data to each date)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch12.md"
+    },
+    {
+      "path": "outputs/tables/ch12_capacity.csv",
+      "description": "Days to build or exit and trading cost by size and participation",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch12.md"
+    },
+    {
+      "path": "outputs/tables/ch12_expected_usd.csv",
+      "description": "Expected USD returns, hurdle and break-even depreciation",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch12.md"
+    },
+    {
+      "path": "outputs/tables/ch12_usd_steps.csv",
+      "description": "USD return step by step, 31 Oct 2026",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch12.md"
+    },
+    {
+      "path": "outputs/tables/ch12_cross_rates.csv",
+      "description": "TZS against regional currencies, end-2020 and end-2025 to 30 Oct 2026",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch12.md"
+    },
+    {
+      "path": "outputs/tables/ch12_market_access.csv",
+      "description": "Market access desk research (for counsel review)",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch12.md"
+    },
+    {
+      "path": "outputs/tables/ch12_hypotheses.csv",
+      "description": "H12.1-H12.2",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/ch12.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch12_capacity.png",
+      "data": "outputs/figures/ch12_capacity_data.csv",
+      "description": "Days to build or exit",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch12.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch12.md"
+  ],
+  "module": "tzbank.chapters.ch12_usd_implementation",
+  "run_log_stage": "usd"
+}

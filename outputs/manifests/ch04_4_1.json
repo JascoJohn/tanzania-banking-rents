@@ -1,0 +1,54 @@
+{
+  "chapter": "04",
+  "subsection": "4.1",
+  "title": "Revenue architecture",
+  "hypotheses": [
+    "H4.1",
+    "H4.2"
+  ],
+  "status": "built",
+  "tables": [
+    {
+      "path": "outputs/tables/ch04_4_1_composition.csv",
+      "description": "Income composition, interest income by source, fees by type, growth",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_1.md"
+    },
+    {
+      "path": "outputs/tables/ch04_4_1_volatility.csv",
+      "description": "Growth and volatility of income components",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_1.md"
+    },
+    {
+      "path": "outputs/tables/ch04_4_1_nmb_other_fees.csv",
+      "description": "NMB 'other' fee type: the printed note lines it contains",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch04_4_1.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch04_4_1_nonii_share.png",
+      "data": "outputs/figures/ch04_4_1_nonii_share_data.csv",
+      "description": "Non-interest income share, seven banks",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_1.md"
+    },
+    {
+      "path": "outputs/figures/ch04_4_1_fee_mix.png",
+      "data": "outputs/figures/ch04_4_1_fee_mix_data.csv",
+      "description": "Fee income by type, NMB and CRDB",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_1.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch04_4_1.md"
+  ],
+  "inputs": [
+    "data/processed/bank_year_wide.csv"
+  ],
+  "module": "tzbank.chapters.ch04.revenue",
+  "run_log_stage": "profitability"
+}

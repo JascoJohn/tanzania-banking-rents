@@ -1,0 +1,12 @@
+bank_id,comparison,tree,component,subsection,contribution,roe_change,coverage,flag,evidence_class
+B01,2015-18 (stress) -> 2019-25,full,y_iea,4.3 Asset deployment (asset yield),-0.034982769927679444,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,iea_ta,4.3 Asset deployment (earning-asset share),0.03134846552161952,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,c_fund,4.2 Funding economics (cost of funds),-0.0018132693916742804,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,ibl_ta,4.2 Funding economics (funding mix),0.008406381379155673,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),-0.015346563776897495,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,opex_ta,4.5 Operating leverage (operating costs),0.06363203667052374,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,imp_ta,4.6 Risk economics (impairment),0.06954083974453183,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,other_ta,4.7 Other items (reconciling),0.0,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,tax_rate,4.7 Tax,0.010808340951787197,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,ta_e,"4.7 Leverage (capital, ch. 7)",-0.008617368720494801,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,attr_share,4.7 Minority interests (attributable share),0.0003821936499692227,0.12335828610084018,4/4 and 7/7 years,,Derived

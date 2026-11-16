@@ -1,0 +1,55 @@
+bank,scenario,step_no,step,tzs,evidence_class,register_version,input_hash
+NMB,bear,0,FY2025A attributable profit,759670000000.0,Observed,v1.3,cc2c85e4eef09300
+NMB,bear,1,change in NII,116904324617.13354,Scenario,v1.3,cc2c85e4eef09300
+NMB,bear,2,change in NonII,76816619178.4784,Scenario,v1.3,cc2c85e4eef09300
+NMB,bear,3,change in OpEx,-132445147516.84705,Scenario,v1.3,cc2c85e4eef09300
+NMB,bear,4,change in Imp,-204798470735.19086,Scenario,v1.3,cc2c85e4eef09300
+NMB,bear,5,other operating items,-0.00030517578125,Scenario,v1.3,cc2c85e4eef09300
+NMB,bear,6,change in tax,14567264759.132446,Scenario,v1.3,cc2c85e4eef09300
+NMB,bear,7,change in NCI and rounding,66847569.96887207,Scenario,v1.3,cc2c85e4eef09300
+NMB,bear,8,FY2027E attributable profit,630781437872.675,Scenario,v1.3,cc2c85e4eef09300
+NMB,base,0,FY2025A attributable profit,759670000000.0,Observed,v1.3,cc2c85e4eef09300
+NMB,base,1,change in NII,246736851776.75854,Scenario,v1.3,cc2c85e4eef09300
+NMB,base,2,change in NonII,174747320145.0642,Scenario,v1.3,cc2c85e4eef09300
+NMB,base,3,change in OpEx,-156363511094.4281,Scenario,v1.3,cc2c85e4eef09300
+NMB,base,4,change in Imp,-86125652357.64081,Scenario,v1.3,cc2c85e4eef09300
+NMB,base,5,other operating items,-0.00018310546875,Scenario,v1.3,cc2c85e4eef09300
+NMB,base,6,change in tax,-62561629528.08179,Scenario,v1.3,cc2c85e4eef09300
+NMB,base,7,change in NCI and rounding,-60356432.2253418,Scenario,v1.3,cc2c85e4eef09300
+NMB,base,8,FY2027E attributable profit,876043022509.4465,Scenario,v1.3,cc2c85e4eef09300
+NMB,bull,0,FY2025A attributable profit,759670000000.0,Observed,v1.3,cc2c85e4eef09300
+NMB,bull,1,change in NII,340720788038.60156,Scenario,v1.3,cc2c85e4eef09300
+NMB,bull,2,change in NonII,263810153891.33386,Scenario,v1.3,cc2c85e4eef09300
+NMB,bull,3,change in OpEx,-224270772053.85413,Scenario,v1.3,cc2c85e4eef09300
+NMB,bull,4,change in Imp,-87659473032.07196,Scenario,v1.3,cc2c85e4eef09300
+NMB,bull,5,other operating items,0.00018310546875,Scenario,v1.3,cc2c85e4eef09300
+NMB,bull,6,change in tax,-84117718430.47778,Scenario,v1.3,cc2c85e4eef09300
+NMB,bull,7,change in NCI and rounding,-108072864.25195312,Scenario,v1.3,cc2c85e4eef09300
+NMB,bull,8,FY2027E attributable profit,968044905549.2798,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bear,0,FY2025A attributable profit,732457000000.0,Observed,v1.3,cc2c85e4eef09300
+CRDB,bear,1,change in NII,3787852029.3745117,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bear,2,change in NonII,244887746561.94983,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bear,3,change in OpEx,-172735440911.84424,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bear,4,change in Imp,-382104315019.00183,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bear,5,other operating items,-0.0001220703125,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bear,6,change in tax,75312265833.42267,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bear,7,change in NCI and rounding,-9261436141.576843,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bear,8,FY2027E attributable profit,492343672352.324,Scenario,v1.3,cc2c85e4eef09300
+CRDB,base,0,FY2025A attributable profit,732457000000.0,Observed,v1.3,cc2c85e4eef09300
+CRDB,base,1,change in NII,282012350688.7422,Scenario,v1.3,cc2c85e4eef09300
+CRDB,base,2,change in NonII,325598893490.3159,Scenario,v1.3,cc2c85e4eef09300
+CRDB,base,3,change in OpEx,-254484307375.53003,Scenario,v1.3,cc2c85e4eef09300
+CRDB,base,4,change in Imp,-153133738456.49158,Scenario,v1.3,cc2c85e4eef09300
+CRDB,base,5,other operating items,0.0001220703125,Scenario,v1.3,cc2c85e4eef09300
+CRDB,base,6,change in tax,-58443530578.766235,Scenario,v1.3,cc2c85e4eef09300
+CRDB,base,7,change in NCI and rounding,-4827722494.639893,Scenario,v1.3,cc2c85e4eef09300
+CRDB,base,8,FY2027E attributable profit,869178945273.6305,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bull,0,FY2025A attributable profit,732457000000.0,Observed,v1.3,cc2c85e4eef09300
+CRDB,bull,1,change in NII,409435404509.6267,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bull,2,change in NonII,467848443233.18994,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bull,3,change in OpEx,-367430613740.87915,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bull,4,change in Imp,-142725560311.5114,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bull,5,other operating items,-0.00030517578125,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bull,6,change in tax,-105987050598.48389,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bull,7,change in NCI and rounding,-4956468065.09314,Scenario,v1.3,cc2c85e4eef09300
+CRDB,bull,8,FY2027E attributable profit,988641155026.8488,Scenario,v1.3,cc2c85e4eef09300

@@ -1,0 +1,86 @@
+bank_id,fiscal_year,impairment,avg_gross_loans,cost_of_risk,npl_ratio,npl_ratio_reported,coverage,coverage_reported,accounting_regime,npl_definition,ifrs9_transition_year,break_note,evidence_class
+B01,2009,17821000000.0,,,,0.062,,0.443,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B01,2010,20357000000.0,1046806498500.0,0.019446765022160396,0.11501681365065577,0.114,0.2274656114565668,0.227,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B01,2011,31216000000.0,1314198000000.0,0.02375288959502297,0.09138642143810738,0.091,0.33837353375425683,0.338,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B01,2012,26403000000.0,1657104500000.0,0.015933213626539544,0.06773407852816771,0.068,0.2606633169055913,0.261,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B01,2013,31519000000.0,1933865000000.0,0.01629844896101848,0.06226958326554558,0.062,0.2793511048477123,0.279,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B01,2014,36886000000.0,2302266000000.0,0.016021606538949018,0.05017075922057092,0.05,0.23865931124126671,0.239,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B01,2015,66877000000.0,2959247000000.0,0.022599330167437866,0.08103933996179935,0.084,0.3018695867268203,0.302,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B01,2016,115902000000.0,3370039000000.0,0.03439188685946958,0.13977142359330919,0.139,0.2850738568766385,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B01,2017,153374000000.0,3261111000000.0,0.047031211142460345,0.1259191882466804,0.126,0.5862685990534626,0.585,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B01,2018,115323000000.0,3218937000000.0,0.03582642344351567,0.06698028416920737,0.085,0.8410046365762331,0.662,IFRS 9,IFRS 9 stage 3 gross loans,True,FY2018: first IFRS 9 year (expected-loss impairment); transition adjustment to equity on 1 Jan 2018 is NOT in this year's impairment (ch08_ifrs9_transition.csv),Derived
+B01,2019,91503000000.0,3427236500000.0,0.0266987702774524,0.05664264867223274,0.055,0.7930670017000953,0.794,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B01,2020,73065000000.0,3808349500000.0,0.019185476543053626,0.04390146834677756,0.044,0.8188235294117647,0.82,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B01,2021,23255000000.0,4625433000000.0,0.00502763741254062,0.030318851490030843,0.033,0.8597012261962423,0.77,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B01,2022,60435000000.0,6108275500000.0,0.009893954521206517,0.026992216908012154,0.028,0.8669893717773335,0.801,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B01,2023,39658000000.0,7804027500000.0,0.0050817350400161965,0.025604878200244992,0.028,0.5619988055673327,0.505,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B01,2024,95187000000.0,9535464500000.0,0.009982418790400824,0.026303285659219112,0.03,0.5187915770881741,0.463,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B01,2025,153589000000.0,12237831500000.0,0.012550344397207954,0.02701728518770354,0.029,0.6574845286537809,0.611,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B02,2008,6222000000.0,,,,0.04,,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B02,2009,7025000000.0,634656000000.0,0.011068988554429487,,0.08,,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B02,2010,1674000000.0,781964000000.0,0.0021407635134098246,0.021178622463561017,0.023,0.9157400410234265,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B02,2011,11752000000.0,1006978500000.0,0.011670557017850927,,0.032,,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B02,2012,25851000000.0,1257597000000.0,0.020555869646635607,0.02016879519937325,0.02,1.082985010089363,0.546,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B02,2013,23766000000.0,1514208000000.0,0.015695333798262854,0.02599627578552543,0.026,0.8877947715157017,0.53,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B02,2014,16589000000.0,1849597500000.0,0.008968978385838,0.027357792732535132,0.03,0.7032235020984017,0.599,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B02,2015,13009000000.0,2270136000000.0,0.005730493679673817,0.02073425931198882,0.02,0.7006440881220866,0.3685,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B02,2016,30240000000.0,2660358500000.0,0.011366889086564837,0.04830131178748243,0.05,0.3862607829640153,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B02,2017,130996000000.0,2851946000000.0,0.04593214598032361,0.060953230476371904,0.06,0.5985354419623252,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B02,2018,137305000000.0,3124840500000.0,0.04393984268957087,0.05758404980729321,0.059,0.6775386009442365,,IFRS 9,IFRS 9 stage 3 gross loans,True,FY2018: first IFRS 9 year (expected-loss impairment); transition adjustment to equity on 1 Jan 2018 is NOT in this year's impairment (ch08_ifrs9_transition.csv),Derived
+B02,2019,100410000000.0,3568058000000.0,0.028141358688676024,0.06748396807326694,0.048,0.6816696200039378,,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B02,2020,119312000000.0,4035610000000.0,0.029564799373576735,0.05368649410506339,0.05,0.8855188575233368,0.8855,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B02,2021,113129000000.0,4586011500000.0,0.024668276562324364,0.03999819898316563,0.04,1.0793531673417358,1.0794,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B02,2022,81180000000.0,5553297500000.0,0.014618341624953462,0.03125150175982223,0.03,1.1690475824350437,1.09,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B02,2023,84435000000.0,7096151000000.0,0.011898703959371778,0.03017575921181701,0.032,1.0117347406684842,0.9589,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B02,2024,87471000000.0,8344423500000.0,0.010482569586742572,0.028315796110431352,0.029,0.9720599051152115,0.93,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B02,2025,81567000000.0,9713621000000.0,0.008397177530397778,0.023736199620116763,0.025,1.0166894632488874,0.96,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B03,2010,924823563.0,50486411767.0,0.018318266849071313,,,,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B03,2014,474218000.0,,,,0.0648,,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B03,2017,4474678000.0,,,,0.19,,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B03,2018,272289000.0,,,,0.19,,,IFRS 9,IFRS 9 stage 3 gross loans,True,FY2018: first IFRS 9 year (expected-loss impairment); transition adjustment to equity on 1 Jan 2018 is NOT in this year's impairment (ch08_ifrs9_transition.csv),Derived
+B03,2019,,,,,0.14,,,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B03,2020,264727000.0,,,,0.12,,,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B03,2021,6503867000.0,,,,0.073,,,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B03,2022,3874865000.0,68757064000.0,0.0563558822116081,,0.122,,,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B03,2023,3109550000.0,127657210000.0,0.024358592828403504,,0.055,,0.6644,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B03,2024,2105127000.0,,,,0.0496,,0.4757,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B03,2025,,,,,0.0638,,0.3923,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B04,2015,352314000.0,,,,0.03,,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B04,2016,599357000.0,,,,0.0498,,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B04,2017,689029000.0,,,,0.0464,,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B04,2018,837503000.0,,,,0.0436,,1.076,IFRS 9,IFRS 9 stage 3 gross loans,True,FY2018: first IFRS 9 year (expected-loss impairment); transition adjustment to equity on 1 Jan 2018 is NOT in this year's impairment (ch08_ifrs9_transition.csv),Derived
+B04,2019,604799000.0,,,,0.07,,0.495,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B04,2020,884841000.0,,,,0.13,,0.33,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B04,2021,1113700000.0,,,,0.13,,0.269,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B04,2022,3103502000.0,,,,0.052,,0.612,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B04,2023,1506006000.0,,,,0.049,,0.516,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B04,2024,1124611000.0,,,,0.0476,,0.595,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B04,2025,895718000.0,,,,0.0452,,0.277,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B05,2014,1107000000.0,,,,0.05,,0.728,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B05,2015,2983973000.0,,,,0.084,,0.5882,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B05,2016,1612066000.0,68557740500.0,0.023513989642059453,,0.07,,0.8904,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B05,2017,950000000.0,,,,0.07,,0.5262,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B05,2018,2480560000.0,,,,0.099,,0.5039,IFRS 9,IFRS 9 stage 3 gross loans,True,FY2018: first IFRS 9 year (expected-loss impairment); transition adjustment to equity on 1 Jan 2018 is NOT in this year's impairment (ch08_ifrs9_transition.csv),Derived
+B05,2019,4540169000.0,110559824000.0,0.04106526978552354,,0.2,,0.3542,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B05,2020,-356593000.0,,,,0.1,,0.2553,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B05,2021,1979217000.0,,,,0.09,,0.3616,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B05,2022,2943622000.0,,,,0.09,,0.335,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B05,2023,1649509000.0,128448229000.0,0.012841819718666577,,0.08,,0.3234,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B05,2024,1651387000.0,150290418500.0,0.010987972596536486,,0.038,,0.3655,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B06,2016,0.0,,,,0.0,,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B06,2017,12328000.0,,,,0.001,,,IAS 39,IAS 39 impaired (non-performing) gross loans,False,,Derived
+B06,2018,86601000.0,14730368500.0,0.005879078992490921,,0.0068,,3.02,IFRS 9,IFRS 9 stage 3 gross loans,True,FY2018: first IFRS 9 year (expected-loss impairment); transition adjustment to equity on 1 Jan 2018 is NOT in this year's impairment (ch08_ifrs9_transition.csv),Derived
+B06,2019,79536000.0,,,,0.0219,,0.81,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B06,2020,-36070000.0,,,,0.02,,0.85,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B06,2021,50891000.0,,,,0.0117,,0.73,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B06,2022,262703000.0,54381813000.0,0.004830714268389691,,0.0079,,0.86,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B06,2023,447101000.0,63775421000.0,0.0070105534858013714,,0.0175,,0.6,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B06,2024,342708000.0,60999840000.0,0.005618178670632579,,0.02,,0.71,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B06,2025,414308000.0,62027772500.0,0.006679395104829857,,0.0144,,1.04,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B07,2018,511000000.0,,,,0.0759,,0.9323,IFRS 9,IFRS 9 stage 3 gross loans,True,FY2018: first IFRS 9 year (expected-loss impairment); transition adjustment to equity on 1 Jan 2018 is NOT in this year's impairment (ch08_ifrs9_transition.csv),Derived
+B07,2019,99000000.0,,,,0.0747,,0.8749,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B07,2020,188000000.0,,,,0.132,,0.4422,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B07,2021,374000000.0,,,,0.097,,0.6728,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B07,2022,190000000.0,,,,0.0987,,0.1108,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B07,2023,192000000.0,,,,0.103,,0.1252,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived
+B07,2024,189000000.0,,,,0.1728,,0.2612,IFRS 9,IFRS 9 stage 3 gross loans,False,,Derived

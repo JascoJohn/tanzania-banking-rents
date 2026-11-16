@@ -1,0 +1,12 @@
+bank_id,item,value,unit,basis,date,source_document,source_location,evidence_class
+B01,retained_earnings_ias39_close,463424000000.0,TZS,Group,2018-01-01 (opening),CRDB-AR-FY2018,PDF p.127 Note 3,Observed
+B01,ifrs9_adjustment_retained_earnings,-21132000000.0,TZS,Group,2018-01-01 (opening),CRDB-AR-FY2018,PDF p.127 Note 3,Observed
+B01,allowance_ias39_close,230658000000.0,TZS,Group,2018-01-01 (opening),CRDB-AR-FY2018,PDF p.127 Note 3,Observed
+B01,allowance_ifrs9_open,252003000000.0,TZS,Group,2018-01-01 (opening),CRDB-AR-FY2018,PDF p.127 Note 3,Observed
+B01,allowance_increase,21345000000.0,TZS,Group,2018-01-01 (opening),CRDB-AR-FY2018,PDF p.127 Note 3,Observed
+B02,retained_earnings_ias39_close,749880000000.0,TZS,Group,2018-01-01 (opening),NMB-AR-FY2018,PDF SOCE and transition note,Observed
+B02,ifrs9_adjustment_retained_earnings,-12386000000.0,TZS,Group,2018-01-01 (opening),NMB-AR-FY2018,PDF SOCE and transition note,Observed
+B02,fair_value_reserve_adjustment,826000000.0,TZS,Group,2018-01-01 (opening),NMB-AR-FY2018,PDF SOCE and transition note,Observed
+B02,equity_impact_net,-11560000000.0,TZS,Group,2018-01-01 (opening),NMB-AR-FY2018,PDF SOCE and transition note,Observed
+B02,allowance_ias39_close,104949000000.0,TZS,Group,2018-01-01 (opening),NMB-AR-FY2018,PDF SOCE and transition note,Observed
+B01,equity_impact_net,-21132000000.0,TZS,Group,2018-01-01 (opening),derived,= retained-earnings adjustment (no other reserve adjustment stated),Derived

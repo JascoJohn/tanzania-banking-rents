@@ -1,0 +1,5 @@
+item_id,owner_decision,decided_by,decided_on,note
+ADJ-01,21.76,owner (D37),2026-11-07,"SACCO Zanzibar savings 2024: keep the 2024-report observation 21.76 (owner's decision; not printed in the 2024 report) instead of the 2025-report vintage 21.8. Codes: blank / panel / report / exclude / a number."
+ADJ-02,72,owner (D37),2026-11-07,"Licensed non-banks 2025: 72 as printed in the 2025 report."
+ADJ-03,45785,owner (D37),2026-11-07,"USD cheques 2025: 45,785 as printed in the 2025 report."
+ADJ-04,report,owner (D37; prompt 02d section 7),2026-11-07,"EFT volume 2024: latest vintage (2025-report restatement, 20,595,123) under D31."

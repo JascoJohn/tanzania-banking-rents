@@ -1,0 +1,76 @@
+bank_id,bank,fiscal_year,systemic,tier1_ratio,tier1_requirement,tier1_headroom,total_capital_ratio,total_requirement,total_headroom,binding_headroom,basis,evidence_class
+B01,CRDB,2015,True,0.141,0.125,0.015999999999999986,0.1946,0.145,0.049600000000000005,0.015999999999999986,chapter 7 (Group),Derived
+B01,CRDB,2016,True,0.135,0.125,0.010000000000000009,0.163,0.145,0.018000000000000016,0.010000000000000009,chapter 7 (Group),Derived
+B01,CRDB,2017,True,0.14,0.125,0.015000000000000013,0.17,0.145,0.025000000000000022,0.015000000000000013,chapter 7 (Group),Derived
+B01,CRDB,2018,True,0.135,0.125,0.010000000000000009,0.152,0.145,0.007000000000000006,0.007000000000000006,chapter 7 (Group),Derived
+B01,CRDB,2019,True,0.172,0.125,0.046999999999999986,,0.145,,0.046999999999999986,chapter 7 (Group),Derived
+B01,CRDB,2020,True,0.178,0.125,0.05299999999999999,0.179,0.145,0.034,0.034,chapter 7 (Group),Derived
+B01,CRDB,2021,True,0.2,0.125,0.07500000000000001,0.2,0.145,0.05500000000000002,0.05500000000000002,chapter 7 (Group),Derived
+B01,CRDB,2022,True,0.17,0.125,0.04500000000000001,0.185,0.145,0.04000000000000001,0.04000000000000001,chapter 7 (Group),Derived
+B01,CRDB,2023,True,0.16,0.125,0.035,0.173,0.145,0.027999999999999997,0.027999999999999997,chapter 7 (Group),Derived
+B01,CRDB,2024,True,0.163,0.125,0.038000000000000006,0.172,0.145,0.026999999999999996,0.026999999999999996,chapter 7 (Group),Derived
+B01,CRDB,2025,True,0.161,0.125,0.036000000000000004,0.178,0.145,0.033,0.033,chapter 7 (Group),Derived
+B02,NMB,2008,True,0.28,0.1,0.18000000000000002,0.28,0.12,0.16000000000000003,0.16000000000000003,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2009,True,0.2371,0.1,0.1371,0.2399,0.12,0.1199,0.1199,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2010,True,0.2349,0.1,0.1349,0.2349,0.12,0.1149,0.1149,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2011,True,,0.1,,0.2192,0.12,0.09920000000000001,0.09920000000000001,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2012,True,0.2101,0.1,0.1101,0.2193,0.12,0.0993,0.0993,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2013,True,0.217888035126235,0.1,0.117888035126235,0.228387163427391,0.12,0.10838716342739099,0.10838716342739099,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2014,True,0.214024609198308,0.1,0.11402460919830801,0.222685188593359,0.12,0.10268518859335901,0.10268518859335901,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2015,True,0.2,0.1,0.1,0.22,0.12,0.1,0.1,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2016,True,0.189,0.1,0.089,0.2,0.12,0.08000000000000002,0.08000000000000002,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2017,True,0.169,0.125,0.04400000000000001,0.175,0.145,0.03,0.03,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2018,True,0.165,0.125,0.04000000000000001,0.185,0.145,0.04000000000000001,0.04000000000000001,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2019,True,0.171,0.125,0.04600000000000001,0.185,0.145,0.04000000000000001,0.04000000000000001,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2020,True,0.193,0.125,0.068,0.206,0.145,0.061,0.061,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2021,True,0.238,0.125,0.11299999999999999,0.246,0.145,0.101,0.101,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2022,True,0.2308,0.125,0.1058,0.2309,0.145,0.0859,0.0859,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2023,True,0.2325,0.125,0.10750000000000001,0.2326,0.145,0.08760000000000001,0.08760000000000001,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2024,True,0.2721,0.125,0.1471,0.2723,0.145,0.1273,0.1273,chapter 7 (Bank-solo (D2)),Derived
+B02,NMB,2025,True,0.2471,0.125,0.12209999999999999,0.2475,0.145,0.10250000000000001,0.10250000000000001,chapter 7 (Bank-solo (D2)),Derived
+B03,DCB,2008,False,0.3357,0.1,0.2357,0.3357,0.12,0.2157,0.2157,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B03,DCB,2009,False,0.2518,0.1,0.15180000000000002,0.2518,0.12,0.13180000000000003,0.13180000000000003,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B03,DCB,2010,False,0.2004,0.1,0.10039999999999999,0.2004,0.12,0.0804,0.0804,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B03,DCB,2014,False,0.303,0.1,0.20299999999999999,,0.12,,0.20299999999999999,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B03,DCB,2017,False,0.08,0.125,-0.045,0.09,0.145,-0.05499999999999999,-0.05499999999999999,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B03,DCB,2018,False,0.09,0.125,-0.035,0.1,0.145,-0.044999999999999984,-0.044999999999999984,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B03,DCB,2020,False,0.165,0.125,0.04000000000000001,0.17,0.145,0.025000000000000022,0.025000000000000022,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B03,DCB,2022,False,0.1441,0.125,0.019100000000000006,0.149,0.145,0.0040000000000000036,0.0040000000000000036,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B03,DCB,2023,False,0.1203,0.125,-0.004699999999999996,0.1238,0.145,-0.021199999999999997,-0.021199999999999997,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B03,DCB,2024,False,0.1568,0.125,0.031799999999999995,0.1603,0.145,0.015300000000000008,0.015300000000000008,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B03,DCB,2025,False,0.1534,0.125,0.02840000000000001,0.1631,0.145,0.018100000000000005,0.018100000000000005,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B04,MBP,2015,False,0.1284,0.1,0.02839999999999998,0.1284,0.12,0.00839999999999999,0.00839999999999999,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B04,MBP,2016,False,0.2361,0.1,0.1361,0.2455,0.12,0.1255,0.1255,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B04,MBP,2017,False,0.1499,0.125,0.024900000000000005,0.1563,0.145,0.011300000000000004,0.011300000000000004,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B04,MBP,2018,False,0.2168,0.125,0.09179999999999999,0.223,0.145,0.07800000000000001,0.07800000000000001,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B04,MBP,2019,False,0.208,0.125,0.08299999999999999,0.22,0.145,0.07500000000000001,0.07500000000000001,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B04,MBP,2020,False,0.221,0.125,0.096,0.266,0.145,0.12100000000000002,0.096,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B04,MBP,2021,False,0.185,0.125,0.06,0.185,0.145,0.04000000000000001,0.04000000000000001,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B04,MBP,2022,False,0.176,0.125,0.05099999999999999,0.176,0.145,0.031,0.031,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B04,MBP,2023,False,0.1828,0.125,0.05779999999999999,0.1828,0.145,0.0378,0.0378,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B04,MBP,2024,False,0.1843,0.125,0.05929999999999999,0.19,0.145,0.04500000000000001,0.04500000000000001,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B04,MBP,2025,False,0.171,0.125,0.04600000000000001,0.171,0.145,0.026000000000000023,0.026000000000000023,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B05,MKCB,2015,False,0.2372,0.1,0.1372,0.2445,0.12,0.1245,0.1245,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B05,MKCB,2016,False,0.2204,0.1,0.12040000000000001,0.2283,0.12,0.10830000000000001,0.10830000000000001,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B05,MKCB,2017,False,0.2177,0.125,0.0927,0.2254,0.145,0.0804,0.0804,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B05,MKCB,2018,False,0.1533,0.125,0.028299999999999992,0.1596,0.145,0.014600000000000002,0.014600000000000002,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B05,MKCB,2019,False,0.0576,0.125,-0.0674,0.0576,0.145,-0.08739999999999999,-0.08739999999999999,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B05,MKCB,2020,False,0.1108,0.125,-0.014200000000000004,0.1108,0.145,-0.034199999999999994,-0.034199999999999994,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B05,MKCB,2021,False,0.09,0.125,-0.035,0.09,0.145,-0.05499999999999999,-0.05499999999999999,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B05,MKCB,2022,False,0.1305,0.125,0.005500000000000005,0.1484,0.145,0.003400000000000014,0.003400000000000014,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B05,MKCB,2023,False,0.1373,0.125,0.012300000000000005,0.1528,0.145,0.007800000000000001,0.007800000000000001,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B05,MKCB,2024,False,0.1693,0.125,0.044300000000000006,0.1823,0.145,0.0373,0.0373,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B06,MCB,2015,False,4.12,0.1,4.0200000000000005,4.12,0.12,4.0,4.0,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B06,MCB,2016,False,3.21,0.1,3.11,3.21,0.12,3.09,3.09,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B06,MCB,2017,False,1.21,0.125,1.085,1.22,0.145,1.075,1.075,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B06,MCB,2018,False,0.64,0.125,0.515,0.65,0.145,0.505,0.505,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B06,MCB,2019,False,0.736,0.125,0.611,0.736,0.145,0.591,0.591,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B06,MCB,2020,False,0.6682,0.125,0.5432,0.6682,0.145,0.5232,0.5232,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B06,MCB,2021,False,0.3242,0.125,0.1992,0.3242,0.145,0.1792,0.1792,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B06,MCB,2022,False,0.2145,0.125,0.0895,0.2145,0.145,0.0695,0.0695,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B06,MCB,2023,False,0.2017,0.125,0.07669999999999999,0.2017,0.145,0.0567,0.0567,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B06,MCB,2024,False,0.2956,0.125,0.17059999999999997,0.2956,0.145,0.15059999999999998,0.15059999999999998,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B06,MCB,2025,False,0.371,0.125,0.246,0.3699,0.145,0.22490000000000002,0.22490000000000002,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B07,MUCOBA,2016,False,0.136,0.1,0.036000000000000004,0.1983,0.12,0.07830000000000001,0.036000000000000004,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B07,MUCOBA,2017,False,0.1396,0.125,0.014600000000000002,0.2012,0.145,0.0562,0.014600000000000002,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived
+B07,MUCOBA,2018,False,-0.3222,0.125,-0.4472,-0.2456,0.145,-0.3906,-0.4472,BoT minimum + conservation buffer; ratio as reported (Bank = Group),Derived

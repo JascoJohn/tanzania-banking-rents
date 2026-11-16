@@ -1,0 +1,8 @@
+peer,country,fiscal_year,roe,roa,equity_assets,npl_ratio,npl_coverage,cost_to_income,net_loan_growth,evidence_class,register_version,input_hash
+KCB Group,Kenya,2025,0.225,0.033,0.1544,0.169,0.498,0.423,0.163,Observed,v1.3,cc2c85e4eef09300
+Equity Group Holdings,Kenya,2025,0.278,0.04,0.157,0.115,0.677,0.51,0.077,Observed,v1.3,cc2c85e4eef09300
+Co-operative Bank of Kenya,Kenya,2025,0.191,0.038,0.2,0.154,0.75,0.463,0.127,Observed,v1.3,cc2c85e4eef09300
+Stanbic Uganda Holdings,Uganda,2025,0.268,0.054,0.2045,0.017,0.5710000000000001,0.471,0.162,Observed,v1.3,cc2c85e4eef09300
+BK Group,Rwanda,2025,0.2289999999999999,0.04,0.1796,0.0289999999999999,0.5660000000000001,0.379,0.161,Observed,v1.3,cc2c85e4eef09300
+GTCO,Nigeria,2025,0.283,0.053,0.191,0.05,1.069,0.2789999999999999,0.124,Observed,v1.3,cc2c85e4eef09300
+GCB Bank,Ghana,2025,0.39,,,0.1031,,0.472,0.568,Observed,v1.3,cc2c85e4eef09300

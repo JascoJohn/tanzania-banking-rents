@@ -1,0 +1,18 @@
+item,value,of_notes,evidence_class,register_version,input_hash
+notes using DDM,5.0,10,Derived,v1.3,cc2c85e4eef09300
+notes using RIM / excess return,2.0,10,Derived,v1.3,cc2c85e4eef09300
+notes using multiples,4.0,10,Derived,v1.3,cc2c85e4eef09300
+notes using justified P/B,0.0,10,Derived,v1.3,cc2c85e4eef09300
+notes using method not stated,4.0,10,Derived,v1.3,cc2c85e4eef09300
+cost of equity: notes disclosing,5.0,10,Derived,v1.3,cc2c85e4eef09300
+cost of equity: min,0.1497,5,Derived,v1.3,cc2c85e4eef09300
+cost of equity: median,0.1847,5,Derived,v1.3,cc2c85e4eef09300
+cost of equity: max,0.2163,5,Derived,v1.3,cc2c85e4eef09300
+terminal growth: notes disclosing,4.0,10,Derived,v1.3,cc2c85e4eef09300
+terminal growth: min,0.055,4,Derived,v1.3,cc2c85e4eef09300
+terminal growth: median,0.0572,4,Derived,v1.3,cc2c85e4eef09300
+terminal growth: max,0.08,4,Derived,v1.3,cc2c85e4eef09300
+"horizon, months: notes disclosing",1.0,10,Derived,v1.3,cc2c85e4eef09300
+"horizon, months: min",12.0,1,Derived,v1.3,cc2c85e4eef09300
+"horizon, months: median",12.0,1,Derived,v1.3,cc2c85e4eef09300
+"horizon, months: max",12.0,1,Derived,v1.3,cc2c85e4eef09300

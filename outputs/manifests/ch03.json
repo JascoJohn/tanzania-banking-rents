@@ -1,0 +1,55 @@
+{
+  "chapter": "03",
+  "title": "Systemic importance",
+  "hypotheses": [
+    "H3.1",
+    "H3.2"
+  ],
+  "status": "built",
+  "tables": [
+    {
+      "path": "outputs/tables/ch03_dsib.csv",
+      "description": "D-SIB framework and designations",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch03.md"
+    },
+    {
+      "path": "outputs/tables/ch03_capital_buffers.csv",
+      "description": "Capital headroom against requirements, panel banks",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch03.md"
+    },
+    {
+      "path": "outputs/tables/ch03_deposit_cost.csv",
+      "description": "Cost of deposits: NMB / CRDB vs smaller banks",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch03.md"
+    },
+    {
+      "path": "outputs/tables/ch03_pb_roe.csv",
+      "description": "P/B against ROE across the panel",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch03.md"
+    },
+    {
+      "path": "outputs/tables/ch03_hypotheses.csv",
+      "description": "H3.1-H3.2",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/ch03.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch03_pb_roe.png",
+      "data": "outputs/figures/ch03_pb_roe_data.csv",
+      "description": "P/B against ROE",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch03.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch03.md"
+  ],
+  "module": "tzbank.chapters.ch03_systemic_importance",
+  "run_log_stage": "part1"
+}

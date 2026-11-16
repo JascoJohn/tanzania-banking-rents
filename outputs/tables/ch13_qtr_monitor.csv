@@ -1,0 +1,11 @@
+row,bank,indicator,current_annual,current_latest,latest_date,method,threshold,evidence_class,register_version,input_hash
+r0,NMB,T-bill rate vs the net deposit franchise break-even,0.062852,0.062852,as in the register / annual data,unchanged (not a quarterly series),0.0585224873861647,Derived,v1.3,cc2c85e4eef09300
+r1,NMB,cost of risk FY2025 vs through-the-cycle mean,0.0083971775303977,0.009415770765753046,TTM to 30 Sep 2026,impairment TTM / average net loans (quarterly statements),0.0183607563202608,Derived,v1.3,cc2c85e4eef09300
+r2,NMB,deposit beta (upper 90% bound) vs 0.10,0.0736166653052532,0.0736166653052532,as in the register / annual data,unchanged (not a quarterly series),0.1,Derived,v1.3,cc2c85e4eef09300
+r3,NMB,binding capital headroom vs 2 pp,0.1025,0.08680000000000002,2026-06-30,"min(CET1 - (min + buffer), total - (min + buffer)), minima and buffer as printed",0.02,Derived,v1.3,cc2c85e4eef09300
+r4,NMB,price vs base value per share (31 Oct 2026),1820.0,1820.0,as in the register / annual data,unchanged (not a quarterly series),1388.471440033357,Derived,v1.3,cc2c85e4eef09300
+r5,CRDB,T-bill rate vs the net deposit franchise break-even,0.062852,0.062852,as in the register / annual data,unchanged (not a quarterly series),0.059073693556445,Derived,v1.3,cc2c85e4eef09300
+r6,CRDB,cost of risk FY2025 vs through-the-cycle mean,0.0125503443972079,0.012935871195773907,TTM to 30 Sep 2026,impairment TTM / average net loans (quarterly statements),0.0199826320211532,Derived,v1.3,cc2c85e4eef09300
+r7,CRDB,deposit beta (upper 90% bound) vs 0.10,0.0764081109258331,0.0764081109258331,as in the register / annual data,unchanged (not a quarterly series),0.1,Derived,v1.3,cc2c85e4eef09300
+r8,CRDB,binding capital headroom vs 2 pp,0.033,0.033,FY2025 (annual report),no capital section in the 2026 quarterly statements,0.02,Derived,v1.3,cc2c85e4eef09300
+r9,CRDB,price vs base value per share (31 Oct 2026),2840.0,2840.0,as in the register / annual data,unchanged (not a quarterly series),1841.8889934401743,Derived,v1.3,cc2c85e4eef09300

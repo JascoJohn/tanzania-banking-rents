@@ -1,0 +1,11 @@
+bank,fy,item,value,source_file,page,note
+KCB,2025,shareholder,C.S. National Treasury of Kenya: 19.76%,KCB_AR_FY2025.pdf,11,"Same 19.76% (635,001,947 shares) in every report FY2020-FY2025 (e.g. FY2020 p83)"
+KCB,2025,shareholder,National Social Security Fund: 10.20%,KCB_AR_FY2025.pdf,11,2024: 10.01%; FY2020 p83: 7.99%; FY2021: 8.21%; FY2022-23: 9.73%
+KCB,2025,government_stake,19.76,KCB_AR_FY2025.pdf,11,"Held directly by the Cabinet Secretary, National Treasury of Kenya; NSSF (state pension fund, 10.20%) not counted here"
+KCB,2025,listing,Nairobi Securities Exchange; Dar es Salaam Stock Exchange; Uganda Securities Exchange; Rwanda Stock Exchange,KCB_AR_FY2025.pdf,11,"Listed on NSE since 1988, cross-listed on DSE, USE and RSE"
+KCB,2025,foreign_subsidiary,KCB Bank Tanzania Limited (Tanzania),KCB_AR_FY2025.pdf,124,100%; commercial banking
+KCB,2025,foreign_subsidiary,KCB Bank South Sudan Limited (South Sudan),KCB_AR_FY2025.pdf,124,100%; commercial banking; IAS 29 hyperinflation accounting applied
+KCB,2025,foreign_subsidiary,Trust Merchant Bank SA (Democratic Republic of the Congo),KCB_AR_FY2025.pdf,124,85%; acquired December 2022 (FY2022 report p47)
+KCB,2025,foreign_subsidiary,KCB Bank Burundi Limited (Burundi),KCB_AR_FY2025.pdf,124,100%; commercial banking
+KCB,2025,foreign_subsidiary,KCB Bank Uganda Limited (Uganda),KCB_AR_FY2025.pdf,124,100%; commercial banking
+KCB,2025,foreign_subsidiary,BPR Bank Rwanda Plc (Rwanda),KCB_AR_FY2025.pdf,124,87%; Banque Populaire du Rwanda acquired 2021 and combined with KCB Bank Rwanda

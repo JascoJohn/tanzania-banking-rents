@@ -1,0 +1,8 @@
+peer,years,pairs,lambda_roe,long_run_roe,status,evidence_class,register_version,input_hash
+KCB Group,FY2017-2025,8,-0.22894568358394862,0.20767639604629545,estimated (OLS AR(1) on ROE; ER lambda if COE constant),Estimated,v1.3,cc2c85e4eef09300
+Equity Group Holdings,FY2017-2025,8,-0.04336426321613952,0.23180289481413802,estimated (OLS AR(1) on ROE; ER lambda if COE constant),Estimated,v1.3,cc2c85e4eef09300
+Co-operative Bank of Kenya,FY2017-2025,8,0.2561495684214123,0.1882317570976471,estimated (OLS AR(1) on ROE; ER lambda if COE constant),Estimated,v1.3,cc2c85e4eef09300
+Stanbic Uganda Holdings,FY2021-2025,4,,,not estimated: 4 pairs < 6 (chapter 5 minimum),Estimated,v1.3,cc2c85e4eef09300
+BK Group,FY2021-2025,4,,,not estimated: 4 pairs < 6 (chapter 5 minimum),Estimated,v1.3,cc2c85e4eef09300
+GTCO,FY2019-2025,6,0.25086095103958245,0.311214815918744,estimated (OLS AR(1) on ROE; ER lambda if COE constant),Estimated,v1.3,cc2c85e4eef09300
+GCB Bank,FY2023-2025,2,,,not estimated: 2 pairs < 6 (chapter 5 minimum),Estimated,v1.3,cc2c85e4eef09300

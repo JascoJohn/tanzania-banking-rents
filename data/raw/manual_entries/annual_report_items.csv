@@ -1,0 +1,60 @@
+bank_id,fiscal_year,variable,value,unit,value_as_printed,source_doc,page,status,note,evidence_class
+B02,2025,branches,248,count,248,NMB/NMB_Integrated Annual Report_2025_.pdf,6,observed,network page,Observed
+B02,2024,branches,240,count,240,NMB/NMB_Integrated Annual Report_2025_.pdf,6,observed,network page (prior-year comparative),Observed
+B02,2023,branches,231,count,231,NMB/NMB_Intergrated_Annual_Report_2024.pdf,6,observed,network page (prior-year comparative),Observed
+B02,2025,agents,73592,count,"73,592",NMB/NMB_Integrated Annual Report_2025_.pdf,6,observed,NMB Wakala outlets,Observed
+B02,2024,agents,50698,count,"50,698",NMB/NMB_Integrated Annual Report_2025_.pdf,6,observed,NMB Wakala outlets,Observed
+B02,2023,agents,28295,count,"28,295",NMB/NMB_Intergrated_Annual_Report_2024.pdf,6,observed,NMB Wakala outlets,Observed
+B02,2025,employees,4088,count,"4,088",NMB/NMB_Integrated Annual Report_2025_.pdf,6,observed,,Observed
+B02,2024,employees,3868,count,"3,868",NMB/NMB_Integrated Annual Report_2025_.pdf,6,observed,,Observed
+B02,2023,employees,3642,count,"3,642",NMB/NMB_Intergrated_Annual_Report_2024.pdf,6,observed,,Observed
+B02,2025,customer_accounts,9910000.0,count,9.91 million,NMB/NMB_Integrated Annual Report_2025_.pdf,94,observed,,Observed
+B02,2024,customer_accounts,8600000.0,count,8.6 Million accounts,NMB/NMB_Intergrated_Annual_Report_2024.pdf,15,observed,,Observed
+B02,2023,customer_accounts,7100000.0,count,7.1 Mill,NMB/NMB_Intergrated_Annual_Report_2024.pdf,6,observed,,Observed
+B02,2024,digital_users,4700000.0,count,4.7 Million customers,NMB/NMB_Intergrated_Annual_Report_2024.pdf,41,observed,NMB Mkononi subscriptions,Observed
+B02,2025,shareholders,19415,count,"19,415 Shareholders",NMB/NMB_Integrated Annual Report_2025_.pdf,6,observed,,Observed
+B02,2025,salary_backed_loans,5501951000000.0,TZS,"5,501,951",NMB/NMB_Integrated Annual Report_2025_.pdf,203,observed,"Salaried Workers Loans (SWL), gross",Observed
+B02,2025,gross_loans_note,10688021000000.0,TZS,"10,688,021",NMB/NMB_Integrated Annual Report_2025_.pdf,203,observed,Gross loans and advances to customers,Observed
+B02,2024,salary_backed_loans,4823911000000.0,TZS,"4,823,911",NMB/NMB_Integrated Annual Report_2025_.pdf,203,observed,"Salaried Workers Loans (SWL), gross",Observed
+B02,2024,gross_loans_note,8739221000000.0,TZS,"8,739,221",NMB/NMB_Integrated Annual Report_2025_.pdf,203,observed,Gross loans and advances to customers,Observed
+B02,2023,salary_backed_loans,3867746000000.0,TZS,"3,867,746",NMB/NMB_Intergrated_Annual_Report_2024.pdf,176,observed,"Salaried Workers Loans (SWL), gross",Observed
+B02,2023,gross_loans_note,7949626000000.0,TZS,"7,949,626",NMB/NMB_Intergrated_Annual_Report_2024.pdf,176,observed,Gross loans and advances to customers,Observed
+B02,2025,modified_loans,341772000000.0,TZS,"341,772",NMB/NMB_Integrated Annual Report_2025_.pdf,185,observed,"modified loans incl. forbearance (restructured), gross",Observed
+B02,2024,modified_loans,287038000000.0,TZS,"287,038",NMB/NMB_Integrated Annual Report_2025_.pdf,185,observed,"modified loans incl. forbearance (restructured), gross",Observed
+B02,2025,related_loans_directors,9014000000.0,TZS,"9,014",NMB/NMB_Integrated Annual Report_2025_.pdf,218,observed,lending to the Directors,Observed
+B02,2024,related_loans_directors,269000000.0,TZS,TZS 269 million,NMB/NMB_Integrated Annual Report_2025_.pdf,218,observed,lending to the Directors,Observed
+B02,2023,related_loans_directors,269000000.0,TZS,TZS 269 Million,NMB/NMB_Intergrated_Annual_Report_2024.pdf,192,observed,lending to the Directors,Observed
+B02,2025,key_management_pay,16456000000.0,TZS,"16,456",NMB/NMB_Integrated Annual Report_2025_.pdf,219,observed,"key management compensation, total",Observed
+B02,2024,key_management_pay,11219000000.0,TZS,"11,219",NMB/NMB_Integrated Annual Report_2025_.pdf,219,observed,"key management compensation, total",Observed
+B02,2023,key_management_pay,8174000000.0,TZS,"8,174",NMB/NMB_Intergrated_Annual_Report_2024.pdf,193,observed,"key management compensation, total",Observed
+B01,2025,branches,261,count,261 Branches,CRDB/crdb-ir-2025-8th-may-2026.pdf,30,observed,"Group, incl. mobile branches",Observed
+B01,2024,branches,259,count,259 Branches,CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,9,observed,"Group, incl. mobile branches",Observed
+B01,2023,branches,245,count,245 Branches,CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,7,observed,"Group, incl. mobile branches",Observed
+B01,2025,agents,38883,count,"38,883 Agents",CRDB/crdb-ir-2025-8th-may-2026.pdf,30,observed,Group,Observed
+B01,2024,agents,36566,count,"36,566 Banking Agents",CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,9,observed,Group,Observed
+B01,2023,agents,34627,count,"34,627 banking Agents",CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,7,observed,Group,Observed
+B01,2025,employees,4528,count,"4,528 Employees",CRDB/crdb-ir-2025-8th-may-2026.pdf,30,observed,Group,Observed
+B01,2024,employees,4251,count,"4,251 Employees",CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,9,observed,Group,Observed
+B01,2023,employees,3961,count,"3,961",CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,7,observed,Group,Observed
+B01,2025,customers,7200000.0,count,Customer base 7.2m,CRDB/crdb-ir-2025-8th-may-2026.pdf,22,observed,,Observed
+B01,2024,customers,6400000.0,count,6.4 Million Number of customers,CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,9,observed,,Observed
+B01,2025,salary_backed_loans,4666131000000.0,TZS,"4,666,131",CRDB/crdb-ir-2025-8th-may-2026.pdf,301,observed,"PROXY: 'Personal' segment, gross (CRDB does not separate salary-backed loans)",Observed
+B01,2025,gross_loans_note,13971500000000.0,TZS,"13,971,500",CRDB/crdb-ir-2025-8th-may-2026.pdf,301,observed,Group gross loans,Observed
+B01,2024,salary_backed_loans,3907171000000.0,TZS,"3,907,171",CRDB/crdb-ir-2025-8th-may-2026.pdf,301,observed,"PROXY: 'Personal' segment, gross (CRDB does not separate salary-backed loans)",Observed
+B01,2024,gross_loans_note,10504163000000.0,TZS,"10,504,163",CRDB/crdb-ir-2025-8th-may-2026.pdf,301,observed,Group gross loans,Observed
+B01,2025,related_loans_directors,12477000000.0,TZS,"12,477",CRDB/crdb-ir-2025-8th-may-2026.pdf,191,observed,loans and advances to Directors and other key management personnel,Observed
+B01,2024,related_loans_directors,16587000000.0,TZS,"16,587",CRDB/crdb-ir-2025-8th-may-2026.pdf,191,observed,loans and advances to Directors and other key management personnel,Observed
+B01,2025,related_loans_director_companies,23750000000.0,TZS,"23,750",CRDB/crdb-ir-2025-8th-may-2026.pdf,191,observed,loans and advances to companies associated with Directors,Observed
+B01,2024,related_loans_director_companies,3828000000.0,TZS,"3,828",CRDB/crdb-ir-2025-8th-may-2026.pdf,191,observed,loans and advances to companies associated with Directors,Observed
+B01,2025,key_management_pay,23390000000.0,TZS,"23,390",CRDB/crdb-ir-2025-8th-may-2026.pdf,332,observed,"key management remuneration, total",Observed
+B01,2024,key_management_pay,12588000000.0,TZS,"12,588",CRDB/crdb-ir-2025-8th-may-2026.pdf,332,observed,"key management remuneration, total",Observed
+B02,2025,top20_depositors_share,,,,NMB/NMB_Integrated Annual Report_2025_.pdf,,NOT DISCLOSED,"searched the FY2023-25 annual reports for: twenty / 20 / top / largest depositors, depositor concentration",Observed
+B02,2025,top20_borrowers_share,,,,NMB/NMB_Integrated Annual Report_2025_.pdf,,NOT DISCLOSED,"searched the FY2023-25 annual reports for: twenty / 20 / top / largest borrowers or exposures, single-borrower concentration (only the single-borrower limit is printed)",Observed
+B02,2025,government_deposits,,,,NMB/NMB_Integrated Annual Report_2025_.pdf,,NOT DISCLOSED,"searched the FY2023-25 annual reports for: government deposits, deposits from government, public-sector deposits",Observed
+B02,2025,board_composition,,,,NMB/NMB_Integrated Annual Report_2025_.pdf,,NOT EXTRACTED (owner to tabulate from the board pages),"searched the FY2023-25 annual reports for: board of directors listing (names, independence) is printed but not tabulated here",Observed
+B01,2025,top20_depositors_share,,,,CRDB/crdb-ir-2025-8th-may-2026.pdf,,NOT DISCLOSED,"searched the FY2023-25 annual reports for: twenty / 20 / top / largest depositors, depositor concentration",Observed
+B01,2025,top20_borrowers_share,,,,CRDB/crdb-ir-2025-8th-may-2026.pdf,,NOT DISCLOSED,"searched the FY2023-25 annual reports for: twenty / 20 / top / largest borrowers or exposures, single-borrower concentration (only the single-borrower limit is printed)",Observed
+B01,2025,government_deposits,,,,CRDB/crdb-ir-2025-8th-may-2026.pdf,,NOT DISCLOSED,"searched the FY2023-25 annual reports for: government deposits, deposits from government, public-sector deposits",Observed
+B01,2025,board_composition,,,,CRDB/crdb-ir-2025-8th-may-2026.pdf,,NOT EXTRACTED (owner to tabulate from the board pages),"searched the FY2023-25 annual reports for: board of directors listing (names, independence) is printed but not tabulated here",Observed
+B01,2025,modified_loans,,,,CRDB/crdb-ir-2025-8th-may-2026.pdf,,NOT DISCLOSED,"searched the FY2023-25 annual reports for: modified, restructured, forbearance amounts (policy text only)",Observed
+B01,2025,shareholders,,,,CRDB/crdb-ir-2025-8th-may-2026.pdf,,NOT DISCLOSED,searched the FY2023-25 annual reports for: number of shareholders (only the top shareholders and size bands are printed),Observed

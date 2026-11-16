@@ -1,0 +1,6 @@
+# Streamlit Community Cloud installs this file (it looks in the entry file's folder first). The dashboard reads
+# committed outputs only and imports tzbank from src/ without installing it. Pins match the root requirements.txt.
+streamlit==1.59.1
+pandas==3.0.3
+numpy==2.4.6
+PyYAML==6.0.3

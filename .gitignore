@@ -1,0 +1,41 @@
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+
+# Third-party raw files: fetched by the user (docs/DATA_REQUIREMENTS.md), never committed
+data/raw/documents/
+data/raw/dse/
+data/raw/finscope/
+data/raw/peers/
+data/raw/analyst_reports/*.pdf
+data/raw/quarterly/*.pdf
+data/raw/bot/auctions/
+data/raw/bot/bot_tbond_auction_yields.csv
+data/raw/Treasury_Bonds_Auction_Results_*.xlsx
+data/raw/superseded/
+data/library/
+data/ocr/
+
+# Written by `python -m tzbank run all`; the published copies of the outputs are tracked, the rest is local
+data/interim/
+data/processed/
+reports/
+outputs/run_logs/*.json
+outputs/exhibits/
+outputs/market/
+outputs/reports/
+outputs/findings/diff_*.csv
+outputs/findings/fill_list.md
+outputs/valuation/manifest_09a.json
+outputs/valuation/register_key_drivers.md
+docs/NPS_PANEL_NOTES.md

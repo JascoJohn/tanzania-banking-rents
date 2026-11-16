@@ -1,0 +1,42 @@
+{
+  "chapter": "04",
+  "subsection": "4.3",
+  "title": "Asset deployment",
+  "hypotheses": [
+    "H4.1",
+    "H4.2"
+  ],
+  "status": "built - sector book pending",
+  "tables": [
+    {
+      "path": "outputs/tables/ch04_4_3_deployment.csv",
+      "description": "Yields and asset mix",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_3.md"
+    },
+    {
+      "path": "outputs/tables/ch04_4_3_sector_book.csv",
+      "description": "Loan book by economic sector (where reconciled)",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch04_4_3.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch04_4_3_yields.png",
+      "data": "outputs/figures/ch04_4_3_yields_data.csv",
+      "description": "Loan and IEA yields",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_3.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch04_4_3.md"
+  ],
+  "inputs": [
+    "data/processed/bank_year_wide.csv",
+    "data/extraction/detail_lines.csv"
+  ],
+  "module": "tzbank.chapters.ch04.deployment",
+  "run_log_stage": "profitability"
+}

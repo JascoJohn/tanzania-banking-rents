@@ -1,0 +1,98 @@
+{
+  "chapter": "09",
+  "title": "Comparative valuation",
+  "hypotheses": [
+    "H9.1"
+  ],
+  "status": "built - register v1.3, input hash cc2c85e4eef09300",
+  "tables": [
+    {
+      "path": "outputs/tables/ch09_valuations.csv",
+      "description": "Values, target, expected return, downside, rating",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch09.md"
+    },
+    {
+      "path": "outputs/tables/ch09_override_log.csv",
+      "description": "Rating override log (empty unless the owner adds one)",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/ch09.md"
+    },
+    {
+      "path": "outputs/tables/ch09_sensitivity_grids.csv",
+      "description": "Sensitivity grids: COE x g, COE x ROE*, NIM x CoR (+/- 200 bp)",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch09.md"
+    },
+    {
+      "path": "outputs/tables/ch09_icg_cap.csv",
+      "description": "Where the ICG growth cap binds",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch09.md"
+    },
+    {
+      "path": "outputs/tables/ch09_coe_g_guard.csv",
+      "description": "COE - terminal g in every scenario (guard >= 4 pp)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch09.md"
+    },
+    {
+      "path": "outputs/tables/ch09_key_assumptions.csv",
+      "description": "Key register assumptions (base / bear / bull)",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch09.md"
+    },
+    {
+      "path": "outputs/tables/ch09_crdb_dividend_sensitivity.csv",
+      "description": "CRDB 31 Dec 2025: rule dividend vs the declared FY2025 dividend (valuation-date cut-off effect)",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch09.md"
+    },
+    {
+      "path": "outputs/tables/ch09_coe_ab.csv",
+      "description": "COE approach A (central) vs approach B (IMF inflation)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch09.md"
+    },
+    {
+      "path": "outputs/tables/ch09_payout_path.csv",
+      "description": "Explicit-period payout, Tier 1 and target path",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch09.md"
+    },
+    {
+      "path": "outputs/tables/ch09_dividends_12m.csv",
+      "description": "Dividends in the 12 months after each valuation date, with payment dates",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch09.md"
+    },
+    {
+      "path": "outputs/tables/ch09_pit_verification.csv",
+      "description": "Point-in-time verification of the 31 Dec 2025 run",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch09.md"
+    },
+    {
+      "path": "outputs/tables/ch09_hypotheses.csv",
+      "description": "H9.1",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/ch09.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch09_valuation_range.png",
+      "data": "outputs/figures/ch09_valuation_range_data.csv",
+      "description": "Valuation range at 31 Oct 2026",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch09.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch09.md"
+  ],
+  "register_version": "v1.3",
+  "input_hash": "cc2c85e4eef09300",
+  "module": "tzbank.chapters.ch09_valuation",
+  "run_log_stage": "valuation_results"
+}

@@ -1,0 +1,17 @@
+valuation,bank,line,price_line,price,value_to_price,evidence_class,definition,register_version,input_hash
+HIST,NMB,bear-case value per share,5140.071040800188,8410.0,0.6111856172176204,Scenario,,v1.3,cc2c85e4eef09300
+HIST,NMB,base-case value per share,11062.153602174954,8410.0,1.3153571465130742,Scenario,,v1.3,cc2c85e4eef09300
+HIST,NMB,bull-case value per share,24228.724231780983,8410.0,2.880942239212959,Scenario,,v1.3,cc2c85e4eef09300
+HIST,NMB,"bear-screen Buy line (bear downside = 25%, D4)",6853.42805440025,8410.0,0.8149141562901606,Scenario,P such that bear / P - 1 = -25%; the Buy also needs expected return > COE + 5 pp,v1.3,cc2c85e4eef09300
+HIST,CRDB,bear-case value per share,507.8662433265585,1530.0,0.3319387211284696,Scenario,,v1.3,cc2c85e4eef09300
+HIST,CRDB,base-case value per share,1118.895508995937,1530.0,0.7313042542457104,Scenario,,v1.3,cc2c85e4eef09300
+HIST,CRDB,bull-case value per share,2883.1122510653813,1530.0,1.8843870921995955,Scenario,,v1.3,cc2c85e4eef09300
+HIST,CRDB,"bear-screen Buy line (bear downside = 25%, D4)",677.154991102078,1530.0,0.4425849615046262,Scenario,P such that bear / P - 1 = -25%; the Buy also needs expected return > COE + 5 pp,v1.3,cc2c85e4eef09300
+CURR,NMB,bear-case value per share,531.5903395719138,1820.0,0.29208260416039217,Scenario,,v1.3,cc2c85e4eef09300
+CURR,NMB,base-case value per share,1388.471440033357,1820.0,0.7628963956227237,Scenario,,v1.3,cc2c85e4eef09300
+CURR,NMB,bull-case value per share,3574.4659812383015,1820.0,1.963992297383682,Scenario,,v1.3,cc2c85e4eef09300
+CURR,NMB,"bear-screen Buy line (bear downside = 25%, D4)",708.7871194292184,1820.0,0.3894434722138562,Scenario,P such that bear / P - 1 = -25%; the Buy also needs expected return > COE + 5 pp,v1.3,cc2c85e4eef09300
+CURR,CRDB,bear-case value per share,748.7716769750061,2840.0,0.2636519989348613,Scenario,,v1.3,cc2c85e4eef09300
+CURR,CRDB,base-case value per share,1841.8889934401745,2840.0,0.6485524624789347,Scenario,,v1.3,cc2c85e4eef09300
+CURR,CRDB,bull-case value per share,5374.314069088624,2840.0,1.8923641088340224,Scenario,,v1.3,cc2c85e4eef09300
+CURR,CRDB,"bear-screen Buy line (bear downside = 25%, D4)",998.3622359666748,2840.0,0.35153599857981505,Scenario,P such that bear / P - 1 = -25%; the Buy also needs expected return > COE + 5 pp,v1.3,cc2c85e4eef09300

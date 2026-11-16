@@ -1,0 +1,77 @@
+{
+  "chapter": "04",
+  "title": "The economics of banking profits and business models",
+  "subsection": "starter (profitability / DuPont panel)",
+  "hypotheses": [
+    "H4.1",
+    "H4.2"
+  ],
+  "status": "starter only - hypotheses not yet tested",
+  "tables": [
+    {
+      "path": "outputs/tables/ch04_dupont_panel.csv",
+      "description": "DuPont profitability panel, all bank-years with inputs",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_starter.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch04_roe_by_bank.png",
+      "data": "outputs/figures/ch04_roe_by_bank_data.csv",
+      "description": "ROE on average equity by bank",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_starter.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch04_starter.md"
+  ],
+  "inputs": [
+    "data/processed/bank_year_wide.csv"
+  ],
+  "module": "tzbank.chapters.ch04.profitability",
+  "run_log_stage": "profitability",
+  "subsections": [
+    {
+      "subsection": "4.0",
+      "title": "Extended DuPont and Shapley attribution",
+      "manifest": "outputs/manifests/ch04_4_0.json"
+    },
+    {
+      "subsection": "4.1",
+      "title": "Revenue composition",
+      "manifest": "outputs/manifests/ch04_4_1.json"
+    },
+    {
+      "subsection": "4.2",
+      "title": "Funding economics",
+      "manifest": "outputs/manifests/ch04_4_2.json"
+    },
+    {
+      "subsection": "4.3",
+      "title": "Asset deployment",
+      "manifest": "outputs/manifests/ch04_4_3.json"
+    },
+    {
+      "subsection": "4.4",
+      "title": "Transaction economics",
+      "manifest": "outputs/manifests/ch04_4_4.json"
+    },
+    {
+      "subsection": "4.5",
+      "title": "Operating leverage",
+      "manifest": "outputs/manifests/ch04_4_5.json"
+    },
+    {
+      "subsection": "4.6",
+      "title": "Risk economics",
+      "manifest": "outputs/manifests/ch04_4_6.json"
+    },
+    {
+      "subsection": "4.7",
+      "title": "Comparative business-model map",
+      "manifest": "outputs/manifests/ch04_4_7.json"
+    }
+  ]
+}

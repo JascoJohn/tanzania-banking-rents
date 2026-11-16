@@ -1,0 +1,18 @@
+bank,fy,item,value,source_file,page,note
+GTCO,2025,shareholder,Stanbic Nominees Nigeria Ltd: 18.59%,GTCO_AR_FY2025.pdf,75,"Nominee holding, largely trading accounts on behalf of various investors"
+GTCO,2025,shareholder,Zenith Pensions Custodian Limited: 6.72%,GTCO_AR_FY2025.pdf,75,Custodian holding on behalf of various pension funds
+GTCO,2025,shareholder,Citibank Nigeria Limited (custodian for LSE depositary interests): 14.42%,GTCO_AR_FY2025.pdf,75,"5,269,158,789 underlying shares (14.4162%) held as custodian for the LSE-listed depositary interests; not a beneficial owner; not in the report's >5% table"
+GTCO,2025,government_stake,0,GTCO_AR_FY2025.pdf,75,No government or state entity among holders above 5%; smaller holdings are not itemised
+GTCO,2025,listing,"Nigerian Exchange (NGX, since 24 Jun 2021); London Stock Exchange main market (ordinary shares via depositary interests, FCA equity shares (international commercial companies secondary listing), admitted 9 Jul 2025)",GTCO_AR_FY2025.pdf,73,
+GTCO,2021,listing,"Nigerian Exchange (NGX, 24 Jun 2021); GDRs on the London Stock Exchange (25 Jun 2021)",GTCO_AR_FY2024.pdf,78,GTCO Plc became the listed holding company in 2021 via a scheme of arrangement; FY2021 report p11 confirms the NGX listing with GDRs on the LSE
+GTCO,2020,listing,"Nigerian Stock Exchange (Guaranty Trust Bank Plc, since 9 Sep 1996); GDRs listed on the London Stock Exchange",GTCO_AR_FY2020.pdf,11,"Listed entity in FY2020 was Guaranty Trust Bank Plc (the bank), not GTCO; listing date per FY2020 p62"
+GTCO,2025,foreign_subsidiary,Guaranty Trust Bank (Ghana) Limited - 98.32% (Ghana),GTCO_AR_FY2025.pdf,17,Group structure chart; held via Guaranty Trust Bank Limited (Nigeria); percentages as printed
+GTCO,2025,foreign_subsidiary,Guaranty Trust Bank (Kenya) Limited - 100% (Kenya),GTCO_AR_FY2025.pdf,17,"Group structure chart; held via Guaranty Trust Bank Limited (Nigeria); percentages as printed; 76.90% at Dec-2024, raised to 100% in 2025 (note 29, p274)"
+GTCO,2025,foreign_subsidiary,Guaranty Trust Bank (Cote D'Ivoire) Limited - 100% (Cote d'Ivoire),GTCO_AR_FY2025.pdf,17,Group structure chart; held via Guaranty Trust Bank Limited (Nigeria); percentages as printed
+GTCO,2025,foreign_subsidiary,Guaranty Trust Bank (Uganda) Limited - 100% (Uganda),GTCO_AR_FY2025.pdf,17,Group structure chart; held via Guaranty Trust Bank Limited (Nigeria); percentages as printed; held through GTB Kenya
+GTCO,2025,foreign_subsidiary,Guaranty Trust Bank (Liberia) Limited - 99.43% (Liberia),GTCO_AR_FY2025.pdf,17,Group structure chart; held via Guaranty Trust Bank Limited (Nigeria); percentages as printed
+GTCO,2025,foreign_subsidiary,Guaranty Trust Bank (Rwanda) Limited - 96.38% (Rwanda),GTCO_AR_FY2025.pdf,17,Group structure chart; held via Guaranty Trust Bank Limited (Nigeria); percentages as printed; held through GTB Kenya
+GTCO,2025,foreign_subsidiary,Guaranty Trust Bank (Sierra Leone) Limited - 83.74% (Sierra Leone),GTCO_AR_FY2025.pdf,17,Group structure chart; held via Guaranty Trust Bank Limited (Nigeria); percentages as printed
+GTCO,2025,foreign_subsidiary,Guaranty Trust Bank (Tanzania) Limited - 76.20% (Tanzania),GTCO_AR_FY2025.pdf,17,Group structure chart; held via Guaranty Trust Bank Limited (Nigeria); percentages as printed
+GTCO,2025,foreign_subsidiary,Guaranty Trust Bank (Gambia) Limited - 77.81% (Gambia),GTCO_AR_FY2025.pdf,17,Group structure chart; held via Guaranty Trust Bank Limited (Nigeria); percentages as printed
+GTCO,2025,foreign_subsidiary,Guaranty Trust Bank (United Kingdom) Limited - 100% (United Kingdom),GTCO_AR_FY2025.pdf,17,Group structure chart; held via Guaranty Trust Bank Limited (Nigeria); percentages as printed

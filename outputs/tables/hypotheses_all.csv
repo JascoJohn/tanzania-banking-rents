@@ -1,0 +1,24 @@
+hypothesis,statement,verdict,chapter,source_table,evidence_class
+H1.1,"NMB + CRDB's share of sector profit exceeds their share of sector assets persistently, not only in 2026.",supported pre-tax; depends on profit basis (issue 26),1,ch01_hypotheses.csv,Interpretation
+H1.2,Their share of DSE market value and turnover is larger than their share of the banking system.,supported,1,ch01_hypotheses.csv,Interpretation
+H2.1,The two banks' sector loan mixes differ materially from each other.,supported,2,ch02_hypotheses.csv,Interpretation
+H2.2,Their combined loan mix differs from the banking system's.,inconclusive,2,ch02_hypotheses.csv,Interpretation
+H3.1,Systemic importance carries a funding advantage (lower deposit cost) that is offset in part by higher capital requirements.,inconclusive,3,ch03_hypotheses.csv,Interpretation
+H3.2,Valuation multiples do not show a premium for systemic importance.,not rejected (low power),3,ch03_hypotheses.csv,Interpretation
+H4.1,"Most of NMB's and CRDB's excess return comes from their funding advantage, not lending margin or fees.",not supported,4,hypotheses_status.csv,Interpretation
+H4.2,The two banks' excess returns rest on different profit engines.,supported,4,hypotheses_status.csv,Interpretation
+H5.1,Excess returns are persistent (λ well above zero) but mean-reverting (λ < 1).,conditionally supported: mean reversion appears in the break-adjusted estimates but is not established in the full-cycle sample,5,ch05_hypotheses.csv,Interpretation
+H5.2,Long-run rent ER\* is positive for NMB and CRDB and near zero or negative for the smaller panel banks.,inconclusive,5,ch05_hypotheses.csv,Interpretation
+H5.3,Persistence is higher for banks with a stronger net deposit franchise.,inconclusive,5,ch05_hypotheses.csv,Interpretation
+H6.1,"NMB and CRDB have a lower cost of deposits, lower deposit beta and larger net deposit franchise contribution than the smaller banks.",inconclusive,6,ch06_hypotheses.csv,Interpretation
+H6.2,Loan growth outrunning deposits raises wholesale funding reliance and compresses margin.,inconclusive,6,ch06_hypotheses.csv,Interpretation
+H7.1,Retained earnings have been reinvested at returns above COE for both banks.,inconclusive,7,ch07_hypotheses.csv,Interpretation
+H7.2,Incremental returns are declining as the banks scale.,inconclusive,7,ch07_hypotheses.csv,Interpretation
+H7.3,The banks differ in capital allocation (growth versus distribution).,inconclusive,7,ch07_hypotheses.csv,Interpretation
+H8.1,The current low cost of risk is below the through-the-cycle level.,supported,8,ch08_hypotheses.csv,Interpretation
+H8.2,Return on RWA differs between the banks after adjusting for credit cost.,supported,8,ch08_hypotheses.csv,Interpretation
+H9.1,Intrinsic values at the 31 Dec 2025 point-in-time date differ materially from the prices then.,rejected,9,ch09_hypotheses.csv,Interpretation
+H10.1,The 2026 rerating raised the persistence the market prices beyond what history supports.,inconclusive,10,ch10_hypotheses.csv,Interpretation
+H11.1,The banks' different capital-allocation and funding paths produce materially different value outcomes under the same macro scenario.,rejected,11,ch11_hypotheses.csv,Interpretation
+H12.1,"After depreciation and trading costs, expected USD returns still exceed a USD hurdle in the base case.",inconclusive,12,ch12_hypotheses.csv,Interpretation
+H12.2,"Position capacity, not valuation, is the binding constraint for a large fund.",inconclusive,12,ch12_hypotheses.csv,Interpretation

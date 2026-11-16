@@ -1,0 +1,11 @@
+country,valuation,date,bond_10y,default_spread,crp,erp_mature,beta,lp,coe_approach_a,damodaran_source,status,evidence_class,register_version,input_hash
+Kenya,HIST,2025-12-31,0.1264,0.07426591040581865,0.10007315511953656,0.0433,0.6228,0.015,0.15642689060262877,"Damodaran ctryprem January 2025 (ctryprem24.xlsx, held)",computed,Estimated,v1.3,cc2c85e4eef09300
+Uganda,HIST,2025-12-31,0.16921,0.06437154930159515,0.08674052473527227,0.0433,0.6228,0.015,0.20082768950353241,"Damodaran ctryprem January 2025 (ctryprem24.xlsx, held)",computed,Estimated,v1.3,cc2c85e4eef09300
+Rwanda,HIST,2025-12-31,,0.05447718819737168,0.07340789435100802,0.0433,0.6228,0.015,,"Damodaran ctryprem January 2025 (ctryprem24.xlsx, held)",not computable: 10-year local bond yield at the date not held,Estimated,v1.3,cc2c85e4eef09300
+Nigeria,HIST,2025-12-31,0.16809,0.07426591040581865,0.10007315511953656,0.0433,0.6228,0.015,0.19811689060262871,"Damodaran ctryprem January 2025 (ctryprem24.xlsx, held)",computed,Estimated,v1.3,cc2c85e4eef09300
+Ghana,HIST,2025-12-31,,0.08916565418629636,0.12015052793348746,0.0433,0.6228,0.015,,"Damodaran ctryprem January 2025 (ctryprem24.xlsx, held)",not computable: 10-year local bond yield at the date not held,Estimated,v1.3,cc2c85e4eef09300
+Kenya,CURR,2026-10-30,0.1253,0.0552,0.0841,0.042,0.604,0.015,0.16126439999999997,Damodaran update dated 2026-02-16 (peers_collected.csv),computed,Estimated,v1.3,cc2c85e4eef09300
+Uganda,CURR,2026-10-30,0.1756,0.0516999999999999,0.0803999999999999,0.042,0.604,0.015,0.21282960000000006,Damodaran update dated 2026-07-09 (peers_collected.csv),computed,Estimated,v1.3,cc2c85e4eef09300
+Rwanda,CURR,2026-10-30,,0.0438,0.0681,0.042,0.604,0.015,,Damodaran update dated 2026-07-09 (peers_collected.csv),not computable: 10-year local bond yield at the date not held,Estimated,v1.3,cc2c85e4eef09300
+Nigeria,CURR,2026-10-30,0.16905,0.0516999999999999,0.0803999999999999,0.042,0.604,0.015,0.20627960000000006,Damodaran update dated 2026-07-09 (peers_collected.csv),computed,Estimated,v1.3,cc2c85e4eef09300
+Ghana,CURR,2026-10-30,,0.0596999999999999,0.0928,0.042,0.604,0.015,,Damodaran update dated 2026-07-09 (peers_collected.csv),not computable: 10-year local bond yield at the date not held,Estimated,v1.3,cc2c85e4eef09300

@@ -1,0 +1,5 @@
+bank,period_end,eps_printed_ytd,pat_ytd_tzs_m,eps_pre_split_basis,eps_post_split_basis,printed_basis,split_effective,evidence_class,register_version,input_hash
+NMB,2025-12-31,1500.0,749772.0,1499.544,149.9544,pre-split,2026-08-24,Derived,v1.3,cc2c85e4eef09300
+NMB,2026-03-31,1545.0,193091.0,386.182,38.6182,pre-split,2026-08-24,Derived,v1.3,cc2c85e4eef09300
+NMB,2026-06-30,1623.0,405766.0,811.532,81.1532,pre-split,2026-08-24,Derived,v1.3,cc2c85e4eef09300
+NMB,2026-09-30,169.0,634602.0,1269.204,126.9204,post-split,2026-08-24,Derived,v1.3,cc2c85e4eef09300

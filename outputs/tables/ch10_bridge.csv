@@ -1,0 +1,17 @@
+step,tzs,bank,evidence_class,register_version,input_hash
+historical value,5531076801087.478,NMB,Estimated,v1.3,cc2c85e4eef09300
+1 passage of time,711299772400.2451,NMB,Estimated,v1.3,cc2c85e4eef09300
+2 dividends paid,-264767776392.7754,NMB,Estimated,v1.3,cc2c85e4eef09300
+3 new information,960346848035.1211,NMB,Estimated,v1.3,cc2c85e4eef09300
+4 forecast revisions,-706835778784.6299,NMB,Estimated,v1.3,cc2c85e4eef09300
+5 change in COE,711237333821.3467,NMB,Estimated,v1.3,cc2c85e4eef09300
+current value,6942357200166.785,NMB,Estimated,v1.3,cc2c85e4eef09300
+"residual (reported, not absorbed)",0.0,NMB,Estimated,v1.3,cc2c85e4eef09300
+historical value,2922374461859.907,CRDB,Estimated,v1.3,cc2c85e4eef09300
+1 passage of time,375819097138.65186,CRDB,Estimated,v1.3,cc2c85e4eef09300
+2 dividends paid,-246847905748.7339,CRDB,Estimated,v1.3,cc2c85e4eef09300
+3 new information,1149659234648.959,CRDB,Estimated,v1.3,cc2c85e4eef09300
+4 forecast revisions,104754890298.479,CRDB,Estimated,v1.3,cc2c85e4eef09300
+5 change in COE,504956962314.7075,CRDB,Estimated,v1.3,cc2c85e4eef09300
+current value,4810716740511.971,CRDB,Estimated,v1.3,cc2c85e4eef09300
+"residual (reported, not absorbed)",0.0,CRDB,Estimated,v1.3,cc2c85e4eef09300

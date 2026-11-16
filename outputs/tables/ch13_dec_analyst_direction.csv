@@ -1,0 +1,3 @@
+bank,broker,note_date,broker_value,price_31oct2026,broker_below_price,our_value_31oct2026,reading,evidence_class,register_version,input_hash
+CRDB,Solomon,30 Apr 2026 (Q1 note),2756.4,2840.0,True,1841.8889934401743,"agreement in direction only, not validation of our level",Derived,v1.3,cc2c85e4eef09300
+NMB,Kadoo,25 Jun 2026,1610.0,1820.0,True,1388.471440033357,"agreement in direction only, not validation of our level",Derived,v1.3,cc2c85e4eef09300

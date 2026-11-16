@@ -1,0 +1,6 @@
+rate,value,date,source,role,chapters,evidence_class,register_version,input_hash
+"BoT overall T-bill rate, 2025 annual mean",0.0949499999999999,2025 (calendar-year mean of quarter-ends),ch06_rates_used (BoT),"historical funding comparisons and the FY2025 yield-minus-bill point (ch06, ch14 / B5)","6, 14",Observed,v1.3,cc2c85e4eef09300
+"364-day T-bill, latest auction",0.062852,23 Sep 2026 auction,register v1.3 'rate' (D64),"forward rate path at 31 Oct 2026; break-even comparisons (thesis monitor r0, r5)","6, 9-11, 13",Observed,v1.3,cc2c85e4eef09300
+"net deposit franchise break-even bill rate, NMB FY2025",0.0585224873861647,FY2025,ch13_franchise_breakeven,the bill rate at which the net deposit franchise contribution turns zero (thesis monitor r0/r5),"6, 13",Observed,v1.3,cc2c85e4eef09300
+"net deposit franchise break-even bill rate, CRDB FY2025",0.059073693556445,FY2025,ch13_franchise_breakeven,the bill rate at which the net deposit franchise contribution turns zero (thesis monitor r0/r5),"6, 13",Observed,v1.3,cc2c85e4eef09300
+6.65%,,,"not found in reports/source, the built reports, the owner's drafts, the register or any pipeline table",no role: not printed,,Observed,v1.3,cc2c85e4eef09300

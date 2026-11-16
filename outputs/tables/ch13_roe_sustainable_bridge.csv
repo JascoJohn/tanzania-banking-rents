@@ -1,0 +1,13 @@
+bank,step_no,step,roe_pts,evidence_class,register_version,input_hash
+NMB,0,FY2025A reported ROE,0.2686198627781666,Derived,v1.3,cc2c85e4eef09300
+NMB,1,credit: cost of risk to through-the-cycle,-0.024078961405684888,Scenario,v1.3,cc2c85e4eef09300
+NMB,2,rate: T-bill path (v1.3),0.0,Scenario,v1.3,cc2c85e4eef09300
+NMB,3,capital: leverage to the k* path,-0.010106049545703752,Scenario,v1.3,cc2c85e4eef09300
+NMB,4,"residual: fade to ROE*, mix, efficiency",-0.0394731240011308,Scenario,v1.3,cc2c85e4eef09300
+NMB,5,sustainable ROE* (register v1.3 base),0.19496172782564714,Scenario,v1.3,cc2c85e4eef09300
+CRDB,0,FY2025A reported ROE,0.3002091955888585,Derived,v1.3,cc2c85e4eef09300
+CRDB,1,credit: cost of risk to through-the-cycle,-0.02636105112454822,Scenario,v1.3,cc2c85e4eef09300
+CRDB,2,rate: T-bill path (v1.3),0.0,Scenario,v1.3,cc2c85e4eef09300
+CRDB,3,capital: leverage to the k* path,-0.0027773267699228565,Scenario,v1.3,cc2c85e4eef09300
+CRDB,4,"residual: fade to ROE*, mix, efficiency",-0.11888306026505618,Scenario,v1.3,cc2c85e4eef09300
+CRDB,5,sustainable ROE* (register v1.3 base),0.15218775742933124,Scenario,v1.3,cc2c85e4eef09300

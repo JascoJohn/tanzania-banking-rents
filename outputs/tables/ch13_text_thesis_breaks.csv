@@ -1,0 +1,11 @@
+row,bank,indicator,trigger,current,threshold,breach_when,margin_to_breach,status,source_table,evidence_class
+r0,NMB,T-bill rate vs the net deposit franchise break-even,Net deposit franchise turns negative,0.062852,0.0585224873861647,current below threshold,0.004329512613835303,not breached,ch13_franchise_breakeven,Derived
+r1,NMB,cost of risk FY2025 vs through-the-cycle mean,Credit cost normalises above the cycle mean,0.0083971775303977,0.0183607563202608,current above threshold,0.0099635787898631,not breached,ch08_credit_history; ch08_ttc_cost_of_risk,Derived
+r2,NMB,deposit beta (upper 90% bound) vs 0.10,Depositors start to reprice,0.0736166653052532,0.1,current above threshold,0.02638333469474681,not breached,ch06_deposit_beta,Derived
+r3,NMB,binding capital headroom vs 2 pp,Capital headroom erodes,0.1025,0.02,current below threshold,0.08249999999999999,not breached,ch07_capital,Derived
+r4,NMB,price vs base value per share (31 Oct 2026),Price falls below the base value (Sell no longer holds),1820.0,1388.471440033357,current below threshold,431.5285599666429,not breached,ch09_valuations,Derived
+r5,CRDB,T-bill rate vs the net deposit franchise break-even,Net deposit franchise turns negative,0.062852,0.059073693556445,current below threshold,0.0037783064435550073,not breached,ch13_franchise_breakeven,Derived
+r6,CRDB,cost of risk FY2025 vs through-the-cycle mean,Credit cost normalises above the cycle mean,0.0125503443972079,0.0199826320211532,current above threshold,0.007432287623945301,not breached,ch08_credit_history; ch08_ttc_cost_of_risk,Derived
+r7,CRDB,deposit beta (upper 90% bound) vs 0.10,Depositors start to reprice,0.0764081109258331,0.1,current above threshold,0.0235918890741669,not breached,ch06_deposit_beta,Derived
+r8,CRDB,binding capital headroom vs 2 pp,Capital headroom erodes,0.033,0.02,current below threshold,0.013000000000000001,not breached,ch07_capital,Derived
+r9,CRDB,price vs base value per share (31 Oct 2026),Price falls below the base value (Sell no longer holds),2840.0,1841.8889934401743,current below threshold,998.1110065598257,not breached,ch09_valuations,Derived

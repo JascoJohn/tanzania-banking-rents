@@ -1,0 +1,7 @@
+bank,hurdle,role,hurdle_ratio,headroom,drag_share_of_profit,evidence_class
+NMB,(a) regulatory minimum ex conservation buffer,Regulatory minimum (upper bound),0.1195999999999999,0.1275,0.2036628304415519,Estimated
+NMB,requirement incl. conservation buffer (reference),Minimum + conservation buffer (headline),0.1445999999999999,0.1025,0.163728942119679,Estimated
+NMB,"(b) model target k* (requirement + bank buffer + D-SIB, register base)",Model target (lower bound),0.2223545454545454,0.0247454545454545,0.0395272887316866,Estimated
+CRDB,(a) regulatory minimum ex conservation buffer,Regulatory minimum (upper bound),0.103,0.0579999999999999,0.1180495299665189,Estimated
+CRDB,requirement incl. conservation buffer (reference),Minimum + conservation buffer (headline),0.128,0.033,0.0671661118775021,Estimated
+CRDB,"(b) model target k* (requirement + bank buffer + D-SIB, register base)",Model target (lower bound),0.1563636363636363,0.0046363636363637,0.0094365611728723,Estimated

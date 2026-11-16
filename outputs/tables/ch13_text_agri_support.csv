@@ -1,0 +1,7 @@
+category,item,value,unit,source_file,pdf_page,printed_ref,note,disclosed,evidence_class
+concessional funding,GCF loan outstanding at 31 Dec 2025,130049.0,TZS m,CRDB/crdb-ir-2025-8th-may-2026.pdf,321.0,Note 50.10,"Green Climate Fund concessional agriculture adaptation loan (TACATDP): USD 70m facility, up to 20 years, 5-year grace; no interest rate disclosed",True,Observed
+concessional funding,GCF loan received in 2025,43350.0,TZS m,CRDB/crdb-ir-2025-8th-may-2026.pdf,321.0,Note 50.10,,True,Observed
+concessional funding,GCF interest charge for 2025,1137.0,TZS m,CRDB/crdb-ir-2025-8th-may-2026.pdf,321.0,Note 50.10,,True,Observed
+guarantees,Guarantee partners for smallholder lending,,,CRDB/crdb-ir-2025-8th-may-2026.pdf,37.0,Strategy section,"PASS Trust, TADB, PROPARCO, AGF, EIB and GCF; no amounts or coverage disclosed",False,Observed
+guarantees,Guarantees and risk-sharing arrangements (all sectors),264.0,USD m,CRDB/crdb-ir-2025-8th-may-2026.pdf,41.0,Strategy section,"Group-wide, not agriculture-specific",True,Observed
+claims paid,Guarantee claims paid to CRDB,,,,,,Not disclosed,False,Observed

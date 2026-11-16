@@ -1,0 +1,17 @@
+date,tzs_per_usd,source,evidence_class
+2010-12-31,1453.5,BoT AR V2AnnRep - 2020073013521875.pdf p.210,Observed
+2011-12-31,1566.7,BoT AR V2AnnRep - 2020073013521875.pdf p.210,Observed
+2012-12-31,1571.6,BoT AR V2AnnRep - 2020073013521875.pdf p.210,Observed
+2013-12-31,1578.6,BoT AR V2AnnRep - 2020073013521875.pdf p.210,Observed
+2014-12-31,1725.8,BoT AR AnnRep - 2021122922483700.pdf p.234,Observed
+2015-12-31,2148.5,BoT AR AnnRep - 2021122922483700.pdf p.234,Observed
+2016-12-31,2172.6,BoT AR AnnRep - 2021122922483700.pdf p.234,Observed
+2017-12-31,2230.1,BoT AR AnnRep - 2022123017282850.pdf p.246,Observed
+2018-12-31,2281.2,BoT AR AnnRep - 2024011812305409.pdf p.235,Observed
+2019-12-31,2287.9,BoT AR MER - 2025011009411334.pdf p.21,Observed
+2020-12-31,2298.5,BoT AR MER - 2025011009411334.pdf p.21,Observed
+2021-12-31,2297.6,BoT AR MER - 2025011009411334.pdf p.21,Observed
+2022-12-31,2308.9,BoT AR MER - 2025011009411334.pdf p.21,Observed
+2023-12-31,2501.4,BoT AR MER - 2025011009411334.pdf p.21,Observed
+2025-12-31,2447.46,"inputs workbook macro (BoT indicative rate, as at 2025-12-31)",Observed
+2026-10-30,2640.73,"inputs workbook macro (BoT indicative rate, as at 2026-10-31)",Observed

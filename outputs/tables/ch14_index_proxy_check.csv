@@ -1,0 +1,5 @@
+proxy,dse_index,first,last,days,daily_return_correlation,tracking_error_daily,cum_log_return_proxy,cum_log_return_dse,reading,evidence_class,register_version,input_hash
+all equities (DSEI-like),DSEI,2025-11-11,2026-11-12,249,0.9972019779301049,0.0005321765326512172,0.5441916717143886,0.5444746988590454,descriptive check of a Derived proxy against Observed DSE index levels,Derived,v1.3,cc2c85e4eef09300
+domestic equities (TSI-like),TSI,2025-11-11,2026-11-12,249,0.9977878800268174,0.0005944230283785431,0.6153417688599534,0.6155385042649844,descriptive check of a Derived proxy against Observed DSE index levels,Derived,v1.3,cc2c85e4eef09300
+all equities ex NMB and CRDB (event-study market proxy),DSEI,2025-11-11,2026-11-12,249,0.7114069131562202,0.005107163760157321,0.39202014122403206,0.5444746988590454,descriptive check of a Derived proxy against Observed DSE index levels,Derived,v1.3,cc2c85e4eef09300
+all equities ex NMB and CRDB (event-study market proxy),TSI,2025-11-11,2026-11-12,249,0.4238103147565123,0.00837441337994253,0.39202014122403206,0.6155385042649844,descriptive check of a Derived proxy against Observed DSE index levels,Derived,v1.3,cc2c85e4eef09300

@@ -1,0 +1,7 @@
+bank,estimate,beta,se,n,evidence_class,amihud,register_version,input_hash
+NMB,monthly OLS beta vs market proxy ex banks,0.5045650074913469,0.17806586503580318,142,Estimated,,v1.3,cc2c85e4eef09300
+NMB,"daily Dimson beta (lags -1, 0, +1; non-stale days)",0.3266689270175162,0.13531685179376376,1296,Estimated,,v1.3,cc2c85e4eef09300
+NMB,"Amihud illiquidity (|r| per TZS bn traded, mean)",,,2930,Estimated,1.321517445064059,v1.3,cc2c85e4eef09300
+CRDB,monthly OLS beta vs market proxy ex banks,0.7541629230147952,0.22251734942641996,142,Estimated,,v1.3,cc2c85e4eef09300
+CRDB,"daily Dimson beta (lags -1, 0, +1; non-stale days)",0.3950121901323592,0.1120067860981425,2354,Estimated,,v1.3,cc2c85e4eef09300
+CRDB,"Amihud illiquidity (|r| per TZS bn traded, mean)",,,2930,Estimated,0.2667358067160381,v1.3,cc2c85e4eef09300

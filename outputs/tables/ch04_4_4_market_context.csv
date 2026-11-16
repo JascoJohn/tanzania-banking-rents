@@ -1,0 +1,52 @@
+series,canonical_name,year,value,level,evidence_class
+"Card transactions, value (TZS bn)",nps_05_cards_panel_card_records_annex_e_total_value_of_card_transactions_tzs_billion,2021.0,11129.0,market-level (all institutions; not bank-level),Observed
+"Card transactions, value (TZS bn)",nps_05_cards_panel_card_records_annex_e_total_value_of_card_transactions_tzs_billion,2022.0,10263.0,market-level (all institutions; not bank-level),Observed
+"Card transactions, value (TZS bn)",nps_05_cards_panel_card_records_annex_e_total_value_of_card_transactions_tzs_billion,2023.0,14547.0,market-level (all institutions; not bank-level),Observed
+"Card transactions, value (TZS bn)",nps_05_cards_panel_card_records_annex_e_total_value_of_card_transactions_tzs_billion,2024.0,16123.0,market-level (all institutions; not bank-level),Observed
+"Card transactions, value (TZS bn)",nps_05_cards_panel_card_records_annex_e_total_value_of_card_transactions_tzs_billion,2025.0,15289.0,market-level (all institutions; not bank-level),Observed
+"Digital credit transactions, value (TZS bn; Table H12, code-extracted D39)",code_nps_table_h12_digital_credit_value_of_transactions_tzs_billions_,2019.0,183.49,market-level (all institutions; not bank-level),Observed
+"Digital credit transactions, value (TZS bn; Table H12, code-extracted D39)",code_nps_table_h12_digital_credit_value_of_transactions_tzs_billions_,2020.0,490.28,market-level (all institutions; not bank-level),Observed
+"Digital credit transactions, value (TZS bn; Table H12, code-extracted D39)",code_nps_table_h12_digital_credit_value_of_transactions_tzs_billions_,2021.0,737.49,market-level (all institutions; not bank-level),Observed
+"Digital credit transactions, value (TZS bn; Table H12, code-extracted D39)",code_nps_table_h12_digital_credit_value_of_transactions_tzs_billions_,2022.0,1220.48,market-level (all institutions; not bank-level),Observed
+"Digital credit transactions, value (TZS bn; Table H12, code-extracted D39)",code_nps_table_h12_digital_credit_value_of_transactions_tzs_billions_,2023.0,2201.81,market-level (all institutions; not bank-level),Observed
+"Digital credit transactions, value (TZS bn; Table H12, code-extracted D39)",code_nps_table_h12_digital_credit_value_of_transactions_tzs_billions_,2024.0,4216.26,market-level (all institutions; not bank-level),Observed
+"Digital credit transactions, value (TZS bn; Table H12, code-extracted D39)",code_nps_table_h12_digital_credit_value_of_transactions_tzs_billions_,2025.0,5577.73,market-level (all institutions; not bank-level),Observed
+"Digital savings transactions, value (TZS bn; Table H12, code-extracted D39)",code_nps_table_h12_digital_savings_value_of_transactions_tzs_billions_,2019.0,211.48,market-level (all institutions; not bank-level),Observed
+"Digital savings transactions, value (TZS bn; Table H12, code-extracted D39)",code_nps_table_h12_digital_savings_value_of_transactions_tzs_billions_,2020.0,396.76,market-level (all institutions; not bank-level),Observed
+"Digital savings transactions, value (TZS bn; Table H12, code-extracted D39)",code_nps_table_h12_digital_savings_value_of_transactions_tzs_billions_,2021.0,494.82,market-level (all institutions; not bank-level),Observed
+"Digital savings transactions, value (TZS bn; Table H12, code-extracted D39)",code_nps_table_h12_digital_savings_value_of_transactions_tzs_billions_,2022.0,696.36,market-level (all institutions; not bank-level),Observed
+"Digital savings transactions, value (TZS bn; Table H12, code-extracted D39)",code_nps_table_h12_digital_savings_value_of_transactions_tzs_billions_,2023.0,1097.62,market-level (all institutions; not bank-level),Observed
+"Digital savings transactions, value (TZS bn; Table H12, code-extracted D39)",code_nps_table_h12_digital_savings_value_of_transactions_tzs_billions_,2024.0,1209.19,market-level (all institutions; not bank-level),Observed
+"Digital savings transactions, value (TZS bn; Table H12, code-extracted D39)",code_nps_table_h12_digital_savings_value_of_transactions_tzs_billions_,2025.0,3181.24,market-level (all institutions; not bank-level),Observed
+Internet banking active customers (all banks),nps_10_internetbanking_panel_internet_banking_annex_j_number_of_active_customers,2020.0,46347.0,market-level (all institutions; not bank-level),Observed
+Internet banking active customers (all banks),nps_10_internetbanking_panel_internet_banking_annex_j_number_of_active_customers,2021.0,52666.0,market-level (all institutions; not bank-level),Observed
+Internet banking active customers (all banks),nps_10_internetbanking_panel_internet_banking_annex_j_number_of_active_customers,2022.0,110692.0,market-level (all institutions; not bank-level),Observed
+Internet banking active customers (all banks),nps_10_internetbanking_panel_internet_banking_annex_j_number_of_active_customers,2023.0,120354.0,market-level (all institutions; not bank-level),Observed
+Internet banking active customers (all banks),nps_10_internetbanking_panel_internet_banking_annex_j_number_of_active_customers,2024.0,165977.0,market-level (all institutions; not bank-level),Observed
+Mobile banking active users (all banks),nps_12_mobilebanking_panel_mobile_banking_annex_l_active_users,2020.0,1482544.0,market-level (all institutions; not bank-level),Observed
+Mobile banking active users (all banks),nps_12_mobilebanking_panel_mobile_banking_annex_l_active_users,2021.0,1241357.0,market-level (all institutions; not bank-level),Observed
+Mobile banking active users (all banks),nps_12_mobilebanking_panel_mobile_banking_annex_l_active_users,2022.0,1623386.0,market-level (all institutions; not bank-level),Observed
+Mobile banking active users (all banks),nps_12_mobilebanking_panel_mobile_banking_annex_l_active_users,2023.0,2449886.0,market-level (all institutions; not bank-level),Observed
+Mobile banking active users (all banks),nps_12_mobilebanking_panel_mobile_banking_annex_l_active_users,2024.0,2656458.0,market-level (all institutions; not bank-level),Observed
+Mobile banking active users (all banks),nps_12_mobilebanking_panel_mobile_banking_annex_l_active_users,2025.0,3552964.0,market-level (all institutions; not bank-level),Observed
+Mobile money active users,nps_08_mobilemoney_table_h1_mobile_money_users_active,2019.0,24379804.0,market-level (all institutions; not bank-level),Observed
+Mobile money active users,nps_08_mobilemoney_table_h1_mobile_money_users_active,2020.0,30325019.0,market-level (all institutions; not bank-level),Observed
+Mobile money active users,nps_08_mobilemoney_table_h1_mobile_money_users_active,2021.0,33142118.0,market-level (all institutions; not bank-level),Observed
+Mobile money active users,nps_08_mobilemoney_table_h1_mobile_money_users_active,2022.0,38338776.0,market-level (all institutions; not bank-level),Observed
+Mobile money active users,nps_08_mobilemoney_table_h1_mobile_money_users_active,2023.0,51715462.0,market-level (all institutions; not bank-level),Observed
+Mobile money active users,nps_08_mobilemoney_table_h1_mobile_money_users_active,2024.0,60745698.0,market-level (all institutions; not bank-level),Observed
+Mobile money active users,nps_08_mobilemoney_table_h1_mobile_money_users_active,2025.0,75775654.0,market-level (all institutions; not bank-level),Observed
+Mobile money agents,nps_08_mobilemoney_table_h1_number_of_agents,2019.0,569187.0,market-level (all institutions; not bank-level),Observed
+Mobile money agents,nps_08_mobilemoney_table_h1_number_of_agents,2020.0,702284.0,market-level (all institutions; not bank-level),Observed
+Mobile money agents,nps_08_mobilemoney_table_h1_number_of_agents,2021.0,838759.0,market-level (all institutions; not bank-level),Observed
+Mobile money agents,nps_08_mobilemoney_table_h1_number_of_agents,2022.0,1038874.0,market-level (all institutions; not bank-level),Observed
+Mobile money agents,nps_08_mobilemoney_table_h1_number_of_agents,2023.0,1240052.0,market-level (all institutions; not bank-level),Observed
+Mobile money agents,nps_08_mobilemoney_table_h1_number_of_agents,2024.0,1475281.0,market-level (all institutions; not bank-level),Observed
+Mobile money agents,nps_08_mobilemoney_table_h1_number_of_agents,2025.0,1982162.0,market-level (all institutions; not bank-level),Observed
+"Mobile money transactions, value (TZS bn)",nps_08_mobilemoney_table_h1_value_tzs_billion,2019.0,94597.64,market-level (all institutions; not bank-level),Observed
+"Mobile money transactions, value (TZS bn)",nps_08_mobilemoney_table_h1_value_tzs_billion,2020.0,109214.3,market-level (all institutions; not bank-level),Observed
+"Mobile money transactions, value (TZS bn)",nps_08_mobilemoney_table_h1_value_tzs_billion,2021.0,115228.42,market-level (all institutions; not bank-level),Observed
+"Mobile money transactions, value (TZS bn)",nps_08_mobilemoney_table_h1_value_tzs_billion,2022.0,114315.99,market-level (all institutions; not bank-level),Observed
+"Mobile money transactions, value (TZS bn)",nps_08_mobilemoney_table_h1_value_tzs_billion,2023.0,154705.77,market-level (all institutions; not bank-level),Observed
+"Mobile money transactions, value (TZS bn)",nps_08_mobilemoney_table_h1_value_tzs_billion,2024.0,198859.0,market-level (all institutions; not bank-level),Observed
+"Mobile money transactions, value (TZS bn)",nps_08_mobilemoney_table_h1_value_tzs_billion,2025.0,255133.96,market-level (all institutions; not bank-level),Observed

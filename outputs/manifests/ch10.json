@@ -1,0 +1,56 @@
+{
+  "chapter": "10",
+  "title": "Market-implied expectations",
+  "hypotheses": [
+    "H10.1"
+  ],
+  "status": "built - register v1.3, input hash cc2c85e4eef09300",
+  "tables": [
+    {
+      "path": "outputs/tables/ch10_implied.csv",
+      "description": "Implied ER*, lambda, COE and ROE* against chapter 5",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch10.md"
+    },
+    {
+      "path": "outputs/tables/ch10_iso_surface.csv",
+      "description": "Iso-value surface (lambda x ER*)",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch10.md"
+    },
+    {
+      "path": "outputs/tables/ch10_rerating.csv",
+      "description": "Rerating decomposition 31 Dec 2025 -> 31 Oct 2026",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch10.md"
+    },
+    {
+      "path": "outputs/tables/ch10_bridge.csv",
+      "description": "Five-step valuation bridge (TZS)",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch10.md"
+    },
+    {
+      "path": "outputs/tables/ch10_hypotheses.csv",
+      "description": "H10.1",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/ch10.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch10_iso_value.png",
+      "data": "outputs/figures/ch10_iso_value_data.csv",
+      "description": "Iso-value curves vs chapter 5",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch10.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch10.md"
+  ],
+  "register_version": "v1.3",
+  "input_hash": "cc2c85e4eef09300",
+  "module": "tzbank.chapters.ch10_implied",
+  "run_log_stage": "valuation_results"
+}

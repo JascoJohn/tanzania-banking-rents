@@ -1,0 +1,7 @@
+shock,sensitivity,channel,bank,evidence_class,register_version,input_hash
+Lower T-bill rates,"Bill 6.29% vs break-even 5.85% (NMB), 5.91% (CRDB)",Margin compression; smaller deposit franchise,both,Derived,v1.3,cc2c85e4eef09300
+Credit deterioration,Cost of risk to through-cycle: -2.4 / -2.6 ROE pts,"Higher impairments, lower earnings",both,Derived,v1.3,cc2c85e4eef09300
+Higher capital requirements,"Headroom 10.25 / 3.30 pts; CRDB value 1,740 at a 2-pt D-SIB surcharge",Less headroom and dividend capacity,both,Derived,v1.3,cc2c85e4eef09300
+Deposit repricing,Deposit beta 0.07 / 0.08 vs a 0.10 review trigger,Higher funding costs,both,Derived,v1.3,cc2c85e4eef09300
+Currency depreciation,2026 pace 9.6% a year vs 3.8% assumed,FX translation of subsidiaries,CRDB,Derived,v1.3,cc2c85e4eef09300
+Withdrawal of public risk-sharing,Agriculture 24% of the CRDB book,Higher agricultural credit risk,CRDB,Derived,v1.3,cc2c85e4eef09300

@@ -1,0 +1,42 @@
+{
+  "chapter": "04",
+  "subsection": "4.4",
+  "title": "Transaction economics",
+  "hypotheses": [
+    "H4.1",
+    "H4.2"
+  ],
+  "status": "built - KPI ratios MEDIUM confidence",
+  "tables": [
+    {
+      "path": "outputs/tables/ch04_4_4_transactions.csv",
+      "description": "Fee and FX income: per asset, per customer and per agent (bands)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_4.md"
+    },
+    {
+      "path": "outputs/tables/ch04_4_4_market_context.csv",
+      "description": "Payments market context (NPS, H12): market-level, not bank-level",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch04_4_4.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch04_4_4_fees_fx.png",
+      "data": "outputs/figures/ch04_4_4_fees_fx_data.csv",
+      "description": "Fee and FX income per unit of assets",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_4.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch04_4_4.md"
+  ],
+  "inputs": [
+    "data/processed/bank_year_wide.csv",
+    "data/processed/nps_panel.csv"
+  ],
+  "module": "tzbank.chapters.ch04.transactions",
+  "run_log_stage": "profitability"
+}

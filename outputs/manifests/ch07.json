@@ -1,0 +1,117 @@
+{
+  "chapter": "07",
+  "title": "Capital allocation and incremental returns",
+  "hypotheses": [
+    "H7.1",
+    "H7.2",
+    "H7.3"
+  ],
+  "status": "built",
+  "tables": [
+    {
+      "path": "outputs/tables/ch07_capital_raises.csv",
+      "description": "Capital raises from the equity statements",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch07.md"
+    },
+    {
+      "path": "outputs/tables/ch07_rore.csv",
+      "description": "RORE and dROE (k = 3, 5), primary, adjusted, EPS-based",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch07.md"
+    },
+    {
+      "path": "outputs/tables/ch07_rore_windows.csv",
+      "description": "Every RORE window with included/excluded flags, reasons and the stress-start flag",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch07.md"
+    },
+    {
+      "path": "outputs/tables/ch07_rore_summary.csv",
+      "description": "RORE, dROE and EPS-based medians, with and without stress-start windows",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch07.md"
+    },
+    {
+      "path": "outputs/tables/ch07_payout.csv",
+      "description": "Payout: ordinary and special",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch07.md"
+    },
+    {
+      "path": "outputs/tables/ch07_capital_requirements.csv",
+      "description": "Tier 1 and total requirement history (stated, CCB dates, readings A/B)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch07.md"
+    },
+    {
+      "path": "outputs/tables/ch07_requirement_statements.csv",
+      "description": "Requirements as stated in each report FY2015-25, with page quotes and context",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch07.md"
+    },
+    {
+      "path": "outputs/tables/ch07_dsib_search.csv",
+      "description": "D-SIB designation / capital surcharge search record",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch07.md"
+    },
+    {
+      "path": "outputs/tables/ch07_capital.csv",
+      "description": "Capital ratios, Tier 1 and total headroom, binding constraint, growth",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch07.md"
+    },
+    {
+      "path": "outputs/tables/ch07_leverage.csv",
+      "description": "Leverage decomposition NMB - CRDB",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch07.md"
+    },
+    {
+      "path": "outputs/tables/ch07_distributable_capacity.csv",
+      "description": "Distributable capacity for the 09a DDM (Tier 1)",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch07.md"
+    },
+    {
+      "path": "outputs/tables/ch07_distributable_capacity_total.csv",
+      "description": "Distributable capacity, total-capital sensitivity for 09a",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch07.md"
+    },
+    {
+      "path": "outputs/tables/ch07_hypotheses.csv",
+      "description": "H7.1-H7.3 verdicts",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/ch07.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch07_rore.png",
+      "data": "outputs/figures/ch07_rore_data.csv",
+      "description": "RORE against COE",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch07.md"
+    },
+    {
+      "path": "outputs/figures/ch07_leverage.png",
+      "data": "outputs/figures/ch07_leverage_data.csv",
+      "description": "Equity to assets, Tier 1 and total headroom",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch07.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch07.md"
+  ],
+  "inputs": [
+    "data/processed/bank_year_wide.csv",
+    "data/processed/capital_long.csv",
+    "data/interim/bot_policy_text.csv",
+    "outputs/tables/ch05_coe_annual.csv"
+  ],
+  "module": "tzbank.chapters.ch07_capital",
+  "run_log_stage": "capital"
+}

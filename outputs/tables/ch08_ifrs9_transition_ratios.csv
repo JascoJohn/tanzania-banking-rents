@@ -1,0 +1,5 @@
+bank_id,item,value,unit,evidence_class
+B01,equity_impact_pct_of_fy2017_equity,-0.02881138712404221,ratio,Derived
+B01,memo_allowance_increase_pct_of_fy2018_avg_loans,0.006631071064764548,ratio (memo only; not added to cost of risk),Derived
+B02,equity_impact_pct_of_fy2017_equity,-0.014457011650650565,ratio,Derived
+B02,memo_allowance_increase_pct_of_fy2018_avg_loans,,ratio (memo only; not added to cost of risk),Derived

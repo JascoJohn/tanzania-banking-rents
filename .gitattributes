@@ -1,0 +1,8 @@
+# Text files use LF in the repository (later rules override this one).
+* text=auto eol=lf
+*.xlsx binary
+*.png binary
+*.pdf binary
+*.webp binary
+# Raw inputs are byte-for-byte immutable (sha256 in MANIFEST.csv): never convert line endings.
+data/raw/** binary

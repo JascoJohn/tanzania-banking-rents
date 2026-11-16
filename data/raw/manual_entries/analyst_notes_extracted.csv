@@ -1,0 +1,518 @@
+seed_id,file,field,value,page,note
+1,TSL_NMB_2023-07-11.pdf,document_status,PDF not in data/raw/analyst_reports; not transcribed,none (file missing),Seed values (Tanzania Securities NMB 2023-07-11) left unverified
+2,TSL_CRDB_2024-06-03.pdf,document_status,PDF not in data/raw/analyst_reports; not transcribed,none (file missing),Seed values (Tanzania Securities CRDB 2024-06-03) left unverified
+3,SOLOMON_NMB_2024-06_AGM.pdf,broker,Solomon Stockbrokers Ltd,2,
+3,SOLOMON_NMB_2024-06_AGM.pdf,analyst_names,not disclosed,1-5,no analyst named
+3,SOLOMON_NMB_2024-06_AGM.pdf,note_date,June 2024,1,cover; exact day not stated
+3,SOLOMON_NMB_2024-06_AGM.pdf,note_date_basis,Cover 'June 2024'; reports the 24th AGM held 7 June 2024 and says the TZS 361.18 dividend is 'to be paid out from June 19th 2024',1;2,so written on or after 7 Jun 2024
+3,SOLOMON_NMB_2024-06_AGM.pdf,bank,NMB,1,
+3,SOLOMON_NMB_2024-06_AGM.pdf,doc_type,AGM update (24th AGM highlights),1;2,
+3,SOLOMON_NMB_2024-06_AGM.pdf,rating,not disclosed,1-5,commentary only
+3,SOLOMON_NMB_2024-06_AGM.pdf,target_or_fair_value,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,horizon,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,price_in_note,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,price_date,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,methods,not disclosed,1-5,no valuation
+3,SOLOMON_NMB_2024-06_AGM.pdf,method_weights,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,coe,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,rf_rate,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,rf_tenor,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,beta,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,beta_estimation,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,equity_risk_premium,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,erp_source,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,terminal_g,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,terminal_g_basis,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,explicit_forecast_years,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,forecast_roe,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,forecast_loan_growth,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,forecast_payout,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,forecast_eps,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,split_or_rights_adjustment,No split: bank 'does not see the need to perform a share split' given its DSE liquidity,4,context: NMB later approved a 1:10 split (AGM 2026)
+3,SOLOMON_NMB_2024-06_AGM.pdf,target_revision,not disclosed,1-5,
+3,SOLOMON_NMB_2024-06_AGM.pdf,context_fact,ROE 15% (2019) -> 28.60% (2023); CIR 56.9% (2019) -> 39% (2023); NPL ratio 4.80% -> 3.20%,2,"historical, as reported"
+3,SOLOMON_NMB_2024-06_AGM.pdf,context_fact,DPS TZS 361.18 for FY2023 (TZS 96 in 2018); NPL coverage 104% at Q1 2024,2,
+3,SOLOMON_NMB_2024-06_AGM.pdf,data_issue,Shareholders' equity stated as 'TZS 2.09 billion in 2023' (should read trillion),2,
+4,SOLOMON_MKCB_2024-09.pdf,broker,Solomon Stockbrokers Ltd,2,
+4,SOLOMON_MKCB_2024-09.pdf,analyst_names,"Emmanuel Matunda, ACSI",36,
+4,SOLOMON_MKCB_2024-09.pdf,note_date,September 2024,1;2,exact day not stated
+4,SOLOMON_MKCB_2024-09.pdf,note_date_basis,Cover/title 'September 2024'; pricing based on close of 27 Sep 2024 (matches DSE close TZS 560),1;2,published on or after 27 Sep 2024
+4,SOLOMON_MKCB_2024-09.pdf,bank,MKCB (Mkombozi Commercial Bank),2,not NMB/CRDB: method evidence only
+4,SOLOMON_MKCB_2024-09.pdf,doc_type,Initiation of coverage / valuation report,2,
+4,SOLOMON_MKCB_2024-09.pdf,rating,Strong Buy,2,
+4,SOLOMON_MKCB_2024-09.pdf,target_or_fair_value,"TZS 1,019.70",2;33,upside 82.09%
+4,SOLOMON_MKCB_2024-09.pdf,horizon,not disclosed,1-36,no target horizon stated
+4,SOLOMON_MKCB_2024-09.pdf,price_in_note,TZS 560,2;33,
+4,SOLOMON_MKCB_2024-09.pdf,price_date,2024-09-27,2,
+4,SOLOMON_MKCB_2024-09.pdf,methods,Excess Return Model; Dividend Discount Model; Relative valuation (P/E and P/B of similar-size banks),32;33,
+4,SOLOMON_MKCB_2024-09.pdf,method_weights,"1/3 each: ERM 1,075.31 -> 358.44; DDM 1,208.36 -> 402.79; Relative 754.36 (table; text value 775.44) -> 258.48; total 1,019.70",33,"weighted relative value 258.48 = 775.44/3, not 754.36/3"
+4,SOLOMON_MKCB_2024-09.pdf,coe,21.63% (CAPM),32,11.70% + 0.78 x 12.73% = 21.63%
+4,SOLOMON_MKCB_2024-09.pdf,rf_rate,11.70%,32,
+4,SOLOMON_MKCB_2024-09.pdf,rf_tenor,"5-year, interpolated between 25-yr bond no. 568 (15.4188%, auctioned 4 Sep 2024, 21.93 yrs left) and 364-day bill no. 1160 (10.83%, 27 Aug 2024)",32,latest primary 5-yr yield (2 Aug 2023) judged stale
+4,SOLOMON_MKCB_2024-09.pdf,beta,0.78 (unlevered),32,used in CAPM without relevering
+4,SOLOMON_MKCB_2024-09.pdf,beta_estimation,"Damodaran emerging-markets regional banks beta dataset, as of 5 Jan 2024 (betaemerg.xls)",32,
+4,SOLOMON_MKCB_2024-09.pdf,equity_risk_premium,12.73%,32,
+4,SOLOMON_MKCB_2024-09.pdf,erp_source,MKCB 2023 ROE 24.43% minus rf 11.70%; chosen over Damodaran Tanzania ERP 12.64% as the higher (conservative) figure,32,non-standard: ERP derived from the subject bank's own ROE
+4,SOLOMON_MKCB_2024-09.pdf,terminal_g,5.94% (sustainable growth rate),32;33,sensitivity grid 3.94%-7.94% on p33
+4,SOLOMON_MKCB_2024-09.pdf,terminal_g_basis,Real: 'aligning with Tanzania's average real GDP projections between 2024 - 2028',32,real growth rate applied to a nominal COE
+4,SOLOMON_MKCB_2024-09.pdf,explicit_forecast_years,5 (2024F-2028F),29;32;34;35,
+4,SOLOMON_MKCB_2024-09.pdf,forecast_roe,Average 19.51% over the five forecast years; per-year ROE not stated,31,
+4,SOLOMON_MKCB_2024-09.pdf,forecast_loan_growth,"Customer loans CAGR 11.93% 2023-2028 (TZS bn 154.78, 172.41, 192.36, 213.49, 235.87 for 2024F-2028F)",29;35,
+4,SOLOMON_MKCB_2024-09.pdf,forecast_payout,25% from FY2025 profits (no FY2024 dividend),31;33,
+4,SOLOMON_MKCB_2024-09.pdf,forecast_eps,"TZS 361.78 (2024F), 426.48 (2025F), 489.95 (2026F), 542.08 (2027F), 599.41 (2028F)",34,
+4,SOLOMON_MKCB_2024-09.pdf,forecast_dps,"TZS 0 (2024F), 106.62 (2025F), 122.49 (2026F), 135.52 (2027F), 149.85 (2028F)",31;34,
+4,SOLOMON_MKCB_2024-09.pdf,forecast_pat,"TZS 000: 8,521,821; 10,045,628; 11,540,698; 12,768,741; 14,119,066 (2024F-2028F); CAGR 13.10%",31;32;34,
+4,SOLOMON_MKCB_2024-09.pdf,split_or_rights_adjustment,not disclosed,1-36,"shares outstanding 23,555,002 throughout"
+4,SOLOMON_MKCB_2024-09.pdf,target_revision,n/a (initiation),2,
+4,SOLOMON_MKCB_2024-09.pdf,sensitivity,"COE 19.63%-23.63% x SGR 3.94%-7.94%: values 894.27-1,186.34; base 1,019.70",33,
+4,SOLOMON_MKCB_2024-09.pdf,relative_valuation_peers,"Maendeleo Bank (P/E 3.91, P/B 0.48), MKCB itself (1.73, 0.42), HF Group Kenya (4.25, 0.19); mean 3.30/0.36, median 3.91/0.42",33,peer set includes the subject bank
+4,SOLOMON_MKCB_2024-09.pdf,data_issue,Relative valuation shown as 754.36 in the weighting table but 775.44 in the relative-valuation table; weighted value 258.48 uses 775.44,33,
+4,SOLOMON_MKCB_2024-09.pdf,data_issue,Excess-return and DDM present values appear discounted by one period only for every year (each PV = value / 1.2163),32;33,"e.g. 2028 excess equity -3,105,912 -> PV -2,553,624; transcriber's arithmetic check"
+4,SOLOMON_MKCB_2024-09.pdf,data_issue,"ERM equity charge = 21.63% x same-year closing equity (e.g. 2024F 8,598,719 = 21.63% x 39,758,024) rather than opening equity; no ERM terminal value",32;35,transcriber's arithmetic check
+4,SOLOMON_MKCB_2024-09.pdf,data_issue,"DDM terminal value 18,499,346 is consistent with D2028/(COE - g) discounted one period, without a growth step",33,transcriber's arithmetic check (approximate)
+4,SOLOMON_MKCB_2024-09.pdf,data_issue,Projected statements labelled 'Amounts in Millions TZS' but figures are in TZS thousands,34;35,
+4,SOLOMON_MKCB_2024-09.pdf,data_issue,"Total assets TZS 271.31bn 'as of December 2023' (p2) vs TZS 255.79bn 2023 base in forecasts (p29, p35)",2;29;35,
+5,ITRUST_CRDB_2025-02-21.pdf,broker,iTrust Finance,1,email domain itrust.co.tz
+5,ITRUST_CRDB_2025-02-21.pdf,analyst_names,Frank Bunuma; Neema Ndunguru,1,
+5,ITRUST_CRDB_2025-02-21.pdf,note_date,21-Feb-2025,1,
+5,ITRUST_CRDB_2025-02-21.pdf,note_date_basis,Date of 'Closing Price (21-Feb-2025)'; no other date on the sheet,1,
+5,ITRUST_CRDB_2025-02-21.pdf,bank,CRDB,1,
+5,ITRUST_CRDB_2025-02-21.pdf,doc_type,Results tear sheet (data only),1,
+5,ITRUST_CRDB_2025-02-21.pdf,rating,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,target_or_fair_value,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,horizon,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,price_in_note,TZS 730,1,market cap TZS 1.907 trillion; 52-week high/low TZS 730/480
+5,ITRUST_CRDB_2025-02-21.pdf,price_date,21-Feb-2025,1,
+5,ITRUST_CRDB_2025-02-21.pdf,methods,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,method_weights,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,coe,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,rf_rate,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,rf_tenor,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,beta,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,beta_estimation,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,equity_risk_premium,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,erp_source,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,terminal_g,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,terminal_g_basis,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,explicit_forecast_years,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,forecast_roe,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,forecast_loan_growth,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,forecast_payout,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,forecast_eps,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,split_or_rights_adjustment,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,target_revision,not disclosed,1,
+5,ITRUST_CRDB_2025-02-21.pdf,context_fact,"FY2024 (marked unaudited): PAT TZS 550,810m; ROAE 27.7%; CIR 45.7%; NPL 2.9%; NPL coverage 45.0%; EPS 211.0; BVPS 832.8; last dividend paid (2023) TZS 50",1,
+5,ITRUST_CRDB_2025-02-21.pdf,data_issue,"FY2024 figures marked '* Unaudited'; later sheet (05-Aug-2025) shows FY2024a NII 1,139,461 (vs 1,102,500), PAT 551,487 (vs 550,810), borrowings 1,659,620 (vs 2,974,865), NPL coverage 44.0% (vs 45.0%), CIR 45.9% (vs 45.7%)",1,compare ITRUST_CRDB_2025-08-05 p1
+6,ITRUST_CRDB_2025-08-05.pdf,broker,iTrust Finance,1,email domain itrust.co.tz
+6,ITRUST_CRDB_2025-08-05.pdf,analyst_names,Frank Bunuma; Neema Ndunguru,1,
+6,ITRUST_CRDB_2025-08-05.pdf,note_date,05-Aug-2025,1,
+6,ITRUST_CRDB_2025-08-05.pdf,note_date_basis,Date of 'Closing Price (05-Aug-2025)'; no other date on the sheet,1,
+6,ITRUST_CRDB_2025-08-05.pdf,bank,CRDB,1,
+6,ITRUST_CRDB_2025-08-05.pdf,doc_type,Results tear sheet (data only),1,
+6,ITRUST_CRDB_2025-08-05.pdf,rating,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,target_or_fair_value,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,horizon,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,price_in_note,"TZS 1,210",1,market cap TZS 3.16 trillion; 52-week high/low TZS 1180/600
+6,ITRUST_CRDB_2025-08-05.pdf,price_date,05-Aug-2025,1,
+6,ITRUST_CRDB_2025-08-05.pdf,methods,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,method_weights,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,coe,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,rf_rate,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,rf_tenor,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,beta,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,beta_estimation,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,equity_risk_premium,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,erp_source,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,terminal_g,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,terminal_g_basis,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,explicit_forecast_years,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,forecast_roe,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,forecast_loan_growth,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,forecast_payout,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,forecast_eps,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,split_or_rights_adjustment,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,target_revision,not disclosed,1,
+6,ITRUST_CRDB_2025-08-05.pdf,context_fact,"1H25: PAT TZS 346,453m (+26.0% YoY); ROAE 29.5%; CIR 42.6%; NPL 3.0%; NPL coverage 45.4%; LDR 90.1%; dividend paid (2024) TZS 65",1,
+6,ITRUST_CRDB_2025-08-05.pdf,data_issue,"52-week high printed as TZS 1,180 although the closing price shown is TZS 1,210",1,
+6,ITRUST_CRDB_2025-08-05.pdf,data_issue,FY2024a asset growth printed as '25.0' without % sign; FY2024a values differ from the 21-Feb-2025 sheet (unaudited vs audited),1,
+8,ITRUST_CRDB_2025-11-20.pdf,broker,iTrust Finance,1,email domain itrust.co.tz
+8,ITRUST_CRDB_2025-11-20.pdf,analyst_names,Frank Bunuma; Neema Ndunguru,1,
+8,ITRUST_CRDB_2025-11-20.pdf,note_date,20-Nov-2025,1,
+8,ITRUST_CRDB_2025-11-20.pdf,note_date_basis,Date of 'Closing Price (20-Nov-2025)'; no other date on the sheet,1,
+8,ITRUST_CRDB_2025-11-20.pdf,bank,CRDB,1,
+8,ITRUST_CRDB_2025-11-20.pdf,doc_type,Results tear sheet (data only),1,
+8,ITRUST_CRDB_2025-11-20.pdf,rating,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,target_or_fair_value,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,horizon,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,price_in_note,"TZS 1,160",1,"market cap TZS 3.029 trillion; 52-week high/low TZS 1,640/630"
+8,ITRUST_CRDB_2025-11-20.pdf,price_date,20-Nov-2025,1,
+8,ITRUST_CRDB_2025-11-20.pdf,methods,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,method_weights,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,coe,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,rf_rate,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,rf_tenor,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,beta,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,beta_estimation,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,equity_risk_premium,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,erp_source,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,terminal_g,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,terminal_g_basis,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,explicit_forecast_years,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,forecast_roe,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,forecast_loan_growth,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,forecast_payout,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,forecast_eps,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,split_or_rights_adjustment,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,target_revision,not disclosed,1,
+8,ITRUST_CRDB_2025-11-20.pdf,context_fact,"Q3 2025: PAT TZS 174,010m (+29.9%); ROAE 28.0%; CIR 43.9%; NPL 3.2%; NPL coverage 43.4%; LDR 93.6%; NIM 8.1%; cost of funding 4.1%",1,
+8,ITRUST_CRDB_2025-11-20.pdf,data_issue,FY2024a cost of risk shown as 1.0% vs 0.2% on the 05-Aug-2025 sheet,1,
+7,KADOO_CRDB_2025-Q3.pdf,broker,Kadoo Securities Co Limited,7,
+7,KADOO_CRDB_2025-Q3.pdf,analyst_names,Abraham Abubakar Ukhotya; Erick Sindatuma,1;6;7,
+7,KADOO_CRDB_2025-Q3.pdf,note_date,not disclosed,1-7,undated; copyright 2025 (p7)
+7,KADOO_CRDB_2025-Q3.pdf,note_date_basis,"Undated. Uses Q3 2025 results (CRDB 9M2025 statements published 28 Oct 2025 per data/processed/sources.csv) and price TZS 1,170; DSE closes of 1,170 on or after 28 Oct 2025: 6, 7, 10, 11, 12 Nov 2025 and 8 Dec 2025",1;4,date not uniquely determinable; lower bound 2025-10-28. Text expects sentiment positive 'through Q4 2025' (p4)
+7,KADOO_CRDB_2025-Q3.pdf,bank,CRDB,1,
+7,KADOO_CRDB_2025-Q3.pdf,doc_type,Results review (Q3 2025) with valuation,1,
+7,KADOO_CRDB_2025-Q3.pdf,rating,BUY ('We maintain a BUY recommendation'),4,
+7,KADOO_CRDB_2025-Q3.pdf,target_or_fair_value,"TZS 1,716.56 (two-stage DDM intrinsic value)",4,"p1 shows 'Target Price TZS 1,716'; 46.7% upside"
+7,KADOO_CRDB_2025-Q3.pdf,horizon,not disclosed,1-7,
+7,KADOO_CRDB_2025-Q3.pdf,price_in_note,"TZS 1,170",1;4,
+7,KADOO_CRDB_2025-Q3.pdf,price_date,not disclosed,1-7,'current market price'
+7,KADOO_CRDB_2025-Q3.pdf,methods,Two-stage DDM,4,
+7,KADOO_CRDB_2025-Q3.pdf,method_weights,100% DDM,4,
+7,KADOO_CRDB_2025-Q3.pdf,coe,not disclosed,4,"discount rate not printed; PVs imply about 15.15% (85/73.82; TV 190.36/(r-8%) = 2,662.33) - transcriber's derivation, not stated"
+7,KADOO_CRDB_2025-Q3.pdf,rf_rate,not disclosed,1-7,
+7,KADOO_CRDB_2025-Q3.pdf,rf_tenor,not disclosed,1-7,
+7,KADOO_CRDB_2025-Q3.pdf,beta,not disclosed,1-7,
+7,KADOO_CRDB_2025-Q3.pdf,beta_estimation,not disclosed,1-7,
+7,KADOO_CRDB_2025-Q3.pdf,equity_risk_premium,not disclosed,1-7,
+7,KADOO_CRDB_2025-Q3.pdf,erp_source,not disclosed,1-7,
+7,KADOO_CRDB_2025-Q3.pdf,terminal_g,8.00% (stage-2 stable growth),4,
+7,KADOO_CRDB_2025-Q3.pdf,terminal_g_basis,not disclosed,4,real/nominal not stated
+7,KADOO_CRDB_2025-Q3.pdf,explicit_forecast_years,5 (stage-1 high growth 20.00%),4,
+7,KADOO_CRDB_2025-Q3.pdf,forecast_roe,not disclosed,1-7,
+7,KADOO_CRDB_2025-Q3.pdf,forecast_loan_growth,not disclosed,1-7,
+7,KADOO_CRDB_2025-Q3.pdf,forecast_payout,not disclosed,1-7,
+7,KADOO_CRDB_2025-Q3.pdf,forecast_eps,not disclosed,1-7,p1 gives 9M EPS TZS 199 and annualised EPS TZS 253.6 (actuals)
+7,KADOO_CRDB_2025-Q3.pdf,forecast_dps,"TZS 85, 102, 122.4, 146.88, 176.26 (years 1-5); year-6 190.36",4,base-year dividend not stated
+7,KADOO_CRDB_2025-Q3.pdf,valuation_components,"Sum PV dividends 401.51; terminal value 2,662.33; PV terminal 1,315.05",4,
+7,KADOO_CRDB_2025-Q3.pdf,split_or_rights_adjustment,not disclosed,1-7,
+7,KADOO_CRDB_2025-Q3.pdf,target_revision,not disclosed,1-7,
+7,KADOO_CRDB_2025-Q3.pdf,data_issue,"Q1 2025 non-interest income shown as 138,378 (chart) vs 188,378 in iTrust tear sheet",2,
+7,KADOO_CRDB_2025-Q3.pdf,data_issue,"'Net Interest Margin (NII / Avg Loans)' ~2.7% is a quarterly, non-annualised ratio",6,
+7,KADOO_CRDB_2025-Q3.pdf,data_issue,ROE 29% (snapshot) vs 28% (summary text),1;3,
+9,KADOO_CRDB_2026-01-31.pdf,broker,Kadoo Securities,1;6,
+9,KADOO_CRDB_2026-01-31.pdf,analyst_names,Abraham Ukhotya; Erick Sindatuma,1,
+9,KADOO_CRDB_2026-01-31.pdf,note_date,2026-01-31,1,
+9,KADOO_CRDB_2026-01-31.pdf,note_date_basis,Header '31st Jan 2026' on every page,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,bank,CRDB,1,
+9,KADOO_CRDB_2026-01-31.pdf,doc_type,Equity research note,1,
+9,KADOO_CRDB_2026-01-31.pdf,rating,HOLD with accumulate on dips,6,accumulate below 1.0x P/B or 6.5x P/E
+9,KADOO_CRDB_2026-01-31.pdf,target_or_fair_value,"TZS 2,283.27 (blended forward fair value)",6,"text says 2,281.77"
+9,KADOO_CRDB_2026-01-31.pdf,horizon,not disclosed,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,price_in_note,not disclosed,1-8,"only multiples given (P/E 7.4x, P/B 1.92x); 7.4 x EPS 277 = 2,050 = DSE close 30 Jan 2026 (transcriber's check)"
+9,KADOO_CRDB_2026-01-31.pdf,price_date,not disclosed,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,methods,DDM + forward P/E multiple (peer-based),6,
+9,KADOO_CRDB_2026-01-31.pdf,method_weights,"Forward valuation 1,924.85 at 50%; DDM intrinsic value 2,641.69 at 50%",6,
+9,KADOO_CRDB_2026-01-31.pdf,forward_multiples,"Forward P/E peer mean 5.17x; peer median 4.8x (derivation of forward value 1,924.85 not shown)",6,
+9,KADOO_CRDB_2026-01-31.pdf,relative_valuation_peers,"10 banks (NMB 6.89/1.67, CRDB 7.4/1.92, KCB, Equity, NCBA, Co-op, Zenith, GTCO, Absa, Standard Bank Malawi); trailing P/E mean 6.25, median 6.23; P/B mean 1.37, median 1.06",5;6,
+9,KADOO_CRDB_2026-01-31.pdf,coe,not disclosed,1-8,DDM inputs not shown
+9,KADOO_CRDB_2026-01-31.pdf,rf_rate,not disclosed,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,rf_tenor,not disclosed,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,beta,not disclosed,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,beta_estimation,not disclosed,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,equity_risk_premium,not disclosed,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,erp_source,not disclosed,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,terminal_g,not disclosed,1-8,DDM inputs not shown
+9,KADOO_CRDB_2026-01-31.pdf,terminal_g_basis,not disclosed,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,explicit_forecast_years,not disclosed,1-8,DDM inputs not shown
+9,KADOO_CRDB_2026-01-31.pdf,forecast_roe,not disclosed,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,forecast_loan_growth,not disclosed,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,forecast_eps,not disclosed,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,forecast_payout,not disclosed,1-8,"expected DPS TZS 90 on FY2025 EPS 277 (p1, p2)"
+9,KADOO_CRDB_2026-01-31.pdf,forecast_dps,Expected DPS TZS 90 (FY2025),1;2,
+9,KADOO_CRDB_2026-01-31.pdf,split_or_rights_adjustment,not disclosed,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,target_revision,not disclosed,1-8,
+9,KADOO_CRDB_2026-01-31.pdf,context_fact,"FY2025: net income TZS 724,608m (+31.4%); EPS 277; BVPS 1,065; CIR 42.6%",1;2,
+9,KADOO_CRDB_2026-01-31.pdf,data_issue,"Blended fair value 2,283.27 (table) vs 2,281.77 (recommendation text)",6,
+9,KADOO_CRDB_2026-01-31.pdf,data_issue,"ROAE 29.30% / ROAA 5.30% (p1) vs ROE 26.0% / ROA 3.3% (p2, p8)",1;2;8,
+9,KADOO_CRDB_2026-01-31.pdf,data_issue,"Loan-to-deposit ratio 96.90% (p1) vs 93.6% (p3, p5)",1;3;5,
+9,KADOO_CRDB_2026-01-31.pdf,data_issue,"Net loans 'grew 36.6% YoY' but table 10,362,825 -> 13,740,050 is +32.6%",3;5,transcriber's arithmetic check
+11,SOLOMON_MONTHLY_2026-03-31.pdf,broker,Solomon Stockbrokers Ltd,1;16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,analyst_names,Emmanuel Matunda,14,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,note_date,2026-03-31 (data date); published on or after 2026-04-08,14,shared file with seed id 11/12
+11,SOLOMON_MONTHLY_2026-03-31.pdf,note_date_basis,Cover 'The Monthly Rally March 2026'; prices and targets 'as of 31-Mar-26'; outlook cites month-to-date moves 'as of 08-Apr-2026',1;14,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,bank,CRDB,14,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,doc_type,Monthly market review (Monthly Rally) with stock recommendations table,1;14,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,rating,BUY,14,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,target_or_fair_value,"TZS 2,934.63 (target price as of 31-Mar-26)",14,upside 8.69%
+11,SOLOMON_MONTHLY_2026-03-31.pdf,horizon,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,price_in_note,"TZS 2,700",9;12;14,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,price_date,2026-03-31,14,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,methods,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,method_weights,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,coe,14.97%,14,same COE for CRDB and NMB
+11,SOLOMON_MONTHLY_2026-03-31.pdf,rf_rate,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,rf_tenor,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,beta,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,beta_estimation,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,equity_risk_premium,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,erp_source,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,terminal_g,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,terminal_g_basis,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,explicit_forecast_years,2026-2030 (horizon of projected earnings CAGR),14,footnote: analyst assumptions for 2026-2030
+11,SOLOMON_MONTHLY_2026-03-31.pdf,forecast_earnings_growth,Projected earnings CAGR 2026-2030: 24.77%,14,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,forecast_roe,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,forecast_loan_growth,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,forecast_payout,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,forecast_eps,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,split_or_rights_adjustment,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,target_revision,not disclosed,1-16,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,market_multiples,"TTM EPS 277.41; P/E 9.73; BVPS 1,065.01; P/B 2.54; ROE 26.05%",12;13,as of 31-Mar-26
+12,SOLOMON_MONTHLY_2026-03-31.pdf,broker,Solomon Stockbrokers Ltd,1;16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,analyst_names,Emmanuel Matunda,14,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,note_date,2026-03-31 (data date); published on or after 2026-04-08,14,shared file with seed id 11/12
+12,SOLOMON_MONTHLY_2026-03-31.pdf,note_date_basis,Cover 'The Monthly Rally March 2026'; prices and targets 'as of 31-Mar-26'; outlook cites month-to-date moves 'as of 08-Apr-2026',1;14,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,bank,NMB,14,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,doc_type,Monthly market review (Monthly Rally) with stock recommendations table,1;14,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,rating,BUY,14,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,target_or_fair_value,"TZS 16,347.02 (target price as of 31-Mar-26)",14,upside 16.93%
+12,SOLOMON_MONTHLY_2026-03-31.pdf,horizon,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,price_in_note,"TZS 13,980",9;12;14,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,price_date,2026-03-31,14,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,methods,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,method_weights,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,coe,14.97%,14,same COE for CRDB and NMB
+12,SOLOMON_MONTHLY_2026-03-31.pdf,rf_rate,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,rf_tenor,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,beta,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,beta_estimation,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,equity_risk_premium,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,erp_source,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,terminal_g,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,terminal_g_basis,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,explicit_forecast_years,2026-2030 (horizon of projected earnings CAGR),14,footnote: analyst assumptions for 2026-2030
+12,SOLOMON_MONTHLY_2026-03-31.pdf,forecast_earnings_growth,Projected earnings CAGR 2026-2030: 19.90%,14,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,forecast_roe,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,forecast_loan_growth,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,forecast_payout,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,forecast_eps,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,split_or_rights_adjustment,None; NMB figures pre-split,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,target_revision,not disclosed,1-16,
+12,SOLOMON_MONTHLY_2026-03-31.pdf,market_multiples,"TTM EPS 1,499.55; P/E 9.32; BVPS 6,194.31; P/B 2.26; ROE 24.21%",12;13,as of 31-Mar-26
+11,SOLOMON_MONTHLY_2026-03-31.pdf,context_fact,Foreigners net sellers TZS 71bn in March 2026; locals 96.24% of buying value; foreigners 54.38% of selling,10,"buy: locals 135.01bn, foreigners 5.27bn; sell: locals 64.00bn, foreigners 76.28bn"
+11,SOLOMON_MONTHLY_2026-03-31.pdf,context_fact,Q1 2026: locals 97.86% of buy-side and 67.26% of sell-side turnover,10,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,context_fact,Equity turnover TZS 140.29bn in Mar-26 (-42.10% MoM from 242.28bn); Q1'26 record TZS 572.32bn vs 123.50bn in Q1'25,10,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,context_fact,Turnover concentration: CRDB TZS 98.98bn of 140.29bn in March (70.6%) and 357.96bn of 572.32bn in Q1'26 (62.5%); NMB 9.07bn (6.5%) and 60.85bn (10.6%),11,shares computed by transcriber from the p11 table
+11,SOLOMON_MONTHLY_2026-03-31.pdf,context_fact,"Banks, Finance & Investment Index 18,681.10 at 31-Mar-26 (+71.38% Q1); BI P/E 9.89, P/B 2.36, ROE 23.86%",9;12,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,context_fact,"Share prices 31-Dec-25 / 27-Feb-26 / 31-Mar-26: CRDB 1,530 / 3,020 / 2,700; NMB 8,410 / 14,560 / 13,980",9,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,context_fact,"Treasury primary yields Mar-26: 5-yr 10.54%, 10-yr 11.30%, 15-yr 10.78%, 20-yr 10.71%, 25-yr 11.99%; 364-day bill 6.40%",6,"secondary-market Mar-26: 5-yr 9.14%, 10-yr 9.62%, 20-yr 12.63%, 25-yr 11.01% (p7)"
+11,SOLOMON_MONTHLY_2026-03-31.pdf,context_fact,CBR 5.75%; M3 +24.67% YoY and private-sector credit +24.40% YoY (Feb-26),2,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,context_fact,"COE used for other stocks: DSE 12.82%, SWIS 14.63%, TBL 14.17%, TCC 14.42%, TCCL 22.37% (incl. distress premium), TPCC 15.72%",14,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,data_issue,Header on pp1-2 reads 'Weekly Markets Pulse for the week ending 07-Aug-2025' (stale template),1;2,
+11,SOLOMON_MONTHLY_2026-03-31.pdf,data_issue,Text says CBR unchanged at 5.75% 'for Q1'25' in a March 2026 review (likely Q1'26),2,
+10,SOLOMON_DCB_2026-Q1.pdf,broker,Solomon Stockbrokers Ltd,1;5,
+10,SOLOMON_DCB_2026-Q1.pdf,analyst_names,Emmanuel Matunda,4,
+10,SOLOMON_DCB_2026-Q1.pdf,note_date,on or after 2026-02-02,3,exact date not stated
+10,SOLOMON_DCB_2026-Q1.pdf,note_date_basis,Cover 'Earnings Highlights Dec 2025' (image-only p1); closing price 'as of 02nd Feb 2026',1;3,
+10,SOLOMON_DCB_2026-Q1.pdf,bank,DCB (DCB Commercial Bank),1,not NMB/CRDB
+10,SOLOMON_DCB_2026-Q1.pdf,doc_type,Earnings highlights (quarter ending Dec 2025),1;2,
+10,SOLOMON_DCB_2026-Q1.pdf,rating,not disclosed,1-5,"states stock is 'overvalued' at P/E 553.62x vs sector 7.67x, no formal rating"
+10,SOLOMON_DCB_2026-Q1.pdf,target_or_fair_value,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,horizon,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,price_in_note,TZS 315,3,
+10,SOLOMON_DCB_2026-Q1.pdf,price_date,2026-02-02,3,
+10,SOLOMON_DCB_2026-Q1.pdf,methods,No valuation model; multiples comparison only (P/E 553.62x vs banking/finance sector P/E 7.67x as of 02-Feb-2026),3,
+10,SOLOMON_DCB_2026-Q1.pdf,method_weights,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,coe,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,rf_rate,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,rf_tenor,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,beta,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,beta_estimation,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,equity_risk_premium,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,erp_source,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,terminal_g,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,terminal_g_basis,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,explicit_forecast_years,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,forecast_roe,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,forecast_loan_growth,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,forecast_eps,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,split_or_rights_adjustment,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,target_revision,not disclosed,1-5,
+10,SOLOMON_DCB_2026-Q1.pdf,forecast_payout,Est. dividend for 2026: TZS 0,3,
+10,SOLOMON_DCB_2026-Q1.pdf,market_multiples,BVPS 178.52; P/B 1.76x; trailing EPS 0.57; P/E 553.62x; ROE 0.32%; ROA 0.04%,3,
+10,SOLOMON_DCB_2026-Q1.pdf,context_fact,FY2025 PAT TZS 109m (FY2024 loss 969m); CIR 92.88% vs BoT 55% limit; deposits -20.66% YoY to TZS 149.51bn,3,
+13,SOLOMON_MKCB_2026-04.pdf,broker,Solomon Stockbrokers Ltd,1;5,
+13,SOLOMON_MKCB_2026-04.pdf,analyst_names,Emmanuel Matunda,4,
+13,SOLOMON_MKCB_2026-04.pdf,note_date,on or after 2026-05-06,3,exact date not stated
+13,SOLOMON_MKCB_2026-04.pdf,note_date_basis,Cover 'Earnings Highlights March 2026' (quarter); closing price 'as of 6th May 2026',1;3,
+13,SOLOMON_MKCB_2026-04.pdf,bank,MKCB (Mkombozi Commercial Bank),1,not NMB/CRDB
+13,SOLOMON_MKCB_2026-04.pdf,doc_type,Earnings highlights (quarter ending March 2026),1;2,
+13,SOLOMON_MKCB_2026-04.pdf,rating,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,target_or_fair_value,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,horizon,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,price_in_note,"TZS 4,600",3,
+13,SOLOMON_MKCB_2026-04.pdf,price_date,2026-05-06,3,
+13,SOLOMON_MKCB_2026-04.pdf,methods,not disclosed,1-5,no valuation; supporting multiples only
+13,SOLOMON_MKCB_2026-04.pdf,method_weights,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,coe,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,rf_rate,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,rf_tenor,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,beta,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,beta_estimation,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,equity_risk_premium,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,erp_source,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,terminal_g,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,terminal_g_basis,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,explicit_forecast_years,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,forecast_roe,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,forecast_loan_growth,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,forecast_payout,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,forecast_eps,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,split_or_rights_adjustment,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,target_revision,not disclosed,1-5,
+13,SOLOMON_MKCB_2026-04.pdf,market_multiples,"BVPS 2,228.95; P/B 2.06x; trailing EPS 552.62; P/E 8.32x; ROE 26.38%; ROA 4.14%",3,
+13,SOLOMON_MKCB_2026-04.pdf,data_issue,Says the bank 'wrote-off over TZS 413 billion in impairment losses in Q1'25' although total assets are TZS 332.95bn (likely million),3,
+14,SOLOMON_CRDB_2026-04-30.pdf,broker,Solomon Stockbrokers Ltd,1;5,
+14,SOLOMON_CRDB_2026-04-30.pdf,analyst_names,Emmanuel Matunda,4,
+14,SOLOMON_CRDB_2026-04-30.pdf,note_date,on or after 2026-04-30,3,target dated 30-Apr-26
+14,SOLOMON_CRDB_2026-04-30.pdf,note_date_basis,Cover 'Earnings Highlights March 2026' (quarter); target price and share price 'as of 30-Apr-2026',1;3,
+14,SOLOMON_CRDB_2026-04-30.pdf,bank,CRDB,1,
+14,SOLOMON_CRDB_2026-04-30.pdf,doc_type,Earnings highlights (quarter ending March 2026) with fair value assessment,2;3,
+14,SOLOMON_CRDB_2026-04-30.pdf,rating,SELL,3,
+14,SOLOMON_CRDB_2026-04-30.pdf,target_or_fair_value,"TZS 2,756.40",3,downside 2.60%
+14,SOLOMON_CRDB_2026-04-30.pdf,horizon,not disclosed,1-5,
+14,SOLOMON_CRDB_2026-04-30.pdf,price_in_note,"TZS 2,830",3,
+14,SOLOMON_CRDB_2026-04-30.pdf,price_date,2026-04-30,3,
+14,SOLOMON_CRDB_2026-04-30.pdf,methods,not disclosed,1-5,
+14,SOLOMON_CRDB_2026-04-30.pdf,method_weights,not disclosed,1-5,
+14,SOLOMON_CRDB_2026-04-30.pdf,coe,not disclosed,1-5,
+14,SOLOMON_CRDB_2026-04-30.pdf,rf_rate,not disclosed,1-5,
+14,SOLOMON_CRDB_2026-04-30.pdf,rf_tenor,not disclosed,1-5,
+14,SOLOMON_CRDB_2026-04-30.pdf,beta,not disclosed,1-5,
+14,SOLOMON_CRDB_2026-04-30.pdf,beta_estimation,not disclosed,1-5,
+14,SOLOMON_CRDB_2026-04-30.pdf,equity_risk_premium,not disclosed,1-5,
+14,SOLOMON_CRDB_2026-04-30.pdf,erp_source,not disclosed,1-5,
+14,SOLOMON_CRDB_2026-04-30.pdf,terminal_g,not disclosed,1-5,
+14,SOLOMON_CRDB_2026-04-30.pdf,terminal_g_basis,not disclosed,1-5,
+14,SOLOMON_CRDB_2026-04-30.pdf,explicit_forecast_years,not disclosed,1-5,
+14,SOLOMON_CRDB_2026-04-30.pdf,forecast_roe,not disclosed,1-5,p4 ratio table (image) is historical only
+14,SOLOMON_CRDB_2026-04-30.pdf,forecast_loan_growth,not disclosed,1-5,p4 ratio table (image) is historical only
+14,SOLOMON_CRDB_2026-04-30.pdf,forecast_payout,not disclosed,1-5,p4 ratio table (image) is historical only
+14,SOLOMON_CRDB_2026-04-30.pdf,forecast_eps,not disclosed,1-5,p4 ratio table (image) is historical only
+14,SOLOMON_CRDB_2026-04-30.pdf,split_or_rights_adjustment,not disclosed,1-5,
+14,SOLOMON_CRDB_2026-04-30.pdf,target_revision,"Revised down 6.07% from TZS 2,934.63 (previous target) to factor in negative jaws between interest expense and interest income growth",3,
+14,SOLOMON_CRDB_2026-04-30.pdf,market_multiples,"BVPS 1,170.27; P/B 2.42x; trailing EPS 289.97; P/E 9.76x; ROE 28.11%; ROA 3.51%",3,
+14,SOLOMON_CRDB_2026-04-30.pdf,context_fact,"Q1'26 PAT TZS 206.20bn (+18.91% YoY, +1.01% QoQ); interest expense +45.43% YoY vs interest income +31.59%; CIR 41.55%",2;3,
+14,SOLOMON_CRDB_2026-04-30.pdf,data_issue,Text says non-interest income rose to TZS 186.66bn 'in Q1'25' (should be Q1'26),2,
+15,SOLOMON_NMB_2026-04-30.pdf,broker,Solomon Stockbrokers Ltd,1;5,
+15,SOLOMON_NMB_2026-04-30.pdf,analyst_names,Emmanuel Matunda,4,
+15,SOLOMON_NMB_2026-04-30.pdf,note_date,on or after 2026-04-30,3,target dated 30-Apr-26
+15,SOLOMON_NMB_2026-04-30.pdf,note_date_basis,Cover 'Earnings Highlights March 2026' (quarter); target price and share price 'as of 30-Apr-2026',1;3,
+15,SOLOMON_NMB_2026-04-30.pdf,bank,NMB,1,
+15,SOLOMON_NMB_2026-04-30.pdf,doc_type,Earnings highlights (quarter ending March 2026) with fair value assessment,2;3,
+15,SOLOMON_NMB_2026-04-30.pdf,rating,HOLD,3,
+15,SOLOMON_NMB_2026-04-30.pdf,target_or_fair_value,"TZS 13,544.03 (pre-split)",3,table shows '▲ 0.25%' in the 'Downside' column
+15,SOLOMON_NMB_2026-04-30.pdf,horizon,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,price_in_note,"TZS 13,510 (pre-split)",3,
+15,SOLOMON_NMB_2026-04-30.pdf,price_date,2026-04-30,3,
+15,SOLOMON_NMB_2026-04-30.pdf,methods,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,method_weights,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,coe,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,rf_rate,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,rf_tenor,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,beta,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,beta_estimation,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,equity_risk_premium,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,erp_source,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,terminal_g,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,terminal_g_basis,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,explicit_forecast_years,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,forecast_roe,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,forecast_loan_growth,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,forecast_payout,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,forecast_eps,not disclosed,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,split_or_rights_adjustment,None; per-share values pre-split,1-5,
+15,SOLOMON_NMB_2026-04-30.pdf,target_revision,"Revised down 17.15% from TZS 16,347.02 (previous target) to reflect weaker revenue assumptions and margin pressure from rising funding costs",3,
+15,SOLOMON_NMB_2026-04-30.pdf,market_multiples,"BVPS 6,613.81; P/B 2.04x; trailing EPS 1,517.44; P/E 8.90x; ROE 25.30%; ROA 4.63%",3,
+15,SOLOMON_NMB_2026-04-30.pdf,context_fact,"Q1'26 PAT TZS 193.09bn (+4.86% YoY, -6.47% QoQ); interest expense +45.94% YoY vs interest income +20.18%; CIR 38.35%",2;3,
+15,SOLOMON_NMB_2026-04-30.pdf,data_issue,Text says gross revenues fell to TZS 484.46bn 'in Q1'25' (should be Q1'26),2,
+15,SOLOMON_NMB_2026-04-30.pdf,data_issue,'Downside' column shows '▲ 0.25%' (an upside of 0.25%),3,
+16,KADOO_NMB_2026-06-25.pdf,broker,Kadoo Securities (Kadoo Research),1;7,
+16,KADOO_NMB_2026-06-25.pdf,analyst_names,Abraham Ukhotya; Erick Sindatuma,1,
+16,KADOO_NMB_2026-06-25.pdf,note_date,2026-06-25,1,
+16,KADOO_NMB_2026-06-25.pdf,note_date_basis,"Visible header '25th June 2026' on every page; market price TZS 16,090 equals the DSE close of 25 Jun 2026",1-9;8,text layer also carries stale header strings '20th May 2026' (pp2-3) and '31st Jan 2026' (pp7-9)
+16,KADOO_NMB_2026-06-25.pdf,bank,NMB,1,
+16,KADOO_NMB_2026-06-25.pdf,doc_type,Equity research note,1,
+16,KADOO_NMB_2026-06-25.pdf,rating,HOLD/BUY,1,p7: 'supporting a BUY/HOLD stance'
+16,KADOO_NMB_2026-06-25.pdf,target_or_fair_value,"TZS 16,100 per share (pre-split RIM intrinsic value); 1,610 post-split",1;7;8,"equity value 8,007,308 / 500m shares = 16,015 (p8 text uses 16,015)"
+16,KADOO_NMB_2026-06-25.pdf,horizon,not disclosed,1-9,
+16,KADOO_NMB_2026-06-25.pdf,price_in_note,"TZS 16,090 (pre-split); 1,609 post-split",8,
+16,KADOO_NMB_2026-06-25.pdf,price_date,not disclosed,8,'current market price'; matches DSE close 25 Jun 2026
+16,KADOO_NMB_2026-06-25.pdf,methods,Residual Income Model (primary),7,
+16,KADOO_NMB_2026-06-25.pdf,method_weights,100% RIM,7,
+16,KADOO_NMB_2026-06-25.pdf,valuation_components,"Current book value TZS 3,306,906m; PV explicit residual income 1,484,520m; PV terminal value 3,215,882m; intrinsic equity value 8,007,308m; current BVPS 6,614",7,
+16,KADOO_NMB_2026-06-25.pdf,coe,not disclosed,7,text refers to 'the selected cost of equity' without a value
+16,KADOO_NMB_2026-06-25.pdf,rf_rate,not disclosed,1-9,
+16,KADOO_NMB_2026-06-25.pdf,rf_tenor,not disclosed,1-9,
+16,KADOO_NMB_2026-06-25.pdf,beta,not disclosed,1-9,
+16,KADOO_NMB_2026-06-25.pdf,beta_estimation,not disclosed,1-9,
+16,KADOO_NMB_2026-06-25.pdf,equity_risk_premium,not disclosed,1-9,
+16,KADOO_NMB_2026-06-25.pdf,erp_source,not disclosed,1-9,
+16,KADOO_NMB_2026-06-25.pdf,terminal_g,not disclosed,1-9,
+16,KADOO_NMB_2026-06-25.pdf,terminal_g_basis,not disclosed,1-9,
+16,KADOO_NMB_2026-06-25.pdf,explicit_forecast_years,not disclosed,1-9,
+16,KADOO_NMB_2026-06-25.pdf,forecast_roe,not disclosed,1-9,
+16,KADOO_NMB_2026-06-25.pdf,forecast_loan_growth,not disclosed,1-9,
+16,KADOO_NMB_2026-06-25.pdf,forecast_eps,not disclosed,1-9,
+16,KADOO_NMB_2026-06-25.pdf,forecast_payout,not disclosed,1-9,"historical: FY2025 ordinary DPS 504.26 (~one-third payout), special DPS 105.89, total 610.15 = about 40.3% payout, cover 2.48x (p1)"
+16,KADOO_NMB_2026-06-25.pdf,split_or_rights_adjustment,"1:10 split (AGM Resolution No. 9/2026, described as proposed): shares 500m -> 5,000m; price 16,090 -> 1,609; fair value 16,100 -> 1,610; EPS 1,545 -> 154.5; BVPS 6,613.80 -> 661.4; DPS 504.3 -> 50.4, special 105.9 -> 10.6",8,
+16,KADOO_NMB_2026-06-25.pdf,target_revision,not disclosed,1-9,says valuation 'broadly in line with the latest market / target price' (p7)
+16,KADOO_NMB_2026-06-25.pdf,market_multiples,"P/E 10.41x and P/B 2.43x on market price (EPS 1,545 = annualised Q1 2026; BVPS 6,613.80); fair value implies ~2.42x book",7;8,
+16,KADOO_NMB_2026-06-25.pdf,data_issue,"Split text restates market price 16,090 to '1,690' (table: 1,609) and fair value '16,015' to 1,601 (table: 16,100 -> 1,610)",8,
+16,KADOO_NMB_2026-06-25.pdf,data_issue,"Intrinsic value per share 16,100 is inconsistent with equity value 8,007,308m / 500m shares = 16,015",7;8,transcriber's arithmetic check
+16,KADOO_NMB_2026-06-25.pdf,data_issue,"EPS 1,545 used for P/E is Q1 2026 annualised (p9) while FY2025 EPS is 1,520 (p1); not labelled as annualised",1;8;9,
+16,KADOO_NMB_2026-06-25.pdf,data_issue,Loan-to-deposit ratio 86.00% (p1) vs 83.8% (p6); profit growth 17.5% vs 17.4% (p4),1;4;6,
+16,KADOO_NMB_2026-06-25.pdf,data_issue,"Stale header dates in the text layer ('20th May 2026', '31st Jan 2026') under the visible 25 June 2026 header",2;3;7;8;9,
+16,KADOO_NMB_2026-06-25.pdf,context_fact,BoT FSR Dec 2025: sector ROE 20.6% (2025) vs 23.5% (2024); ROA 4.7% vs 5.2%; gross NPL 2.8%; DSE equity turnover TZS 659.0bn (2025) vs 228.6bn,2;3,
+17,VERTEX_MARKET_2025.pdf,broker,Vertex International Securities Ltd (with DSE and CMSA contributions),1;3,read from OCR copy data/ocr/analyst_reports/VERTEX_MARKET_2025.pdf; page = PDF index (each PDF page is a two-page spread)
+17,VERTEX_MARKET_2025.pdf,analyst_names,not disclosed,1-18,"contributors include CMSA CEO Nicodemus D. Mkama (p3), an NMB Treasurer (p12) and CRDB Head of Global Markets (p13)"
+17,VERTEX_MARKET_2025.pdf,note_date,not disclosed,1-18,covers calendar 2025
+17,VERTEX_MARKET_2025.pdf,note_date_basis,No publication date printed; mentions iTrust EAC Large Cap ETF listing on 28 January 2026 (so published after); PDF metadata creation date 2026-04-02,6,read from OCR copy data/ocr/analyst_reports/VERTEX_MARKET_2025.pdf; page = PDF index (each PDF page is a two-page spread)
+17,VERTEX_MARKET_2025.pdf,bank,Market (DSE),1,
+17,VERTEX_MARKET_2025.pdf,doc_type,Annual capital market review 2025,1;2,
+17,VERTEX_MARKET_2025.pdf,rating,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,target_or_fair_value,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,horizon,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,price_in_note,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,price_date,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,methods,not disclosed,1-18,no valuation or COE evidence in the review
+17,VERTEX_MARKET_2025.pdf,method_weights,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,coe,not disclosed,1-18,no valuation or COE evidence in the review
+17,VERTEX_MARKET_2025.pdf,rf_rate,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,rf_tenor,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,beta,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,beta_estimation,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,equity_risk_premium,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,erp_source,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,terminal_g,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,terminal_g_basis,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,explicit_forecast_years,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,forecast_roe,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,forecast_loan_growth,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,forecast_payout,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,forecast_eps,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,split_or_rights_adjustment,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,target_revision,not disclosed,1-18,
+17,VERTEX_MARKET_2025.pdf,context_fact,"NMB market capitalisation TZS 4,205bn at end-2025, the single largest contributor, overtaking TBL (2024 leader)",4,read from OCR copy data/ocr/analyst_reports/VERTEX_MARKET_2025.pdf; page = PDF index (each PDF page is a two-page spread)
+17,VERTEX_MARKET_2025.pdf,context_fact,"Total market capitalisation TZS 23,995.45bn (+34.30% from 17,868.17bn); domestic TZS 15,559.44bn (+27.08%)",3;4,read from OCR copy data/ocr/analyst_reports/VERTEX_MARKET_2025.pdf; page = PDF index (each PDF page is a two-page spread)
+17,VERTEX_MARKET_2025.pdf,context_fact,"Eight companies above TZS 1tn: NMB, CRDB, TBL, VODA, TPCC, TCC (domestic) and KCB, EABL (cross-listed)",4,OCR reads 'TAL'; image shows TBL
+17,VERTEX_MARKET_2025.pdf,context_fact,"Banks, Finance & Investments Index 6,783.87 -> 10,900.19 (+88.46%), driven by CRDB and NMB; DSEI +29.08%; TSI +24.70%",2;4,read from OCR copy data/ocr/analyst_reports/VERTEX_MARKET_2025.pdf; page = PDF index (each PDF page is a two-page spread)
+17,VERTEX_MARKET_2025.pdf,context_fact,"Equity turnover TZS 663.75bn (+190.31% from 228.63bn); turnover/market cap 4.26%; domestic turnover TZS 641.51bn (+180.59%), ratio 4.12%",3;5,read from OCR copy data/ocr/analyst_reports/VERTEX_MARKET_2025.pdf; page = PDF index (each PDF page is a two-page spread)
+17,VERTEX_MARKET_2025.pdf,context_fact,"Turnover concentration: CRDB, TBL, TCC, NMB and VODA were the top five contributors to total turnover (no shares given)",5,read from OCR copy data/ocr/analyst_reports/VERTEX_MARKET_2025.pdf; page = PDF index (each PDF page is a two-page spread)
+17,VERTEX_MARKET_2025.pdf,context_fact,"Hisa Kiganjani mobile platform turnover TZS 106.68bn = 47.16% of normal (non-block) trades; 47,483 active investors",5,read from OCR copy data/ocr/analyst_reports/VERTEX_MARKET_2025.pdf; page = PDF index (each PDF page is a two-page spread)
+17,VERTEX_MARKET_2025.pdf,context_fact,"Investors 2,177,135 at 31 Dec 2025 vs 1,060,509 in 2024 (+105.3%)",3,"OCR reads '2,17/7/135'; image shows 2,177,135"
+17,VERTEX_MARKET_2025.pdf,context_fact,Foreign net flows: not quantified; text only says periods of reduced foreign participation did not stall activity,6,read from OCR copy data/ocr/analyst_reports/VERTEX_MARKET_2025.pdf; page = PDF index (each PDF page is a two-page spread)
+17,VERTEX_MARKET_2025.pdf,context_fact,Shares traded 477.81m (+109.57%); top market-cap gainer MKCB +401.85%,5,read from OCR copy data/ocr/analyst_reports/VERTEX_MARKET_2025.pdf; page = PDF index (each PDF page is a two-page spread)
+17,VERTEX_MARKET_2025.pdf,data_issue,OCR misread 2024 turnover as TZS 278.62bn on p3 left column; the image shows 228.63bn,3,
+17,VERTEX_MARKET_2025.pdf,data_issue,"Turnover/market-cap ratio 4.26% equals 663.75 / domestic cap 15,559.44, not total cap 23,995.45 (2.77%)",3;5,transcriber's arithmetic check
+,1790686701_4c6cea221f77294aa5ee.pdf,document_status,"Not in seed list. One page, blank except the words 'Data new' near the top; no analyst content",1,rendered to PNG and viewed; the 8-character text layer is 'Data new'

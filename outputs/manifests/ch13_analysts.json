@@ -1,0 +1,68 @@
+{
+  "chapter": "13_analysts",
+  "title": "Local analyst register",
+  "status": "complete",
+  "hypotheses": [],
+  "tables": [
+    {
+      "path": "outputs/tables/ch13_analyst_methods.csv",
+      "description": "D1. Methods summary",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_analysts.md"
+    },
+    {
+      "path": "outputs/tables/ch13_analyst_targets.csv",
+      "description": "D2. Targets against price, with our values",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_analysts.md"
+    },
+    {
+      "path": "outputs/tables/ch13_analyst_accuracy.csv",
+      "description": "D3. Forecast accuracy",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_analysts.md"
+    },
+    {
+      "path": "outputs/tables/ch13_analyst_anchoring.csv",
+      "description": "D4. Anchoring",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_analysts.md"
+    },
+    {
+      "path": "outputs/tables/ch13_analyst_our_model.csv",
+      "description": "D5. Our model at the brokers' COE and g",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_analysts.md"
+    },
+    {
+      "path": "outputs/tables/ch13_analyst_revisions.csv",
+      "description": "D6. Target revisions against the price move",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_analysts.md"
+    },
+    {
+      "path": "outputs/tables/ch13_analyst_issues.csv",
+      "description": "D7. Register disagreements and data issues",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch13_analysts.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch13_analyst_targets.png",
+      "data": "outputs/figures/ch13_analyst_targets_data.csv",
+      "description": "D2. Targets against price",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_analysts.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch13_analysts.md"
+  ],
+  "inputs": [
+    "data\\raw\\analyst_reports\\register.csv",
+    "data\\raw\\manual_entries\\analyst_notes_extracted.csv"
+  ],
+  "module": "tzbank.chapters.ch13_analysts",
+  "run_log_stage": "market_ext"
+}

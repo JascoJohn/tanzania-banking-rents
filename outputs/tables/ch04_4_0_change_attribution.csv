@@ -1,0 +1,179 @@
+bank_id,comparison,tree,component,subsection,contribution,roe_change,coverage,flag,evidence_class
+B01,2010-14 -> 2015-18 (stress),full,y_iea,4.3 Asset deployment (asset yield),0.08093625904663433,-0.13794575702990827,3/5 and 4/4 years,,Derived
+B01,2010-14 -> 2015-18 (stress),full,iea_ta,4.3 Asset deployment (earning-asset share),-0.026949742605420577,-0.13794575702990827,3/5 and 4/4 years,,Derived
+B01,2010-14 -> 2015-18 (stress),full,c_fund,4.2 Funding economics (cost of funds),-0.02088625839234305,-0.13794575702990827,3/5 and 4/4 years,,Derived
+B01,2010-14 -> 2015-18 (stress),full,ibl_ta,4.2 Funding economics (funding mix),0.002774519129604968,-0.13794575702990827,3/5 and 4/4 years,,Derived
+B01,2010-14 -> 2015-18 (stress),full,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),-0.0001639112209016415,-0.13794575702990827,3/5 and 4/4 years,,Derived
+B01,2010-14 -> 2015-18 (stress),full,opex_ta,4.5 Operating leverage (operating costs),-0.05491998431810076,-0.13794575702990827,3/5 and 4/4 years,,Derived
+B01,2010-14 -> 2015-18 (stress),full,imp_ta,4.6 Risk economics (impairment),-0.06772466730739155,-0.13794575702990827,3/5 and 4/4 years,,Derived
+B01,2010-14 -> 2015-18 (stress),full,other_ta,4.7 Other items (reconciling),0.0,-0.13794575702990827,3/5 and 4/4 years,,Derived
+B01,2010-14 -> 2015-18 (stress),full,tax_rate,4.7 Tax,-0.01595988295213759,-0.13794575702990827,3/5 and 4/4 years,,Derived
+B01,2010-14 -> 2015-18 (stress),full,ta_e,"4.7 Leverage (capital, ch. 7)",-0.035052088409853,-0.13794575702990827,3/5 and 4/4 years,,Derived
+B01,2010-14 -> 2015-18 (stress),full,attr_share,4.7 Minority interests (attributable share),0.0,-0.13794575702990827,3/5 and 4/4 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,y_iea,4.3 Asset deployment (asset yield),-0.034982769927679444,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,iea_ta,4.3 Asset deployment (earning-asset share),0.03134846552161952,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,c_fund,4.2 Funding economics (cost of funds),-0.0018132693916742804,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,ibl_ta,4.2 Funding economics (funding mix),0.008406381379155673,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),-0.015346563776897495,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,opex_ta,4.5 Operating leverage (operating costs),0.06363203667052374,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,imp_ta,4.6 Risk economics (impairment),0.06954083974453183,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,other_ta,4.7 Other items (reconciling),0.0,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,tax_rate,4.7 Tax,0.010808340951787197,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,ta_e,"4.7 Leverage (capital, ch. 7)",-0.008617368720494801,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2015-18 (stress) -> 2019-25,full,attr_share,4.7 Minority interests (attributable share),0.0003821936499692227,0.12335828610084018,4/4 and 7/7 years,,Derived
+B01,2019 -> 2025,full,y_iea,4.3 Asset deployment (asset yield),-0.041824257478335854,0.15428607349355092,point years,,Derived
+B01,2019 -> 2025,full,iea_ta,4.3 Asset deployment (earning-asset share),0.03059958559074202,0.15428607349355092,point years,,Derived
+B01,2019 -> 2025,full,c_fund,4.2 Funding economics (cost of funds),-0.0743292033424009,0.15428607349355092,point years,,Derived
+B01,2019 -> 2025,full,ibl_ta,4.2 Funding economics (funding mix),0.009225147532400573,0.15428607349355092,point years,,Derived
+B01,2019 -> 2025,full,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),0.0001789963069579744,0.15428607349355092,point years,,Derived
+B01,2019 -> 2025,full,opex_ta,4.5 Operating leverage (operating costs),0.17789621753926785,0.15428607349355092,point years,,Derived
+B01,2019 -> 2025,full,imp_ta,4.6 Risk economics (impairment),0.036218551226864584,0.15428607349355092,point years,,Derived
+B01,2019 -> 2025,full,other_ta,4.7 Other items (reconciling),0.0,0.15428607349355092,point years,,Derived
+B01,2019 -> 2025,full,tax_rate,4.7 Tax,0.006075057353509044,0.15428607349355092,point years,,Derived
+B01,2019 -> 2025,full,ta_e,"4.7 Leverage (capital, ch. 7)",0.009070061951972245,0.15428607349355092,point years,,Derived
+B01,2019 -> 2025,full,attr_share,4.7 Minority interests (attributable share),0.001175916812572786,0.15428607349355092,point years,,Derived
+B01,2010-14 -> 2015-18 (stress),reduced,nii_ta,4.2/4.3 Net interest margin (reduced tree),0.059490276481839306,-0.11180996666057767,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2010-14 -> 2015-18 (stress),reduced,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),0.017493588281390027,-0.11180996666057767,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2010-14 -> 2015-18 (stress),reduced,opex_ta,4.5 Operating leverage (operating costs),-0.07624433671922193,-0.11180996666057767,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2010-14 -> 2015-18 (stress),reduced,imp_ta,4.6 Risk economics (impairment),-0.06374385444336225,-0.11180996666057767,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2010-14 -> 2015-18 (stress),reduced,other_ta,4.7 Other items (reconciling),-2.287801182430704e-07,-0.11180996666057767,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2010-14 -> 2015-18 (stress),reduced,tax_rate,4.7 Tax,-0.016410027968027964,-0.11180996666057767,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2010-14 -> 2015-18 (stress),reduced,ta_e,"4.7 Leverage (capital, ch. 7)",-0.0323953835130767,-0.11180996666057767,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2010-14 -> 2015-18 (stress),reduced,attr_share,4.7 Minority interests (attributable share),0.0,-0.11180996666057767,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2015-18 (stress) -> 2019-25,reduced,nii_ta,4.2/4.3 Net interest margin (reduced tree),0.0031509065689682525,0.12354454232382349,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2015-18 (stress) -> 2019-25,reduced,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),-0.015346563776897588,0.12354454232382349,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2015-18 (stress) -> 2019-25,reduced,opex_ta,4.5 Operating leverage (operating costs),0.06363203667052375,0.12354454232382349,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2015-18 (stress) -> 2019-25,reduced,imp_ta,4.6 Risk economics (impairment),0.06954083974453118,0.12354454232382349,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2015-18 (stress) -> 2019-25,reduced,other_ta,4.7 Other items (reconciling),0.0,0.12354454232382349,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2015-18 (stress) -> 2019-25,reduced,tax_rate,4.7 Tax,0.010784629542499688,0.12354454232382349,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2015-18 (stress) -> 2019-25,reduced,ta_e,"4.7 Leverage (capital, ch. 7)",-0.008598666396273411,0.12354454232382349,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2015-18 (stress) -> 2019-25,reduced,attr_share,4.7 Minority interests (attributable share),0.0003813599704716416,0.12354454232382349,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2019 -> 2025,reduced,nii_ta,4.2/4.3 Net interest margin (reduced tree),-0.07636352351873929,0.15428607349355092,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2019 -> 2025,reduced,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),0.00017899630695797822,0.15428607349355092,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2019 -> 2025,reduced,opex_ta,4.5 Operating leverage (operating costs),0.17789621753926896,0.15428607349355092,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2019 -> 2025,reduced,imp_ta,4.6 Risk economics (impairment),0.03621855122686443,0.15428607349355092,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2019 -> 2025,reduced,other_ta,4.7 Other items (reconciling),0.0,0.15428607349355092,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2019 -> 2025,reduced,tax_rate,4.7 Tax,0.00608800512358192,0.15428607349355092,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2019 -> 2025,reduced,ta_e,"4.7 Leverage (capital, ch. 7)",0.009089406747152485,0.15428607349355092,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B01,2019 -> 2025,reduced,attr_share,4.7 Minority interests (attributable share),0.0011784200684648802,0.15428607349355092,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2010-14 -> 2015-18 (stress),full,y_iea,4.3 Asset deployment (asset yield),0.06571009113315567,-0.12278007407759284,5/5 and 4/4 years,,Derived
+B02,2010-14 -> 2015-18 (stress),full,iea_ta,4.3 Asset deployment (earning-asset share),-0.03148610140995154,-0.12278007407759284,5/5 and 4/4 years,,Derived
+B02,2010-14 -> 2015-18 (stress),full,c_fund,4.2 Funding economics (cost of funds),-0.06932216229562575,-0.12278007407759284,5/5 and 4/4 years,,Derived
+B02,2010-14 -> 2015-18 (stress),full,ibl_ta,4.2 Funding economics (funding mix),0.00045648345806960453,-0.12278007407759284,5/5 and 4/4 years,,Derived
+B02,2010-14 -> 2015-18 (stress),full,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),-0.04097535463981897,-0.12278007407759284,5/5 and 4/4 years,,Derived
+B02,2010-14 -> 2015-18 (stress),full,opex_ta,4.5 Operating leverage (operating costs),0.0358645262834522,-0.12278007407759284,5/5 and 4/4 years,,Derived
+B02,2010-14 -> 2015-18 (stress),full,imp_ta,4.6 Risk economics (impairment),-0.04548659228877398,-0.12278007407759284,5/5 and 4/4 years,,Derived
+B02,2010-14 -> 2015-18 (stress),full,other_ta,4.7 Other items (reconciling),0.0,-0.12278007407759284,5/5 and 4/4 years,,Derived
+B02,2010-14 -> 2015-18 (stress),full,tax_rate,4.7 Tax,5.2211092848920635e-05,-0.12278007407759284,5/5 and 4/4 years,,Derived
+B02,2010-14 -> 2015-18 (stress),full,ta_e,"4.7 Leverage (capital, ch. 7)",-0.03695988164167765,-0.12278007407759284,5/5 and 4/4 years,,Derived
+B02,2010-14 -> 2015-18 (stress),full,attr_share,4.7 Minority interests (attributable share),-0.000633293769271563,-0.12278007407759284,5/5 and 4/4 years,,Derived
+B02,2015-18 (stress) -> 2019-25,full,y_iea,4.3 Asset deployment (asset yield),-0.06565082013534698,0.07269890634963072,4/4 and 7/7 years,,Derived
+B02,2015-18 (stress) -> 2019-25,full,iea_ta,4.3 Asset deployment (earning-asset share),0.04238964477470493,0.07269890634963072,4/4 and 7/7 years,,Derived
+B02,2015-18 (stress) -> 2019-25,full,c_fund,4.2 Funding economics (cost of funds),-0.005657134237942419,0.07269890634963072,4/4 and 7/7 years,,Derived
+B02,2015-18 (stress) -> 2019-25,full,ibl_ta,4.2 Funding economics (funding mix),0.0025071140675371373,0.07269890634963072,4/4 and 7/7 years,,Derived
+B02,2015-18 (stress) -> 2019-25,full,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),0.05103591031186025,0.07269890634963072,4/4 and 7/7 years,,Derived
+B02,2015-18 (stress) -> 2019-25,full,opex_ta,4.5 Operating leverage (operating costs),0.05197896048596848,0.07269890634963072,4/4 and 7/7 years,,Derived
+B02,2015-18 (stress) -> 2019-25,full,imp_ta,4.6 Risk economics (impairment),0.01703035518696502,0.07269890634963072,4/4 and 7/7 years,,Derived
+B02,2015-18 (stress) -> 2019-25,full,other_ta,4.7 Other items (reconciling),0.0,0.07269890634963072,4/4 and 7/7 years,,Derived
+B02,2015-18 (stress) -> 2019-25,full,tax_rate,4.7 Tax,0.001398061932621714,0.07269890634963072,4/4 and 7/7 years,,Derived
+B02,2015-18 (stress) -> 2019-25,full,ta_e,"4.7 Leverage (capital, ch. 7)",-0.02263865439829589,0.07269890634963072,4/4 and 7/7 years,,Derived
+B02,2015-18 (stress) -> 2019-25,full,attr_share,4.7 Minority interests (attributable share),0.0003054683615584478,0.07269890634963072,4/4 and 7/7 years,,Derived
+B02,2019 -> 2025,full,y_iea,4.3 Asset deployment (asset yield),-0.10420827696317705,0.10963280488908567,point years,,Derived
+B02,2019 -> 2025,full,iea_ta,4.3 Asset deployment (earning-asset share),0.06558901721313168,0.10963280488908567,point years,,Derived
+B02,2019 -> 2025,full,c_fund,4.2 Funding economics (cost of funds),-0.008745125077823709,0.10963280488908567,point years,,Derived
+B02,2019 -> 2025,full,ibl_ta,4.2 Funding economics (funding mix),0.0038760110258898813,0.10963280488908567,point years,,Derived
+B02,2019 -> 2025,full,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),0.028067897122678646,0.10963280488908567,point years,,Derived
+B02,2019 -> 2025,full,opex_ta,4.5 Operating leverage (operating costs),0.10388493197266255,0.10963280488908567,point years,,Derived
+B02,2019 -> 2025,full,imp_ta,4.6 Risk economics (impairment),0.047983056266261585,0.10963280488908567,point years,,Derived
+B02,2019 -> 2025,full,other_ta,4.7 Other items (reconciling),0.0,0.10963280488908567,point years,,Derived
+B02,2019 -> 2025,full,tax_rate,4.7 Tax,0.013299177840111833,0.10963280488908567,point years,,Derived
+B02,2019 -> 2025,full,ta_e,"4.7 Leverage (capital, ch. 7)",-0.04018211859155372,0.10963280488908567,point years,,Derived
+B02,2019 -> 2025,full,attr_share,4.7 Minority interests (attributable share),6.823408090279173e-05,0.10963280488908567,point years,,Derived
+B02,2010-14 -> 2015-18 (stress),reduced,nii_ta,4.2/4.3 Net interest margin (reduced tree),-0.03445164005079693,-0.12247587274341587,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2010-14 -> 2015-18 (stress),reduced,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),-0.04097535463981875,-0.12247587274341587,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2010-14 -> 2015-18 (stress),reduced,opex_ta,4.5 Operating leverage (operating costs),0.035864526283452325,-0.12247587274341587,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2010-14 -> 2015-18 (stress),reduced,imp_ta,4.6 Risk economics (impairment),-0.045486592288774094,-0.12247587274341587,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2010-14 -> 2015-18 (stress),reduced,other_ta,4.7 Other items (reconciling),0.0,-0.12247587274341587,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2010-14 -> 2015-18 (stress),reduced,tax_rate,4.7 Tax,5.2052277837122885e-05,-0.12247587274341587,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2010-14 -> 2015-18 (stress),reduced,ta_e,"4.7 Leverage (capital, ch. 7)",-0.0368474969106387,-0.12247587274341587,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2010-14 -> 2015-18 (stress),reduced,attr_share,4.7 Minority interests (attributable share),-0.0006313674146767911,-0.12247587274341587,5/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2015-18 (stress) -> 2019-25,reduced,nii_ta,4.2/4.3 Net interest margin (reduced tree),-0.02810332032728113,0.07117704501207206,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2015-18 (stress) -> 2019-25,reduced,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),0.05103591031186018,0.07117704501207206,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2015-18 (stress) -> 2019-25,reduced,opex_ta,4.5 Operating leverage (operating costs),0.051978960485968666,0.07117704501207206,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2015-18 (stress) -> 2019-25,reduced,imp_ta,4.6 Risk economics (impairment),0.01703035518696501,0.07117704501207206,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2015-18 (stress) -> 2019-25,reduced,other_ta,4.7 Other items (reconciling),0.0,0.07117704501207206,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2015-18 (stress) -> 2019-25,reduced,tax_rate,4.7 Tax,0.0013867462628195965,0.07117704501207206,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2015-18 (stress) -> 2019-25,reduced,ta_e,"4.7 Leverage (capital, ch. 7)",-0.022454602332720987,0.07117704501207206,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2015-18 (stress) -> 2019-25,reduced,attr_share,4.7 Minority interests (attributable share),0.00030299542446066754,0.07117704501207206,4/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2019 -> 2025,reduced,nii_ta,4.2/4.3 Net interest margin (reduced tree),-0.043792958873108925,0.10963280488908567,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2019 -> 2025,reduced,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),0.028067897122678955,0.10963280488908567,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2019 -> 2025,reduced,opex_ta,4.5 Operating leverage (operating costs),0.10388493197266216,0.10963280488908567,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2019 -> 2025,reduced,imp_ta,4.6 Risk economics (impairment),0.04798305626626176,0.10963280488908567,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2019 -> 2025,reduced,other_ta,4.7 Other items (reconciling),0.0,0.10963280488908567,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2019 -> 2025,reduced,tax_rate,4.7 Tax,0.013145256417967155,0.10963280488908567,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2019 -> 2025,reduced,ta_e,"4.7 Leverage (capital, ch. 7)",-0.03972282455170591,0.10963280488908567,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B02,2019 -> 2025,reduced,attr_share,4.7 Minority interests (attributable share),6.744653433033603e-05,0.10963280488908567,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2010-14 -> 2015-18 (stress),reduced,nii_ta,4.2/4.3 Net interest margin (reduced tree),-0.07182441118875046,-0.19031070244968756,2/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2010-14 -> 2015-18 (stress),reduced,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),0.014941021561805747,-0.19031070244968756,2/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2010-14 -> 2015-18 (stress),reduced,opex_ta,4.5 Operating leverage (operating costs),-0.10522592842260274,-0.19031070244968756,2/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2010-14 -> 2015-18 (stress),reduced,imp_ta,4.6 Risk economics (impairment),-0.030309029443489947,-0.19031070244968756,2/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2010-14 -> 2015-18 (stress),reduced,other_ta,4.7 Other items (reconciling),0.0005635193066097164,-0.19031070244968756,2/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2010-14 -> 2015-18 (stress),reduced,tax_rate,4.7 Tax,0.000534901609972557,-0.19031070244968756,2/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2010-14 -> 2015-18 (stress),reduced,ta_e,"4.7 Leverage (capital, ch. 7)",0.001009224126767588,-0.19031070244968756,2/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2010-14 -> 2015-18 (stress),reduced,attr_share,4.7 Minority interests (attributable share),0.0,-0.19031070244968756,2/5 and 4/4 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2015-18 (stress) -> 2019-25,reduced,nii_ta,4.2/4.3 Net interest margin (reduced tree),-0.22466623673638872,-0.029101061819643607,4/4 and 5/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2015-18 (stress) -> 2019-25,reduced,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),0.06743468210619306,-0.029101061819643607,4/4 and 5/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2015-18 (stress) -> 2019-25,reduced,opex_ta,4.5 Operating leverage (operating costs),0.16560023881772198,-0.029101061819643607,4/4 and 5/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2015-18 (stress) -> 2019-25,reduced,imp_ta,4.6 Risk economics (impairment),-0.011317915720317389,-0.029101061819643607,4/4 and 5/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2015-18 (stress) -> 2019-25,reduced,other_ta,4.7 Other items (reconciling),-0.0008022245429252388,-0.029101061819643607,4/4 and 5/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2015-18 (stress) -> 2019-25,reduced,tax_rate,4.7 Tax,-0.011976456239871959,-0.029101061819643607,4/4 and 5/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2015-18 (stress) -> 2019-25,reduced,ta_e,"4.7 Leverage (capital, ch. 7)",-0.013373149504055173,-0.029101061819643607,4/4 and 5/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B03,2015-18 (stress) -> 2019-25,reduced,attr_share,4.7 Minority interests (attributable share),0.0,-0.029101061819643607,4/4 and 5/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2015-18 (stress) -> 2019-25,reduced,nii_ta,4.2/4.3 Net interest margin (reduced tree),-0.09539175778981758,-0.04299990382080279,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2015-18 (stress) -> 2019-25,reduced,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),-0.004081252070026476,-0.04299990382080279,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2015-18 (stress) -> 2019-25,reduced,opex_ta,4.5 Operating leverage (operating costs),0.06272516507670846,-0.04299990382080279,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2015-18 (stress) -> 2019-25,reduced,imp_ta,4.6 Risk economics (impairment),0.0014494350661752946,-0.04299990382080279,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2015-18 (stress) -> 2019-25,reduced,other_ta,4.7 Other items (reconciling),-0.00020966955968739214,-0.04299990382080279,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2015-18 (stress) -> 2019-25,reduced,tax_rate,4.7 Tax,-0.007001952742832442,-0.04299990382080279,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2015-18 (stress) -> 2019-25,reduced,ta_e,"4.7 Leverage (capital, ch. 7)",-0.0004898718013228049,-0.04299990382080279,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2015-18 (stress) -> 2019-25,reduced,attr_share,4.7 Minority interests (attributable share),0.0,-0.04299990382080279,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2019 -> 2025,reduced,nii_ta,4.2/4.3 Net interest margin (reduced tree),0.040249086821874364,0.17760247975549823,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2019 -> 2025,reduced,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),-0.0171592923736519,0.17760247975549823,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2019 -> 2025,reduced,opex_ta,4.5 Operating leverage (operating costs),0.05631673041496095,0.17760247975549823,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2019 -> 2025,reduced,imp_ta,4.6 Risk economics (impairment),0.01596209748138304,0.17760247975549823,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2019 -> 2025,reduced,other_ta,4.7 Other items (reconciling),0.009320946068568533,0.17760247975549823,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2019 -> 2025,reduced,tax_rate,4.7 Tax,0.04549364287156096,0.17760247975549823,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2019 -> 2025,reduced,ta_e,"4.7 Leverage (capital, ch. 7)",0.027419268470802328,0.17760247975549823,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B04,2019 -> 2025,reduced,attr_share,4.7 Minority interests (attributable share),0.0,0.17760247975549823,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B05,2015-18 (stress) -> 2019-25,reduced,nii_ta,4.2/4.3 Net interest margin (reduced tree),-0.20039723164422135,0.10200020671605174,4/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B05,2015-18 (stress) -> 2019-25,reduced,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),0.06008498266620546,0.10200020671605174,4/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B05,2015-18 (stress) -> 2019-25,reduced,opex_ta,4.5 Operating leverage (operating costs),0.1071888757331174,0.10200020671605174,4/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B05,2015-18 (stress) -> 2019-25,reduced,imp_ta,4.6 Risk economics (impairment),0.03799126939996987,0.10200020671605174,4/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B05,2015-18 (stress) -> 2019-25,reduced,other_ta,4.7 Other items (reconciling),0.004872237891563338,0.10200020671605174,4/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B05,2015-18 (stress) -> 2019-25,reduced,tax_rate,4.7 Tax,0.04061970169033803,0.10200020671605174,4/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B05,2015-18 (stress) -> 2019-25,reduced,ta_e,"4.7 Leverage (capital, ch. 7)",0.051640370979078865,0.10200020671605174,4/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B05,2015-18 (stress) -> 2019-25,reduced,attr_share,4.7 Minority interests (attributable share),0.0,0.10200020671605174,4/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2015-18 (stress) -> 2019-25,reduced,nii_ta,4.2/4.3 Net interest margin (reduced tree),-0.0670220863970872,-0.009888782231803103,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2015-18 (stress) -> 2019-25,reduced,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),0.04478605695377666,-0.009888782231803103,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2015-18 (stress) -> 2019-25,reduced,opex_ta,4.5 Operating leverage (operating costs),0.15589624601623808,-0.009888782231803103,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2015-18 (stress) -> 2019-25,reduced,imp_ta,4.6 Risk economics (impairment),-0.005031695961886237,-0.009888782231803103,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2015-18 (stress) -> 2019-25,reduced,other_ta,4.7 Other items (reconciling),0.0016947896014003032,-0.009888782231803103,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2015-18 (stress) -> 2019-25,reduced,tax_rate,4.7 Tax,0.033672745830529316,-0.009888782231803103,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2015-18 (stress) -> 2019-25,reduced,ta_e,"4.7 Leverage (capital, ch. 7)",-0.1738848382747742,-0.009888782231803103,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2015-18 (stress) -> 2019-25,reduced,attr_share,4.7 Minority interests (attributable share),0.0,-0.009888782231803103,3/4 and 7/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2019 -> 2025,reduced,nii_ta,4.2/4.3 Net interest margin (reduced tree),-0.02360887270846382,0.2765449389870397,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2019 -> 2025,reduced,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),0.08602883844757897,0.2765449389870397,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2019 -> 2025,reduced,opex_ta,4.5 Operating leverage (operating costs),0.45069302772462333,0.2765449389870397,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2019 -> 2025,reduced,imp_ta,4.6 Risk economics (impairment),-0.005399773887666548,0.2765449389870397,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2019 -> 2025,reduced,other_ta,4.7 Other items (reconciling),-0.015746578746457116,0.2765449389870397,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2019 -> 2025,reduced,tax_rate,4.7 Tax,0.06213462330950529,0.2765449389870397,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2019 -> 2025,reduced,ta_e,"4.7 Leverage (capital, ch. 7)",-0.2775563251520808,0.2765449389870397,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B06,2019 -> 2025,reduced,attr_share,4.7 Minority interests (attributable share),0.0,0.2765449389870397,point years,reduced tree (NII/TA; no yield-funding split),Derived
+B07,2015-18 (stress) -> 2019-25,reduced,nii_ta,4.2/4.3 Net interest margin (reduced tree),-0.024103456873828852,-0.021194239927746786,2/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B07,2015-18 (stress) -> 2019-25,reduced,nonii_ta,4.1/4.4 Revenue and transaction economics (non-interest income),-0.07991811841407415,-0.021194239927746786,2/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B07,2015-18 (stress) -> 2019-25,reduced,opex_ta,4.5 Operating leverage (operating costs),0.10947247450333099,-0.021194239927746786,2/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B07,2015-18 (stress) -> 2019-25,reduced,imp_ta,4.6 Risk economics (impairment),0.023452385373117002,-0.021194239927746786,2/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B07,2015-18 (stress) -> 2019-25,reduced,other_ta,4.7 Other items (reconciling),7.46166188853596e-05,-0.021194239927746786,2/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B07,2015-18 (stress) -> 2019-25,reduced,tax_rate,4.7 Tax,-0.008741895015504743,-0.021194239927746786,2/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B07,2015-18 (stress) -> 2019-25,reduced,ta_e,"4.7 Leverage (capital, ch. 7)",-0.04143024611967255,-0.021194239927746786,2/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived
+B07,2015-18 (stress) -> 2019-25,reduced,attr_share,4.7 Minority interests (attributable share),0.0,-0.021194239927746786,2/4 and 6/7 years,reduced tree (NII/TA; no yield-funding split),Derived

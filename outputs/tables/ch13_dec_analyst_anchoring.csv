@@ -1,0 +1,3 @@
+bank,notes_with_price,notes_total,first_note,last_note,corr_target_price,log_target_change,log_price_change,target_over_price_min,target_over_price_max,reading,evidence_class,register_version,input_hash
+NMB,4,4,11 Jul 2023,25 Jun 2026,0.9814414653123541,1.3877861565233534,1.536929371934659,1.0006215040397763,1.1693147353361946,exploratory: too few notes for a test; targets moved with the price,Derived,v1.3,cc2c85e4eef09300
+CRDB,4,5,3 Jun 2024,30 Apr 2026 (Q1 note),0.9731746101511429,1.5449538115844261,1.7136212649189118,0.9739929328621908,1.4671452991452991,exploratory: too few notes for a test; targets moved with the price,Derived,v1.3,cc2c85e4eef09300

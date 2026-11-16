@@ -1,0 +1,360 @@
+bank,fy,check,computed,reference,deviation,tolerance,status,note,evidence_class,register_version,input_hash
+BKG,2020,ROE (profit / average equity),,,,,not computable,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+BKG,2020,ROA (profit / average assets),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2020,payout (DPS x shares / profit),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2020,equity bridge (opening + profit - dividends + OCI + other = closing),,259300000000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2020,BVPS x shares = equity,,259300000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+BKG,2020,EPS x weighted shares = profit,,38400000000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2021,ROE (profit / average equity),0.19059860448035254,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+BKG,2021,ROA (profit / average assets),0.03586235489220564,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+BKG,2021,payout (DPS x shares / profit),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2021,equity bridge (opening + profit - dividends + OCI + other = closing),,285300000000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2021,BVPS x shares = equity,,285300000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+BKG,2021,EPS x weighted shares = profit,,51900000000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2022,ROE (profit / average equity),0.19755129053606882,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+BKG,2022,ROA (profit / average assets),0.034664963418882824,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+BKG,2022,payout (DPS x shares / profit),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2022,equity bridge (opening + profit - dividends + OCI + other = closing),,319100000000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2022,BVPS x shares = equity,,319100000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+BKG,2022,EPS x weighted shares = profit,,59700000000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2023,ROE (profit / average equity),0.21823486506199855,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+BKG,2023,ROA (profit / average assets),0.03762480822916928,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+BKG,2023,payout (DPS x shares / profit),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2023,equity bridge (opening + profit - dividends + OCI + other = closing),,366400000000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2023,BVPS x shares = equity,,366400000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+BKG,2023,EPS x weighted shares = profit,,74800000000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2024,ROE (profit / average equity),0.2261150453472481,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+BKG,2024,ROA (profit / average assets),0.03919288498395676,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+BKG,2024,payout (DPS x shares / profit),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2024,equity bridge (opening + profit - dividends + OCI + other = closing),,438500000000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2024,BVPS x shares = equity,,438500000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+BKG,2024,EPS x weighted shares = profit,,91000000000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2025,ROE (profit / average equity),0.2302351881420393,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+BKG,2025,ROA (profit / average assets),0.040469896323311216,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+BKG,2025,payout (DPS x shares / profit),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2025,equity bridge (opening + profit - dividends + OCI + other = closing),,517918755000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+BKG,2025,BVPS x shares = equity,,517918755000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+BKG,2025,EPS x weighted shares = profit,,110100626000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2020,ROE (profit / average equity),0.16295106939212417,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+EQTY,2020,ROA (profit / average assets),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2020,payout (DPS x shares / profit),0.0,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2020,equity bridge (opening + profit - dividends + OCI + other = closing),132176000000.0,132176000000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2020,BVPS x shares = equity,,132176000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+EQTY,2020,EPS x weighted shares = profit,19775760000.0,19790000000.0,-0.0007195553309752301,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2021,ROE (profit / average equity),0.26000185834129763,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+EQTY,2021,ROA (profit / average assets),0.033771449827522074,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2021,payout (DPS x shares / profit),0.2889859452712189,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2021,equity bridge (opening + profit - dividends + OCI + other = closing),169168000000.0,169168000000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2021,BVPS x shares = equity,,169168000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+EQTY,2021,EPS x weighted shares = profit,39174120000.0,39175000000.0,-2.246330567967636e-05,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2022,ROE (profit / average equity),0.2599815266835185,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+EQTY,2022,ROA (profit / average assets),0.032627354534500226,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2022,payout (DPS x shares / profit),0.33622976807591215,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2022,equity bridge (opening + profit - dividends + OCI + other = closing),176195000000.0,176195000000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2022,BVPS x shares = equity,,176195000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+EQTY,2022,EPS x weighted shares = profit,44910600000.0,44894000000.0,0.00036975987882570394,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2023,ROE (profit / average equity),0.2186370407408565,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+EQTY,2023,ROA (profit / average assets),0.025686220817544736,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2023,payout (DPS x shares / profit),0.359594520999595,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2023,equity bridge (opening + profit - dividends + OCI + other = closing),207793000000.0,207793000000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2023,BVPS x shares = equity,,207793000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+EQTY,2023,EPS x weighted shares = profit,41966880000.0,41977000000.0,-0.00024108440336378933,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2024,ROE (profit / average equity),0.21070809399005055,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+EQTY,2024,ROA (profit / average assets),0.025674692179750973,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2024,payout (DPS x shares / profit),0.3445426949773357,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2024,equity bridge (opening + profit - dividends + OCI + other = closing),234041000000.0,234041000000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2024,BVPS x shares = equity,,234041000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+EQTY,2024,EPS x weighted shares = profit,46571160000.0,46549000000.0,0.00047605748780865653,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2025,ROE (profit / average equity),0.2647945160115243,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+EQTY,2025,ROA (profit / average assets),0.038120391978317715,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2025,payout (DPS x shares / profit),0.30152062297120785,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2025,equity bridge (opening + profit - dividends + OCI + other = closing),309505000000.0,309505000000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+EQTY,2025,BVPS x shares = equity,,309505000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+EQTY,2025,EPS x weighted shares = profit,71970180000.0,71964000000.0,8.587627146905419e-05,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GCB,2020,ROE (profit / average equity),,,,,not computable,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+GCB,2020,ROA (profit / average assets),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+GCB,2020,payout (DPS x shares / profit),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+GCB,2020,equity bridge (opening + profit - dividends + OCI + other = closing),,2185998000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+GCB,2020,BVPS x shares = equity,,2185998000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+GCB,2020,EPS x weighted shares = profit,,445389000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+GCB,2021,ROE (profit / average equity),0.2343268019512459,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+GCB,2021,ROA (profit / average assets),0.033803950190355106,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GCB,2021,payout (DPS x shares / profit),0.2315296156957858,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GCB,2021,equity bridge (opening + profit - dividends + OCI + other = closing),2698471000.0,2698471000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GCB,2021,BVPS x shares = equity,,2698471000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+GCB,2021,EPS x weighted shares = profit,572400000.0,572281000.0,0.00020793980579481008,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GCB,2022,ROE (profit / average equity),-0.2526526165962332,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+GCB,2022,ROA (profit / average assets),-0.029744748942620487,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GCB,2022,payout (DPS x shares / profit),-0.0,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GCB,2022,equity bridge (opening + profit - dividends + OCI + other = closing),1998872000.0,1998872000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GCB,2022,BVPS x shares = equity,,1998872000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+GCB,2022,EPS x weighted shares = profit,-593600000.0,-593398000.0,0.00034041233708226315,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GCB,2023,ROE (profit / average equity),0.39760912059300235,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+GCB,2023,ROA (profit / average assets),0.041509573735935223,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GCB,2023,payout (DPS x shares / profit),0.0,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GCB,2023,equity bridge (opening + profit - dividends + OCI + other = closing),3080096000.0,3080096000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GCB,2023,BVPS x shares = equity,,3080096000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+GCB,2023,EPS x weighted shares = profit,1009650000.0,1009722000.0,-7.130675572086798e-05,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GCB,2024,ROE (profit / average equity),0.3235790308138813,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+GCB,2024,ROA (profit / average assets),0.03433430354519314,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GCB,2024,payout (DPS x shares / profit),0.220672977636251,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GCB,2024,equity bridge (opening + profit - dividends + OCI + other = closing),4342338000.0,4342338000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GCB,2024,BVPS x shares = equity,,4342338000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+GCB,2024,EPS x weighted shares = profit,1200450000.0,1200872000.0,-0.00035141130778304497,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GCB,2025,ROE (profit / average equity),0.38983139982074194,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+GCB,2025,ROA (profit / average assets),0.04318871291488571,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GCB,2025,payout (DPS x shares / profit),0.12859458252860623,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GCB,2025,equity bridge (opening + profit - dividends + OCI + other = closing),6230130000.0,6230130000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GCB,2025,BVPS x shares = equity,,6230130000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+GCB,2025,EPS x weighted shares = profit,2061700000.0,2060740000.0,0.00046585207255644967,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2019,ROE (profit / average equity),,,,,not computable,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+GTCO,2019,ROA (profit / average assets),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2019,payout (DPS x shares / profit),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2019,equity bridge (opening + profit - dividends + OCI + other = closing),,673607444000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2019,BVPS x shares = equity,,673607444000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+GTCO,2019,EPS x weighted shares = profit,,195382285000.0,,0.02,not computable,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2020,ROE (profit / average equity),0.2711675381808777,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+GTCO,2020,ROA (profit / average assets),0.04586839714892816,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2020,payout (DPS x shares / profit),0.44233145110113775,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2020,equity bridge (opening + profit - dividends + OCI + other = closing),798614868000.0,798614868000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2020,BVPS x shares = equity,,798614868000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+GTCO,2020,EPS x weighted shares = profit,199684271790.0,199609450000.0,0.0003748409206076886,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2021,ROE (profit / average equity),0.2069875036914638,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+GTCO,2021,ROA (profit / average assets),0.033159108566200864,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2021,payout (DPS x shares / profit),0.5130148266151701,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2021,equity bridge (opening + profit - dividends + OCI + other = closing),864356875000.0,864356876000.0,-1.1569295521596246e-09,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2021,BVPS x shares = equity,,864356876000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+GTCO,2021,EPS x weighted shares = profit,172152300760.0,172107185000.0,0.0002621375743261378,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2022,ROE (profit / average equity),0.18772851094840207,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+GTCO,2022,ROA (profit / average assets),0.02806428332616581,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2022,payout (DPS x shares / profit),0.5471896663054048,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2022,equity bridge (opening + profit - dividends + OCI + other = closing),912004127000.0,912004127000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2022,BVPS x shares = equity,,912004127000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+GTCO,2022,EPS x weighted shares = profit,166730900000.0,166736803000.0,-3.5403101737552234e-05,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2023,ROE (profit / average equity),0.4529707802422083,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+GTCO,2023,ROA (profit / average assets),0.06623310002967944,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2023,payout (DPS x shares / profit),0.1762262574787414,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2023,equity bridge (opening + profit - dividends + OCI + other = closing),1447641750000.0,1447641750000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2023,BVPS x shares = equity,,1447641750000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+GTCO,2023,EPS x weighted shares = profit,534379540000.0,534425317000.0,-8.565649594782787e-05,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2024,ROE (profit / average equity),0.4904920809650681,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+GTCO,2024,ROA (profit / average assets),0.08218413612731587,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2024,payout (DPS x shares / profit),0.2724412118656899,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2024,equity bridge (opening + profit - dividends + OCI + other = closing),2655257881000.0,2655257881000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2024,BVPS x shares = equity,,2655257881000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+GTCO,2024,EPS x weighted shares = profit,1006319508799.9999,1006219889000.0,9.90040060715458e-05,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2025,ROE (profit / average equity),0.28296443430727497,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+GTCO,2025,ROA (profit / average assets),0.05243431510056449,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2025,payout (DPS x shares / profit),0.5464025016663147,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2025,equity bridge (opening + profit - dividends + OCI + other = closing),3377643788000.0,3377643788000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+GTCO,2025,BVPS x shares = equity,,3377643788000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+GTCO,2025,EPS x weighted shares = profit,853572139940.0,853548304000.0,2.7925707178244608e-05,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+KCB,2020,ROE (profit / average equity),0.14406019899766317,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+KCB,2020,ROA (profit / average assets),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+KCB,2020,payout (DPS x shares / profit),0.16391873163640072,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+KCB,2020,equity bridge (opening + profit - dividends + OCI + other = closing),142423000000.0,142423000000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+KCB,2020,BVPS x shares = equity,,142423000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+KCB,2020,EPS x weighted shares = profit,19599300000.0,19604000000.0,-0.00023974699041007241,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+KCB,2021,ROE (profit / average equity),0.21705248682099473,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+KCB,2021,ROA (profit / average assets),0.032049154822461484,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+KCB,2021,payout (DPS x shares / profit),0.28277567889827526,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+KCB,2021,equity bridge (opening + profit - dividends + OCI + other = closing),171713000000.0,171713000000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+KCB,2021,BVPS x shares = equity,,171713000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+KCB,2021,EPS x weighted shares = profit,34089930000.0,34092000000.0,-6.0718057022124405e-05,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+KCB,2022,ROE (profit / average equity),0.21839995267723183,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+KCB,2022,ROA (profit / average assets),0.030154040795900956,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+KCB,2022,payout (DPS x shares / profit),0.15824799029867284,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+KCB,2022,equity bridge (opening + profit - dividends + OCI + other = closing),200201000000.0,200201000000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+KCB,2022,BVPS x shares = equity,,200201000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+KCB,2022,EPS x weighted shares = profit,40837230000.0,40613000000.0,0.005521138551695337,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+KCB,2023,ROE (profit / average equity),0.16915620623627908,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+KCB,2023,ROA (profit / average assets),0.01942385629267224,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+KCB,2023,payout (DPS x shares / profit),0.0,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+KCB,2023,equity bridge (opening + profit - dividends + OCI + other = closing),227522000000.0,227522000000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+KCB,2023,BVPS x shares = equity,,227522000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+KCB,2023,EPS x weighted shares = profit,37463580000.0,36176000000.0,0.035592105263157814,0.02,fail,,Derived,v1.3,cc2c85e4eef09300
+KCB,2024,ROE (profit / average equity),0.23920702215322148,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+KCB,2024,ROA (profit / average assets),0.02907678662071028,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+KCB,2024,payout (DPS x shares / profit),0.16043249201198204,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+KCB,2024,equity bridge (opening + profit - dividends + OCI + other = closing),274888000000.0,274888000000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+KCB,2024,BVPS x shares = equity,,274888000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+KCB,2024,EPS x weighted shares = profit,60083100000.0,60090000000.0,-0.00011482775836246795,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+KCB,2025,ROE (profit / average equity),0.22039600629335337,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+KCB,2025,ROA (profit / average assets),0.03251907884266945,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+KCB,2025,payout (DPS x shares / profit),0.3366443632050764,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+KCB,2025,equity bridge (opening + profit - dividends + OCI + other = closing),331466000000.0,331466000000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+KCB,2025,BVPS x shares = equity,,331466000000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+KCB,2025,EPS x weighted shares = profit,66830400000.0,66819000000.0,0.00017061015579411531,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+SBU,2020,ROE (profit / average equity),0.20479238126253607,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+SBU,2020,ROA (profit / average assets),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+SBU,2020,payout (DPS x shares / profit),0.3939441987129392,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+SBU,2020,equity bridge (opening + profit - dividends + OCI + other = closing),1243439388000.0,1243439388000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+SBU,2020,BVPS x shares = equity,,1243439388000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+SBU,2020,EPS x weighted shares = profit,241610522400.0,241686325000.0,-0.00031364041800874265,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+SBU,2021,ROE (profit / average equity),0.19397699273622812,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+SBU,2021,ROA (profit / average assets),0.031136156603842943,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+SBU,2021,payout (DPS x shares / profit),0.18627049358778885,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+SBU,2021,equity bridge (opening + profit - dividends + OCI + other = closing),1533303237000.0,1533303237000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+SBU,2021,BVPS x shares = equity,,1533303237000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+SBU,2021,EPS x weighted shares = profit,269252404200.0,269312092000.0,-0.00022163059800528462,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+SBU,2022,ROE (profit / average equity),0.21554431234696034,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+SBU,2022,ROA (profit / average assets),0.04020249057516449,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+SBU,2022,payout (DPS x shares / profit),0.6574385723005662,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+SBU,2022,equity bridge (opening + profit - dividends + OCI + other = closing),1782775059000.0,1782775059000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+SBU,2022,BVPS x shares = equity,,1782775059000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+SBU,2022,EPS x weighted shares = profit,357296916600.0,357380908000.0,-0.00023501926969193843,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+SBU,2023,ROE (profit / average equity),0.2246239664380196,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+SBU,2023,ROA (profit / average assets),0.04482336912702225,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+SBU,2023,payout (DPS x shares / profit),0.6803909122237332,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+SBU,2023,equity bridge (opening + profit - dividends + OCI + other = closing),1881402994000.0,1881402994000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+SBU,2023,BVPS x shares = equity,,1881402994000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+SBU,2023,EPS x weighted shares = profit,411556906799.99994,411531104000.0,6.269951347337432e-05,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+SBU,2024,ROE (profit / average equity),0.24291131506282004,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+SBU,2024,ROA (profit / average assets),0.048544712929021315,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+SBU,2024,payout (DPS x shares / profit),0.6274152020816911,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+SBU,2024,equity bridge (opening + profit - dividends + OCI + other = closing),2054992014000.0,2054992014000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+SBU,2024,BVPS x shares = equity,,2054992014000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+SBU,2024,EPS x weighted shares = profit,478102177800.0,478097444000.0,9.901328817729649e-06,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+SBU,2025,ROE (profit / average equity),0.26786547285182516,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+SBU,2025,ROA (profit / average assets),0.05391008032682848,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+SBU,2025,payout (DPS x shares / profit),0.6090870992998838,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+SBU,2025,equity bridge (opening + profit - dividends + OCI + other = closing),2356271735000.0,2356271735000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+SBU,2025,BVPS x shares = equity,,2356271735000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+SBU,2025,EPS x weighted shares = profit,590717251800.0,590812625000.0,-0.00016142715298272936,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2020,ROE (profit / average equity),0.19699744242111114,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+ZNCO,2020,ROA (profit / average assets),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2020,payout (DPS x shares / profit),0.39821241019946,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2020,equity bridge (opening + profit - dividends + OCI + other = closing),1171798000.0,1171798000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2020,BVPS x shares = equity,,1171798000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2020,EPS x weighted shares = profit,206456249.99999997,206658000.0,-0.0009762506169614937,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2021,ROE (profit / average equity),0.6140433117859524,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+ZNCO,2021,ROA (profit / average assets),0.043582183378562234,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2021,payout (DPS x shares / profit),0.3673951121164354,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2021,equity bridge (opening + profit - dividends + OCI + other = closing),2053651000.0,2053652000.0,-4.869374168325891e-07,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2021,BVPS x shares = equity,,2053652000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2021,EPS x weighted shares = profit,990412500.0000001,990283000.0,0.00013077069888112192,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2022,ROE (profit / average equity),0.4757936795111585,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+ZNCO,2022,ROA (profit / average assets),0.03767176042687283,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2022,payout (DPS x shares / profit),0.3612478481538513,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2022,equity bridge (opening + profit - dividends + OCI + other = closing),2851823000.0,2851823000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2022,BVPS x shares = equity,,2851823000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2022,EPS x weighted shares = profit,1166550000.0,1166997000.0,-0.00038303440368736563,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2023,ROE (profit / average equity),0.48855945695818004,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+ZNCO,2023,ROA (profit / average assets),0.04310812234843649,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2023,payout (DPS x shares / profit),0.35629049184759165,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2023,equity bridge (opening + profit - dividends + OCI + other = closing),4264535000.0,4264535000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2023,BVPS x shares = equity,,4264535000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2023,EPS x weighted shares = profit,1738275000.0,1738382000.0,-6.155148868314253e-05,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2024,ROE (profit / average equity),0.3699383153190191,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+ZNCO,2024,ROA (profit / average assets),0.038617069222767086,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2024,payout (DPS x shares / profit),0.35261397065837974,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2024,equity bridge (opening + profit - dividends + OCI + other = closing),5430903000.0,5430903000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2024,BVPS x shares = equity,,5430903000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2024,EPS x weighted shares = profit,1793137500.0,1793357000.0,-0.00012239615425146955,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2025,ROE (profit / average equity),0.32606073983045325,,,,computed,"opening equity from the prior year's report, else the equity bridge",Derived,v1.3,cc2c85e4eef09300
+ZNCO,2025,ROA (profit / average assets),0.03761623934191182,,,,computed,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2025,payout (DPS x shares / profit),,,,,not computable,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2025,equity bridge (opening + profit - dividends + OCI + other = closing),6828960000.0,6828960000.0,0.0,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2025,BVPS x shares = equity,,6828960000.0,,0.02,not computable,only where the report prints BVPS,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2025,EPS x weighted shares = profit,1998149999.9999998,1998730000.0,-0.00029018426700966327,0.02,pass,,Derived,v1.3,cc2c85e4eef09300
+BKG,2021,restatement: total_assets (comparative in the next report vs own report),1590400000000.0,1590400000000.0,0.0,0.005,pass,prior-year column in FY2022 release; same as FY2021 release,Derived,v1.3,cc2c85e4eef09300
+BKG,2021,restatement: equity_attributable (comparative in the next report vs own report),285300000000.0,285300000000.0,0.0,0.005,pass,prior-year column in FY2022 release; same as FY2021 release; 'Shareholders Equity' line = TOTAL shareholders equity incl. non-controlling interests (PR definition: total shareholders equity); attributable equity not printed in this release. FY2025 audited extract shows NCI of RWF 5.26bn at 2024 (1.2% of total),Derived,v1.3,cc2c85e4eef09300
+BKG,2021,restatement: profit_attributable (comparative in the next report vs own report),51900000000.0,51900000000.0,0.0,0.005,pass,prior-year column in FY2022 release; same as FY2021 release; 'Net Income' = profit for the period of the Group incl. any NCI share; attribution to owners not printed (NCI exists: equity NCI RWF 5.3-6.3bn in 2024-25),Derived,v1.3,cc2c85e4eef09300
+BKG,2022,restatement: total_assets (comparative in the next report vs own report),1853500000000.0,1854000000000.0,-0.0002696871628909969,0.005,pass,"prior-year column in FY2023 release; differs from FY2022 release (1,854.0 / 319.1 / 59.7); not labelled restated (FY2023 release p4 mentions IFRS 17 restatement of 2022 insurance results)",Derived,v1.3,cc2c85e4eef09300
+BKG,2022,restatement: equity_attributable (comparative in the next report vs own report),319200000000.0,319100000000.0,0.0003133813851456946,0.005,pass,"prior-year column in FY2023 release; differs from FY2022 release (1,854.0 / 319.1 / 59.7); not labelled restated (FY2023 release p4 mentions IFRS 17 restatement of 2022 insurance results); 'Shareholders Equity' line = TOTAL shareholders equity incl. non-controlling interests (PR definition: total shareholders equity); attributable equity not printed in this release. FY2025 audited extract shows NCI of RWF 5.26bn at 2024 (1.2% of total)",Derived,v1.3,cc2c85e4eef09300
+BKG,2022,restatement: profit_attributable (comparative in the next report vs own report),59900000000.0,59700000000.0,0.003350083752093891,0.005,pass,"prior-year column in FY2023 release; differs from FY2022 release (1,854.0 / 319.1 / 59.7); not labelled restated (FY2023 release p4 mentions IFRS 17 restatement of 2022 insurance results); 'Net Income' = profit for the period of the Group incl. any NCI share; attribution to owners not printed (NCI exists: equity NCI RWF 5.3-6.3bn in 2024-25)",Derived,v1.3,cc2c85e4eef09300
+BKG,2023,restatement: total_assets (comparative in the next report vs own report),2115699999999.9998,2122100000000.0,-0.0030158804957354235,0.005,pass,"prior-year column in FY2024 release; total assets differ from FY2023 release (2,122.1); not labelled restated",Derived,v1.3,cc2c85e4eef09300
+BKG,2023,restatement: equity_attributable (comparative in the next report vs own report),366400000000.0,366400000000.0,0.0,0.005,pass,"prior-year column in FY2024 release; total assets differ from FY2023 release (2,122.1); not labelled restated; 'Shareholders Equity' line = TOTAL shareholders equity incl. non-controlling interests (PR definition: total shareholders equity); attributable equity not printed in this release. FY2025 audited extract shows NCI of RWF 5.26bn at 2024 (1.2% of total)",Derived,v1.3,cc2c85e4eef09300
+BKG,2023,restatement: profit_attributable (comparative in the next report vs own report),74800000000.0,74800000000.0,0.0,0.005,pass,"prior-year column in FY2024 release; total assets differ from FY2023 release (2,122.1); not labelled restated; 'Net Income' = profit for the period of the Group incl. any NCI share; attribution to owners not printed (NCI exists: equity NCI RWF 5.3-6.3bn in 2024-25)",Derived,v1.3,cc2c85e4eef09300
+BKG,2024,restatement: total_assets (comparative in the next report vs own report),2521108638000.0,2521600000000.0,-0.00019486119923861622,0.005,pass,"prior-year column of audited extract (FRW'000); total assets 2,521.1bn vs 2,521.6bn in FY2024 release; equity is ATTRIBUTABLE (excl. NCI 5,262,884k) whereas FY2024 release figure 438.5bn is total equity - basis difference, not a restatement",Derived,v1.3,cc2c85e4eef09300
+BKG,2024,restatement: equity_attributable (comparative in the next report vs own report),433264750000.0,438500000000.0,-0.011938996579247463,0.005,fail,"prior-year column of audited extract (FRW'000); total assets 2,521.1bn vs 2,521.6bn in FY2024 release; equity is ATTRIBUTABLE (excl. NCI 5,262,884k) whereas FY2024 release figure 438.5bn is total equity - basis difference, not a restatement",Derived,v1.3,cc2c85e4eef09300
+BKG,2024,restatement: profit_attributable (comparative in the next report vs own report),91031031000.0,91000000000.0,0.0003409999999999247,0.005,pass,"prior-year column of audited extract (FRW'000); total assets 2,521.1bn vs 2,521.6bn in FY2024 release; equity is ATTRIBUTABLE (excl. NCI 5,262,884k) whereas FY2024 release figure 438.5bn is total equity - basis difference, not a restatement",Derived,v1.3,cc2c85e4eef09300
+EQTY,2020,restatement: total_assets (comparative in the next report vs own report),1015093000000.0,1015093000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+EQTY,2020,restatement: equity_attributable (comparative in the next report vs own report),132176000000.0,132176000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+EQTY,2020,restatement: profit_attributable (comparative in the next report vs own report),19790000000.0,19790000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+EQTY,2021,restatement: total_assets (comparative in the next report vs own report),1304914000000.0,1304914000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+EQTY,2021,restatement: equity_attributable (comparative in the next report vs own report),169168000000.0,169168000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+EQTY,2021,restatement: profit_attributable (comparative in the next report vs own report),39175000000.0,39175000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+EQTY,2022,restatement: total_assets (comparative in the next report vs own report),1447010000000.0,1447010000000.0,0.0,0.005,pass,prior-year column; same as originally reported (P&L re-presented for IFRS 17; profit unchanged),Derived,v1.3,cc2c85e4eef09300
+EQTY,2022,restatement: equity_attributable (comparative in the next report vs own report),176195000000.0,176195000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+EQTY,2022,restatement: profit_attributable (comparative in the next report vs own report),44894000000.0,44894000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+EQTY,2023,restatement: total_assets (comparative in the next report vs own report),1821435000000.0,1821435000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+EQTY,2023,restatement: equity_attributable (comparative in the next report vs own report),207793000000.0,207793000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+EQTY,2023,restatement: profit_attributable (comparative in the next report vs own report),41977000000.0,41977000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+EQTY,2024,restatement: total_assets (comparative in the next report vs own report),1804626000000.0,1804626000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+EQTY,2024,restatement: equity_attributable (comparative in the next report vs own report),234041000000.0,234041000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+EQTY,2024,restatement: profit_attributable (comparative in the next report vs own report),46549000000.0,46549000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+GCB,2021,restatement: equity_attributable (comparative in the next report vs own report),2698471000.0,2698471000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+GCB,2021,restatement: profit_attributable (comparative in the next report vs own report),572281000.0,572281000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+GCB,2021,restatement: total_assets (comparative in the next report vs own report),18404927000.0,18404927000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+GCB,2022,restatement: equity_attributable (comparative in the next report vs own report),1998872000.0,1998872000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+GCB,2022,restatement: profit_attributable (comparative in the next report vs own report),-593398000.0,-593398000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+GCB,2022,restatement: total_assets (comparative in the next report vs own report),21494418000.0,21494418000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+GCB,2023,restatement: equity_attributable (comparative in the next report vs own report),3080096000.0,3080096000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+GCB,2023,restatement: profit_attributable (comparative in the next report vs own report),1009722000.0,1009722000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+GCB,2023,restatement: total_assets (comparative in the next report vs own report),27155660000.0,27155660000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+GCB,2024,restatement: equity_attributable (comparative in the next report vs own report),4342338000.0,4342338000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+GCB,2024,restatement: profit_attributable (comparative in the next report vs own report),1200872000.0,1200872000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+GCB,2024,restatement: total_assets (comparative in the next report vs own report),42796072000.0,42796072000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+GTCO,2020,restatement: equity_attributable (comparative in the next report vs own report),798614868000.0,798614868000.0,0.0,0.005,pass,Dec-2020 comparative column in the FY2021 report; not marked restated; NGN thousands; GTBank Plc group figures carried over unchanged into GTCO Plc after the 2021 scheme of arrangement,Derived,v1.3,cc2c85e4eef09300
+GTCO,2020,restatement: profit_attributable (comparative in the next report vs own report),199609450000.0,199609450000.0,0.0,0.005,pass,Dec-2020 comparative column in the FY2021 report; not marked restated; NGN thousands; GTBank Plc group figures carried over unchanged into GTCO Plc after the 2021 scheme of arrangement,Derived,v1.3,cc2c85e4eef09300
+GTCO,2020,restatement: total_assets (comparative in the next report vs own report),4944653293000.0,4944653293000.0,0.0,0.005,pass,Dec-2020 comparative column in the FY2021 report; not marked restated; NGN thousands; GTBank Plc group figures carried over unchanged into GTCO Plc after the 2021 scheme of arrangement,Derived,v1.3,cc2c85e4eef09300
+GTCO,2021,restatement: equity_attributable (comparative in the next report vs own report),864356876000.0,864356876000.0,0.0,0.005,pass,Dec-2021 comparative column in the FY2022 report; not marked restated; NGN thousands,Derived,v1.3,cc2c85e4eef09300
+GTCO,2021,restatement: profit_attributable (comparative in the next report vs own report),172107185000.0,172107185000.0,0.0,0.005,pass,Dec-2021 comparative column in the FY2022 report; not marked restated; NGN thousands,Derived,v1.3,cc2c85e4eef09300
+GTCO,2021,restatement: total_assets (comparative in the next report vs own report),5436034997000.0,5436034997000.0,0.0,0.005,pass,Dec-2021 comparative column in the FY2022 report; not marked restated; NGN thousands,Derived,v1.3,cc2c85e4eef09300
+GTCO,2022,restatement: equity_attributable (comparative in the next report vs own report),912004127000.0,912004127000.0,0.0,0.005,pass,Dec-2022 comparative column in the FY2023 report; not marked restated; NGN thousands,Derived,v1.3,cc2c85e4eef09300
+GTCO,2022,restatement: profit_attributable (comparative in the next report vs own report),166736803000.0,166736803000.0,0.0,0.005,pass,Dec-2022 comparative column in the FY2023 report; not marked restated; NGN thousands,Derived,v1.3,cc2c85e4eef09300
+GTCO,2022,restatement: total_assets (comparative in the next report vs own report),6446456429000.0,6446456429000.0,0.0,0.005,pass,Dec-2022 comparative column in the FY2023 report; not marked restated; NGN thousands,Derived,v1.3,cc2c85e4eef09300
+GTCO,2023,restatement: equity_attributable (comparative in the next report vs own report),1447641750000.0,1447641750000.0,0.0,0.005,pass,Dec-2023 comparative column in the FY2024 report; not marked restated; NGN thousands,Derived,v1.3,cc2c85e4eef09300
+GTCO,2023,restatement: profit_attributable (comparative in the next report vs own report),534425317000.0,534425317000.0,0.0,0.005,pass,Dec-2023 comparative column in the FY2024 report; not marked restated; NGN thousands,Derived,v1.3,cc2c85e4eef09300
+GTCO,2023,restatement: total_assets (comparative in the next report vs own report),9691254678000.0,9691254678000.0,0.0,0.005,pass,Dec-2023 comparative column in the FY2024 report; not marked restated; NGN thousands,Derived,v1.3,cc2c85e4eef09300
+GTCO,2024,restatement: equity_attributable (comparative in the next report vs own report),2655257881000.0,2655257881000.0,0.0,0.005,pass,Dec-2024 comparative column in the FY2025 report; not marked restated; NGN thousands,Derived,v1.3,cc2c85e4eef09300
+GTCO,2024,restatement: profit_attributable (comparative in the next report vs own report),1006219889000.0,1006219889000.0,0.0,0.005,pass,Dec-2024 comparative column in the FY2025 report; not marked restated; NGN thousands,Derived,v1.3,cc2c85e4eef09300
+GTCO,2024,restatement: total_assets (comparative in the next report vs own report),14795706831000.0,14795706831000.0,0.0,0.005,pass,Dec-2024 comparative column in the FY2025 report; not marked restated; NGN thousands,Derived,v1.3,cc2c85e4eef09300
+KCB,2020,restatement: total_assets (comparative in the next report vs own report),987810000000.0,987810000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+KCB,2020,restatement: equity_attributable (comparative in the next report vs own report),142423000000.0,142423000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+KCB,2020,restatement: profit_attributable (comparative in the next report vs own report),19604000000.0,19604000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+KCB,2021,restatement: total_assets (comparative in the next report vs own report),1139674000000.0,1139672000000.0,1.7548908808340258e-06,0.005,pass,"prior-year column; differs by +2 from 1,139,672 originally reported (intangibles 7,012 vs 7,010; not marked restated)",Derived,v1.3,cc2c85e4eef09300
+KCB,2021,restatement: equity_attributable (comparative in the next report vs own report),171713000000.0,171713000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+KCB,2021,restatement: profit_attributable (comparative in the next report vs own report),34092000000.0,34092000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+KCB,2023,restatement: eps_basic (comparative in the next report vs own report),11.26,11.66,-0.03430531732418529,0.005,fail,"Comparative in FY2024 report (= 36,176/3,213); corrects 11.66",Derived,v1.3,cc2c85e4eef09300
+KCB,2022,restatement: total_assets (comparative in the next report vs own report),1554030000000.0,1554030000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+KCB,2022,restatement: equity_attributable (comparative in the next report vs own report),200201000000.0,200201000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+KCB,2022,restatement: profit_attributable (comparative in the next report vs own report),40613000000.0,40613000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+KCB,2023,restatement: total_assets (comparative in the next report vs own report),2170874000000.0,2170874000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+KCB,2023,restatement: equity_attributable (comparative in the next report vs own report),227522000000.0,227522000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+KCB,2023,restatement: profit_attributable (comparative in the next report vs own report),36176000000.0,36176000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+KCB,2024,restatement: total_assets (comparative in the next report vs own report),1962320000000.0,1962320000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+KCB,2024,restatement: equity_attributable (comparative in the next report vs own report),274888000000.0,274888000000.0,0.0,0.005,pass,prior-year column; same as originally reported,Derived,v1.3,cc2c85e4eef09300
+KCB,2024,restatement: profit_attributable (comparative in the next report vs own report),60090000000.0,60090000000.0,0.0,0.005,pass,"prior-year column; same as originally reported; P&L re-presented with NBK as discontinued (continuing PBT 80,724)",Derived,v1.3,cc2c85e4eef09300
+SBU,2020,restatement: total_assets (comparative in the next report vs own report),8578898126000.0,8578898126000.0,0.0,0.005,pass,prior-year column in FY2021 report; not marked restated; identical to the FY2020 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2020,restatement: equity_attributable (comparative in the next report vs own report),1243439388000.0,1243439388000.0,0.0,0.005,pass,prior-year column in FY2021 report; not marked restated; identical to the FY2020 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2020,restatement: profit_attributable (comparative in the next report vs own report),241686325000.0,241686325000.0,0.0,0.005,pass,prior-year column in FY2021 report; not marked restated; identical to the FY2020 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2021,restatement: total_assets (comparative in the next report vs own report),8720095801000.0,8720095801000.0,0.0,0.005,pass,prior-year column in FY2022 report; not marked restated; identical to the FY2021 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2021,restatement: equity_attributable (comparative in the next report vs own report),1533303237000.0,1533303237000.0,0.0,0.005,pass,prior-year column in FY2022 report; not marked restated; identical to the FY2021 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2021,restatement: profit_attributable (comparative in the next report vs own report),269312092000.0,269312092000.0,0.0,0.005,pass,prior-year column in FY2022 report; not marked restated; identical to the FY2021 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2022,restatement: total_assets (comparative in the next report vs own report),9058947382000.0,9058947382000.0,0.0,0.005,pass,prior-year column in FY2023 report; not marked restated; identical to the FY2022 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2022,restatement: equity_attributable (comparative in the next report vs own report),1782775059000.0,1782775059000.0,0.0,0.005,pass,prior-year column in FY2023 report; not marked restated; identical to the FY2022 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2022,restatement: profit_attributable (comparative in the next report vs own report),357380908000.0,357380908000.0,0.0,0.005,pass,prior-year column in FY2023 report; not marked restated; identical to the FY2022 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2023,restatement: total_assets (comparative in the next report vs own report),9303398511000.0,9303398511000.0,0.0,0.005,pass,prior-year column in FY2024 report; not marked restated; identical to the FY2023 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2023,restatement: equity_attributable (comparative in the next report vs own report),1881402994000.0,1881402994000.0,0.0,0.005,pass,prior-year column in FY2024 report; not marked restated; identical to the FY2023 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2023,restatement: profit_attributable (comparative in the next report vs own report),411531104000.0,411531104000.0,0.0,0.005,pass,prior-year column in FY2024 report; not marked restated; identical to the FY2023 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2024,restatement: total_assets (comparative in the next report vs own report),10393800840000.0,10393800840000.0,0.0,0.005,pass,prior-year column in FY2025 report; not marked restated; identical to the FY2024 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2024,restatement: equity_attributable (comparative in the next report vs own report),2054992014000.0,2054992014000.0,0.0,0.005,pass,prior-year column in FY2025 report; not marked restated; identical to the FY2024 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2024,restatement: profit_attributable (comparative in the next report vs own report),478097444000.0,478097444000.0,0.0,0.005,pass,prior-year column in FY2025 report; not marked restated; identical to the FY2024 report figure,Derived,v1.3,cc2c85e4eef09300
+SBU,2024,restatement: npl_coverage (comparative in the next report vs own report),0.268,0.725,-0.6303448275862069,0.005,fail,Stage 3 ECL coverage for 2024 as printed in the FY2025 report ECL coverage table; differs from 72.5% printed in the FY2024 report p52; not marked restated,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2020,restatement: equity_attributable (comparative in the next report vs own report),1171798000.0,1171798000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2020,restatement: profit_attributable (comparative in the next report vs own report),206658000.0,206658000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2020,restatement: total_assets (comparative in the next report vs own report),19340292000.0,19340292000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2021,restatement: equity_attributable (comparative in the next report vs own report),2053652000.0,2053652000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2021,restatement: profit_attributable (comparative in the next report vs own report),990283000.0,990283000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2021,restatement: total_assets (comparative in the next report vs own report),26104105000.0,26104104000.0,3.830815265004617e-08,0.005,pass,"Prior-year column in following report; not labelled restated; total assets 26,104,105 vs 26,104,104 originally (K1k rounding; other assets/intangibles re-presented)",Derived,v1.3,cc2c85e4eef09300
+ZNCO,2022,restatement: equity_attributable (comparative in the next report vs own report),2851823000.0,2851823000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2022,restatement: profit_attributable (comparative in the next report vs own report),1166997000.0,1166997000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2022,restatement: total_assets (comparative in the next report vs own report),35851895000.0,35851960000.0,-1.813011059947911e-06,0.005,pass,"Prior-year column in following report; not labelled restated; total assets 35,851,895 vs 35,851,960 originally (-65: property & equipment and other liabilities re-presented); not labelled restated",Derived,v1.3,cc2c85e4eef09300
+ZNCO,2023,restatement: equity_attributable (comparative in the next report vs own report),4264535000.0,4264535000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2023,restatement: profit_attributable (comparative in the next report vs own report),1738382000.0,1738382000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2023,restatement: total_assets (comparative in the next report vs own report),44800219000.0,44800219000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2024,restatement: equity_attributable (comparative in the next report vs own report),5430903000.0,5430903000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2024,restatement: profit_attributable (comparative in the next report vs own report),1793357000.0,1793357000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300
+ZNCO,2024,restatement: total_assets (comparative in the next report vs own report),48078761000.0,48078761000.0,0.0,0.005,pass,Prior-year column in following report; not labelled restated; equal to originally reported,Derived,v1.3,cc2c85e4eef09300

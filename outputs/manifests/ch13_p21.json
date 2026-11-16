@@ -1,0 +1,100 @@
+{
+  "chapter": "13_p21",
+  "title": "Report exhibits",
+  "status": "complete",
+  "hypotheses": [],
+  "tables": [
+    {
+      "path": "outputs/tables/ch13_p21_thesis.csv",
+      "description": "E1. Thesis architecture",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_p21.md"
+    },
+    {
+      "path": "outputs/tables/ch13_p21_roe_bridge.csv",
+      "description": "E2. ROE bridge",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_p21.md"
+    },
+    {
+      "path": "outputs/tables/ch13_p21_dupont.csv",
+      "description": "E3. DuPont tree with Shapley effects",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_p21.md"
+    },
+    {
+      "path": "outputs/tables/ch13_p21_surplus.csv",
+      "description": "E4. Surplus capital by hurdle",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_p21.md"
+    },
+    {
+      "path": "outputs/tables/ch13_p21_rating_map.csv",
+      "description": "E5. Rating decision map",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_p21.md"
+    },
+    {
+      "path": "outputs/tables/ch13_p21_transmission.csv",
+      "description": "E6. Transmission map",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_p21.md"
+    },
+    {
+      "path": "outputs/tables/ch13_p21_forecast_kpis.csv",
+      "description": "NPL, coverage and LDR: actuals, 30 Sep 2026 and FY2026-30 forecasts",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_p21.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch13_p21_thesis.png",
+      "data": "outputs/figures/ch13_p21_thesis_data.csv",
+      "description": "E1. Thesis architecture",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_p21.md"
+    },
+    {
+      "path": "outputs/figures/ch13_p21_roe_bridge.png",
+      "data": "outputs/figures/ch13_p21_roe_bridge_data.csv",
+      "description": "E2. ROE bridge",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_p21.md"
+    },
+    {
+      "path": "outputs/figures/ch13_p21_dupont.png",
+      "data": "outputs/figures/ch13_p21_dupont_data.csv",
+      "description": "E3. DuPont tree with Shapley effects",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_p21.md"
+    },
+    {
+      "path": "outputs/figures/ch13_p21_surplus.png",
+      "data": "outputs/figures/ch13_p21_surplus_data.csv",
+      "description": "E4. Surplus capital by hurdle",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_p21.md"
+    },
+    {
+      "path": "outputs/figures/ch13_p21_rating_map.png",
+      "data": "outputs/figures/ch13_p21_rating_map_data.csv",
+      "description": "E5. Rating decision map",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_p21.md"
+    },
+    {
+      "path": "outputs/figures/ch13_p21_transmission.png",
+      "data": "outputs/figures/ch13_p21_transmission_data.csv",
+      "description": "E6. Transmission map",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_p21.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch13_p21.md"
+  ],
+  "inputs": [],
+  "module": "tzbank.chapters.ch13_p21_exhibits",
+  "run_log_stage": "market_ext"
+}

@@ -1,0 +1,10 @@
+bank,fy,item,value,source_file,page,note
+EQTY,2025,shareholder,Arise B.V.: 12.76%,EQTY_AR_FY2025.pdf,49,"481,581,275 shares, rank 1 of largest shareholders at 31 Dec 2025; no other holder above 5% (rank 2 Stanbic Nominees A/C NR3530153-1 4.67%)"
+EQTY,2020,shareholder,Arise B.V.: 11.99%,EQTY_AR_FY2020.pdf,108,"452,581,275 shares at 31 Dec 2020; rose to 481,581,275 (12.76%) by FY2021 report p125 and unchanged since"
+EQTY,2025,government_stake,0,EQTY_AR_FY2025.pdf,49,No government or state entity among holders disclosed; largest holder Arise B.V. 12.76%
+EQTY,2025,listing,Nairobi Securities Exchange; Uganda Securities Exchange; Rwanda Stock Exchange,EQTY_AR_FY2025.pdf,5,"Primary listing NSE, cross-listed on USE and RSE"
+EQTY,2025,foreign_subsidiary,Equity BCDC (Democratic Republic of the Congo),EQTY_AR_FY2025.pdf,214,85.5% held; banking
+EQTY,2025,foreign_subsidiary,Equity Bank (South Sudan) Limited (South Sudan),EQTY_AR_FY2025.pdf,214,100% held; banking; IAS 29 hyperinflation accounting applied
+EQTY,2025,foreign_subsidiary,Equity Bank (Uganda) Limited (Uganda),EQTY_AR_FY2025.pdf,214,100% held; banking
+EQTY,2025,foreign_subsidiary,Equity Bank (Tanzania) Limited (Tanzania),EQTY_AR_FY2025.pdf,214,100% held; banking
+EQTY,2025,foreign_subsidiary,Equity Bank Rwanda PLC (Rwanda),EQTY_AR_FY2025.pdf,214,99.1% held; banking; absorbed Cogebanque (acquired 2023)

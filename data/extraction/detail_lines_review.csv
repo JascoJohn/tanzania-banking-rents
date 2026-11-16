@@ -1,0 +1,333 @@
+bank_id,fiscal_year,note_kind,file,column,page,note_total,audited_total,status,variable,value,label,gate,gate_passed,confidence,notes,evidence_class
+B01,2010,interest_income,CRDB/2010.pdf,current,58.0,160038922000.0,160039000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2010,fee_income,CRDB/2010.pdf,current,58.0,47061862000.0,70530048000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2010,staff_costs,CRDB/2010.pdf,current,,,109541435000.0,not found,,,,,,,,Observed
+B01,2010,loans_by_sector,CRDB/2010.pdf,current,,,1153527000000.0,not reconciled,,,,,,,,Observed
+B01,2009,interest_income,CRDB/2010.pdf,prior,58.0,145644425000.0,145644000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2009,fee_income,CRDB/2010.pdf,prior,58.0,39524884000.0,55882000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2009,staff_costs,CRDB/2010.pdf,prior,,,85340654000.0,not found,,,,,,,,Observed
+B01,2009,loans_by_sector,CRDB/2010.pdf,prior,,,940085997000.0,not reconciled,,,,,,,,Observed
+B01,2011,interest_income,CRDB/2011.pdf,current,70.0,192362000000.0,192362000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2011,fee_income,CRDB/2011.pdf,current,71.0,58801000000.0,60823000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2011,staff_costs,CRDB/2011.pdf,current,39.0,59016000000.0,135984000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2011,loans_by_sector,CRDB/2011.pdf,current,,,1474869000000.0,not reconciled,,,,,,,,Observed
+B01,2010,interest_income,CRDB/2011.pdf,prior,,,160039000000.0,note not reconciled,,,,,,,,Observed
+B01,2010,fee_income,CRDB/2011.pdf,prior,71.0,47062000000.0,70530048000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2010,staff_costs,CRDB/2011.pdf,prior,39.0,47683000000.0,109541435000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2010,loans_by_sector,CRDB/2011.pdf,prior,,,1153527000000.0,not reconciled,,,,,,,,Observed
+B01,2012,interest_income,CRDB/2012.pdf,current,,,261741000000.0,note not reconciled,,,,,,,,Observed
+B01,2012,fee_income,CRDB/2012.pdf,current,134.0,75171000000.0,98469000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2012,staff_costs,CRDB/2012.pdf,current,74.0,76051000000.0,170640000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2012,loans_by_sector,CRDB/2012.pdf,current,,,1839340000000.0,not reconciled,,,,,,,,Observed
+B01,2011,interest_income,CRDB/2012.pdf,prior,,,192362000000.0,note not reconciled,,,,,,,,Observed
+B01,2011,fee_income,CRDB/2012.pdf,prior,134.0,62806000000.0,60823000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2011,staff_costs,CRDB/2012.pdf,prior,74.0,59016000000.0,135984000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2011,loans_by_sector,CRDB/2012.pdf,prior,,,1474869000000.0,not reconciled,,,,,,,,Observed
+B01,2013,interest_income,CRDB/2013.pdf,current,140.0,304878000000.0,304878000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2013,fee_income,CRDB/2013.pdf,current,140.0,92759000000.0,121339000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2013,staff_costs,CRDB/2013.pdf,current,142.0,59804000000.0,203400000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2013,loans_by_sector,CRDB/2013.pdf,current,,,2028390000000.0,not reconciled,,,,,,,,Observed
+B01,2012,interest_income,CRDB/2013.pdf,prior,140.0,261741000000.0,261741000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2012,fee_income,CRDB/2013.pdf,prior,140.0,75171000000.0,98469000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2012,staff_costs,CRDB/2013.pdf,prior,142.0,45837000000.0,170640000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2012,loans_by_sector,CRDB/2013.pdf,prior,,,1839340000000.0,not reconciled,,,,,,,,Observed
+B01,2014,interest_income,CRDB/2014.pdf,current,135.0,371699000000.0,371699000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2014,fee_income,CRDB/2014.pdf,current,135.0,121498000000.0,148200000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2014,staff_costs,CRDB/2014.pdf,current,137.0,80527000000.0,255257000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2014,loans_by_sector,CRDB/2014.pdf,current,,,2576142000000.0,not reconciled,,,,,,,,Observed
+B01,2013,interest_income,CRDB/2014.pdf,prior,135.0,304878000000.0,304878000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2013,fee_income,CRDB/2014.pdf,prior,135.0,92759000000.0,121339000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2013,staff_costs,CRDB/2014.pdf,prior,137.0,59804000000.0,203400000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2013,loans_by_sector,CRDB/2014.pdf,prior,,,2028390000000.0,not reconciled,,,,,,,,Observed
+B01,2015,interest_income,CRDB/2015.pdf,current,105.0,497471000000.0,497471000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2015,fee_income,CRDB/2015.pdf,current,,,185096000000.0,note not reconciled,,,,,,,,Observed
+B01,2015,staff_costs,CRDB/2015.pdf,current,31.0,152796000000.0,321178000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2015,loans_by_sector,CRDB/2015.pdf,current,,,3342352000000.0,not reconciled,,,,,,,,Observed
+B01,2014,interest_income,CRDB/2015.pdf,prior,105.0,371699000000.0,371699000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2014,fee_income,CRDB/2015.pdf,prior,106.0,121498000000.0,148200000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2014,staff_costs,CRDB/2015.pdf,prior,31.0,120949000000.0,255257000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2014,loans_by_sector,CRDB/2015.pdf,prior,,,2576142000000.0,not reconciled,,,,,,,,Observed
+B01,2016,interest_income,CRDB/Annual-Report-2016-.pdf,current,197.0,568244000000.0,568244000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2016,fee_income,CRDB/Annual-Report-2016-.pdf,current,,,191725000000.0,note not reconciled,,,,,,,,Observed
+B01,2016,staff_costs,CRDB/Annual-Report-2016-.pdf,current,201.0,119274000000.0,389690000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2016,loans_by_sector,CRDB/Annual-Report-2016-.pdf,current,,,3397726000000.0,not reconciled,,,,,,,,Observed
+B01,2015,interest_income,CRDB/Annual-Report-2016-.pdf,prior,197.0,497471000000.0,497471000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2015,fee_income,CRDB/Annual-Report-2016-.pdf,prior,,,185096000000.0,note not reconciled,,,,,,,,Observed
+B01,2015,staff_costs,CRDB/Annual-Report-2016-.pdf,prior,201.0,96237000000.0,321178000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2015,loans_by_sector,CRDB/Annual-Report-2016-.pdf,prior,,,3342352000000.0,not reconciled,,,,,,,,Observed
+B01,2017,interest_income,CRDB/2017-Annual-Report.pdf,current,203.0,560344000000.0,560344000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2017,fee_income,CRDB/2017-Annual-Report.pdf,current,205.0,178222000000.0,211627000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2017,staff_costs,CRDB/2017-Annual-Report.pdf,current,123.0,195393000000.0,414391000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2017,loans_by_sector,CRDB/2017-Annual-Report.pdf,current,,,3124496000000.0,not reconciled,,,,,,,,Observed
+B01,2016,interest_income,CRDB/2017-Annual-Report.pdf,prior,203.0,569273000000.0,568244000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2016,fee_income,CRDB/2017-Annual-Report.pdf,prior,205.0,163821000000.0,191725000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2016,staff_costs,CRDB/2017-Annual-Report.pdf,prior,123.0,184370000000.0,389690000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2016,loans_by_sector,CRDB/2017-Annual-Report.pdf,prior,,,3397726000000.0,not reconciled,,,,,,,,Observed
+B01,2018,interest_income,CRDB/2018.pdf,current,191.0,586288000000.0,586288000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2018,fee_income,CRDB/2018.pdf,current,192.0,173198000000.0,200476000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2018,staff_costs,CRDB/2018.pdf,current,99.0,210183000000.0,428880000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2018,loans_by_sector,CRDB/2018.pdf,current,,,3313378000000.0,not reconciled,,,,,,,,Observed
+B01,2017,interest_income,CRDB/2018.pdf,prior,191.0,560344000000.0,560344000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2017,fee_income,CRDB/2018.pdf,prior,,,211627000000.0,note not reconciled,,,,,,,,Observed
+B01,2017,staff_costs,CRDB/2018.pdf,prior,99.0,195393000000.0,414391000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2017,loans_by_sector,CRDB/2018.pdf,prior,,,3124496000000.0,not reconciled,,,,,,,,Observed
+B01,2019,interest_income,CRDB/CRDB-Bank-Annual-Report-2019.pdf,current,256.0,660397000000.0,660397000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2019,fee_income,CRDB/CRDB-Bank-Annual-Report-2019.pdf,current,257.0,182524000000.0,203581000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2019,staff_costs,CRDB/CRDB-Bank-Annual-Report-2019.pdf,current,135.0,260517000000.0,481482000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2019,loans_by_sector,CRDB/CRDB-Bank-Annual-Report-2019.pdf,current,,,3541095000000.0,not reconciled,,,,,,,,Observed
+B01,2018,interest_income,CRDB/CRDB-Bank-Annual-Report-2019.pdf,prior,,,586288000000.0,note not reconciled,,,,,,,,Observed
+B01,2018,fee_income,CRDB/CRDB-Bank-Annual-Report-2019.pdf,prior,257.0,147497000000.0,200476000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2018,staff_costs,CRDB/CRDB-Bank-Annual-Report-2019.pdf,prior,135.0,210517000000.0,428880000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2018,loans_by_sector,CRDB/CRDB-Bank-Annual-Report-2019.pdf,prior,,,3313378000000.0,not reconciled,,,,,,,,Observed
+B01,2020,interest_income,CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,current,291.0,699294000000.0,699294000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2020,fee_income,CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,current,292.0,166335000000.0,228222000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2020,staff_costs,CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,current,143.0,293054000000.0,499466000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2020,loans_by_sector,CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,current,,,4075604000000.0,not reconciled,,,,,,,,Observed
+B01,2019,interest_income,CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,prior,,,660397000000.0,note not reconciled,,,,,,,,Observed
+B01,2019,fee_income,CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,prior,292.0,154129000000.0,203581000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2019,staff_costs,CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,prior,143.0,260517000000.0,481482000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2019,loans_by_sector,CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,prior,,,3541095000000.0,not reconciled,,,,,,,,Observed
+B01,2021,interest_income,CRDB/CRDB-Group-and-Bank-Annual-Report-2021.pdf,current,316.0,789666000000.0,790445000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2021,fee_income,CRDB/CRDB-Group-and-Bank-Annual-Report-2021.pdf,current,317.0,189758000000.0,278095000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2021,staff_costs,CRDB/CRDB-Group-and-Bank-Annual-Report-2021.pdf,current,211.0,287199000000.0,513349000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2021,loans_by_sector,CRDB/CRDB-Group-and-Bank-Annual-Report-2021.pdf,current,,,5175262000000.0,not reconciled,,,,,,,,Observed
+B01,2020,interest_income,CRDB/CRDB-Group-and-Bank-Annual-Report-2021.pdf,prior,316.0,699294000000.0,699294000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2020,fee_income,CRDB/CRDB-Group-and-Bank-Annual-Report-2021.pdf,prior,317.0,160607000000.0,228222000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2020,staff_costs,CRDB/CRDB-Group-and-Bank-Annual-Report-2021.pdf,prior,207.0,198426000000.0,499466000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2020,loans_by_sector,CRDB/CRDB-Group-and-Bank-Annual-Report-2021.pdf,prior,,,4075604000000.0,not reconciled,,,,,,,,Observed
+B01,2022,interest_income,CRDB/2022 CRDB Annual Report-final_.pdf,current,183.0,965471000000.0,967285000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2022,fee_income,CRDB/2022 CRDB Annual Report-final_.pdf,current,183.0,252617000000.0,367113000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2022,staff_costs,CRDB/2022 CRDB Annual Report-final_.pdf,current,34.0,300482000000.0,554802000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2022,loans_by_sector,CRDB/2022 CRDB Annual Report-final_.pdf,current,,,7041289000000.0,not reconciled,,,,,,,,Observed
+B01,2021,interest_income,CRDB/2022 CRDB Annual Report-final_.pdf,prior,183.0,789666000000.0,790445000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2021,fee_income,CRDB/2022 CRDB Annual Report-final_.pdf,prior,183.0,189758000000.0,278095000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2021,staff_costs,CRDB/2022 CRDB Annual Report-final_.pdf,prior,34.0,293788000000.0,513349000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2021,loans_by_sector,CRDB/2022 CRDB Annual Report-final_.pdf,prior,,,5175262000000.0,not reconciled,,,,,,,,Observed
+B01,2023,interest_income,CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,current,294.0,1227052000000.0,1227431000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2023,fee_income,CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,current,295.0,330163000000.0,417040000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2023,staff_costs,CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,current,301.0,217931000000.0,656029000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2023,loans_by_sector,CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,current,,,8566766000000.0,not reconciled,,,,,,,,Observed
+B01,2022,interest_income,CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,prior,294.0,965471000000.0,967285000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2022,fee_income,CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,prior,295.0,252617000000.0,367113000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2022,staff_costs,CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,prior,301.0,202480000000.0,554802000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2022,loans_by_sector,CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,prior,,,7041289000000.0,not reconciled,,,,,,,,Observed
+B01,2024,interest_income,CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,current,267.0,1562110000000.0,1562110000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2024,fee_income,CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,current,267.0,408425000000.0,474090000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2024,staff_costs,CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,current,7.0,380448000000.0,739568000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2024,loans_by_sector,CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,current,,,10504163000000.0,not reconciled,,,,,,,,Observed
+B01,2023,interest_income,CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,prior,267.0,1227052000000.0,1227431000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2023,fee_income,CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,prior,267.0,330163000000.0,417040000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2023,staff_costs,CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,prior,7.0,338243000000.0,656029000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2023,loans_by_sector,CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,prior,,,8566766000000.0,not reconciled,,,,,,,,Observed
+B01,2025,interest_income,CRDB/crdb-ir-2025-8th-may-2026.pdf,current,287.0,1976041000000.0,1999340000000.0,lines sum to the printed note total,,,,,,,,Observed
+B01,2025,fee_income,CRDB/crdb-ir-2025-8th-may-2026.pdf,current,,,629265000000.0,note not reconciled,,,,,,,,Observed
+B01,2025,staff_costs,CRDB/crdb-ir-2025-8th-may-2026.pdf,current,223.0,402255000000.0,853333000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2025,loans_by_sector,CRDB/crdb-ir-2025-8th-may-2026.pdf,current,,,13971500000000.0,not reconciled,,,,,,,,Observed
+B01,2024,interest_income,CRDB/crdb-ir-2025-8th-may-2026.pdf,prior,,,1562110000000.0,note not reconciled,,,,,,,,Observed
+B01,2024,fee_income,CRDB/crdb-ir-2025-8th-may-2026.pdf,prior,,,474090000000.0,note not reconciled,,,,,,,,Observed
+B01,2024,staff_costs,CRDB/crdb-ir-2025-8th-may-2026.pdf,prior,221.0,320982000000.0,739568000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B01,2024,loans_by_sector,CRDB/crdb-ir-2025-8th-may-2026.pdf,prior,,,10504163000000.0,not reconciled,,,,,,,,Observed
+B01,2006,kpi,CRDB/2006.pdf,current,9.0,,,KPI failed the adjacent-year check,Number of Branches,20.0,"out is nearing completion. [i has so far been rolled out in 20 branches, It is expected that by May, ",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios 0.45,Observed
+B01,2006,kpi,CRDB/2006.pdf,current,44.0,,,KPI failed the adjacent-year check,Number of ATMs,165.0,"35) = = = = (260,029) At] Jenmary 2006 3,005,599 1,726,682 S165 ATMs poles ry 249,952 - 16,517,889",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios ,Observed
+B01,2007,kpi,CRDB/2007.pdf,current,18.0,,,KPI failed the adjacent-year check,Number of Branches,44.0,"anches (Dar es Salaam). Thus, the Bank closed the year with 44 branches and 71 ATMs. Card Business Ye",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios 2.20,Observed
+B01,2012,kpi,CRDB/2012.pdf,current,9.0,,,KPI failed the adjacent-year check,Number of Branches,93.0,"sale banking and microfinance services through a network of 93 branches including 13 mobile branches,",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 1.13, 0.15",Observed
+B01,2013,kpi,CRDB/2013.pdf,current,34.0,,,KPI failed the adjacent-year check,Number of Branches,622.0,ks operating in the market as at 31st December were 53 with 622 branches. At the end of the fourth qua,narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 6.69, 0.90",Observed
+B01,2014,kpi,CRDB/2014.pdf,current,6.0,,,KPI failed the adjacent-year check,Number of Banking Agents,1067.0,"ing 18 Depository ATMs, 936 Point of Sales (POS) terminals, 1,067 Agents (fahariHuduma Wakala) and 469",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios 0.61,Observed
+B01,2014,kpi,CRDB/2014.pdf,current,29.0,,,KPI failed the adjacent-year check,Number of Branches,692.0,"n the market as at 31 December 2014 were 54 with a total of 692 branches. As at the end of the year, t",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 1.11, 3.48",Observed
+B01,2015,kpi,CRDB/2015.pdf,current,3.0,,,KPI failed the adjacent-year check,Number of Branches,199.0,"vices as well as microfinance services through a network of 199 branches including mobile branches, 43",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.29, 0.80",Observed
+B01,2015,kpi,CRDB/2015.pdf,current,3.0,,,KPI failed the adjacent-year check,Number of Banking Agents,1746.0," of 18 depository ATMs, 778 Point of Sales (POS) terminals, 1,746 Agents (Fahari-Huduma), 441 Microfin",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios 1.64,Observed
+B01,2016,kpi,CRDB/Annual-Report-2016-.pdf,current,54.0,,,KPI failed the adjacent-year check,Number of Employees,3196.0,"ces customers’ needs at the centre of everything we do. Our 3,196 employees share a single goal to be a t",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 1.21, 16.31",Observed
+B01,2017,kpi,CRDB/2017-Annual-Report.pdf,current,16.0,,,KPI failed the adjacent-year check,Number of Banking Agents,3286.0,"from 93 branches in 2012; 551 ATMs (245 ATMS in 2012); over 3,286 Agents (FahariHuduma Agents/Wakalas)",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios 0.60,Observed
+B01,2017,kpi,CRDB/2017-Annual-Report.pdf,current,49.0,,,KPI failed the adjacent-year check,Number of Employees,196.0,"17 the Group’s number of employees was 3,164 compared to 3, 196 employees in 2016. The number of male e",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.06, 0.06",Observed
+B01,2017,kpi,CRDB/2017-Annual-Report.pdf,current,58.0,,,KPI failed the adjacent-year check,Number of Customers,3000000.0,ay. Protecting customers privacy and data The Bank has over 3 million customers who trust us with their money,narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios ,Observed
+B01,2018,kpi,CRDB/2018.pdf,current,9.0,,,KPI failed the adjacent-year check,Number of Branches,263.0,eport 2018 11 CRDB Bank Plc has three subsidiaries 552 ATMs 263 Branches (including Franchised Outlets,narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 1.03, 7.97",Observed
+B01,2018,kpi,CRDB/2018.pdf,current,39.0,,,KPI failed the adjacent-year check,Number of Banking Agents,5457.0," year the Bank recruited 2,402 new agents making a total of 5,457 agents as at December 2018. Through ",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 1.66, 0.37",Observed
+B01,2018,kpi,CRDB/2018.pdf,current,88.0,,,KPI failed the adjacent-year check,Number of Employees,3101.0," As at 31 December 2018, the Group total workforce stood at 3,101 staff where 1,754 (56.4%) were male",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 15.82, 8.29",Observed
+B01,2019,kpi,CRDB/CRDB-Bank-Annual-Report-2019.pdf,current,12.0,,,KPI failed the adjacent-year check,Number of Banking Agents,14761.0,"anches (including franchises) -Tanzania & Burundi 560 ATM’s 14,761 Bank Agents 2,237 Merchant POS Robust Onl",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 2.70, 0.87",Observed
+B01,2019,kpi,CRDB/CRDB-Bank-Annual-Report-2019.pdf,current,24.0,,,KPI failed the adjacent-year check,Number of Branches,33.0,Lake Zone 33 BRANCHES 32 BRANCHES 24 BRANCHES 28 BR,narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.13, 0.14",Observed
+B01,2019,kpi,CRDB/CRDB-Bank-Annual-Report-2019.pdf,current,59.0,,,KPI failed the adjacent-year check,Number of Employees,374.0,eveloped a management trainee programme to upskill at least 374 staff every year from across the Gr,narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.12, 0.10",Observed
+B01,2020,kpi,CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,current,8.0,,,KPI failed the adjacent-year check,Number of Branches,243.0,ZS 7.2 trillion. We have a robust branch network comprising 243 branches inclusive of 20 mobile units ,narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 7.36, 0.96",Observed
+B01,2020,kpi,CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,current,20.0,,,KPI failed the adjacent-year check,Number of Employees,3635.0," FINANCIAL Equity Capital Loans and Advances Deposits HUMAN 3,635 employees TZS 4.2 billion in training E",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 9.72, 1.00",Observed
+B01,2021,kpi,CRDB/CRDB-Group-and-Bank-Annual-Report-2021.pdf,current,10.0,,,KPI failed the adjacent-year check,Number of Banking Agents,19165.0,"rk comprising 254 branches inclusive of 20 mobile units and 19,165 banking agents. We offer a comprehensive ran",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 1.13, 0.68",Observed
+B01,2024,kpi,CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,current,4.0,,,KPI failed the adjacent-year check,Number of Branches,259.0,"ing and insurance services. We operate through a network of 259 branches, 684 ATMs (including deposit ",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 1.06, 51.80",Observed
+B01,2025,kpi,CRDB/crdb-ir-2025-8th-may-2026.pdf,current,8.0,,,KPI failed the adjacent-year check,Number of Branches,5.0,"onsibly Achieve together 3 10 7 Branches ATMs Agents 7 13 3,005 Branches ATMs Agents 251 261 709 732 6",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios 0.02,Observed
+B01,2025,kpi,CRDB/crdb-ir-2025-8th-may-2026.pdf,current,22.0,,,KPI failed the adjacent-year check,Number of Employees,2657.0,",528 workforce • Training and development spend TZS 9.4bn • 2,657 staff trained • Attrition rate 2% C",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios 0.63,Observed
+B01,2025,kpi,CRDB/crdb-ir-2025-8th-may-2026.pdf,current,55.0,,,KPI failed the adjacent-year check,Number of Customers,7000000.0,"ts. The system now supports a growing customer base of over 7 million customers. Overall, Bank Operations rem",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios ,Observed
+B02,2008,interest_income,NMB/2008.pdf,current,69.0,134507000000.0,134507000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2008,fee_income,NMB/2008.pdf,current,69.0,21864000000.0,31769000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2008,staff_costs,NMB/2008.pdf,current,,,77313000000.0,not found,,,,,,,,Observed
+B02,2008,loans_by_sector,NMB/2008.pdf,current,,,580134000000.0,not reconciled,,,,,,,,Observed
+B02,2009,interest_income,NMB/2009.pdf,current,,,141359000000.0,note not reconciled,,,,,,,,Observed
+B02,2009,fee_income,NMB/2009.pdf,current,59.0,32781000000.0,40415000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2009,staff_costs,NMB/2009.pdf,current,,,92870000000.0,not found,,,,,,,,Observed
+B02,2009,loans_by_sector,NMB/2009.pdf,current,,,689178000000.0,not reconciled,,,,,,,,Observed
+B02,2008,interest_income,NMB/2009.pdf,prior,59.0,134507000000.0,134507000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2008,fee_income,NMB/2009.pdf,prior,59.0,21864000000.0,31769000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2008,staff_costs,NMB/2009.pdf,prior,59.0,35072000000.0,77313000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2008,loans_by_sector,NMB/2009.pdf,prior,,,580134000000.0,not reconciled,,,,,,,,Observed
+B02,2010,interest_income,NMB/2010.pdf,current,41.0,141442000000.0,141442000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2010,fee_income,NMB/2010.pdf,current,,,,note not reconciled,,,,,,,,Observed
+B02,2010,staff_costs,NMB/2010.pdf,current,,,,not found,,,,,,,,Observed
+B02,2010,loans_by_sector,NMB/2010.pdf,current,,,874750000000.0,not reconciled,,,,,,,,Observed
+B02,2009,interest_income,NMB/2010.pdf,prior,41.0,141359000000.0,141359000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2009,fee_income,NMB/2010.pdf,prior,41.0,33466000000.0,40415000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2009,staff_costs,NMB/2010.pdf,prior,42.0,46460000000.0,92870000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2009,loans_by_sector,NMB/2010.pdf,prior,,,689178000000.0,not reconciled,,,,,,,,Observed
+B02,2011,interest_income,NMB/2011.pdf,current,87.0,193005000000.0,193005000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2011,fee_income,NMB/2011.pdf,current,,,,note not reconciled,,,,,,,,Observed
+B02,2011,staff_costs,NMB/2011.pdf,current,,,,not found,,,,,,,,Observed
+B02,2011,loans_by_sector,NMB/2011.pdf,current,,,1139207000000.0,not reconciled,,,,,,,,Observed
+B02,2010,interest_income,NMB/2011.pdf,prior,87.0,141442000000.0,141442000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2010,fee_income,NMB/2011.pdf,prior,,,,note not reconciled,,,,,,,,Observed
+B02,2010,staff_costs,NMB/2011.pdf,prior,,,,not found,,,,,,,,Observed
+B02,2010,loans_by_sector,NMB/2011.pdf,prior,,,874750000000.0,not reconciled,,,,,,,,Observed
+B02,2012,interest_income,NMB/2012.pdf,current,94.0,287924000000.0,287924000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2012,fee_income,NMB/2012.pdf,current,94.0,84201000000.0,90950000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2012,staff_costs,NMB/2012.pdf,current,52.0,75955000000.0,199013000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2012,loans_by_sector,NMB/2012.pdf,current,,,1375987000000.0,not reconciled,,,,,,,,Observed
+B02,2011,interest_income,NMB/2012.pdf,prior,94.0,193005000000.0,193005000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2011,fee_income,NMB/2012.pdf,prior,,,,note not reconciled,,,,,,,,Observed
+B02,2011,staff_costs,NMB/2012.pdf,prior,,,,not found,,,,,,,,Observed
+B02,2011,loans_by_sector,NMB/2012.pdf,prior,,,1139207000000.0,not reconciled,,,,,,,,Observed
+B02,2013,interest_income,NMB/2013.pdf,current,45.0,355686000000.0,355686000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2013,fee_income,NMB/2013.pdf,current,45.0,98279000000.0,107303000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2013,staff_costs,NMB/2013.pdf,current,27.0,99675000000.0,225467000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2013,loans_by_sector,NMB/2013.pdf,current,,,1652429000000.0,not reconciled,,,,,,,,Observed
+B02,2012,interest_income,NMB/2013.pdf,prior,45.0,287924000000.0,287924000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2012,fee_income,NMB/2013.pdf,prior,45.0,84201000000.0,90950000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2012,staff_costs,NMB/2013.pdf,prior,27.0,75955000000.0,199013000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2012,loans_by_sector,NMB/2013.pdf,prior,,,1375987000000.0,not reconciled,,,,,,,,Observed
+B02,2014,interest_income,NMB/2014.pdf,current,51.0,416490000000.0,416490000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2014,fee_income,NMB/2014.pdf,current,51.0,117113000000.0,136614000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2014,staff_costs,NMB/2014.pdf,current,52.0,69036000000.0,273703000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2014,loans_by_sector,NMB/2014.pdf,current,,,2046766000000.0,not reconciled,,,,,,,,Observed
+B02,2013,interest_income,NMB/2014.pdf,prior,51.0,355686000000.0,355686000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2013,fee_income,NMB/2014.pdf,prior,51.0,98279000000.0,107303000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2013,staff_costs,NMB/2014.pdf,prior,52.0,54225000000.0,225467000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2013,loans_by_sector,NMB/2014.pdf,prior,,,1652429000000.0,not reconciled,,,,,,,,Observed
+B02,2015,interest_income,NMB/2015.pdf,current,117.0,436719000000.0,436719000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2015,fee_income,NMB/2015.pdf,current,117.0,124671000000.0,114418000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2015,staff_costs,NMB/2015.pdf,current,75.0,130649000000.0,253746000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2015,loans_by_sector,NMB/2015.pdf,current,,,2493506000000.0,not reconciled,,,,,,,,Observed
+B02,2014,interest_income,NMB/2015.pdf,prior,117.0,416490000000.0,416490000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2014,fee_income,NMB/2015.pdf,prior,117.0,117113000000.0,136614000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2014,staff_costs,NMB/2015.pdf,prior,75.0,116693000000.0,273703000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2014,loans_by_sector,NMB/2015.pdf,prior,,,2046766000000.0,not reconciled,,,,,,,,Observed
+B02,2016,interest_income,NMB/2016.pdf,current,132.0,548993000000.0,548993000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2016,fee_income,NMB/2016.pdf,current,132.0,143622000000.0,129864000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2016,staff_costs,NMB/2016.pdf,current,,,322671000000.0,not found,,,,,,,,Observed
+B02,2016,loans_by_sector,NMB/2016.pdf,current,,,2827211000000.0,not reconciled,,,,,,,,Observed
+B02,2015,interest_income,NMB/2016.pdf,prior,132.0,436719000000.0,436719000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2015,fee_income,NMB/2016.pdf,prior,132.0,124671000000.0,114418000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2015,staff_costs,NMB/2016.pdf,prior,,,253746000000.0,not found,,,,,,,,Observed
+B02,2015,loans_by_sector,NMB/2016.pdf,prior,,,2493506000000.0,not reconciled,,,,,,,,Observed
+B02,2017,interest_income,NMB/2017.pdf,current,132.0,585512000000.0,585512000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2017,fee_income,NMB/2017.pdf,current,133.0,154880000000.0,137331000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2017,staff_costs,NMB/2017.pdf,current,,,331742000000.0,not found,,,,,,,,Observed
+B02,2017,loans_by_sector,NMB/2017.pdf,current,,,2876681000000.0,not reconciled,,,,,,,,Observed
+B02,2016,interest_income,NMB/2017.pdf,prior,132.0,548993000000.0,548993000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2016,fee_income,NMB/2017.pdf,prior,133.0,143622000000.0,129864000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2016,staff_costs,NMB/2017.pdf,prior,,,322671000000.0,not found,,,,,,,,Observed
+B02,2016,loans_by_sector,NMB/2017.pdf,prior,,,2827211000000.0,not reconciled,,,,,,,,Observed
+B02,2018,interest_income,NMB/2018.pdf,current,185.0,600555000000.0,600555000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2018,fee_income,NMB/2018.pdf,current,185.0,203003000000.0,195823000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2018,staff_costs,NMB/2018.pdf,current,12.0,124228000000.0,405096000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2018,loans_by_sector,NMB/2018.pdf,current,,,3373000000000.0,not reconciled,,,,,,,,Observed
+B02,2017,interest_income,NMB/2018.pdf,prior,185.0,585512000000.0,585512000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2017,fee_income,NMB/2018.pdf,prior,185.0,154880000000.0,137331000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2017,staff_costs,NMB/2018.pdf,prior,12.0,116299000000.0,331742000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2017,loans_by_sector,NMB/2018.pdf,prior,,,2876681000000.0,not reconciled,,,,,,,,Observed
+B02,2019,interest_income,NMB/2019.pdf,current,177.0,653195000000.0,653195000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2019,fee_income,NMB/2019.pdf,current,178.0,215816000000.0,204409000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2019,staff_costs,NMB/2019.pdf,current,12.0,137910000000.0,410513000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2019,loans_by_sector,NMB/2019.pdf,current,,,3763116000000.0,not reconciled,,,,,,,,Observed
+B02,2018,interest_income,NMB/2019.pdf,prior,177.0,600555000000.0,600555000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2018,fee_income,NMB/2019.pdf,prior,178.0,203003000000.0,195823000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2018,staff_costs,NMB/2019.pdf,prior,12.0,124228000000.0,405096000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2018,loans_by_sector,NMB/2019.pdf,prior,,,3373000000000.0,not reconciled,,,,,,,,Observed
+B02,2020,interest_income,NMB/2020.pdf,current,198.0,712648000000.0,712648000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2020,fee_income,NMB/2020.pdf,current,199.0,284812000000.0,271279000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2020,staff_costs,NMB/2020.pdf,current,31.0,195515000000.0,421852000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2020,loans_by_sector,NMB/2020.pdf,current,,,4308104000000.0,not reconciled,,,,,,,,Observed
+B02,2019,interest_income,NMB/2020.pdf,prior,198.0,653195000000.0,653195000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2019,fee_income,NMB/2020.pdf,prior,199.0,215816000000.0,204409000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2019,staff_costs,NMB/2020.pdf,prior,31.0,182579000000.0,410513000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2019,loans_by_sector,NMB/2020.pdf,prior,,,3763116000000.0,not reconciled,,,,,,,,Observed
+B02,2021,interest_income,NMB/2021.pdf,current,,,815446000000.0,note not reconciled,,,,,,,,Observed
+B02,2021,fee_income,NMB/2021.pdf,current,,,305838000000.0,note not reconciled,,,,,,,,Observed
+B02,2021,staff_costs,NMB/2021.pdf,current,26.0,186673000000.0,454524000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2021,loans_by_sector,NMB/2021.pdf,current,,,4863919000000.0,not reconciled,,,,,,,,Observed
+B02,2020,interest_income,NMB/2021.pdf,prior,,,712648000000.0,note not reconciled,,,,,,,,Observed
+B02,2020,fee_income,NMB/2021.pdf,prior,,,271279000000.0,note not reconciled,,,,,,,,Observed
+B02,2020,staff_costs,NMB/2021.pdf,prior,26.0,159955000000.0,421852000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2020,loans_by_sector,NMB/2021.pdf,prior,,,4308104000000.0,not reconciled,,,,,,,,Observed
+B02,2022,interest_income,NMB/2022.pdf,current,168.0,953656000000.0,953656000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2022,fee_income,NMB/2022.pdf,current,168.0,419189000000.0,402132000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2022,staff_costs,NMB/2022.pdf,current,122.0,266296000000.0,495423000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2022,loans_by_sector,NMB/2022.pdf,current,,,6242676000000.0,not reconciled,,,,,,,,Observed
+B02,2021,interest_income,NMB/2022.pdf,prior,168.0,815446000000.0,815446000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2021,fee_income,NMB/2022.pdf,prior,168.0,323432000000.0,305838000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2021,staff_costs,NMB/2022.pdf,prior,122.0,243679000000.0,454524000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2021,loans_by_sector,NMB/2022.pdf,prior,,,4863919000000.0,not reconciled,,,,,,,,Observed
+B02,2023,interest_income,NMB/NMB 2023 Integrated.pdf,current,189.0,1179592000000.0,1179592000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2023,fee_income,NMB/NMB 2023 Integrated.pdf,current,190.0,469306000000.0,468380000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2023,staff_costs,NMB/NMB 2023 Integrated.pdf,current,14.0,227450000000.0,546382000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2023,loans_by_sector,NMB/NMB 2023 Integrated.pdf,current,,,7949626000000.0,not reconciled,,,,,,,,Observed
+B02,2022,interest_income,NMB/NMB 2023 Integrated.pdf,prior,189.0,953656000000.0,953656000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2022,fee_income,NMB/NMB 2023 Integrated.pdf,prior,190.0,419189000000.0,402132000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2022,staff_costs,NMB/NMB 2023 Integrated.pdf,prior,14.0,202428000000.0,495423000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2022,loans_by_sector,NMB/NMB 2023 Integrated.pdf,prior,,,6242676000000.0,not reconciled,,,,,,,,Observed
+B02,2024,interest_income,NMB/NMB_Intergrated_Annual_Report_2024.pdf,current,171.0,1366006000000.0,1366006000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2024,fee_income,NMB/NMB_Intergrated_Annual_Report_2024.pdf,current,172.0,574762000000.0,578741000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2024,staff_costs,NMB/NMB_Intergrated_Annual_Report_2024.pdf,current,13.0,255167000000.0,618387000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2024,loans_by_sector,NMB/NMB_Intergrated_Annual_Report_2024.pdf,current,,,8739221000000.0,not reconciled,,,,,,,,Observed
+B02,2023,interest_income,NMB/NMB_Intergrated_Annual_Report_2024.pdf,prior,171.0,1179592000000.0,1179592000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2023,fee_income,NMB/NMB_Intergrated_Annual_Report_2024.pdf,prior,172.0,469306000000.0,468380000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2023,staff_costs,NMB/NMB_Intergrated_Annual_Report_2024.pdf,prior,13.0,227450000000.0,546382000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2023,loans_by_sector,NMB/NMB_Intergrated_Annual_Report_2024.pdf,prior,,,7949626000000.0,not reconciled,,,,,,,,Observed
+B02,2025,interest_income,NMB/NMB_Integrated Annual Report_2025_.pdf,current,198.0,1548329000000.0,1548329000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2025,fee_income,NMB/NMB_Integrated Annual Report_2025_.pdf,current,199.0,630634000000.0,634464000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2025,staff_costs,NMB/NMB_Integrated Annual Report_2025_.pdf,current,13.0,287558000000.0,677246000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2025,loans_by_sector,NMB/NMB_Integrated Annual Report_2025_.pdf,current,,,10688021000000.0,not reconciled,,,,,,,,Observed
+B02,2024,interest_income,NMB/NMB_Integrated Annual Report_2025_.pdf,prior,198.0,1366006000000.0,1366006000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2024,fee_income,NMB/NMB_Integrated Annual Report_2025_.pdf,prior,199.0,574762000000.0,578741000000.0,lines sum to the printed note total,,,,,,,,Observed
+B02,2024,staff_costs,NMB/NMB_Integrated Annual Report_2025_.pdf,prior,13.0,255167000000.0,618387000000.0,found within 15-75% of operating expenses,,,,,,,,Observed
+B02,2024,loans_by_sector,NMB/NMB_Integrated Annual Report_2025_.pdf,prior,,,8739221000000.0,not reconciled,,,,,,,,Observed
+B02,2008,kpi,NMB/2008.pdf,current,2.0,,,KPI failed the adjacent-year check,Number of ATMs,862.0,"5 39 Staﬀ 500 0 2008 2007 2006 1500 2000 1000 2,039 1,780 1,862 ATMs 50 0 2008 2007 2006 150 200 1",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios 3.07,Observed
+B02,2008,kpi,NMB/2008.pdf,current,7.0,,,KPI failed the adjacent-year check,Number of Branches,125.0,nd branch network. With well over one million customers and 125 branches in more than 80% of Tanzania’,narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios ,Observed
+B02,2008,kpi,NMB/2008.pdf,current,13.0,,,KPI failed the adjacent-year check,Number of Employees,2039.0,"w staﬀ (as we have increased our organization from 1,780 to 2,039 employees), and the redesign of interna",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios 1.79,Observed
+B02,2009,kpi,NMB/2009.pdf,current,6.0,,,KPI failed the adjacent-year check,Number of ATMs,281.0,"The bank has the largest ATM network in the country. Of the 281 ATMs, 67 are installed in Dar es S",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios 0.33,Observed
+B02,2009,kpi,NMB/2009.pdf,current,13.0,,,KPI failed the adjacent-year check,Number of Employees,1136.0,"erved for them during the privatisation process. A total of 1,136 members of staff bought the shares, while the ",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.56, 0.44",Observed
+B02,2010,kpi,NMB/2010.pdf,current,7.0,,,KPI failed the adjacent-year check,Number of Customers,1400000.0," remain the mainstay of our business and mission. With over 1.4 million customers, the bank continues to grow r",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios ,Observed
+B02,2010,kpi,NMB/2010.pdf,current,8.0,,,KPI failed the adjacent-year check,Number of Employees,2600.0,"nt is being strengthened, to support our work force of over 2,600 staff, with a view to rolling out H",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 2.29, 0.05",Observed
+B02,2011,kpi,NMB/2011.pdf,current,6.0,,,KPI failed the adjacent-year check,Number of Employees,49829.0,"140 ATMs 167 281 345 416 Cards 728,250 846,483 1,193,964 1,349,829 Staff 2,039 2,478 2,610 2,650 Key F",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 19.16, 17.90",Observed
+B02,2011,kpi,NMB/2011.pdf,current,6.0,,,KPI failed the adjacent-year check,Number of Branches,203.0,"49% 22% Other Customers 1,073,465 1,424,015 1,583,918 1,803,203 Branches 125 134 139 140 ATMs 167 281 ",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios 0.37,Observed
+B02,2011,kpi,NMB/2011.pdf,current,6.0,,,KPI failed the adjacent-year check,Number of ATMs,140.0,",073,465 1,424,015 1,583,918 1,803,203 Branches 125 134 139 140 ATMs 167 281 345 416 Cards 728,250",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios ,Observed
+B02,2012,kpi,NMB/2012.pdf,current,26.0,,,KPI failed the adjacent-year check,Number of Branches,552.0,"al of 50 licensed banks (46 in 2011), who together operated 552 branches (of which NMB own 150) and ha",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 2.72, 0.58",Observed
+B02,2012,kpi,NMB/2012.pdf,current,49.0,,,KPI failed the adjacent-year check,Number of Employees,2783.0,"RECTORS Ripoti ya Wakurugenzi 27 GENDER PARITY The Bank had 2,783 employees, out of which 1,606 were male",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.06, 5.74",Observed
+B02,2013,kpi,NMB/2013.pdf,current,4.0,,,KPI failed the adjacent-year check,Number of Employees,485.0,"2,287,958 Branches 134 139 140 147 153 ATMs 281 345 416 473 485 Staff 2,478 2,610 2,650 2,702 2,783",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.17, 0.01",Observed
+B02,2013,kpi,NMB/2013.pdf,current,4.0,,,KPI failed the adjacent-year check,Number of Branches,958.0,"her Customers 1,424,015 1,583,918 1,803,203 1,782,869 2,287,958 Branches 134 139 140 147 153 ATMs 281 ",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 1.74, 5.88",Observed
+B02,2013,kpi,NMB/2013.pdf,current,4.0,,,KPI failed the adjacent-year check,Number of ATMs,153.0,",918 1,803,203 1,782,869 2,287,958 Branches 134 139 140 147 153 ATMs 281 345 416 473 485 Staff 2,4",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios 0.29,Observed
+B02,2014,kpi,NMB/2014.pdf,current,16.0,,,KPI failed the adjacent-year check,Number of Branches,163.0,"ssions growth. The NMB branch network increased from 153 to 163 branches, of which 91 are in rural are",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.17, 0.93",Observed
+B02,2014,kpi,NMB/2014.pdf,current,16.0,,,KPI failed the adjacent-year check,Number of Banking Agents,30000.0,"nts and §¡ ¨¦¢¥§¢¡¬Ŭ¦¡§ª¢¥¢££¥¢«ĭ 30,000 agents for making deposits and withd",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios ,Observed
+B02,2014,kpi,NMB/2014.pdf,current,55.0,,,KPI failed the adjacent-year check,Number of Employees,32566.0,"93 1,861 ¥£¬ ¡§¦ 14,439 11,314 Other receivables 36,867 32,566 Staff imprest 38 111 ¦¦į £¥ ¡",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 67.15, 10.30",Observed
+B02,2014,kpi,NMB/2014.pdf,current,68.0,,,KPI failed the adjacent-year check,Number of ATMs,525.0,"thin your reach. Part of your life. With over 160 branches, 525 ATMs and 60,000+ cash in/ cash poi",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 3.43, 0.88",Observed
+B02,2015,kpi,NMB/2015.pdf,current,7.0,,,KPI failed the adjacent-year check,Number of Employees,3163.0,"0 150 100 50 0 144 195 268 311 300 2011 2012 2013 2014 2015 3,163 Staff / Wafanyakazi Highlights for ",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.10, 0.92",Observed
+B02,2017,kpi,NMB/2017.pdf,current,13.0,,,KPI failed the adjacent-year check,Number of Employees,3371.0," 2014 3,004 2015 3,162 2016 3,432 2017 3,371 2.7M Customers 3,371 Staff 212 Branches 770 ATMs ",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.98, 0.07",Observed
+B02,2018,kpi,NMB/2018.pdf,current,12.0,,,KPI failed the adjacent-year check,Number of Employees,49252.0,", deferred tax and retained earnings 73,802 56,491 399,816 349,252 Employees Total Tax Expansion and Growt",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 14.61, 8.24",Observed
+B02,2018,kpi,NMB/2018.pdf,current,74.0,,,KPI failed the adjacent-year check,Number of Branches,223.0,", Corporates, Institutions and the Government. The Bank has 223 branches, 766 ATMs and 6,800 active ag",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 1.05, 1.96",Observed
+B02,2018,kpi,NMB/2018.pdf,current,74.0,,,KPI failed the adjacent-year check,Number of Banking Agents,6800.0,"d on the Dar es Salaam Stock Exchange in Tanzania. 766 ATMs 6,800 Agents 223 branches Directors Report",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios ,Observed
+B02,2018,kpi,NMB/2018.pdf,current,74.0,,,KPI failed the adjacent-year check,Number of ATMs,766.0,"Institutions and the Government. The Bank has 223 branches, 766 ATMs and 6,800 active agents acros",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.99, 3.42",Observed
+B02,2019,kpi,NMB/2019.pdf,current,10.0,,,KPI failed the adjacent-year check,Number of Employees,5980.0,"3 224 ATMs 595 670 770 776 794 Wakala 476 1,600 3,785 6,800 5,980 Staff 3,162 3,432 3,371 3,450 3,450",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.12, 1.73",Observed
+B02,2019,kpi,NMB/2019.pdf,current,10.0,,,KPI failed the adjacent-year check,Number of Branches,114.0,"her Customers 2,100,000 2,178,700 2,710,328 3,129,367 3,546,114 Branches 175 188 212 223 224 ATMs 595 ",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.51, 0.50",Observed
+B02,2019,kpi,NMB/2019.pdf,current,10.0,,,KPI failed the adjacent-year check,Number of ATMs,224.0,",700 2,710,328 3,129,367 3,546,114 Branches 175 188 212 223 224 ATMs 595 670 770 776 794 Wakala 47",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.29, 0.30",Observed
+B02,2020,kpi,NMB/2020.pdf,current,6.0,,,KPI failed the adjacent-year check,Number of Branches,226.0,"he best banking experience to our valued customers. We have 226 branches, 8,410 active agents (Wakala)",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 1.98, 1.00",Observed
+B02,2020,kpi,NMB/2020.pdf,current,6.0,,,KPI failed the adjacent-year check,Number of ATMs,753.0,"agents (Wakala), 2 standalone Bureau de Change outlets, and 753 ATMs across the country as at end ",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 3.36, 1.00",Observed
+B02,2020,kpi,NMB/2020.pdf,current,100.0,,,KPI failed the adjacent-year check,Number of Employees,3465.0,"n plans. 31 GENDER PARITY At 31 December 2020, the Bank had 3,465 employees (2019: 3,450); out of which 1",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.58, 1.00",Observed
+B02,2021,kpi,NMB/2021.pdf,current,43.0,,,KPI failed the adjacent-year check,Number of Banking Agents,10194.0,"to financial services in the country, closing the year with 10,194 agents across the country. Our agenc",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios 0.51,Observed
+B02,2022,kpi,NMB/2022.pdf,current,8.0,,,KPI failed the adjacent-year check,Number of Banking Agents,19870.0," platform- NMB Mkononi (USSD and App), wide agency network (19,870 agents), internet banking, cards (ov",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 1.95, 0.70",Observed
+B02,2023,kpi,NMB/NMB 2023 Integrated.pdf,current,26.0,,,KPI failed the adjacent-year check,Number of Banking Agents,28295.0,"ew branches and onboarding over 11,000 new agents, reaching 28,295 Agents in 2023. In turn, we were abl",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 1.42, 0.56",Observed
+B02,2023,kpi,NMB/NMB 2023 Integrated.pdf,current,52.0,,,KPI failed the adjacent-year check,Number of Customers,4000000.0,"023, the NMB-Mkononi subscription increased 6% to more than 4 million customers at December end. In a standou",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 0.67, 0.85",Observed
+B02,2024,kpi,NMB/NMB_Intergrated_Annual_Report_2024.pdf,current,12.0,,,KPI failed the adjacent-year check,Number of Branches,240.0,n TZS Billion 46 ICT Investment Amount Intellectual Capital 240 Branches ATMs 714 5.4 TZS Billion CSI ,narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 1.04, 0.33",Observed
+B02,2024,kpi,NMB/NMB_Intergrated_Annual_Report_2024.pdf,current,48.0,,,KPI failed the adjacent-year check,Number of Banking Agents,50698.0," 2024 and expansion to 1,369 rural villages. We now operate 50,698 NMB Wakala agents and 240 branches, • Notably, ",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,"KPI from narrative text (MEDIUM); adjacent-year ratios 1.79, 0.69",Observed
+B02,2025,kpi,NMB/NMB_Integrated Annual Report_2025_.pdf,current,8.0,,,KPI failed the adjacent-year check,Number of Branches,735.0,"ers, providing them with avenues for shared prosperity. 248 735 Branches ATMs 14 Overview Strategy Bus",narrative/KPI page; adjacent-year report ratio within 0.7-1.6,False,MEDIUM,KPI from narrative text (MEDIUM); adjacent-year ratios 3.06,Observed

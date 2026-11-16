@@ -1,0 +1,14 @@
+# Streamlit theme in the house colours (src/tzbank/reporting/house_docx.py, C); prompt 26
+[theme]
+base = "light"
+primaryColor = "#006B3F"
+backgroundColor = "#F8FAF9"
+secondaryBackgroundColor = "#E5F1E8"
+textColor = "#252B28"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

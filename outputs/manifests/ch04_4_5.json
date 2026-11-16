@@ -1,0 +1,41 @@
+{
+  "chapter": "04",
+  "subsection": "4.5",
+  "title": "Operating leverage",
+  "hypotheses": [
+    "H4.1",
+    "H4.2"
+  ],
+  "status": "built - KPI ratios MEDIUM confidence",
+  "tables": [
+    {
+      "path": "outputs/tables/ch04_4_5_operating_leverage.csv",
+      "description": "Cost ratios, incremental margin, KPI productivity (bands)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_5.md"
+    },
+    {
+      "path": "outputs/tables/ch04_4_5_scale_elasticity.csv",
+      "description": "Scale elasticity of OpEx to assets, per bank (95% CI)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_5.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch04_4_5_cost_to_income.png",
+      "data": "outputs/figures/ch04_4_5_cost_to_income_data.csv",
+      "description": "Cost-to-income, seven banks",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_5.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch04_4_5.md"
+  ],
+  "inputs": [
+    "data/processed/bank_year_wide.csv"
+  ],
+  "module": "tzbank.chapters.ch04.operating_leverage",
+  "run_log_stage": "profitability"
+}

@@ -1,0 +1,44 @@
+bank,date,catalyst,status,date_basis,evidence_class,register_version,input_hash
+CRDB,2021-05-18,FY2020 dividend TZS 22 announced (cum-dividend 18 May-4 Jun 2021); AGM 22 May 2021,past (dated),dated source (MEDIUM),Observed,v1.3,cc2c85e4eef09300
+CRDB,2021-06-05,FY2020 dividend: shares trade ex-dividend,past (dated),dated source (MEDIUM),Observed,v1.3,cc2c85e4eef09300
+CRDB,2021-06-09,FY2020 dividend: register closure (payment date illegible in the scan),past (dated),dated source (MEDIUM),Observed,v1.3,cc2c85e4eef09300
+CRDB,2022-05-16,FY2021 dividend TZS 36 declared (cum-dividend 16 May-2 Jun 2022),past (dated),dated source (MEDIUM),Observed,v1.3,cc2c85e4eef09300
+CRDB,2022-06-03,FY2021 dividend: shares trade ex-dividend,past (dated),dated source (MEDIUM),Observed,v1.3,cc2c85e4eef09300
+CRDB,2022-06-07,FY2021 dividend: books closure date,past (dated),dated source (MEDIUM),Observed,v1.3,cc2c85e4eef09300
+CRDB,2022-06-13,FY2021 dividend paid,past (dated),dated source (MEDIUM),Observed,v1.3,cc2c85e4eef09300
+CRDB,2023-04-11,FY2022 audited results published (newspapers; notified to the DSE 6 Apr 2023),past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+CRDB,2025-05-07,Register closed for the 30th AGM (re-opened 8 May 2025),past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+CRDB,2025-05-17,30th AGM (Arusha); FY2024 dividend declared,past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+CRDB,2026-04-13,FY2025 audited results released,past (dated),dated source (MEDIUM),Observed,v1.3,cc2c85e4eef09300
+CRDB,2026-04-14,FY2025 final dividend TZS 90 declared,past (dated),dated source (MEDIUM),Observed,v1.3,cc2c85e4eef09300
+CRDB,2026-05-05,"ex-dividend (TZS 90; register closed 6 May, paid from 1 Jun 2026)",past (dated),dated source (MEDIUM),Observed,v1.3,cc2c85e4eef09300
+CRDB,2026-07-31,H1 2026 results announced,past (dated),dated source (MEDIUM),Observed,v1.3,cc2c85e4eef09300
+NMB,2024-05-15,FY2023 results announced; dividend TZS 361.18 proposed (cum-dividend from this date),past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2024-06-06,FY2023 dividend: shares trade ex-dividend (last cum-dividend day 5 Jun 2024),past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2024-06-07,24th AGM (virtual),past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2024-06-10,FY2023 dividend: register closing (books closure) date,past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2024-06-19,FY2023 dividend paid (on or before),past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2025-05-14,FY2024 results announced; dividend TZS 428.85 proposed (cum-dividend from this date),past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2025-06-03,FY2024 dividend: shares trade ex-dividend (last cum-dividend day 2 Jun 2025),past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2025-06-05,25th AGM (online); FY2024 dividend register closing (books closure) date,past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2025-06-19,FY2024 dividend paid (on or about),past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2026-01-28,FY2025 results (unaudited) announced,past (dated),dated source (MEDIUM),Observed,v1.3,cc2c85e4eef09300
+NMB,2026-05-20,FY2025 dividend TZS 610.15 proposed (ordinary 504.26 + special 105.89); cum-dividend from this date,past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2026-06-10,26th AGM: FY2025 dividend TZS 610.15 (ordinary 504.26 + special 105.89) approved,past (dated),dated source (MEDIUM),Observed,v1.3,cc2c85e4eef09300
+NMB,2026-06-11,FY2025 dividend: shares trade ex-dividend (last cum-dividend day 10 Jun 2026),past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2026-06-12,FY2025 dividend: register closing (books closure) date,past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2026-06-24,FY2025 dividend paid (on or about),past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2026-07-24,H1 2026 results published (DSE filing),past (dated),dated source (MEDIUM),Observed,v1.3,cc2c85e4eef09300
+NMB,2026-07-24,Share split 1:10 approved by the CMSA,past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2026-07-27,Share split announced; shares trade cum-split,past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2026-08-19,Last cum-split trading day,past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2026-08-20,Trading suspended 20-21 Aug 2026 (register reconciliation); record date 21 Aug 2026,past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2026-08-24,1:10 share split effective; post-split trading starts (register adjusted 21-23 Aug 2026),past (dated),dated source (HIGH),Observed,v1.3,cc2c85e4eef09300
+NMB,2027-01-31,FY2026 unaudited results,expected,pattern: FY2025 unaudited results on 28 Jan 2026,Interpretation,v1.3,cc2c85e4eef09300
+NMB,2027-06-10,AGM and FY2026 dividend approval,expected,pattern: AGM on 10 Jun 2026,Interpretation,v1.3,cc2c85e4eef09300
+CRDB,2027-04-15,FY2026 audited results and dividend declaration,expected,pattern: 13-14 Apr 2026,Interpretation,v1.3,cc2c85e4eef09300
+CRDB,2027-05-05,ex-dividend (FY2026 dividend),expected,pattern: ex-date 5 May 2026,Interpretation,v1.3,cc2c85e4eef09300
+NMB,2027-07-31,H1 2027 results,expected,pattern: 24 Jul 2026,Interpretation,v1.3,cc2c85e4eef09300
+CRDB,2027-07-31,H1 2027 results,expected,pattern: 31 Jul 2026,Interpretation,v1.3,cc2c85e4eef09300
+both,,BoT D-SIB designation and any capital surcharge,expected,date not known (open issue 1),Interpretation,v1.3,cc2c85e4eef09300
+both,,BoT Monetary Policy Committee decisions on the CBR (T-bill path driver),expected,quarterly; dates not collected,Interpretation,v1.3,cc2c85e4eef09300

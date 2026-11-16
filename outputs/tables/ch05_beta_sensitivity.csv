@@ -1,0 +1,19 @@
+item,run,lambda,lambda_lo,lambda_hi,er_star,er_star_lo,er_star_hi,half_life,verdict,evidence_class
+CRDB ar1_benchmark,primary,1.0,0.581024274895781,1.0,,,,,,Estimated
+CRDB ar1_benchmark,beta 2012 replaced,1.0,0.6386655167581633,1.0,,,,,,Estimated
+CRDB ar1_break_episode,primary,0.5298383991162549,0.20921679558006592,0.794694637743253,0.05828730876155968,0.0016815562324240577,0.1615933835696346,1.0912554864585922,,Estimated
+CRDB ar1_break_episode,beta 2012 replaced,0.5969677230979142,0.2925166372641,0.8576268711486895,0.0612637580286219,-0.0034812832300821247,0.2508077619870408,1.3435891011299008,,Estimated
+CRDB through_cycle_mean,primary,,,,0.003843218587329302,-0.06877421776994584,0.04613631810594588,,,Estimated
+CRDB through_cycle_mean,beta 2012 replaced,,,,-0.005022767704370157,-0.07057148606304249,0.035483396816669475,,,Estimated
+NMB ar1_benchmark,primary,1.0,0.7318086824992073,1.0,,,,,,Estimated
+NMB ar1_benchmark,beta 2012 replaced,1.0,0.7056919220816497,1.0,,,,,,Estimated
+NMB ar1_break_episode,primary,0.6869970692369387,0.47617766528042915,0.852796963540887,0.106391741984676,0.0624479015154273,0.21176082995067275,1.8462987649103262,,Estimated
+NMB ar1_break_episode,beta 2012 replaced,0.6591861295892779,0.4484169676604942,0.8297410024902524,0.09930299449664835,0.057850482873249114,0.196884338370995,1.6632232157153026,,Estimated
+NMB through_cycle_mean,primary,,,,0.04661718898364525,-0.009922030826519513,0.08438785238303373,,,Estimated
+NMB through_cycle_mean,beta 2012 replaced,,,,0.035222612290441005,-0.013812118878957922,0.06802842195678116,,,Estimated
+H5.1,primary,,,,,,,,conditionally supported: mean reversion appears in the break-adjusted estimates but is not established in the full-cycle sample,Estimated
+H5.2,primary,,,,,,,,inconclusive,Estimated
+H5.3,primary,,,,,,,,inconclusive,Estimated
+H5.1,beta 2012 replaced,,,,,,,,conditionally supported: mean reversion appears in the break-adjusted estimates but is not established in the full-cycle sample,Estimated
+H5.2,beta 2012 replaced,,,,,,,,inconclusive,Estimated
+H5.3,beta 2012 replaced,,,,,,,,inconclusive,Estimated

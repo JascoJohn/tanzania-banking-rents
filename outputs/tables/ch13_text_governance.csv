@@ -1,0 +1,17 @@
+bank,fiscal_year,measure,value,unit,evidence_class
+CRDB,2025,"related-party lending (directors, key management and their companies), TZS m",36227.0,TZS m,Observed
+CRDB,2025,"of which to companies associated with directors, TZS m",23750.0,TZS m,Observed
+CRDB,2025,related-party lending / gross loans,0.0025929213040833126,ratio,Derived
+CRDB,2025,related-party lending / total regulatory capital (group),0.014150901017910203,ratio,Derived
+CRDB,2025,"key management compensation, TZS m",23390.0,TZS m,Observed
+CRDB,2025,key management compensation / attributable profit,0.03193361521563723,ratio,Derived
+CRDB,2025,"directors' fees, TZS m",2467.0,TZS m,Observed
+CRDB,2025,directors' fees / attributable profit,0.0033681158074808488,ratio,Derived
+NMB,2025,"related-party lending (directors, key management and their companies), TZS m",18593.0,TZS m,Observed
+NMB,2025,"of which to companies associated with directors, TZS m",0.0,TZS m,Observed
+NMB,2025,related-party lending / gross loans,0.0017396111029347714,ratio,Derived
+NMB,2025,related-party lending / total regulatory capital (bank),0.0064471208142519755,ratio,Derived
+NMB,2025,"key management compensation, TZS m",16456.0,TZS m,Observed
+NMB,2025,key management compensation / attributable profit,0.021662037463635524,ratio,Derived
+NMB,2025,"directors' fees, TZS m",2094.0,TZS m,Observed
+NMB,2025,directors' fees / attributable profit,0.0027564600418602814,ratio,Derived

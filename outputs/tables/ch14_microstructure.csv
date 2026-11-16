@@ -1,0 +1,61 @@
+bank,test,statistic,version,value,n,note,reading,evidence_class,register_version,input_hash
+CRDB,autocorrelation,lag 1,unfiltered (affected by stale prices: carried-forward closes enter as zero returns),0.14347960838798635,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,autocorrelation,lag 2,unfiltered (affected by stale prices: carried-forward closes enter as zero returns),0.07520237749447921,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,autocorrelation,lag 3,unfiltered (affected by stale prices: carried-forward closes enter as zero returns),0.060154685976945815,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,autocorrelation,lag 4,unfiltered (affected by stale prices: carried-forward closes enter as zero returns),0.01417103833831694,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,autocorrelation,lag 5,unfiltered (affected by stale prices: carried-forward closes enter as zero returns),0.0036527236336447405,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,variance ratio,VR(2),unfiltered (affected by stale prices: carried-forward closes enter as zero returns),1.1438695764183817,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,variance ratio,VR(5),unfiltered (affected by stale prices: carried-forward closes enter as zero returns),1.3753828016072678,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,variance ratio,VR(10),unfiltered (affected by stale prices: carried-forward closes enter as zero returns),1.5687518557273115,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,variance ratio,VR(20),unfiltered (affected by stale prices: carried-forward closes enter as zero returns),1.859715318743998,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,autocorrelation,lag 1,stale-filtered (consecutive non-stale closes),0.13446350901539594,2355,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,autocorrelation,lag 2,stale-filtered (consecutive non-stale closes),0.1352588525834442,2355,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,autocorrelation,lag 3,stale-filtered (consecutive non-stale closes),0.08142218728147657,2355,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,autocorrelation,lag 4,stale-filtered (consecutive non-stale closes),0.05122203613537036,2355,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,autocorrelation,lag 5,stale-filtered (consecutive non-stale closes),0.021176749693740185,2355,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,variance ratio,VR(2),stale-filtered (consecutive non-stale closes),1.1348670627351234,2355,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,variance ratio,VR(5),stale-filtered (consecutive non-stale closes),1.4654192980512024,2355,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,variance ratio,VR(10),stale-filtered (consecutive non-stale closes),1.7544871418981232,2355,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,variance ratio,VR(20),stale-filtered (consecutive non-stale closes),1.936703154458861,2355,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,block vs board,"mean return, block days",stale-filtered,0.0016004519379812557,539,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,block vs board,"mean next-observation return, block days",stale-filtered,0.002681652027158706,539,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,block vs board,"mean return, board-only days",stale-filtered,0.000564499189369905,1817,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,block vs board,"mean next-observation return, board-only days",stale-filtered,0.00024359233470765514,1817,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,price clustering,share of traded days: close ends in 0,raw close,0.728,2875,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,price clustering,share of traded days: close ends in 00,raw close,0.11930434782608695,2875,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,price clustering,share of traded days: close ends in 50 or 00,raw close,0.23304347826086957,2875,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,52-week high,share of days within 2% of the running high,all days,0.14011379800853485,2812,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,52-week high,"mean next-5-day log return, near the high",all days,0.021805127647446205,394,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,52-week high,"mean next-5-day log return, not near",all days,0.0004375169431650138,2418,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,turnover spikes,"mean |return|, spike days (> 3x trailing 20-day median)",stale-filtered,0.01473106059098722,708,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,turnover spikes,"mean |return|, other traded days",stale-filtered,0.006391982517032369,2167,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,autocorrelation,lag 1,unfiltered (affected by stale prices: carried-forward closes enter as zero returns),0.0981524214395119,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,autocorrelation,lag 2,unfiltered (affected by stale prices: carried-forward closes enter as zero returns),0.09738886237061742,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,autocorrelation,lag 3,unfiltered (affected by stale prices: carried-forward closes enter as zero returns),0.06644996609211519,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,autocorrelation,lag 4,unfiltered (affected by stale prices: carried-forward closes enter as zero returns),0.03438294495287085,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,autocorrelation,lag 5,unfiltered (affected by stale prices: carried-forward closes enter as zero returns),0.07333496943050483,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,variance ratio,VR(2),unfiltered (affected by stale prices: carried-forward closes enter as zero returns),1.0969412482512015,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,variance ratio,VR(5),unfiltered (affected by stale prices: carried-forward closes enter as zero returns),1.3385464233310058,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,variance ratio,VR(10),unfiltered (affected by stale prices: carried-forward closes enter as zero returns),1.6784884911828413,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,variance ratio,VR(20),unfiltered (affected by stale prices: carried-forward closes enter as zero returns),2.1370422243773994,2930,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,autocorrelation,lag 1,stale-filtered (consecutive non-stale closes),0.10370899234975609,1297,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,autocorrelation,lag 2,stale-filtered (consecutive non-stale closes),0.08905827674119417,1297,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,autocorrelation,lag 3,stale-filtered (consecutive non-stale closes),0.08006278019424183,1297,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,autocorrelation,lag 4,stale-filtered (consecutive non-stale closes),0.10895880488054513,1297,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,autocorrelation,lag 5,stale-filtered (consecutive non-stale closes),0.07856516239821566,1297,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,variance ratio,VR(2),stale-filtered (consecutive non-stale closes),1.1039628362680816,1297,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,variance ratio,VR(5),stale-filtered (consecutive non-stale closes),1.3812944550765385,1297,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,variance ratio,VR(10),stale-filtered (consecutive non-stale closes),1.8173522872606938,1297,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,variance ratio,VR(20),stale-filtered (consecutive non-stale closes),2.2380525040592336,1297,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,block vs board,"mean return, block days",stale-filtered,0.0025700288475754996,305,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,block vs board,"mean next-observation return, block days",stale-filtered,0.001508659746563539,305,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,block vs board,"mean return, board-only days",stale-filtered,0.0008717740192307002,993,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,block vs board,"mean next-observation return, board-only days",stale-filtered,0.0011984149674038934,993,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,price clustering,share of traded days: close ends in 0,raw close,1.0,2021,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,price clustering,share of traded days: close ends in 00,raw close,0.31420089064819395,2021,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,price clustering,share of traded days: close ends in 50 or 00,raw close,0.500247402276101,2021,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,52-week high,share of days within 2% of the running high,all days,0.5817923186344239,2812,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,52-week high,"mean next-5-day log return, near the high",all days,0.0039560789289526145,1636,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,52-week high,"mean next-5-day log return, not near",all days,0.001645650478142958,1176,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,turnover spikes,"mean |return|, spike days (> 3x trailing 20-day median)",stale-filtered,0.013176660379606447,525,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,turnover spikes,"mean |return|, other traded days",stale-filtered,0.006106011406592551,1496,,descriptive,Derived,v1.3,cc2c85e4eef09300

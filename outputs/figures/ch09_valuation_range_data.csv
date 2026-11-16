@@ -1,0 +1,19 @@
+bank,item,value_per_share,evidence_class,register_version,input_hash
+NMB,RIM,1388.471440033357,Estimated,v1.3,cc2c85e4eef09300
+NMB,DDM,1388.471440033357,Estimated,v1.3,cc2c85e4eef09300
+NMB,Blend,1388.471440033357,Estimated,v1.3,cc2c85e4eef09300
+NMB,Bear,531.5903395719138,Estimated,v1.3,cc2c85e4eef09300
+NMB,Bull,3574.4659812383015,Estimated,v1.3,cc2c85e4eef09300
+NMB,MC P10,989.9133753191188,Estimated,v1.3,cc2c85e4eef09300
+NMB,MC P90,1849.8851844831736,Estimated,v1.3,cc2c85e4eef09300
+NMB,"Justified P/B, sustainable ROE",989.4025257565107,Estimated,v1.3,cc2c85e4eef09300
+NMB,price,1820.0,Estimated,v1.3,cc2c85e4eef09300
+CRDB,RIM,1841.8889934401745,Estimated,v1.3,cc2c85e4eef09300
+CRDB,DDM,1841.888993440174,Estimated,v1.3,cc2c85e4eef09300
+CRDB,Blend,1841.8889934401745,Estimated,v1.3,cc2c85e4eef09300
+CRDB,Bear,748.7716769750061,Estimated,v1.3,cc2c85e4eef09300
+CRDB,Bull,5374.314069088624,Estimated,v1.3,cc2c85e4eef09300
+CRDB,MC P10,923.568862837289,Estimated,v1.3,cc2c85e4eef09300
+CRDB,MC P90,2707.432487534264,Estimated,v1.3,cc2c85e4eef09300
+CRDB,"Justified P/B, sustainable ROE",1103.3655585076538,Estimated,v1.3,cc2c85e4eef09300
+CRDB,price,2840.0,Estimated,v1.3,cc2c85e4eef09300

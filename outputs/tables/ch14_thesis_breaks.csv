@@ -1,0 +1,11 @@
+bank,indicator,current,threshold,status,source,note,evidence_class,register_version,input_hash
+NMB,T-bill rate vs the net deposit franchise break-even,0.062852,0.0585224873861647,not breached,ch13_franchise_breakeven,,Derived,v1.3,cc2c85e4eef09300
+NMB,cost of risk FY2025 vs through-the-cycle mean,0.0083971775303977,0.0183607563202608,not breached,ch08_credit_history; ch08_ttc_cost_of_risk,break when credit cost normalises above the cycle mean,Derived,v1.3,cc2c85e4eef09300
+NMB,deposit beta (upper 90% bound) vs 0.10,0.0736166653052532,0.1,not breached,ch06_deposit_beta,break when depositors start to reprice,Derived,v1.3,cc2c85e4eef09300
+NMB,binding capital headroom vs 2 pp,0.1025,0.02,not breached,ch07_capital,,Derived,v1.3,cc2c85e4eef09300
+NMB,price vs base value per share (31 Oct 2026),1820.0,1388.471440033357,not breached,ch09_valuations,break for a Sell call when the price falls below the base value (value / price above 1),Derived,v1.3,cc2c85e4eef09300
+CRDB,T-bill rate vs the net deposit franchise break-even,0.062852,0.059073693556445,not breached,ch13_franchise_breakeven,,Derived,v1.3,cc2c85e4eef09300
+CRDB,cost of risk FY2025 vs through-the-cycle mean,0.0125503443972079,0.0199826320211532,not breached,ch08_credit_history; ch08_ttc_cost_of_risk,break when credit cost normalises above the cycle mean,Derived,v1.3,cc2c85e4eef09300
+CRDB,deposit beta (upper 90% bound) vs 0.10,0.0764081109258331,0.1,not breached,ch06_deposit_beta,break when depositors start to reprice,Derived,v1.3,cc2c85e4eef09300
+CRDB,binding capital headroom vs 2 pp,0.033,0.02,not breached,ch07_capital,,Derived,v1.3,cc2c85e4eef09300
+CRDB,price vs base value per share (31 Oct 2026),2840.0,1841.8889934401743,not breached,ch09_valuations,break for a Sell call when the price falls below the base value (value / price above 1),Derived,v1.3,cc2c85e4eef09300

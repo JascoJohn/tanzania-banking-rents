@@ -1,0 +1,18 @@
+pair,frequency,correlation,n,note,cross_corr_lag_minus1,cross_corr_lag0,cross_corr_lag_plus1,dimson_beta,dimson_beta_t,reading,evidence_class,register_version,input_hash
+NMB-CRDB,"daily, both non-stale",0.04553570548244272,1261,,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+NMB-CRDB,weekly (all days),0.11632747063291492,396,Friday weeks; weeks with no price change for either bank dropped,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+NMB-CRDB,monthly (all days),0.29400666782351415,142,calendar months,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+NMB-CRDB,"daily, Dimson (lags -1, 0, +1)",0.10620401658503162,2928,"sum of cross-correlations corr(NMB_t, CRDB_t+j), j = -1, 0, +1, all days (stale days enter as zero returns, which the lead-lag terms adjust for); Dimson beta = sum of the three slopes, HAC t",0.04652053661944703,0.030531351827393884,0.029152128138190705,0.05760190733984316,2.7705250084896,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+CRDB-NMB,"daily, Dimson (lags -1, 0, +1)",0.10682133192254778,2928,CRDB regressed on NMB,0.029668036862878305,0.030531351827393888,0.04662194323227559,0.13319041932378184,2.6180983552054444,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+NMB-market proxy ex banks,"daily, non-stale",-0.007407265628292597,1297,,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+NMB-market proxy ex banks,monthly,0.2662890841009392,142,,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+CRDB-market proxy ex banks,"daily, non-stale",0.05106264941746346,2355,,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+CRDB-market proxy ex banks,monthly,0.28904415101390335,142,,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+NMB-CRDB,"daily, 2015",-0.01285531406656172,237,,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+NMB-CRDB,"daily, 2016",0.14328108818546895,150,,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+NMB-CRDB,"daily, 2021",-0.02522787703634559,33,,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+NMB-CRDB,"daily, 2022",0.030679537082585386,133,,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+NMB-CRDB,"daily, 2023",-0.15315013587674253,136,,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+NMB-CRDB,"daily, 2024",-0.1405309491293663,173,,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+NMB-CRDB,"daily, 2025",0.11829133295658376,183,,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300
+NMB-CRDB,"daily, 2026",0.16308388293937756,203,,,,,,,"descriptive (Dimson beta t: HAC, Newey-West 5 lags)",Derived,v1.3,cc2c85e4eef09300

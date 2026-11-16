@@ -1,0 +1,180 @@
+bank,fy,field,value,unit,currency,basis,source_file,page,column,note
+KCB,2020,total_assets,987810,millions,KES,group,KCB_AR_FY2020.pdf,107,current,
+KCB,2020,gross_loans,660172,millions,KES,group,KCB_AR_FY2020.pdf,145,current,Gross loans and advances to customers at amortised cost (credit risk / loans note); excludes loans at FV
+KCB,2020,net_loans,595255,millions,KES,group,KCB_AR_FY2020.pdf,107,current,Loans and advances to customers (Net) per SoFP
+KCB,2020,customer_deposits,767224,millions,KES,group,KCB_AR_FY2020.pdf,107,current,
+KCB,2020,equity_attributable,142423,millions,KES,group,KCB_AR_FY2020.pdf,107,current,Total equity; no non-controlling interest in 2020
+KCB,2020,net_interest_income,72144,millions,KES,group,KCB_AR_FY2020.pdf,105,current,
+KCB,2020,fee_commission_income,14736,millions,KES,group,KCB_AR_FY2020.pdf,105,current,"Restated to 11,426 in FY2021 report (reclassification)"
+KCB,2020,total_operating_income,95996,millions,KES,group,KCB_AR_FY2020.pdf,105,current,'Total income' as printed (NII + net fees + net FX + other operating income); before ECL and FV gains/losses
+KCB,2020,impairment_charge,27509,millions,KES,group,KCB_AR_FY2020.pdf,105,current,Credit impairment losses
+KCB,2020,operating_expenses,43291,millions,KES,group,KCB_AR_FY2020.pdf,47,current,"Five-year review 'Operating expenses' (unaudited summary); the consolidated P&L prints no total-opex subtotal; positive magnitude; definition differs by year (see issues); = employee 20,511 + D&A 5,919 + lease interest 667 + other 16,194 (P&L p105)"
+KCB,2020,profit_before_tax,25719,millions,KES,group,KCB_AR_FY2020.pdf,105,current,
+KCB,2020,profit_attributable,19604,millions,KES,group,KCB_AR_FY2020.pdf,105,current,Profit for the year; no NCI in 2020
+KCB,2020,equity_opening,129741,millions,KES,group,KCB_AR_FY2020.pdf,110,current,
+KCB,2020,dividends_paid,8033,millions,KES,group,KCB_AR_FY2020.pdf,110,current,"Dividends recognised in SOCE, attributable Total column; positive magnitude (final 2019 dividend paid in 2020)"
+KCB,2020,oci_attributable,1111,millions,KES,group,KCB_AR_FY2020.pdf,110,current,"Sum of SOCE OCI lines 584 + 2,183 + hyperinflationary impact (1,539) + (117); equals OCI total p106"
+KCB,2020,other_equity_movements,0,millions,KES,group,KCB_AR_FY2020.pdf,110,current,None
+KCB,2020,shares_outstanding_ye,3213462815,shares,,group,KCB_AR_FY2020.pdf,218,current,"Issued and fully paid 3,213,462,815 ordinary shares of KShs 1 (share capital note)"
+KCB,2020,shares_weighted,3213000000,shares,,group,KCB_AR_FY2020.pdf,199,current,"Printed as 3,213 (millions) in EPS note; converted to a count (x1,000,000)"
+KCB,2020,eps_basic,6.1,per_share,KES,group,KCB_AR_FY2020.pdf,105,current,
+KCB,2020,dps_declared,1.0,per_share,KES,group,KCB_AR_FY2020.pdf,219,current,Final dividend KShs 1.00 per share (no interim)
+KCB,2020,npl_ratio,0.147,ratio,,group,KCB_AR_FY2020.pdf,45,current,Group non-performing ratio 14.7% (integrated report; NPL stock 96.6bn)
+KCB,2020,cet1_ratio,0.182,ratio,,group,KCB_AR_FY2020.pdf,46,current,"Group core capital to total risk-weighted assets (integrated report narrative, unaudited)"
+KCB,2020,total_capital_ratio,0.216,ratio,,group,KCB_AR_FY2020.pdf,46,current,"Group total capital to risk-weighted assets (integrated report narrative, unaudited)"
+KCB,2020,cet1_ratio,0.157,ratio,,bank,KCB_AR_FY2020.pdf,186,current,KCB Bank Kenya Ltd core capital/total risk weighted assets
+KCB,2020,total_capital_ratio,0.194,ratio,,bank,KCB_AR_FY2020.pdf,186,current,KCB Bank Kenya Ltd total capital/total risk weighted assets
+KCB,2020,min_cet1_ratio,0.105,ratio,,bank,KCB_AR_FY2020.pdf,186,current,"CBK minimum core (tier 1) capital/TRWA 10.5% incl. 2.5% conservation buffer, as disclosed for KCB Bank Kenya"
+KCB,2020,min_total_capital_ratio,0.145,ratio,,bank,KCB_AR_FY2020.pdf,186,current,"CBK minimum total capital/TRWA 14.5% incl. 2.5% conservation buffer, as disclosed for KCB Bank Kenya"
+KCB,2020,hyperinflation_adjustment,130,millions,KES,group,KCB_AR_FY2020.pdf,105,current,"IAS 29 (South Sudan): monetary position line labelled 'Loss' but printed positive (gain per five-year review); OCI hyperinflation translation (1,539) separately"
+KCB,2021,total_assets,1139672,millions,KES,group,KCB_AR_FY2021.pdf,141,current,
+KCB,2021,gross_loans,741565,millions,KES,group,KCB_AR_FY2021.pdf,176,current,Gross loans and advances to customers at amortised cost (credit risk / loans note); excludes loans at FV
+KCB,2021,net_loans,675481,millions,KES,group,KCB_AR_FY2021.pdf,141,current,"Loans and advances to customers per SoFP (incl. FVTPL loans 3,662 per FY2022 report)"
+KCB,2021,customer_deposits,837141,millions,KES,group,KCB_AR_FY2021.pdf,141,current,
+KCB,2021,equity_attributable,171713,millions,KES,group,KCB_AR_FY2021.pdf,141,current,
+KCB,2021,net_interest_income,90363,millions,KES,group,KCB_AR_FY2021.pdf,138,current,
+KCB,2021,fee_commission_income,11794,millions,KES,group,KCB_AR_FY2021.pdf,138,current,
+KCB,2021,total_operating_income,109323,millions,KES,group,KCB_AR_FY2021.pdf,138,current,'Total income' as printed (NII + net fees + net FX + other operating income); before ECL and FV gains/losses; includes gain from bargain purchase 689
+KCB,2021,impairment_charge,13998,millions,KES,group,KCB_AR_FY2021.pdf,138,current,Allowance for expected credit losses
+KCB,2021,operating_expenses,47991,millions,KES,group,KCB_AR_FY2021.pdf,56,current,"Five-year review 'Operating expenses' (unaudited summary); the consolidated P&L prints no total-opex subtotal; positive magnitude; definition differs by year (see issues); P&L lines employee 25,070 + D&A 6,028 + other 16,952 = 48,050; FY2023 and FY2025 five-year reviews show 47,726"
+KCB,2021,profit_before_tax,47815,millions,KES,group,KCB_AR_FY2021.pdf,138,current,
+KCB,2021,profit_attributable,34092,millions,KES,group,KCB_AR_FY2021.pdf,138,current,
+KCB,2021,equity_opening,142423,millions,KES,group,KCB_AR_FY2021.pdf,143,current,
+KCB,2021,dividends_paid,3213,millions,KES,group,KCB_AR_FY2021.pdf,143,current,"Dividends recognised in SOCE, attributable Total column; positive magnitude"
+KCB,2021,oci_attributable,-1589,millions,KES,group,KCB_AR_FY2021.pdf,143,current,"Sum of SOCE attributable OCI lines (663) + (629) + (4) + (293); SOCI p139 attributes (1,560)"
+KCB,2021,other_equity_movements,0,millions,KES,group,KCB_AR_FY2021.pdf,143,current,"None in attributable column (NCI from acquisition 1,684 is NCI only)"
+KCB,2021,shares_outstanding_ye,3213462815,shares,,group,KCB_AR_FY2021.pdf,231,current,"Issued and fully paid 3,213,462,815 ordinary shares of KShs 1 (share capital note)"
+KCB,2021,shares_weighted,3213000000,shares,,group,KCB_AR_FY2021.pdf,215,current,"Printed as 3,213 (millions) in EPS note; converted to a count (x1,000,000)"
+KCB,2021,eps_basic,10.61,per_share,KES,group,KCB_AR_FY2021.pdf,138,current,
+KCB,2021,dps_declared,3.0,per_share,KES,group,KCB_AR_FY2021.pdf,232,current,Interim KShs 1.00 + final KShs 2.00
+KCB,2021,npl_ratio,0.165,ratio,,group,KCB_AR_FY2021.pdf,54,current,Group NPL ratio 16.5% (integrated report)
+KCB,2021,npl_coverage,0.568,ratio,,group,KCB_AR_FY2021.pdf,54,current,IFRS coverage 56.8% (regulatory coverage 60.0%)
+KCB,2021,cet1_ratio,0.18,ratio,,group,KCB_AR_FY2021.pdf,54,current,"Group core capital to total risk-weighted assets (integrated report narrative, unaudited)"
+KCB,2021,total_capital_ratio,0.217,ratio,,group,KCB_AR_FY2021.pdf,54,current,"Group total capital to risk-weighted assets (integrated report narrative, unaudited)"
+KCB,2021,cet1_ratio,0.159,ratio,,bank,KCB_AR_FY2021.pdf,205,current,KCB Bank Kenya Ltd (main subsidiary) 'Total tier 1 capital expressed as a percentage of total risk-weighted assets'; no Group consolidated ratio in this report's notes
+KCB,2021,total_capital_ratio,0.202,ratio,,bank,KCB_AR_FY2021.pdf,205,current,KCB Bank Kenya Ltd 'Total regulatory capital expressed as a percentage of total risk-weighted assets'
+KCB,2021,min_cet1_ratio,0.105,ratio,,bank,KCB_AR_FY2021.pdf,205,current,"CBK minimum core (tier 1) capital/TRWA 10.5% incl. 2.5% conservation buffer, as disclosed for KCB Bank Kenya (labels of the two minima are swapped in the note)"
+KCB,2021,min_total_capital_ratio,0.145,ratio,,bank,KCB_AR_FY2021.pdf,205,current,"CBK minimum total capital/TRWA 14.5% incl. 2.5% conservation buffer, as disclosed for KCB Bank Kenya (labels of the two minima are swapped in the note)"
+KCB,2021,hyperinflation_adjustment,216,millions,KES,group,KCB_AR_FY2021.pdf,138,current,IAS 29: gain on monetary position in P&L; OCI hyperinflation translation (4)
+KCB,2021,oneoff_other,689,millions,KES,group,KCB_AR_FY2021.pdf,138,current,"Gain from bargain purchase (note 33), in total income"
+KCB,2020,total_assets,987810,millions,KES,group,KCB_AR_FY2021.pdf,141,comparative,prior-year column; same as originally reported
+KCB,2020,equity_attributable,142423,millions,KES,group,KCB_AR_FY2021.pdf,141,comparative,prior-year column; same as originally reported
+KCB,2020,profit_attributable,19604,millions,KES,group,KCB_AR_FY2021.pdf,138,comparative,prior-year column; same as originally reported
+KCB,2022,total_assets,1554030,millions,KES,group,KCB_AR_FY2022.pdf,129,current,
+KCB,2022,gross_loans,932165,millions,KES,group,KCB_AR_FY2022.pdf,168,current,Gross loans and advances to customers at amortised cost (credit risk / loans note); excludes loans at FV
+KCB,2022,net_loans,863268,millions,KES,group,KCB_AR_FY2022.pdf,222,current,"Net loans and advances to customers incl. loans at FVTPL (amortised cost 860,680 + FVTPL 2,588)"
+KCB,2022,customer_deposits,1135417,millions,KES,group,KCB_AR_FY2022.pdf,129,current,
+KCB,2022,equity_attributable,200201,millions,KES,group,KCB_AR_FY2022.pdf,129,current,
+KCB,2022,net_interest_income,100905,millions,KES,group,KCB_AR_FY2022.pdf,126,current,
+KCB,2022,fee_commission_income,15258,millions,KES,group,KCB_AR_FY2022.pdf,126,current,
+KCB,2022,total_operating_income,128212,millions,KES,group,KCB_AR_FY2022.pdf,126,current,'Total income' as printed (NII + net fees + net FX + other operating income); before ECL and FV gains/losses
+KCB,2022,impairment_charge,10300,millions,KES,group,KCB_AR_FY2022.pdf,126,current,Allowance for expected credit losses
+KCB,2022,operating_expenses,60852,millions,KES,group,KCB_AR_FY2023.pdf,52,comparative,"Five-year review 'Operating expenses' (unaudited summary); the consolidated P&L prints no total-opex subtotal; positive magnitude; definition differs by year (see issues); taken from FY2023 report five-year review (FY2022 report has no P&L five-year table in text); = staff 30,422 + D&A 6,615 + other 22,329 + FV loss 1,531 - associates 45"
+KCB,2022,profit_before_tax,57331,millions,KES,group,KCB_AR_FY2022.pdf,126,current,
+KCB,2022,profit_attributable,40613,millions,KES,group,KCB_AR_FY2022.pdf,126,current,
+KCB,2022,equity_opening,171713,millions,KES,group,KCB_AR_FY2022.pdf,131,current,
+KCB,2022,dividends_paid,9639,millions,KES,group,KCB_AR_FY2022.pdf,131,current,"Dividends recognised in SOCE, attributable Total column; positive magnitude (final 2021 6,426 + interim 2022 3,213)"
+KCB,2022,oci_attributable,-2486,millions,KES,group,KCB_AR_FY2022.pdf,131,current,"Sum of SOCE attributable lines 448 + (2,952) + hyperinflation restatement 171 + (153); SOCI p127 attributes (2,318)"
+KCB,2022,other_equity_movements,0,millions,KES,group,KCB_AR_FY2022.pdf,131,current,"None in attributable column (acquisition NCI 3,890 is NCI only)"
+KCB,2022,shares_outstanding_ye,3213462815,shares,,group,KCB_AR_FY2022.pdf,244,current,"Issued and fully paid 3,213,462,815 ordinary shares of KShs 1 (share capital note)"
+KCB,2022,shares_weighted,3213000000,shares,,group,KCB_AR_FY2022.pdf,221,current,"Printed as 3,213 (millions) in EPS note; converted to a count (x1,000,000)"
+KCB,2022,eps_basic,12.71,per_share,KES,group,KCB_AR_FY2022.pdf,126,current,"As printed; 40,613/3,213 = 12.64; note p221 cites profit 40,847 (see issues)"
+KCB,2022,dps_declared,2.0,per_share,KES,group,KCB_AR_FY2022.pdf,246,current,Interim KShs 1.00 + final KShs 1.00
+KCB,2022,cet1_ratio,0.139,ratio,,group,KCB_AR_FY2022.pdf,48,current,"Group core capital to total risk-weighted assets (integrated report narrative, unaudited)"
+KCB,2022,total_capital_ratio,0.171,ratio,,group,KCB_AR_FY2022.pdf,48,current,"Group total capital to risk-weighted assets (integrated report narrative, unaudited)"
+KCB,2022,cet1_ratio,0.109,ratio,,bank,KCB_AR_FY2022.pdf,208,current,KCB Bank Kenya Ltd (main subsidiary) 'Total tier 1 capital expressed as a percentage of total risk-weighted assets'; no Group consolidated ratio in this report's notes
+KCB,2022,total_capital_ratio,0.152,ratio,,bank,KCB_AR_FY2022.pdf,208,current,KCB Bank Kenya Ltd 'Total regulatory capital expressed as a percentage of total risk-weighted assets'
+KCB,2022,min_cet1_ratio,0.105,ratio,,bank,KCB_AR_FY2022.pdf,208,current,"CBK minimum core (tier 1) capital/TRWA 10.5% incl. 2.5% conservation buffer, as disclosed for KCB Bank Kenya (labels of the two minima are swapped in the note)"
+KCB,2022,min_total_capital_ratio,0.145,ratio,,bank,KCB_AR_FY2022.pdf,208,current,"CBK minimum total capital/TRWA 14.5% incl. 2.5% conservation buffer, as disclosed for KCB Bank Kenya (labels of the two minima are swapped in the note)"
+KCB,2022,hyperinflation_adjustment,271,millions,KES,group,KCB_AR_FY2022.pdf,126,current,IAS 29: gain on monetary position in P&L; OCI hyperinflation restatement 171
+KCB,2021,total_assets,1139674,millions,KES,group,KCB_AR_FY2022.pdf,129,comparative,"prior-year column; differs by +2 from 1,139,672 originally reported (intangibles 7,012 vs 7,010; not marked restated)"
+KCB,2021,equity_attributable,171713,millions,KES,group,KCB_AR_FY2022.pdf,129,comparative,prior-year column; same as originally reported
+KCB,2021,profit_attributable,34092,millions,KES,group,KCB_AR_FY2022.pdf,126,comparative,prior-year column; same as originally reported
+KCB,2023,total_assets,2170874,millions,KES,group,KCB_AR_FY2023.pdf,138,current,
+KCB,2023,gross_loans,1202891,millions,KES,group,KCB_AR_FY2023.pdf,180,current,Gross loans and advances to customers at amortised cost (credit risk / loans note); excludes loans at FV
+KCB,2023,net_loans,1095944,millions,KES,group,KCB_AR_FY2023.pdf,221,current,"Net loans and advances to customers incl. loans at FVTPL (amortised cost 1,094,289 + FVTPL 1,655)"
+KCB,2023,customer_deposits,1690908,millions,KES,group,KCB_AR_FY2023.pdf,138,current,"FY2024 report comparative shows 1,690,909"
+KCB,2023,equity_attributable,227522,millions,KES,group,KCB_AR_FY2023.pdf,138,current,
+KCB,2023,net_interest_income,120712,millions,KES,group,KCB_AR_FY2023.pdf,135,current,
+KCB,2023,fee_commission_income,31928,millions,KES,group,KCB_AR_FY2023.pdf,135,current,"FY2024 report comparative shows 31,828"
+KCB,2023,total_operating_income,159345,millions,KES,group,KCB_AR_FY2023.pdf,135,current,'Total income' as printed (NII + net fees + net FX + other operating income); before ECL and FV gains/losses
+KCB,2023,impairment_charge,27415,millions,KES,group,KCB_AR_FY2023.pdf,135,current,Impairment losses on financial assets
+KCB,2023,operating_expenses,83477,millions,KES,group,KCB_AR_FY2023.pdf,52,current,"Five-year review 'Operating expenses' (unaudited summary); the consolidated P&L prints no total-opex subtotal; positive magnitude; definition differs by year (see issues); = employee 38,469 + D&A 9,329 + other 35,351 + FV loss 472 - associates 144"
+KCB,2023,profit_before_tax,48453,millions,KES,group,KCB_AR_FY2023.pdf,135,current,
+KCB,2023,profit_attributable,36176,millions,KES,group,KCB_AR_FY2023.pdf,135,current,
+KCB,2023,equity_opening,200201,millions,KES,group,KCB_AR_FY2023.pdf,140,current,
+KCB,2023,dividends_paid,3213,millions,KES,group,KCB_AR_FY2023.pdf,140,current,"Dividends recognised in SOCE, attributable Total column; positive magnitude (final 2022)"
+KCB,2023,oci_attributable,-5642,millions,KES,group,KCB_AR_FY2023.pdf,140,current,Total comprehensive income row of 'Other reserves'/attributable OCI lines
+KCB,2023,other_equity_movements,0,millions,KES,group,KCB_AR_FY2023.pdf,140,current,None
+KCB,2023,shares_outstanding_ye,3213462815,shares,,group,KCB_AR_FY2023.pdf,237,current,"Issued and fully paid 3,213,462,815 ordinary shares of KShs 1 (share capital note)"
+KCB,2023,shares_weighted,3213000000,shares,,group,KCB_AR_FY2023.pdf,219,current,"Printed as 3,213 (millions) in EPS note; converted to a count (x1,000,000)"
+KCB,2023,eps_basic,11.66,per_share,KES,group,KCB_AR_FY2023.pdf,135,current,"As printed (= total profit 37,462/3,213); restated to 11.26 in FY2024 report"
+KCB,2023,eps_basic,11.26,per_share,KES,group,KCB_AR_FY2024.pdf,73,comparative,"Comparative in FY2024 report (= 36,176/3,213); corrects 11.66"
+KCB,2023,dps_declared,0,per_share,KES,group,KCB_AR_FY2023.pdf,121,current,No interim paid and no final recommended for 2023
+KCB,2023,npl_ratio,0.173,ratio,,group,KCB_AR_FY2023.pdf,51,current,Group NPL ratio 17.3% (integrated report); FY2024 report p29 cites 2023 as 17.4%
+KCB,2023,cet1_ratio,0.118,ratio,,bank,KCB_AR_FY2023.pdf,206,current,KCB Bank Kenya Ltd (main subsidiary) 'Total tier 1 capital expressed as a percentage of total risk-weighted assets'; no Group consolidated ratio in this report's notes
+KCB,2023,total_capital_ratio,0.158,ratio,,bank,KCB_AR_FY2023.pdf,206,current,KCB Bank Kenya Ltd 'Total regulatory capital expressed as a percentage of total risk-weighted assets'
+KCB,2023,min_cet1_ratio,0.105,ratio,,bank,KCB_AR_FY2023.pdf,206,current,"CBK minimum core (tier 1) capital/TRWA 10.5% incl. 2.5% conservation buffer, as disclosed for KCB Bank Kenya (labels of the two minima are swapped in the note)"
+KCB,2023,min_total_capital_ratio,0.145,ratio,,bank,KCB_AR_FY2023.pdf,206,current,"CBK minimum total capital/TRWA 14.5% incl. 2.5% conservation buffer, as disclosed for KCB Bank Kenya (labels of the two minima are swapped in the note)"
+KCB,2023,hyperinflation_adjustment,0,millions,KES,group,KCB_AR_FY2023.pdf,135,current,Gain on monetary position printed '-' for 2023
+KCB,2022,total_assets,1554030,millions,KES,group,KCB_AR_FY2023.pdf,138,comparative,prior-year column; same as originally reported
+KCB,2022,equity_attributable,200201,millions,KES,group,KCB_AR_FY2023.pdf,138,comparative,prior-year column; same as originally reported
+KCB,2022,profit_attributable,40613,millions,KES,group,KCB_AR_FY2023.pdf,135,comparative,prior-year column; same as originally reported
+KCB,2024,total_assets,1962320,millions,KES,group,KCB_AR_FY2024.pdf,75,current,"NBK presented as held for sale (assets 148,805)"
+KCB,2024,gross_loans,1078689,millions,KES,group,KCB_AR_FY2024.pdf,93,current,Gross loans and advances to customers at amortised cost (credit risk / loans note); excludes loans at FV; excludes NBK (held for sale)
+KCB,2024,net_loans,990413,millions,KES,group,KCB_AR_FY2024.pdf,115,current,"Net loans and advances to customers incl. loans at FVTPL (amortised cost 987,552 + FVTPL 2,861); excludes NBK"
+KCB,2024,customer_deposits,1381975,millions,KES,group,KCB_AR_FY2024.pdf,75,current,Excludes NBK deposits (in liabilities held for sale)
+KCB,2024,equity_attributable,274888,millions,KES,group,KCB_AR_FY2024.pdf,75,current,
+KCB,2024,net_interest_income,149751,millions,KES,group,KCB_AR_FY2024.pdf,73,current,Includes NBK (not yet discontinued in this report)
+KCB,2024,fee_commission_income,36624,millions,KES,group,KCB_AR_FY2024.pdf,73,current,
+KCB,2024,total_operating_income,202909,millions,KES,group,KCB_AR_FY2024.pdf,73,current,'Total income' as printed (NII + net fees + net FX + other operating income); before ECL and FV gains/losses
+KCB,2024,impairment_charge,29694,millions,KES,group,KCB_AR_FY2024.pdf,73,current,Allowance for expected credit losses
+KCB,2024,operating_expenses,90611,millions,KES,group,KCB_AR_FY2025.pdf,32,comparative,"Five-year review 'Operating expenses' (unaudited summary); the consolidated P&L prints no total-opex subtotal; positive magnitude; definition differs by year (see issues); from FY2025 report five-year review (FY2024 five-year review not text-extractable); = employee 40,255 + D&A 9,747 + other 40,609 (FY2024 P&L p73), excludes monetary loss 2,333"
+KCB,2024,profit_before_tax,81973,millions,KES,group,KCB_AR_FY2024.pdf,73,current,
+KCB,2024,profit_attributable,60090,millions,KES,group,KCB_AR_FY2024.pdf,73,current,
+KCB,2024,equity_opening,227522,millions,KES,group,KCB_AR_FY2024.pdf,76,current,
+KCB,2024,dividends_paid,4820,millions,KES,group,KCB_AR_FY2024.pdf,76,current,"Dividends recognised in SOCE, attributable Total column; positive magnitude (interim 2024)"
+KCB,2024,oci_attributable,-7904,millions,KES,group,KCB_AR_FY2024.pdf,76,current,"Total comprehensive income row, attributable column, less profit"
+KCB,2024,other_equity_movements,0,millions,KES,group,KCB_AR_FY2024.pdf,76,current,None
+KCB,2024,shares_outstanding_ye,3213462815,shares,,group,KCB_AR_FY2024.pdf,123,current,"Issued and fully paid 3,213,462,815 ordinary shares of KShs 1 (share capital note)"
+KCB,2024,shares_weighted,3213000000,shares,,group,KCB_AR_FY2024.pdf,114,current,"Printed as 3,213 (millions) in EPS note; converted to a count (x1,000,000)"
+KCB,2024,eps_basic,18.7,per_share,KES,group,KCB_AR_FY2024.pdf,73,current,FY2025 EPS note p119 shows 2024 as 18.84; FY2025 P&L p78 shows 18.70
+KCB,2024,dps_declared,3.0,per_share,KES,group,KCB_AR_FY2024.pdf,66,current,Interim KShs 1.50 + final KShs 1.50
+KCB,2024,npl_ratio,0.192,ratio,,group,KCB_AR_FY2024.pdf,29,current,Group NPL ratio 19.2% (integrated report)
+KCB,2024,cet1_ratio,0.15,ratio,,bank,KCB_AR_FY2024.pdf,108,current,KCB Bank Kenya Ltd (main subsidiary) 'Total tier 1 capital expressed as a percentage of total risk-weighted assets'; no Group consolidated ratio in this report's notes
+KCB,2024,total_capital_ratio,0.184,ratio,,bank,KCB_AR_FY2024.pdf,108,current,KCB Bank Kenya Ltd 'Total regulatory capital expressed as a percentage of total risk-weighted assets'
+KCB,2024,min_cet1_ratio,0.105,ratio,,bank,KCB_AR_FY2024.pdf,108,current,"CBK minimum core (tier 1) capital/TRWA 10.5% incl. 2.5% conservation buffer, as disclosed for KCB Bank Kenya (labels of the two minima are swapped in the note)"
+KCB,2024,min_total_capital_ratio,0.145,ratio,,bank,KCB_AR_FY2024.pdf,108,current,"CBK minimum total capital/TRWA 14.5% incl. 2.5% conservation buffer, as disclosed for KCB Bank Kenya (labels of the two minima are swapped in the note)"
+KCB,2024,hyperinflation_adjustment,-2333,millions,KES,group,KCB_AR_FY2024.pdf,73,current,IAS 29: loss on monetary position in P&L
+KCB,2023,total_assets,2170874,millions,KES,group,KCB_AR_FY2024.pdf,75,comparative,prior-year column; same as originally reported
+KCB,2023,equity_attributable,227522,millions,KES,group,KCB_AR_FY2024.pdf,75,comparative,prior-year column; same as originally reported
+KCB,2023,profit_attributable,36176,millions,KES,group,KCB_AR_FY2024.pdf,73,comparative,prior-year column; same as originally reported
+KCB,2025,total_assets,2147206,millions,KES,group,KCB_AR_FY2025.pdf,79,current,
+KCB,2025,gross_loans,1248368,millions,KES,group,KCB_AR_FY2025.pdf,120,current,Gross loans and advances to customers at amortised cost (credit risk / loans note); excludes loans at FV
+KCB,2025,net_loans,1151576,millions,KES,group,KCB_AR_FY2025.pdf,120,current,"Net loans and advances to customers incl. loans at FVTPL (amortised cost 1,148,176 + FV 3,400)"
+KCB,2025,customer_deposits,1592612,millions,KES,group,KCB_AR_FY2025.pdf,79,current,
+KCB,2025,equity_attributable,331466,millions,KES,group,KCB_AR_FY2025.pdf,79,current,
+KCB,2025,net_interest_income,157643,millions,KES,group,KCB_AR_FY2025.pdf,78,current,"Continuing operations (NBK discontinued, sold 30 May 2025)"
+KCB,2025,fee_commission_income,34209,millions,KES,group,KCB_AR_FY2025.pdf,78,current,Continuing operations
+KCB,2025,total_operating_income,203199,millions,KES,group,KCB_AR_FY2025.pdf,78,current,'Total income' as printed (NII + net fees + net FX + other operating income); before ECL and FV gains/losses; continuing operations
+KCB,2025,impairment_charge,29665,millions,KES,group,KCB_AR_FY2025.pdf,78,current,Allowance for expected credit losses; continuing operations
+KCB,2025,profit_before_tax,87104,millions,KES,group,KCB_AR_FY2025.pdf,78,current,"Continuing operations (excl. discontinued profit 3,251 net of tax)"
+KCB,2025,profit_attributable,66819,millions,KES,group,KCB_AR_FY2025.pdf,78,current,"Equity holders; includes discontinued operation 3,251"
+KCB,2025,equity_opening,274888,millions,KES,group,KCB_AR_FY2025.pdf,80,current,
+KCB,2025,dividends_paid,17674,millions,KES,group,KCB_AR_FY2025.pdf,80,current,"Dividends recognised in SOCE, attributable Total column; positive magnitude (final 2024 4,820 + interim and special 2025 12,854)"
+KCB,2025,oci_attributable,7433,millions,KES,group,KCB_AR_FY2025.pdf,80,current,"SOCE attributable lines 1,964 + 5,692 + (223); SOCE TCI attributable 74,252; SOCI p78 attributes 73,290 (conflict)"
+KCB,2025,other_equity_movements,0,millions,KES,group,KCB_AR_FY2025.pdf,80,current,None in attributable column (NCI from acquisition 428 is NCI only)
+KCB,2025,shares_outstanding_ye,3213462815,shares,,group,KCB_AR_FY2025.pdf,129,current,"Issued and fully paid 3,213,462,815 ordinary shares of KShs 1 (share capital note)"
+KCB,2025,shares_weighted,3213000000,shares,,group,KCB_AR_FY2025.pdf,119,current,"Printed as 3,213 (millions) in EPS note; converted to a count (x1,000,000)"
+KCB,2025,eps_basic,20.8,per_share,KES,group,KCB_AR_FY2025.pdf,78,current,Total (continuing + discontinued); continuing-only basic EPS 19.81
+KCB,2025,dps_declared,7.0,per_share,KES,group,KCB_AR_FY2025.pdf,71,current,Interim 2.00 + special 2.00 (from NBK sale) + final 3.00; chairman p26 describes split differently
+KCB,2025,npl_ratio,0.169,ratio,,group,KCB_AR_FY2025.pdf,31,current,'Group Consolidated' NPL ratio 16.9% (Exhibit 6); p19 cites 15.4% gross NPL/gross loans
+KCB,2025,cet1_ratio,0.17,ratio,,bank,KCB_AR_FY2025.pdf,112,current,KCB Bank Kenya Ltd (main subsidiary) 'Total tier 1 capital expressed as a percentage of total risk-weighted assets'; no Group consolidated ratio in this report's notes
+KCB,2025,total_capital_ratio,0.223,ratio,,bank,KCB_AR_FY2025.pdf,112,current,KCB Bank Kenya Ltd 'Total regulatory capital expressed as a percentage of total risk-weighted assets'
+KCB,2025,min_cet1_ratio,0.105,ratio,,bank,KCB_AR_FY2025.pdf,112,current,"CBK minimum core (tier 1) capital/TRWA 10.5% incl. 2.5% conservation buffer, as disclosed for KCB Bank Kenya (labels of the two minima are swapped in the note)"
+KCB,2025,min_total_capital_ratio,0.145,ratio,,bank,KCB_AR_FY2025.pdf,112,current,"CBK minimum total capital/TRWA 14.5% incl. 2.5% conservation buffer, as disclosed for KCB Bank Kenya (labels of the two minima are swapped in the note)"
+KCB,2025,hyperinflation_adjustment,-877,millions,KES,group,KCB_AR_FY2025.pdf,78,current,IAS 29: loss on monetary position in P&L
+KCB,2025,oneoff_other,3251,millions,KES,group,KCB_AR_FY2025.pdf,78,current,"Profit from discontinued operation (NBK) net of tax, incl. Ksh 2.7bn disposal gain (p71); in profit_attributable"
+KCB,2024,total_assets,1962320,millions,KES,group,KCB_AR_FY2025.pdf,79,comparative,prior-year column; same as originally reported
+KCB,2024,equity_attributable,274888,millions,KES,group,KCB_AR_FY2025.pdf,79,comparative,prior-year column; same as originally reported
+KCB,2024,profit_attributable,60090,millions,KES,group,KCB_AR_FY2025.pdf,78,comparative,"prior-year column; same as originally reported; P&L re-presented with NBK as discontinued (continuing PBT 80,724)"

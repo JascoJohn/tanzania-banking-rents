@@ -1,0 +1,205 @@
+{
+  "chapter": "13_dec",
+  "title": "Owner decisions on contested analytical choices",
+  "status": "complete",
+  "hypotheses": [],
+  "tables": [
+    {
+      "path": "outputs/tables/ch13_dec_interp_weights.csv",
+      "description": "C3. Value, value/price and rating by weight on the exceptional reading",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_crossing_weights.csv",
+      "description": "C3. Price-crossing weights",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_mc_conditional.csv",
+      "description": "R6. P(value > price) given A, given B and mixed",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_mc_inputs.csv",
+      "description": "R6. Distributions of the drawn inputs (quantiles)",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_rating_rule.csv",
+      "description": "C6/C7. The rating rule applied, with COE switch points",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_configurations.csv",
+      "description": "R3. Three internally consistent configurations",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_joint_grid.csv",
+      "description": "R3. ER* x lambda grid with the rating",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_bank_betas.csv",
+      "description": "R2. Bank betas and illiquidity",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_bank_coe.csv",
+      "description": "R2 / Part 3. COE, value and rating by COE basis",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_coe_interval.csv",
+      "description": "Cost of equity as an interval, value across the range",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_hist_coe.csv",
+      "description": "R5. Persistence under three COE constructions",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_capital_policies.csv",
+      "description": "R4. Capital policies",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_surplus_drag.csv",
+      "description": "C10. Surplus-capital drag: headline and bounds",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_terminal_growth.csv",
+      "description": "R9. Terminal growth cross-check g = b x ROE*",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_price_requires.csv",
+      "description": "R10. Sustainable-ROE bridge and the ROE the price requires",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_implied_growth.csv",
+      "description": "R10. Implied growth under the 4-point guard",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_rate_roles.csv",
+      "description": "C2. Every rate has one job",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_rc_curr.csv",
+      "description": "C4. RC-CURR rows traced to their inputs",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_event_robust.csv",
+      "description": "C5. Event CARs: sign test and bootstrap",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_outliers.csv",
+      "description": "C11. Excluded observations and their effect",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_monitoring.csv",
+      "description": "C13. Monitoring table by area",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_income_vs_return.csv",
+      "description": "C14. TSR against rolled T-bills",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_peer_structure.csv",
+      "description": "R7. Structured peer table with justified P/B",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_analyst_compare.csv",
+      "description": "Part 3. Broker views, ours and the price",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_analyst_anchoring.csv",
+      "description": "Part 3. Do broker targets follow price?",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/tables/ch13_dec_analyst_direction.csv",
+      "description": "Part 3. Direction check at 31 Oct 2026 prices",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_dec.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch13_dec_interp_weights.png",
+      "data": "outputs/figures/ch13_dec_interp_weights_data.csv",
+      "description": "C3. Value against the weight on the exceptional reading",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/figures/ch13_dec_mc_inputs.png",
+      "data": "outputs/figures/ch13_dec_mc_inputs_data.csv",
+      "description": "R6. Distributions of the key drawn inputs",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/figures/ch13_dec_income_vs_return.png",
+      "data": "outputs/figures/ch13_dec_income_vs_return_data.csv",
+      "description": "C14. Income and return",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_dec.md"
+    },
+    {
+      "path": "outputs/figures/ch13_dec_analyst_compare.png",
+      "data": "outputs/figures/ch13_dec_analyst_compare_data.csv",
+      "description": "Part 3. Broker views, ours and the price",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch13_dec.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch13_dec.md"
+  ],
+  "inputs": [
+    "config/assumption_register.csv",
+    "outputs/tables/ch05_calibration_candidates.csv",
+    "outputs/tables/ch11_monte_carlo.csv",
+    "data\\raw\\analyst_reports\\register.csv"
+  ],
+  "module": "tzbank.chapters.ch13_decisions",
+  "run_log_stage": "market_ext"
+}

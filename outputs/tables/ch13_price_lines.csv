@@ -1,0 +1,15 @@
+bank,line,price,evidence_class,register_version,input_hash
+NMB,52-week high,2190.0,Observed,v1.3,cc2c85e4eef09300
+NMB,52-week low,790.0,Observed,v1.3,cc2c85e4eef09300
+NMB,Buy below (expected return > COE + 5 pp),1326.059035124569,Scenario,v1.3,cc2c85e4eef09300
+NMB,"Buy below (bear-case downside within 25%, D4 screen)",708.7871194292184,Scenario,v1.3,cc2c85e4eef09300
+NMB,Sell above (expected return < COE - 5 pp),1446.791554678283,Scenario,v1.3,cc2c85e4eef09300
+NMB,"value per share (v1.3, 31 Oct 2026)",1388.471440033357,Estimated,v1.3,cc2c85e4eef09300
+NMB,price at 31 Oct 2026,1820.0,Observed,v1.3,cc2c85e4eef09300
+CRDB,52-week high,3140.0,Observed,v1.3,cc2c85e4eef09300
+CRDB,52-week low,1130.0,Observed,v1.3,cc2c85e4eef09300
+CRDB,Buy below (expected return > COE + 5 pp),1760.7332483385483,Scenario,v1.3,cc2c85e4eef09300
+CRDB,"Buy below (bear-case downside within 25%, D4 screen)",998.3622359666748,Scenario,v1.3,cc2c85e4eef09300
+CRDB,Sell above (expected return < COE - 5 pp),1921.0411650324222,Scenario,v1.3,cc2c85e4eef09300
+CRDB,"value per share (v1.3, 31 Oct 2026)",1841.8889934401745,Estimated,v1.3,cc2c85e4eef09300
+CRDB,price at 31 Oct 2026,2840.0,Observed,v1.3,cc2c85e4eef09300

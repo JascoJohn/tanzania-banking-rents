@@ -1,0 +1,2 @@
+bank_id,ticker,action,ratio,effective_date,doc_id,notes
+B02,NMB,split,10,2026-08-24,DSE-NMB-SPLIT-2026,"1:10 share split: each share became 10. Pre-split prices are divided by 10 and pre-split share counts multiplied by 10 to adjust."

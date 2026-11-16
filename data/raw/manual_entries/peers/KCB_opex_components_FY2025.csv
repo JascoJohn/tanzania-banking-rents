@@ -1,0 +1,5 @@
+bank,fy,item,value,unit,currency,basis,source_file,pdf_page,note
+KCB,2025,employee_benefits,37241,millions,KES,group,KCB_AR_FY2025.pdf,78,"Consolidated income statement, continuing operations, note 14"
+KCB,2025,depreciation_amortisation,8371,millions,KES,group,KCB_AR_FY2025.pdf,78,"Consolidated income statement, note 15"
+KCB,2025,other_operating_expenses,39993,millions,KES,group,KCB_AR_FY2025.pdf,78,"Consolidated income statement, note 16"
+KCB,2025,total_income,203199,millions,KES,group,KCB_AR_FY2025.pdf,78,"'Total income' as printed, before ECL; loss on monetary position (877) excluded, as in the FY2024 five-year review total"

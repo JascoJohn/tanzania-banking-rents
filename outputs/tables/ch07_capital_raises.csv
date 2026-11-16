@@ -1,0 +1,3 @@
+bank_id,fiscal_year,amount,kind,source,evidence_class
+B01,2009,23711596000.0,rights issue and IPO,"CRDB/2010.pdf p.34-36 (statement of changes in equity, prior-year column; cash flow 'Proceeds from issue of ordinary shares' 23,711,596 (TZS 000))",Observed
+B01,2015,150432000000.0,"rights issue (435,306,424 shares at TZS 350)","CRDB/2015.pdf p.34, p.39 (equity statement and cash flow 'Rights issue' 150,432 TZS m), p.131",Observed

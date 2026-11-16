@@ -1,0 +1,56 @@
+{
+  "chapter": "11",
+  "title": "Strategic divergence scenarios",
+  "hypotheses": [
+    "H11.1"
+  ],
+  "status": "built - register v1.3, input hash cc2c85e4eef09300",
+  "tables": [
+    {
+      "path": "outputs/tables/ch11_scenarios.csv",
+      "description": "Bear / base / bull: value, EPS and ROE",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch11.md"
+    },
+    {
+      "path": "outputs/tables/ch11_scenario_evidence.csv",
+      "description": "Scenario drivers and their chapter 6-8 evidence",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch11.md"
+    },
+    {
+      "path": "outputs/tables/ch11_monte_carlo.csv",
+      "description": "Monte Carlo percentiles and P(value > price)",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch11.md"
+    },
+    {
+      "path": "outputs/tables/ch11_tested_call.csv",
+      "description": "Tested historical call with the bridge",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch11.md"
+    },
+    {
+      "path": "outputs/tables/ch11_hypotheses.csv",
+      "description": "H11.1",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/ch11.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch11_monte_carlo.png",
+      "data": "outputs/figures/ch11_monte_carlo_data.csv",
+      "description": "Monte Carlo value distribution",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch11.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch11.md"
+  ],
+  "register_version": "v1.3",
+  "input_hash": "cc2c85e4eef09300",
+  "module": "tzbank.chapters.ch11_scenarios",
+  "run_log_stage": "valuation_results"
+}

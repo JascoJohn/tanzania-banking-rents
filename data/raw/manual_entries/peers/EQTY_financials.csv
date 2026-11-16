@@ -1,0 +1,177 @@
+bank,fy,field,value,unit,currency,basis,source_file,page,column,note
+EQTY,2020,total_assets,1015093,millions,KES,group,EQTY_AR_FY2020.pdf,129,current,
+EQTY,2020,gross_loans,524585,millions,KES,group,EQTY_AR_FY2020.pdf,207,current,"Gross loans and advances at amortised cost (stage 1+2+3, loans note); excludes loans at FVTPL"
+EQTY,2020,net_loans,477847,millions,KES,group,EQTY_AR_FY2020.pdf,129,current,Loans and advances to customers per SoFP (amortised cost net of ECL plus loans at FVTPL)
+EQTY,2020,customer_deposits,740801,millions,KES,group,EQTY_AR_FY2020.pdf,129,current,
+EQTY,2020,equity_attributable,132176,millions,KES,group,EQTY_AR_FY2020.pdf,129,current,
+EQTY,2020,net_interest_income,61770,millions,KES,group,EQTY_AR_FY2020.pdf,126,current,
+EQTY,2020,fee_commission_income,16051,millions,KES,group,EQTY_AR_FY2020.pdf,126,current,
+EQTY,2020,total_operating_income,62253,millions,KES,group,EQTY_AR_FY2020.pdf,126,current,"'Net operating income' as printed: AFTER credit impairment and FV loss on loan notes (this report prints no pre-impairment subtotal); also includes gain from bargain purchase 1,177"
+EQTY,2020,impairment_charge,22626,millions,KES,group,EQTY_AR_FY2020.pdf,126,current,Credit impairment losses
+EQTY,2020,operating_expenses,40083,millions,KES,group,EQTY_AR_FY2020.pdf,126,current,"'Operating expenses' subtotal as printed (employee benefits + D&A + G&A/other opex, incl. IAS 29 net monetary position); recorded as positive magnitude; includes loss on net monetary position 934"
+EQTY,2020,profit_before_tax,22170,millions,KES,group,EQTY_AR_FY2020.pdf,126,current,
+EQTY,2020,profit_attributable,19790,millions,KES,group,EQTY_AR_FY2020.pdf,126,current,
+EQTY,2020,equity_opening,110719,millions,KES,group,EQTY_AR_FY2020.pdf,131,current,
+EQTY,2020,dividends_paid,0,millions,KES,group,EQTY_AR_FY2020.pdf,131,current,No dividend recognised in 2020 (2019 dividend of Shs 9.5bn withdrawn)
+EQTY,2020,oci_attributable,2740,millions,KES,group,EQTY_AR_FY2020.pdf,131,current,"OCI line, attributable Total column"
+EQTY,2020,other_equity_movements,-1073,millions,KES,group,EQTY_AR_FY2020.pdf,131,current,Other adjustment to share premium (738) + equity transactions with NCI (335)
+EQTY,2020,shares_outstanding_ye,3773674802,shares,,group,EQTY_AR_FY2020.pdf,228,current,"Issued and fully paid 3,773,674,802 ordinary shares of Shs 0.5 (share capital note)"
+EQTY,2020,shares_weighted,3774000000,shares,,group,EQTY_AR_FY2020.pdf,233,current,"Printed as 3,774 (millions) in EPS note; converted to a count (x1,000,000)"
+EQTY,2020,eps_basic,5.24,per_share,KES,group,EQTY_AR_FY2020.pdf,126,current,Basic and diluted
+EQTY,2020,dps_declared,0,per_share,KES,group,EQTY_AR_FY2020.pdf,114,current,Directors do not recommend a dividend for 2020
+EQTY,2020,npl_ratio,0.11,ratio,,group,EQTY_AR_FY2020.pdf,61,current,"'Group NPLs ratio at 11.0%' (integrated report, unaudited; definition not stated)"
+EQTY,2020,npl_coverage,0.894,ratio,,group,EQTY_AR_FY2020.pdf,23,current,NPL coverage 89.4% (integrated report); excludes credit-risk guarantees per FY2021 report p68
+EQTY,2020,cet1_ratio,0.148,ratio,,group,EQTY_AR_FY2020.pdf,183,current,"'Total tier 1 capital expressed as a percentage of risk-weighted assets' (core capital/TRWA), Group, capital management note"
+EQTY,2020,total_capital_ratio,0.19,ratio,,group,EQTY_AR_FY2020.pdf,183,current,"'Total regulatory capital expressed as a percentage of total risk-weighted assets', Group, capital management note; KPI chart p61 and FY2021 report p69 show 18.9%"
+EQTY,2020,min_cet1_ratio,0.105,ratio,,group,EQTY_AR_FY2020.pdf,182,current,CBK statutory minimum core capital/TRWA 10.5% (8% + 2.5% conservation buffer); EBKL (Kenya) column of subsidiary table
+EQTY,2020,min_total_capital_ratio,0.145,ratio,,group,EQTY_AR_FY2020.pdf,182,current,CBK statutory minimum total capital/TRWA 14.5% (12% + 2.5% conservation buffer); EBKL (Kenya) column of subsidiary table
+EQTY,2020,hyperinflation_adjustment,-934,millions,KES,group,EQTY_AR_FY2020.pdf,126,current,IAS 29 (South Sudan): loss on net monetary position in P&L
+EQTY,2020,oneoff_other,1177,millions,KES,group,EQTY_AR_FY2020.pdf,126,current,"Gain from bargain purchase (BCDC acquisition, note 15(c)); in profit"
+EQTY,2021,total_assets,1304914,millions,KES,group,EQTY_AR_FY2021.pdf,144,current,
+EQTY,2021,gross_loans,632912,millions,KES,group,EQTY_AR_FY2021.pdf,222,current,"Gross loans and advances at amortised cost (stage 1+2+3, loans note); excludes loans at FVTPL"
+EQTY,2021,net_loans,587775,millions,KES,group,EQTY_AR_FY2021.pdf,144,current,Loans and advances to customers per SoFP (amortised cost net of ECL plus loans at FVTPL)
+EQTY,2021,customer_deposits,958977,millions,KES,group,EQTY_AR_FY2021.pdf,144,current,
+EQTY,2021,equity_attributable,169168,millions,KES,group,EQTY_AR_FY2021.pdf,144,current,
+EQTY,2021,net_interest_income,76531,millions,KES,group,EQTY_AR_FY2021.pdf,141,current,
+EQTY,2021,fee_commission_income,21625,millions,KES,group,EQTY_AR_FY2021.pdf,141,current,
+EQTY,2021,total_operating_income,99998,millions,KES,group,EQTY_AR_FY2021.pdf,141,current,'Net operating income' as printed: AFTER credit impairment and FV loss on loan notes (this report prints no pre-impairment subtotal)
+EQTY,2021,impairment_charge,4783,millions,KES,group,EQTY_AR_FY2021.pdf,141,current,Credit impairment losses
+EQTY,2021,operating_expenses,48117,millions,KES,group,EQTY_AR_FY2021.pdf,141,current,"'Operating expenses' subtotal as printed (employee benefits + D&A + G&A/other opex, incl. IAS 29 net monetary position); recorded as positive magnitude; printed without brackets; net of gain on net monetary position 505"
+EQTY,2021,profit_before_tax,51881,millions,KES,group,EQTY_AR_FY2021.pdf,141,current,
+EQTY,2021,profit_attributable,39175,millions,KES,group,EQTY_AR_FY2021.pdf,141,current,
+EQTY,2021,equity_opening,132176,millions,KES,group,EQTY_AR_FY2021.pdf,146,current,
+EQTY,2021,dividends_paid,0,millions,KES,group,EQTY_AR_FY2021.pdf,146,current,No dividend recognised in 2021 (no 2020 dividend)
+EQTY,2021,oci_attributable,-1938,millions,KES,group,EQTY_AR_FY2021.pdf,146,current,"OCI line, attributable Total column"
+EQTY,2021,other_equity_movements,-245,millions,KES,group,EQTY_AR_FY2021.pdf,146,current,Equity transactions with non-controlling interests
+EQTY,2021,shares_outstanding_ye,3773674802,shares,,group,EQTY_AR_FY2021.pdf,243,current,"Issued and fully paid 3,773,674,802 ordinary shares of Shs 0.5 (share capital note)"
+EQTY,2021,shares_weighted,3774000000,shares,,group,EQTY_AR_FY2021.pdf,247,current,"Printed as 3,774 (millions) in EPS note; converted to a count (x1,000,000)"
+EQTY,2021,eps_basic,10.38,per_share,KES,group,EQTY_AR_FY2021.pdf,141,current,Basic and diluted
+EQTY,2021,dps_declared,3.0,per_share,KES,group,EQTY_AR_FY2021.pdf,132,current,Directors recommend dividend of Shs 3 per share
+EQTY,2021,npl_ratio,0.083,ratio,,group,EQTY_AR_FY2021.pdf,93,current,'Group NPL ratio at 8.3%' (integrated report); p69 labels the same 8.3% as PAR
+EQTY,2021,npl_coverage,0.982,ratio,,group,EQTY_AR_FY2021.pdf,69,current,"NPL coverage 98.2%, exclusive of credit-risk guarantees (128% inclusive, p93)"
+EQTY,2021,cet1_ratio,0.129,ratio,,group,EQTY_AR_FY2021.pdf,203,current,"'Total tier 1 capital expressed as a percentage of risk-weighted assets' (core capital/TRWA), Group, capital management note"
+EQTY,2021,total_capital_ratio,0.177,ratio,,group,EQTY_AR_FY2021.pdf,203,current,"'Total regulatory capital expressed as a percentage of total risk-weighted assets', Group, capital management note"
+EQTY,2021,min_cet1_ratio,0.105,ratio,,group,EQTY_AR_FY2021.pdf,66,current,CBK statutory minimum core capital/TRWA 10.5% (8% + 2.5% conservation buffer)
+EQTY,2021,min_total_capital_ratio,0.145,ratio,,group,EQTY_AR_FY2021.pdf,66,current,CBK statutory minimum total capital/TRWA 14.5% (12% + 2.5% conservation buffer)
+EQTY,2021,hyperinflation_adjustment,505,millions,KES,group,EQTY_AR_FY2021.pdf,141,current,IAS 29 (South Sudan): gain on net monetary position in P&L
+EQTY,2020,total_assets,1015093,millions,KES,group,EQTY_AR_FY2021.pdf,144,comparative,prior-year column; same as originally reported
+EQTY,2020,equity_attributable,132176,millions,KES,group,EQTY_AR_FY2021.pdf,144,comparative,prior-year column; same as originally reported
+EQTY,2020,profit_attributable,19790,millions,KES,group,EQTY_AR_FY2021.pdf,141,comparative,prior-year column; same as originally reported
+EQTY,2022,total_assets,1447010,millions,KES,group,EQTY_AR_FY2022.pdf,130,current,
+EQTY,2022,gross_loans,755359,millions,KES,group,EQTY_AR_FY2022.pdf,216,current,"Gross loans and advances at amortised cost (stage 1+2+3, loans note); excludes loans at FVTPL"
+EQTY,2022,net_loans,706588,millions,KES,group,EQTY_AR_FY2022.pdf,130,current,Loans and advances to customers per SoFP (amortised cost net of ECL plus loans at FVTPL)
+EQTY,2022,customer_deposits,1052162,millions,KES,group,EQTY_AR_FY2022.pdf,130,current,
+EQTY,2022,equity_attributable,176195,millions,KES,group,EQTY_AR_FY2022.pdf,130,current,
+EQTY,2022,net_interest_income,94893,millions,KES,group,EQTY_AR_FY2022.pdf,127,current,
+EQTY,2022,fee_commission_income,28127,millions,KES,group,EQTY_AR_FY2022.pdf,127,current,
+EQTY,2022,total_operating_income,121296,millions,KES,group,EQTY_AR_FY2022.pdf,127,current,'Net operating income' as printed: AFTER credit impairment and FV loss on loan notes (this report prints no pre-impairment subtotal); before insurance net claims (288)
+EQTY,2022,impairment_charge,13352,millions,KES,group,EQTY_AR_FY2022.pdf,127,current,Credit impairment losses
+EQTY,2022,operating_expenses,61452,millions,KES,group,EQTY_AR_FY2022.pdf,127,current,"'Operating expenses' subtotal as printed (employee benefits + D&A + G&A/other opex, incl. IAS 29 net monetary position); recorded as positive magnitude; printed without brackets; includes insurance net claims 288, net of gain on net monetary position 751"
+EQTY,2022,profit_before_tax,59844,millions,KES,group,EQTY_AR_FY2022.pdf,127,current,
+EQTY,2022,profit_attributable,44894,millions,KES,group,EQTY_AR_FY2022.pdf,127,current,
+EQTY,2022,equity_opening,169168,millions,KES,group,EQTY_AR_FY2022.pdf,132,current,
+EQTY,2022,dividends_paid,11321,millions,KES,group,EQTY_AR_FY2022.pdf,132,current,"Dividends recognised in SOCE, attributable Total column; positive magnitude"
+EQTY,2022,oci_attributable,-25854,millions,KES,group,EQTY_AR_FY2022.pdf,132,current,"OCI line, attributable Total column"
+EQTY,2022,other_equity_movements,-692,millions,KES,group,EQTY_AR_FY2022.pdf,132,current,Other adjustments (581) + rights issue (150) + equity transactions with NCI +39
+EQTY,2022,shares_outstanding_ye,3773674802,shares,,group,EQTY_AR_FY2022.pdf,238,current,"Issued and fully paid 3,773,674,802 ordinary shares of Shs 0.5 (share capital note)"
+EQTY,2022,shares_weighted,3774000000,shares,,group,EQTY_AR_FY2022.pdf,244,current,"Printed as 3,774 (millions) in EPS note; converted to a count (x1,000,000)"
+EQTY,2022,eps_basic,11.9,per_share,KES,group,EQTY_AR_FY2022.pdf,127,current,Basic and diluted
+EQTY,2022,dps_declared,4.0,per_share,KES,group,EQTY_AR_FY2022.pdf,116,current,Directors recommend dividend of Shs 4 per share
+EQTY,2022,npl_ratio,0.077,ratio,,group,EQTY_AR_FY2022.pdf,62,current,"NPL 7.7% (financial review KPI, unaudited; definition not stated)"
+EQTY,2022,npl_coverage,1.23,ratio,,group,EQTY_AR_FY2022.pdf,62,current,NPL coverage 123% INCLUSIVE of credit risk guarantees
+EQTY,2022,cet1_ratio,0.18,ratio,,group,EQTY_AR_FY2022.pdf,193,current,"'Total tier 1 capital expressed as a percentage of risk-weighted assets' (core capital/TRWA), Group, capital management note; financial review KPI p62 shows 15.6% (conflict, see issues)"
+EQTY,2022,total_capital_ratio,0.225,ratio,,group,EQTY_AR_FY2022.pdf,193,current,"'Total regulatory capital expressed as a percentage of total risk-weighted assets', Group, capital management note; financial review KPI p62 shows 20.2% (conflict, see issues)"
+EQTY,2022,min_cet1_ratio,0.105,ratio,,group,EQTY_AR_FY2022.pdf,62,current,CBK statutory minimum core capital/TRWA 10.5% (8% + 2.5% conservation buffer)
+EQTY,2022,min_total_capital_ratio,0.145,ratio,,group,EQTY_AR_FY2022.pdf,62,current,CBK statutory minimum total capital/TRWA 14.5% (12% + 2.5% conservation buffer)
+EQTY,2022,hyperinflation_adjustment,751,millions,KES,group,EQTY_AR_FY2022.pdf,127,current,IAS 29 (South Sudan): gain on net monetary position in P&L
+EQTY,2021,total_assets,1304914,millions,KES,group,EQTY_AR_FY2022.pdf,130,comparative,prior-year column; same as originally reported
+EQTY,2021,equity_attributable,169168,millions,KES,group,EQTY_AR_FY2022.pdf,130,comparative,prior-year column; same as originally reported
+EQTY,2021,profit_attributable,39175,millions,KES,group,EQTY_AR_FY2022.pdf,127,comparative,prior-year column; same as originally reported
+EQTY,2023,total_assets,1821435,millions,KES,group,EQTY_AR_FY2023.pdf,130,current,
+EQTY,2023,gross_loans,955139,millions,KES,group,EQTY_AR_FY2023.pdf,213,current,"Gross loans and advances at amortised cost (stage 1+2+3, loans note); excludes loans at FVTPL"
+EQTY,2023,net_loans,887380,millions,KES,group,EQTY_AR_FY2023.pdf,130,current,Loans and advances to customers per SoFP (amortised cost net of ECL plus loans at FVTPL)
+EQTY,2023,customer_deposits,1358228,millions,KES,group,EQTY_AR_FY2023.pdf,130,current,
+EQTY,2023,equity_attributable,207793,millions,KES,group,EQTY_AR_FY2023.pdf,130,current,
+EQTY,2023,net_interest_income,113023,millions,KES,group,EQTY_AR_FY2023.pdf,127,current,
+EQTY,2023,fee_commission_income,40821,millions,KES,group,EQTY_AR_FY2023.pdf,127,current,
+EQTY,2023,total_operating_income,168194,millions,KES,group,EQTY_AR_FY2023.pdf,127,current,'Total net income' as printed (NII + net fees + insurance service result + net FX + other operating income); before FV on loan notes and credit impairment
+EQTY,2023,impairment_charge,32954,millions,KES,group,EQTY_AR_FY2023.pdf,127,current,Credit impairment losses
+EQTY,2023,operating_expenses,82578,millions,KES,group,EQTY_AR_FY2023.pdf,127,current,"'Operating expenses' subtotal as printed (employee benefits + D&A + G&A/other opex, incl. IAS 29 net monetary position); recorded as positive magnitude; net monetary position printed '-' for 2023"
+EQTY,2023,profit_before_tax,51879,millions,KES,group,EQTY_AR_FY2023.pdf,127,current,
+EQTY,2023,profit_attributable,41977,millions,KES,group,EQTY_AR_FY2023.pdf,127,current,Line labelled 'Ordinary shareholders'
+EQTY,2023,equity_opening,176195,millions,KES,group,EQTY_AR_FY2023.pdf,132,current,
+EQTY,2023,dividends_paid,15095,millions,KES,group,EQTY_AR_FY2023.pdf,132,current,"Dividends recognised in SOCE, attributable Total column; positive magnitude"
+EQTY,2023,oci_attributable,4716,millions,KES,group,EQTY_AR_FY2023.pdf,132,current,"OCI line, attributable Total column"
+EQTY,2023,other_equity_movements,0,millions,KES,group,EQTY_AR_FY2023.pdf,132,current,None in attributable column (NCI from acquisition 51 is NCI only; loan loss reserve transfer nets to zero)
+EQTY,2023,shares_outstanding_ye,3773674802,shares,,group,EQTY_AR_FY2023.pdf,235,current,"Issued and fully paid 3,773,674,802 ordinary shares of Shs 0.5 (share capital note)"
+EQTY,2023,shares_weighted,3774000000,shares,,group,EQTY_AR_FY2023.pdf,241,current,"Printed as 3,774 (millions) in EPS note; converted to a count (x1,000,000)"
+EQTY,2023,eps_basic,11.12,per_share,KES,group,EQTY_AR_FY2023.pdf,127,current,Basic and diluted
+EQTY,2023,dps_declared,4.0,per_share,KES,group,EQTY_AR_FY2023.pdf,117,current,Directors recommend dividend of Shs 4 per share
+EQTY,2023,npl_ratio,0.117,ratio,,group,EQTY_AR_FY2023.pdf,61,current,"NPL 11.7% (financial review KPI, unaudited; definition not stated)"
+EQTY,2023,npl_coverage,0.9,ratio,,group,EQTY_AR_FY2023.pdf,61,current,NPL coverage 90% inclusive of credit risk guarantees; FY2024 report p57 shows 2023 as 67.3%
+EQTY,2023,cet1_ratio,0.143,ratio,,group,EQTY_AR_FY2023.pdf,192,current,"'Total tier 1 capital expressed as a percentage of risk-weighted assets' (core capital/TRWA), Group, capital management note"
+EQTY,2023,total_capital_ratio,0.181,ratio,,group,EQTY_AR_FY2023.pdf,192,current,"'Total regulatory capital expressed as a percentage of total risk-weighted assets', Group, capital management note"
+EQTY,2023,min_cet1_ratio,0.105,ratio,,group,EQTY_AR_FY2023.pdf,61,current,CBK statutory minimum core capital/TRWA 10.5% (8% + 2.5% conservation buffer)
+EQTY,2023,min_total_capital_ratio,0.145,ratio,,group,EQTY_AR_FY2023.pdf,61,current,CBK statutory minimum total capital/TRWA 14.5% (12% + 2.5% conservation buffer)
+EQTY,2023,hyperinflation_adjustment,0,millions,KES,group,EQTY_AR_FY2023.pdf,127,current,Gain/(loss) on net monetary position printed as '-' for 2023
+EQTY,2022,total_assets,1447010,millions,KES,group,EQTY_AR_FY2023.pdf,130,comparative,prior-year column; same as originally reported (P&L re-presented for IFRS 17; profit unchanged)
+EQTY,2022,equity_attributable,176195,millions,KES,group,EQTY_AR_FY2023.pdf,130,comparative,prior-year column; same as originally reported
+EQTY,2022,profit_attributable,44894,millions,KES,group,EQTY_AR_FY2023.pdf,127,comparative,prior-year column; same as originally reported
+EQTY,2024,total_assets,1804626,millions,KES,group,EQTY_AR_FY2024.pdf,135,current,
+EQTY,2024,gross_loans,890657,millions,KES,group,EQTY_AR_FY2024.pdf,220,current,"Gross loans and advances at amortised cost (stage 1+2+3, loans note); excludes loans at FVTPL"
+EQTY,2024,net_loans,819236,millions,KES,group,EQTY_AR_FY2024.pdf,135,current,Loans and advances to customers per SoFP (amortised cost net of ECL plus loans at FVTPL)
+EQTY,2024,customer_deposits,1401387,millions,KES,group,EQTY_AR_FY2024.pdf,135,current,
+EQTY,2024,equity_attributable,234041,millions,KES,group,EQTY_AR_FY2024.pdf,135,current,
+EQTY,2024,net_interest_income,123769,millions,KES,group,EQTY_AR_FY2024.pdf,132,current,
+EQTY,2024,fee_commission_income,44821,millions,KES,group,EQTY_AR_FY2024.pdf,132,current,
+EQTY,2024,total_operating_income,181789,millions,KES,group,EQTY_AR_FY2024.pdf,132,current,'Total net income' as printed (NII + net fees + insurance service result + net FX + other operating income); before FV on loan notes and credit impairment
+EQTY,2024,impairment_charge,23261,millions,KES,group,EQTY_AR_FY2024.pdf,132,current,Credit impairment losses
+EQTY,2024,operating_expenses,100227,millions,KES,group,EQTY_AR_FY2024.pdf,132,current,"'Operating expenses' subtotal as printed (employee benefits + D&A + G&A/other opex, incl. IAS 29 net monetary position); recorded as positive magnitude; includes loss on net monetary position 5,782"
+EQTY,2024,profit_before_tax,60741,millions,KES,group,EQTY_AR_FY2024.pdf,132,current,
+EQTY,2024,profit_attributable,46549,millions,KES,group,EQTY_AR_FY2024.pdf,132,current,
+EQTY,2024,equity_opening,207793,millions,KES,group,EQTY_AR_FY2024.pdf,137,current,
+EQTY,2024,dividends_paid,15095,millions,KES,group,EQTY_AR_FY2024.pdf,137,current,"Dividends recognised in SOCE, attributable Total column; positive magnitude"
+EQTY,2024,oci_attributable,-5206,millions,KES,group,EQTY_AR_FY2024.pdf,137,current,"OCI line, attributable Total column"
+EQTY,2024,other_equity_movements,0,millions,KES,group,EQTY_AR_FY2024.pdf,137,current,None (loan loss reserve transfer nets to zero)
+EQTY,2024,shares_outstanding_ye,3773674802,shares,,group,EQTY_AR_FY2024.pdf,244,current,"Issued and fully paid 3,773,674,802 ordinary shares of Shs 0.5 (share capital note)"
+EQTY,2024,shares_weighted,3774000000,shares,,group,EQTY_AR_FY2024.pdf,250,current,"Printed as 3,774 (millions) in EPS note; converted to a count (x1,000,000); note narrative mislabels year and profit (see issues)"
+EQTY,2024,eps_basic,12.34,per_share,KES,group,EQTY_AR_FY2024.pdf,132,current,Basic and diluted
+EQTY,2024,dps_declared,4.25,per_share,KES,group,EQTY_AR_FY2024.pdf,122,current,Directors recommend final dividend of Shs 4.25 per share
+EQTY,2024,npl_ratio,0.122,ratio,,group,EQTY_AR_FY2024.pdf,57,current,"NPL 12.2% (financial review KPI, unaudited; definition not stated)"
+EQTY,2024,npl_coverage,0.71,ratio,,group,EQTY_AR_FY2024.pdf,57,current,NPL coverage 71% (KPI label 'Inclusive of credit risk' guarantees)
+EQTY,2024,cet1_ratio,0.173,ratio,,group,EQTY_AR_FY2024.pdf,198,current,"'Total tier 1 capital expressed as a percentage of risk-weighted assets' (core capital/TRWA), Group, capital management note; KPI page p57 shows 17.2%"
+EQTY,2024,total_capital_ratio,0.19,ratio,,group,EQTY_AR_FY2024.pdf,198,current,"'Total regulatory capital expressed as a percentage of total risk-weighted assets', Group, capital management note"
+EQTY,2024,min_cet1_ratio,0.105,ratio,,group,EQTY_AR_FY2024.pdf,122,current,CBK statutory minimum core capital/TRWA 10.5% (8% + 2.5% conservation buffer)
+EQTY,2024,min_total_capital_ratio,0.145,ratio,,group,EQTY_AR_FY2024.pdf,122,current,CBK statutory minimum total capital/TRWA 14.5% (12% + 2.5% conservation buffer)
+EQTY,2024,hyperinflation_adjustment,-5782,millions,KES,group,EQTY_AR_FY2024.pdf,132,current,IAS 29 (South Sudan): loss on net monetary position in P&L
+EQTY,2023,total_assets,1821435,millions,KES,group,EQTY_AR_FY2024.pdf,135,comparative,prior-year column; same as originally reported
+EQTY,2023,equity_attributable,207793,millions,KES,group,EQTY_AR_FY2024.pdf,135,comparative,prior-year column; same as originally reported
+EQTY,2023,profit_attributable,41977,millions,KES,group,EQTY_AR_FY2024.pdf,132,comparative,prior-year column; same as originally reported
+EQTY,2025,total_assets,1970991,millions,KES,group,EQTY_AR_FY2025.pdf,144,current,
+EQTY,2025,gross_loans,943453,millions,KES,group,EQTY_AR_FY2025.pdf,220,current,"Gross loans and advances at amortised cost (stage 1+2+3, loans note); excludes loans at FVTPL"
+EQTY,2025,net_loans,882457,millions,KES,group,EQTY_AR_FY2025.pdf,144,current,Loans and advances to customers per SoFP (amortised cost net of ECL plus loans at FVTPL)
+EQTY,2025,customer_deposits,1455142,millions,KES,group,EQTY_AR_FY2025.pdf,144,current,
+EQTY,2025,equity_attributable,309505,millions,KES,group,EQTY_AR_FY2025.pdf,144,current,
+EQTY,2025,net_interest_income,141630,millions,KES,group,EQTY_AR_FY2025.pdf,141,current,
+EQTY,2025,fee_commission_income,48261,millions,KES,group,EQTY_AR_FY2025.pdf,141,current,
+EQTY,2025,total_operating_income,200188,millions,KES,group,EQTY_AR_FY2025.pdf,141,current,'Total net income' as printed (NII + net fees + insurance service result + net FX + other operating income); before FV on loan notes and credit impairment
+EQTY,2025,impairment_charge,11685,millions,KES,group,EQTY_AR_FY2025.pdf,141,current,Credit impairment losses
+EQTY,2025,operating_expenses,96582,millions,KES,group,EQTY_AR_FY2025.pdf,141,current,"'Operating expenses' subtotal as printed (employee benefits + D&A + G&A/other opex, incl. IAS 29 net monetary position); recorded as positive magnitude; includes loss on net monetary position 2,066"
+EQTY,2025,profit_before_tax,92115,millions,KES,group,EQTY_AR_FY2025.pdf,141,current,
+EQTY,2025,profit_attributable,71964,millions,KES,group,EQTY_AR_FY2025.pdf,141,current,
+EQTY,2025,equity_opening,234041,millions,KES,group,EQTY_AR_FY2025.pdf,146,current,
+EQTY,2025,dividends_paid,16038,millions,KES,group,EQTY_AR_FY2025.pdf,146,current,"Dividends recognised in SOCE, attributable Total column; positive magnitude (final dividend for 2024)"
+EQTY,2025,oci_attributable,19538,millions,KES,group,EQTY_AR_FY2025.pdf,146,current,"Sum of printed attributable OCI lines (3,024) + 22,927 + (365); TCI attributable 91,502 printed (= 71,964 + 19,538)"
+EQTY,2025,other_equity_movements,0,millions,KES,group,EQTY_AR_FY2025.pdf,146,current,None (loan loss reserve transfer and proposed-dividend reclass net to zero)
+EQTY,2025,shares_outstanding_ye,3773674802,shares,,group,EQTY_AR_FY2025.pdf,246,current,"Issued and fully paid 3,773,674,802 ordinary shares of Shs 0.5 (share capital note)"
+EQTY,2025,shares_weighted,3774000000,shares,,group,EQTY_AR_FY2025.pdf,252,current,"Printed as 3,774 (millions) in EPS note; converted to a count (x1,000,000)"
+EQTY,2025,eps_basic,19.07,per_share,KES,group,EQTY_AR_FY2025.pdf,141,current,Basic and diluted
+EQTY,2025,dps_declared,5.75,per_share,KES,group,EQTY_AR_FY2025.pdf,131,current,Directors recommend final dividend of Shs 5.75 per share (first and final)
+EQTY,2025,cet1_ratio,0.191,ratio,,group,EQTY_AR_FY2025.pdf,198,current,"'Total tier 1 capital expressed as a percentage of risk-weighted assets' (core capital/TRWA), Group, capital management note"
+EQTY,2025,total_capital_ratio,0.205,ratio,,group,EQTY_AR_FY2025.pdf,198,current,"'Total regulatory capital expressed as a percentage of total risk-weighted assets', Group, capital management note"
+EQTY,2025,min_cet1_ratio,0.105,ratio,,group,EQTY_AR_FY2025.pdf,131,current,CBK statutory minimum core capital/TRWA 10.5% (8% + 2.5% conservation buffer)
+EQTY,2025,min_total_capital_ratio,0.145,ratio,,group,EQTY_AR_FY2025.pdf,131,current,CBK statutory minimum total capital/TRWA 14.5% (12% + 2.5% conservation buffer)
+EQTY,2025,hyperinflation_adjustment,-2066,millions,KES,group,EQTY_AR_FY2025.pdf,141,current,IAS 29: loss on net monetary position in P&L (note 40); OCI also shows hyperinflation adjustment (111)
+EQTY,2024,total_assets,1804626,millions,KES,group,EQTY_AR_FY2025.pdf,144,comparative,prior-year column; same as originally reported
+EQTY,2024,equity_attributable,234041,millions,KES,group,EQTY_AR_FY2025.pdf,144,comparative,prior-year column; same as originally reported
+EQTY,2024,profit_attributable,46549,millions,KES,group,EQTY_AR_FY2025.pdf,141,comparative,prior-year column; same as originally reported

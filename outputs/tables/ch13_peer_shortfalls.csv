@@ -1,0 +1,8 @@
+peer,kpi_cells_requested,kpi_cells_held,years_held,market_items_missing,country_coe_approach_a,pb_basis,evidence_class,register_version,input_hash
+KCB Group,98,54,FY2017-2025,none,HIST: computed; CURR: computed,Derived (EPS / ROE book),Observed,v1.3,cc2c85e4eef09300
+Equity Group Holdings,98,51,FY2017-2025,none,HIST: computed; CURR: computed,Derived (EPS / ROE book),Observed,v1.3,cc2c85e4eef09300
+Co-operative Bank of Kenya,98,51,FY2017-2025,none,HIST: computed; CURR: computed,Derived (EPS / ROE book),Observed,v1.3,cc2c85e4eef09300
+Stanbic Uganda Holdings,98,32,FY2021-2025,none,HIST: computed; CURR: computed,Derived (EPS / ROE book),Observed,v1.3,cc2c85e4eef09300
+BK Group,98,28,FY2021-2025,price HIST; pb HIST; pe HIST; dividend_yield HIST; price CURR; pb CURR; pe CURR; dividend_yield CURR,HIST: not computable: 10-year local bond yield at the date not held; CURR: not computable: 10-year local bond yield at the date not held,Derived (EPS / ROE book),Observed,v1.3,cc2c85e4eef09300
+GTCO,98,48,FY2019-2025,none,HIST: computed; CURR: computed,Derived (EPS / ROE book),Observed,v1.3,cc2c85e4eef09300
+GCB Bank,98,16,FY2022-2025,none,HIST: not computable: 10-year local bond yield at the date not held; CURR: not computable: 10-year local bond yield at the date not held,Derived (EPS / ROE book),Observed,v1.3,cc2c85e4eef09300

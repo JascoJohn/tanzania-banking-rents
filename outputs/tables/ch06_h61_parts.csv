@@ -1,0 +1,4 @@
+hypothesis,metric,better,nmb,crdb,smaller_banks_median,smaller_banks_n,smaller_banks,evidence_class
+H6.1,cost of deposits (mean),lower,0.015510526484810406,0.02045651547759204,0.0623873421792349,4,"B03, B04, B05, B06",Derived
+H6.1,deposit beta on the T-bill (all deposits),lower,0.017159007762669303,0.02134251592536928,,1,B04,Derived
+H6.1,"net deposit franchise, ROE points, central (mean)",higher,0.08745394952738504,0.09907129053089611,-0.20131018228596814,3,"B03, B04, B05",Derived

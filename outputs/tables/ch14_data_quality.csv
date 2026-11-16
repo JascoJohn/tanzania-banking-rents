@@ -1,0 +1,54 @@
+bank,check,value,n,note,reading,evidence_class,register_version,input_hash
+NMB,dates in the owner's daily file,300.0,300,2025-08-21 to 2026-11-05,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,dates in both,300.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,dates only in the owner's file,0.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,dates only in the DSE library,0.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,close: share of common dates equal,1.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,volume: share of common dates equal,1.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,turnover: share of common dates equal,1.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,high: share of common dates equal,1.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,low: share of common dates equal,1.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,off-range VWAP rows (DSE library),25.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,held block records (owner's data_flag),4.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,match rate: off-range VWAP rows that are held block records,0.16,25,2026-01-20; 2026-02-05; 2026-02-16; 2026-03-04; 2026-04-01; 2026-06-08; 2026-06-18; 2026-06-23,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,held block records detected by the off-range VWAP rule,1.0,4,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,"off-range VWAP rows, more than 5% outside low-high",3.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,match rate at the 5% tolerance (the owner's flag rule),1.0,3,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,dates in the owner's daily file,300.0,300,2025-08-21 to 2026-11-05,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,dates in both,300.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,dates only in the owner's file,0.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,dates only in the DSE library,0.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,close: share of common dates equal,1.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,volume: share of common dates equal,1.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,turnover: share of common dates equal,1.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,high: share of common dates equal,1.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,low: share of common dates equal,1.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,off-range VWAP rows (DSE library),33.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,held block records (owner's data_flag),8.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,match rate: off-range VWAP rows that are held block records,0.24242424242424243,33,2025-10-06; 2025-11-04; 2025-12-19; 2025-12-22; 2026-01-16; 2026-01-19; 2026-01-30; 2026-02-04,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,held block records detected by the off-range VWAP rule,1.0,8,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,"off-range VWAP rows, more than 5% outside low-high",8.0,300,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,match rate at the 5% tolerance (the owner's flag rule),1.0,8,,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,year-end price FY2015: panel vs last DSE close,405.0,1,DSE 405; equal,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,year-end price FY2016: panel vs last DSE close,250.0,1,DSE 250; equal,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,year-end price FY2017: panel vs last DSE close,210.0,1,DSE 160; DIFFERENT (panel value as reported; see the source),descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,year-end price FY2018: panel vs last DSE close,150.0,1,DSE 150; equal,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,year-end price FY2019: panel vs last DSE close,120.0,1,DSE 95; DIFFERENT (panel value as reported; see the source),descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,year-end price FY2020: panel vs last DSE close,195.0,1,DSE 195; equal,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,year-end price FY2021: panel vs last DSE close,280.0,1,DSE 280; equal,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,year-end price FY2022: panel vs last DSE close,395.0,1,DSE 395; equal,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,year-end price FY2023: panel vs last DSE close,460.0,1,DSE 460; equal,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,year-end price FY2024: panel vs last DSE close,670.0,1,DSE 670; equal,descriptive,Derived,v1.3,cc2c85e4eef09300
+CRDB,year-end price FY2025: panel vs last DSE close,1530.0,1,"DSE 1,530; equal",descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,year-end price FY2015: panel vs last DSE close,2500.0,1,"DSE 2,500; equal",descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,year-end price FY2016: panel vs last DSE close,2750.0,1,"DSE 2,750; equal",descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,year-end price FY2017: panel vs last DSE close,2750.0,1,"DSE 2,750; equal",descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,year-end price FY2018: panel vs last DSE close,2340.0,1,"DSE 2,340; equal",descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,year-end price FY2019: panel vs last DSE close,2340.0,1,"DSE 2,340; equal",descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,year-end price FY2020: panel vs last DSE close,2340.0,1,"DSE 2,340; equal",descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,year-end price FY2021: panel vs last DSE close,2000.0,1,"DSE 2,000; equal",descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,year-end price FY2022: panel vs last DSE close,3020.0,1,"DSE 3,020; equal",descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,year-end price FY2023: panel vs last DSE close,4500.0,1,"DSE 4,500; equal",descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,year-end price FY2024: panel vs last DSE close,5350.0,1,"DSE 5,350; equal",descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,year-end price FY2025: panel vs last DSE close,8410.0,1,"DSE 8,410; equal",descriptive,Derived,v1.3,cc2c85e4eef09300
+NMB,split: close before / close on the effective date,9.567567567567568,1,"2026-08-21 17,700 -> 2026-08-24 1,850; a 1:10 split implies about 10",descriptive,Derived,v1.3,cc2c85e4eef09300

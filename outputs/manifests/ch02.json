@@ -1,0 +1,55 @@
+{
+  "chapter": "02",
+  "title": "Credit allocation patterns",
+  "hypotheses": [
+    "H2.1",
+    "H2.2"
+  ],
+  "status": "built - descriptive",
+  "tables": [
+    {
+      "path": "outputs/tables/ch02_loan_mix.csv",
+      "description": "Loan mix by category: NMB, CRDB, combined, BoT system",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch02.md"
+    },
+    {
+      "path": "outputs/tables/ch02_bot_coverage.csv",
+      "description": "Share of BoT credit by activity covered by the mapped categories",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch02.md"
+    },
+    {
+      "path": "outputs/tables/ch02_dissimilarity.csv",
+      "description": "Dissimilarity indices",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch02.md"
+    },
+    {
+      "path": "outputs/tables/ch02_credit_providers.csv",
+      "description": "Credit by provider (inclusion reports, NPS digital credit)",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch02.md"
+    },
+    {
+      "path": "outputs/tables/ch02_hypotheses.csv",
+      "description": "H2.1-H2.2",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/ch02.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch02_loan_mix.png",
+      "data": "outputs/figures/ch02_loan_mix_data.csv",
+      "description": "Loan mix by industry",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch02.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch02.md"
+  ],
+  "module": "tzbank.chapters.ch02_credit_allocation",
+  "run_log_stage": "part1"
+}

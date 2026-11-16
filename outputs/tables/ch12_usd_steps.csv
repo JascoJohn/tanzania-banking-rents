@@ -1,0 +1,45 @@
+bank,case,scenario,step_no,step,value,evidence_class
+CRDB,history (3.8% a year),history,1,TZS price return to the 12-month target,-0.2797979816803978,Scenario
+CRDB,history (3.8% a year),history,2,TZS dividends received (yield on price),0.022743429745199863,Scenario
+CRDB,history (3.8% a year),history,3,Withholding tax on dividends (5%),0.0011371714872599932,Scenario
+CRDB,history (3.8% a year),history,4,TZS total return after withholding,-0.25819172342245794,Scenario
+CRDB,history (3.8% a year),history,5,"Assumed depreciation of the TZS, a year",0.03843805421427726,Scenario
+CRDB,history (3.8% a year),history,6,Translation effect,-0.0271917195427816,Scenario
+CRDB,history (3.8% a year),history,7,USD total return,-0.28538344296523954,Scenario
+CRDB,history (3.8% a year),history,8,USD hurdle,0.12691684,Scenario
+CRDB,history (3.8% a year),history,9,Gap to the hurdle,-0.4123002829652396,Scenario
+CRDB,history (3.8% a year),history,10,Round-trip trading cost (USD 20m base position),0.0584041837755607,Scenario
+CRDB,history (3.8% a year),history,11,USD return after trading cost,-0.3416257807133025,Scenario
+CRDB,2026 pace (annualised),realised_ytd_annualised,1,TZS price return to the 12-month target,-0.2797979816803978,Scenario
+CRDB,2026 pace (annualised),realised_ytd_annualised,2,TZS dividends received (yield on price),0.022743429745199863,Scenario
+CRDB,2026 pace (annualised),realised_ytd_annualised,3,Withholding tax on dividends (5%),0.0011371714872599932,Scenario
+CRDB,2026 pace (annualised),realised_ytd_annualised,4,TZS total return after withholding,-0.25819172342245794,Scenario
+CRDB,2026 pace (annualised),realised_ytd_annualised,5,"Assumed depreciation of the TZS, a year",0.09594768757312266,Scenario
+CRDB,2026 pace (annualised),realised_ytd_annualised,6,Translation effect,-0.06432458031315508,Scenario
+CRDB,2026 pace (annualised),realised_ytd_annualised,7,USD total return,-0.322516303735613,Scenario
+CRDB,2026 pace (annualised),realised_ytd_annualised,8,USD hurdle,0.12691684,Scenario
+CRDB,2026 pace (annualised),realised_ytd_annualised,9,Gap to the hurdle,-0.44943314373561305,Scenario
+CRDB,2026 pace (annualised),realised_ytd_annualised,10,Round-trip trading cost (USD 20m base position),0.0584041837755607,Scenario
+CRDB,2026 pace (annualised),realised_ytd_annualised,11,USD return after trading cost,-0.37580733617977236,Scenario
+NMB,history (3.8% a year),history,1,TZS price return to the 12-month target,-0.16381546853192464,Scenario
+NMB,history (3.8% a year),history,2,TZS dividends received (yield on price),0.036933931676771684,Scenario
+NMB,history (3.8% a year),history,3,Withholding tax on dividends (5%),0.0018466965838385844,Scenario
+NMB,history (3.8% a year),history,4,TZS total return after withholding,-0.12872823343899154,Scenario
+NMB,history (3.8% a year),history,5,"Assumed depreciation of the TZS, a year",0.03843805421427726,Scenario
+NMB,history (3.8% a year),history,6,Translation effect,-0.031817560612463436,Scenario
+NMB,history (3.8% a year),history,7,USD total return,-0.16054579405145497,Scenario
+NMB,history (3.8% a year),history,8,USD hurdle,0.12691684,Scenario
+NMB,history (3.8% a year),history,9,Gap to the hurdle,-0.287462634051455,Scenario
+NMB,history (3.8% a year),history,10,Round-trip trading cost (USD 20m base position),0.06744566984074621,Scenario
+NMB,history (3.8% a year),history,11,USD return after trading cost,-0.22549494491031696,Scenario
+NMB,2026 pace (annualised),realised_ytd_annualised,1,TZS price return to the 12-month target,-0.16381546853192464,Scenario
+NMB,2026 pace (annualised),realised_ytd_annualised,2,TZS dividends received (yield on price),0.036933931676771684,Scenario
+NMB,2026 pace (annualised),realised_ytd_annualised,3,Withholding tax on dividends (5%),0.0018466965838385844,Scenario
+NMB,2026 pace (annualised),realised_ytd_annualised,4,TZS total return after withholding,-0.12872823343899154,Scenario
+NMB,2026 pace (annualised),realised_ytd_annualised,5,"Assumed depreciation of the TZS, a year",0.09594768757312266,Scenario
+NMB,2026 pace (annualised),realised_ytd_annualised,6,Translation effect,-0.0752725791790343,Scenario
+NMB,2026 pace (annualised),realised_ytd_annualised,7,USD total return,-0.20400081261802583,Scenario
+NMB,2026 pace (annualised),realised_ytd_annualised,8,USD hurdle,0.12691684,Scenario
+NMB,2026 pace (annualised),realised_ytd_annualised,9,Gap to the hurdle,-0.33091765261802586,Scenario
+NMB,2026 pace (annualised),realised_ytd_annualised,10,Round-trip trading cost (USD 20m base position),0.06744566984074621,Scenario
+NMB,2026 pace (annualised),realised_ytd_annualised,11,USD return after trading cost,-0.2655417699150831,Scenario

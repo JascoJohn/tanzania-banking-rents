@@ -1,0 +1,198 @@
+date,holiday,date_precision,basis
+2015-01-01,New Year's Day,exact,statutory fixed date
+2015-01-12,Zanzibar Revolution Day,exact,statutory fixed date
+2015-04-03,Good Friday,exact,computed (Gregorian Easter)
+2015-04-06,Easter Monday,exact,computed (Gregorian Easter)
+2015-04-07,Karume Day,exact,statutory fixed date
+2015-04-26,Union Day,exact,statutory fixed date
+2015-05-01,Workers' Day,exact,statutory fixed date
+2015-07-07,Saba Saba (Industry Day),exact,statutory fixed date
+2015-07-17,Eid al-Fitr,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2015-08-08,Nane Nane (Farmers' Day),exact,statutory fixed date
+2015-09-24,Eid al-Adha,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2015-10-14,Mwalimu Nyerere Day,exact,statutory fixed date
+2015-10-25,General election (Sunday),exact,declared public holiday
+2015-12-09,Independence Day,exact,statutory fixed date
+2015-12-24,Maulid (Prophet's Birthday),moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2015-12-25,Christmas Day,exact,statutory fixed date
+2015-12-26,Boxing Day,exact,statutory fixed date
+2016-01-01,New Year's Day,exact,statutory fixed date
+2016-01-12,Zanzibar Revolution Day,exact,statutory fixed date
+2016-03-25,Good Friday,exact,computed (Gregorian Easter)
+2016-03-28,Easter Monday,exact,computed (Gregorian Easter)
+2016-04-07,Karume Day,exact,statutory fixed date
+2016-04-26,Union Day,exact,statutory fixed date
+2016-05-01,Workers' Day,exact,statutory fixed date
+2016-07-06,Eid al-Fitr,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2016-07-07,Saba Saba (Industry Day),exact,statutory fixed date
+2016-08-08,Nane Nane (Farmers' Day),exact,statutory fixed date
+2016-09-12,Eid al-Adha,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2016-10-14,Mwalimu Nyerere Day,exact,statutory fixed date
+2016-12-09,Independence Day,exact,statutory fixed date
+2016-12-12,Maulid (Prophet's Birthday),moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2016-12-25,Christmas Day,exact,statutory fixed date
+2016-12-26,Boxing Day,exact,statutory fixed date
+2017-01-01,New Year's Day,exact,statutory fixed date
+2017-01-12,Zanzibar Revolution Day,exact,statutory fixed date
+2017-04-07,Karume Day,exact,statutory fixed date
+2017-04-14,Good Friday,exact,computed (Gregorian Easter)
+2017-04-17,Easter Monday,exact,computed (Gregorian Easter)
+2017-04-26,Union Day,exact,statutory fixed date
+2017-05-01,Workers' Day,exact,statutory fixed date
+2017-06-26,Eid al-Fitr,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2017-07-07,Saba Saba (Industry Day),exact,statutory fixed date
+2017-08-08,Nane Nane (Farmers' Day),exact,statutory fixed date
+2017-09-01,Eid al-Adha,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2017-10-14,Mwalimu Nyerere Day,exact,statutory fixed date
+2017-12-01,Maulid (Prophet's Birthday),moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2017-12-09,Independence Day,exact,statutory fixed date
+2017-12-25,Christmas Day,exact,statutory fixed date
+2017-12-26,Boxing Day,exact,statutory fixed date
+2018-01-01,New Year's Day,exact,statutory fixed date
+2018-01-12,Zanzibar Revolution Day,exact,statutory fixed date
+2018-03-30,Good Friday,exact,computed (Gregorian Easter)
+2018-04-02,Easter Monday,exact,computed (Gregorian Easter)
+2018-04-07,Karume Day,exact,statutory fixed date
+2018-04-26,Union Day,exact,statutory fixed date
+2018-05-01,Workers' Day,exact,statutory fixed date
+2018-06-15,Eid al-Fitr,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2018-07-07,Saba Saba (Industry Day),exact,statutory fixed date
+2018-08-08,Nane Nane (Farmers' Day),exact,statutory fixed date
+2018-08-22,Eid al-Adha,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2018-10-14,Mwalimu Nyerere Day,exact,statutory fixed date
+2018-11-21,Maulid (Prophet's Birthday),moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2018-12-09,Independence Day,exact,statutory fixed date
+2018-12-25,Christmas Day,exact,statutory fixed date
+2018-12-26,Boxing Day,exact,statutory fixed date
+2019-01-01,New Year's Day,exact,statutory fixed date
+2019-01-12,Zanzibar Revolution Day,exact,statutory fixed date
+2019-04-07,Karume Day,exact,statutory fixed date
+2019-04-19,Good Friday,exact,computed (Gregorian Easter)
+2019-04-22,Easter Monday,exact,computed (Gregorian Easter)
+2019-04-26,Union Day,exact,statutory fixed date
+2019-05-01,Workers' Day,exact,statutory fixed date
+2019-06-05,Eid al-Fitr,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2019-07-07,Saba Saba (Industry Day),exact,statutory fixed date
+2019-08-08,Nane Nane (Farmers' Day),exact,statutory fixed date
+2019-08-12,Eid al-Adha,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2019-10-14,Mwalimu Nyerere Day,exact,statutory fixed date
+2019-11-10,Maulid (Prophet's Birthday),moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2019-12-09,Independence Day,exact,statutory fixed date
+2019-12-25,Christmas Day,exact,statutory fixed date
+2019-12-26,Boxing Day,exact,statutory fixed date
+2020-01-01,New Year's Day,exact,statutory fixed date
+2020-01-12,Zanzibar Revolution Day,exact,statutory fixed date
+2020-04-07,Karume Day,exact,statutory fixed date
+2020-04-10,Good Friday,exact,computed (Gregorian Easter)
+2020-04-13,Easter Monday,exact,computed (Gregorian Easter)
+2020-04-26,Union Day,exact,statutory fixed date
+2020-05-01,Workers' Day,exact,statutory fixed date
+2020-05-24,Eid al-Fitr,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2020-07-07,Saba Saba (Industry Day),exact,statutory fixed date
+2020-07-31,Eid al-Adha,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2020-08-08,Nane Nane (Farmers' Day),exact,statutory fixed date
+2020-10-14,Mwalimu Nyerere Day,exact,statutory fixed date
+2020-10-28,General election day,exact,declared public holiday
+2020-10-29,Maulid (Prophet's Birthday),moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2020-12-09,Independence Day,exact,statutory fixed date
+2020-12-25,Christmas Day,exact,statutory fixed date
+2020-12-26,Boxing Day,exact,statutory fixed date
+2021-01-01,New Year's Day,exact,statutory fixed date
+2021-01-12,Zanzibar Revolution Day,exact,statutory fixed date
+2021-03-22,"National mourning, President Magufuli (declared)",exact,declared public holiday
+2021-03-25,"National mourning, President Magufuli (declared)",exact,declared public holiday
+2021-04-02,Good Friday,exact,computed (Gregorian Easter)
+2021-04-05,Easter Monday,exact,computed (Gregorian Easter)
+2021-04-07,Karume Day,exact,statutory fixed date
+2021-04-26,Union Day,exact,statutory fixed date
+2021-05-01,Workers' Day,exact,statutory fixed date
+2021-05-13,Eid al-Fitr,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2021-07-07,Saba Saba (Industry Day),exact,statutory fixed date
+2021-07-20,Eid al-Adha,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2021-08-08,Nane Nane (Farmers' Day),exact,statutory fixed date
+2021-10-14,Mwalimu Nyerere Day,exact,statutory fixed date
+2021-10-19,Maulid (Prophet's Birthday),moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2021-12-09,Independence Day,exact,statutory fixed date
+2021-12-25,Christmas Day,exact,statutory fixed date
+2021-12-26,Boxing Day,exact,statutory fixed date
+2022-01-01,New Year's Day,exact,statutory fixed date
+2022-01-12,Zanzibar Revolution Day,exact,statutory fixed date
+2022-04-07,Karume Day,exact,statutory fixed date
+2022-04-15,Good Friday,exact,computed (Gregorian Easter)
+2022-04-18,Easter Monday,exact,computed (Gregorian Easter)
+2022-04-26,Union Day,exact,statutory fixed date
+2022-05-01,Workers' Day,exact,statutory fixed date
+2022-05-03,Eid al-Fitr,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2022-07-07,Saba Saba (Industry Day),exact,statutory fixed date
+2022-07-10,Eid al-Adha,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2022-08-08,Nane Nane (Farmers' Day),exact,statutory fixed date
+2022-10-09,Maulid (Prophet's Birthday),moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2022-10-14,Mwalimu Nyerere Day,exact,statutory fixed date
+2022-12-09,Independence Day,exact,statutory fixed date
+2022-12-25,Christmas Day,exact,statutory fixed date
+2022-12-26,Boxing Day,exact,statutory fixed date
+2023-01-01,New Year's Day,exact,statutory fixed date
+2023-01-12,Zanzibar Revolution Day,exact,statutory fixed date
+2023-04-07,Good Friday,exact,computed (Gregorian Easter)
+2023-04-07,Karume Day,exact,statutory fixed date
+2023-04-10,Easter Monday,exact,computed (Gregorian Easter)
+2023-04-21,Eid al-Fitr,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2023-04-26,Union Day,exact,statutory fixed date
+2023-05-01,Workers' Day,exact,statutory fixed date
+2023-06-28,Eid al-Adha,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2023-07-07,Saba Saba (Industry Day),exact,statutory fixed date
+2023-08-08,Nane Nane (Farmers' Day),exact,statutory fixed date
+2023-09-28,Maulid (Prophet's Birthday),moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2023-10-14,Mwalimu Nyerere Day,exact,statutory fixed date
+2023-12-09,Independence Day,exact,statutory fixed date
+2023-12-25,Christmas Day,exact,statutory fixed date
+2023-12-26,Boxing Day,exact,statutory fixed date
+2024-01-01,New Year's Day,exact,statutory fixed date
+2024-01-12,Zanzibar Revolution Day,exact,statutory fixed date
+2024-03-29,Good Friday,exact,computed (Gregorian Easter)
+2024-04-01,Easter Monday,exact,computed (Gregorian Easter)
+2024-04-07,Karume Day,exact,statutory fixed date
+2024-04-10,Eid al-Fitr,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2024-04-26,Union Day,exact,statutory fixed date
+2024-05-01,Workers' Day,exact,statutory fixed date
+2024-06-16,Eid al-Adha,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2024-07-07,Saba Saba (Industry Day),exact,statutory fixed date
+2024-08-08,Nane Nane (Farmers' Day),exact,statutory fixed date
+2024-09-16,Maulid (Prophet's Birthday),moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2024-10-14,Mwalimu Nyerere Day,exact,statutory fixed date
+2024-12-09,Independence Day,exact,statutory fixed date
+2024-12-25,Christmas Day,exact,statutory fixed date
+2024-12-26,Boxing Day,exact,statutory fixed date
+2025-01-01,New Year's Day,exact,statutory fixed date
+2025-01-12,Zanzibar Revolution Day,exact,statutory fixed date
+2025-03-31,Eid al-Fitr,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2025-04-07,Karume Day,exact,statutory fixed date
+2025-04-18,Good Friday,exact,computed (Gregorian Easter)
+2025-04-21,Easter Monday,exact,computed (Gregorian Easter)
+2025-04-26,Union Day,exact,statutory fixed date
+2025-05-01,Workers' Day,exact,statutory fixed date
+2025-06-06,Eid al-Adha,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2025-07-07,Saba Saba (Industry Day),exact,statutory fixed date
+2025-08-08,Nane Nane (Farmers' Day),exact,statutory fixed date
+2025-09-05,Maulid (Prophet's Birthday),moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2025-10-14,Mwalimu Nyerere Day,exact,statutory fixed date
+2025-10-29,General election day,exact,declared public holiday
+2025-12-09,Independence Day,exact,statutory fixed date
+2025-12-25,Christmas Day,exact,statutory fixed date
+2025-12-26,Boxing Day,exact,statutory fixed date
+2026-01-01,New Year's Day,exact,statutory fixed date
+2026-01-12,Zanzibar Revolution Day,exact,statutory fixed date
+2026-03-20,Eid al-Fitr,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2026-04-03,Good Friday,exact,computed (Gregorian Easter)
+2026-04-06,Easter Monday,exact,computed (Gregorian Easter)
+2026-04-07,Karume Day,exact,statutory fixed date
+2026-04-26,Union Day,exact,statutory fixed date
+2026-05-01,Workers' Day,exact,statutory fixed date
+2026-05-27,Eid al-Adha,moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2026-07-07,Saba Saba (Industry Day),exact,statutory fixed date
+2026-08-08,Nane Nane (Farmers' Day),exact,statutory fixed date
+2026-08-26,Maulid (Prophet's Birthday),moon sighting (+/- 1 day),expected date; Tanzania announces on sighting
+2026-10-14,Mwalimu Nyerere Day,exact,statutory fixed date
+2026-12-09,Independence Day,exact,statutory fixed date
+2026-12-25,Christmas Day,exact,statutory fixed date
+2026-12-26,Boxing Day,exact,statutory fixed date

@@ -1,0 +1,46 @@
+{
+  "chapter": "part2",
+  "title": "Part II synthesis and calibration inputs",
+  "hypotheses": [],
+  "status": "built",
+  "tables": [
+    {
+      "path": "outputs/tables/part2_rent_sources.csv",
+      "description": "Rent sources by bank and §0 explanation",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/part2.md"
+    },
+    {
+      "path": "outputs/tables/hypotheses_status.csv",
+      "description": "Hypothesis register H4-H8",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/part2.md"
+    },
+    {
+      "path": "outputs/tables/calibration_inputs.csv",
+      "description": "Calibration ranges for 09a",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/part2.md"
+    },
+    {
+      "path": "outputs/tables/part2_consistency.csv",
+      "description": "Cross-chapter consistency checks",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/part2.md"
+    }
+  ],
+  "figures": [],
+  "notes": [
+    "outputs/notes/part2.md"
+  ],
+  "reports": [
+    "reports/part2_consistency.md",
+    "reports/part2_executive_summary.md"
+  ],
+  "inputs": [
+    "outputs/tables/ch04_*.csv ... ch08_*.csv",
+    "docs/RESEARCH_HYPOTHESES.md"
+  ],
+  "module": "tzbank.chapters.part2_synthesis",
+  "run_log_stage": "synthesis"
+}

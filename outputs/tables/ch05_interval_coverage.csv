@@ -1,0 +1,10 @@
+true_lambda,n_pairs,method,simulations,coverage,nominal,mean_width,evidence_class,primary
+0.3,16,standard (moving-block),400,0.7075,0.9,0.6893533069616642,Estimated,False
+0.3,16,Kilian (1998),400,0.8575,0.9,0.7517697613358729,Estimated,False
+0.3,16,Andrews (1993),400,0.9125,0.9,0.9138319569232759,Estimated,True
+0.6,16,standard (moving-block),400,0.6575,0.9,0.6902485836270543,Estimated,False
+0.6,16,Kilian (1998),400,0.88,0.9,0.7019182403948517,Estimated,False
+0.6,16,Andrews (1993),400,0.9125,0.9,0.8051928432854729,Estimated,True
+0.9,16,standard (moving-block),400,0.51,0.9,0.6590197326172026,Estimated,False
+0.9,16,Kilian (1998),400,0.8175,0.9,0.5709992231967991,Estimated,False
+0.9,16,Andrews (1993),400,0.905,0.9,0.5289504132206139,Estimated,True

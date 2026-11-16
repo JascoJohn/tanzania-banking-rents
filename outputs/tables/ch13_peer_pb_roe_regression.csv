@@ -1,0 +1,13 @@
+valuation,model,banks,n,intercept,slope,slope_lo,slope_hi,r2,status,evidence_class,fitted_pb,actual_pb,residual_pb,register_version,input_hash
+HIST,P/B on ROE,"KCB Group, Equity Group Holdings, Co-operative Bank of Kenya, Stanbic Uganda Holdings, GTCO, GCB Bank, NMB, CRDB",8,1.2187976344304792,0.5622560094129758,-2.2755015252115918,3.4000135440375434,0.024109796135534864,estimated,Estimated,,,,v1.3,cc2c85e4eef09300
+HIST,P/B on ROE,NMB,8,,,,,,residual,Estimated,1.3753937695195269,1.6460657267585697,0.2706719572390428,v1.3,cc2c85e4eef09300
+HIST,P/B on ROE,CRDB,8,,,,,,residual,Estimated,1.3798833677317488,1.8738317760806231,0.4939484083488743,v1.3,cc2c85e4eef09300
+HIST,"P/B on excess ROE (ROE - COE, approach A)","KCB Group, Equity Group Holdings, Co-operative Bank of Kenya, Stanbic Uganda Holdings, GTCO, NMB, CRDB",7,1.3159736917468612,0.34904063181177625,-3.34985535749677,4.047936621120323,0.007179257388780402,estimated,Estimated,,,,v1.3,cc2c85e4eef09300
+HIST,"P/B on excess ROE (ROE - COE, approach A)",NMB,7,,,,,,residual,Estimated,1.3586278759940977,1.6460657267585697,0.2874378507644719,v1.3,cc2c85e4eef09300
+HIST,"P/B on excess ROE (ROE - COE, approach A)",CRDB,7,,,,,,residual,Estimated,1.3614149554922983,1.8738317760806231,0.5124168205883248,v1.3,cc2c85e4eef09300
+CURR,P/B on ROE,"KCB Group, Equity Group Holdings, Co-operative Bank of Kenya, Stanbic Uganda Holdings, GTCO, GCB Bank, NMB, CRDB",8,0.4193079927505865,5.275677241399002,-3.7321835637089382,14.283538046506942,0.1775422230409471,estimated,Estimated,,,,v1.3,cc2c85e4eef09300
+CURR,P/B on ROE,NMB,8,,,,,,residual,Estimated,1.8364596893970828,2.9340442963307356,1.0975846069336528,v1.3,cc2c85e4eef09300
+CURR,P/B on ROE,CRDB,8,,,,,,residual,Estimated,2.003114813577429,2.7002086156119915,0.6970938020345625,v1.3,cc2c85e4eef09300
+CURR,"P/B on excess ROE (ROE - COE, approach A)","KCB Group, Equity Group Holdings, Co-operative Bank of Kenya, Stanbic Uganda Holdings, GTCO, NMB, CRDB",7,0.8885996328223963,10.828950862388332,-2.1971864320798122,23.855088156856475,0.3594801981485387,estimated,Estimated,,,,v1.3,cc2c85e4eef09300
+CURR,"P/B on excess ROE (ROE - COE, approach A)",NMB,7,,,,,,residual,Estimated,2.1910552056849624,2.9340442963307356,0.7429890906457732,v1.3,cc2c85e4eef09300
+CURR,"P/B on excess ROE (ROE - COE, approach A)",CRDB,7,,,,,,residual,Estimated,2.5331345384675767,2.7002086156119915,0.1670740771444148,v1.3,cc2c85e4eef09300

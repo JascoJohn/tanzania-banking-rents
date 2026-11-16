@@ -1,0 +1,7 @@
+bank,position_usd,participation,days_to_build_or_exit,evidence_class
+CRDB,5000000,0.2,31,Estimated
+CRDB,20000000,0.2,121,Estimated
+CRDB,50000000,0.2,302,Estimated
+NMB,5000000,0.2,99,Estimated
+NMB,20000000,0.2,394,Estimated
+NMB,50000000,0.2,985,Estimated

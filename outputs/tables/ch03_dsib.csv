@@ -1,0 +1,8 @@
+item,finding,date,source,evidence_class
+search record: NMB reports,20 passage(s) in NMB/*.pdf (24 files),,NMB/*.pdf (24 files),Observed
+search record: CRDB reports,0 passage(s) in CRDB/*.pdf (30 files),,CRDB/*.pdf (30 files),Observed
+search record: BoT Annual Reports,1 passage(s) in reports/*.pdf (23 files),,reports/*.pdf (23 files),Observed
+BoT D-SIB framework,"exists: 'Framework for Identification of Domestic Systemically Important Banks, 2021'",2021 (issued; reported in the BoT Annual Report 2021/22),reports/AnnRep - 2022123017282850.pdf p.43,Observed
+NMB designation,"designated a D-SIB by BoT ('In December 2025, BOT designated NMB Bank Plc as a D-SIB'); surcharge rate not stated","December 2025 (as reported in NMB's FY2025 annual report, published 2026)",NMB/NMB_Integrated Annual Report_2025_.pdf p.26; NMB/NMB_Integrated Annual Report_2025_.pdf p.82; NMB/NMB_Integrated Annual Report_2025_.pdf p.83; NMB/NMB_Integrated_Annual_Report_2025.pdf p.26; NMB/NMB_Integrated_Annual_Report_2025.pdf p.82; NMB/NMB_Integrated_Annual_Report_2025.pdf p.83,Observed
+CRDB designation,NOT FOUND in any CRDB report,,collection task: BoT announcement / D-SIB list (open issue 1),Observed
+BoT announcement of designations,NOT FOUND in the BoT reports held (to FY2024/25),,"collection task: BoT announcement and date (open issue 1; affects D1 visibility at 31 Dec 2025, `capital_rules.dsib_visible_at`)",Observed

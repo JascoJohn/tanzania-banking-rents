@@ -1,0 +1,239 @@
+valuation,bank,scenario,check,status,worst_deviation,detail,evidence_class
+HIST,NMB,bear,capital-feasibility guard: growth cut from year 2 (base cut > 2 pp = STOP for the owner),PASS,0.0,cut 0 pp,Derived
+HIST,NMB,bull,capital-feasibility guard: growth cut from year 2 (base cut > 2 pp = STOP for the owner),PASS,0.0,cut 0 pp,Derived
+HIST,CRDB,bear,capital-feasibility guard: growth cut from year 2 (base cut > 2 pp = STOP for the owner),PASS,0.01,cut 1 pp,Derived
+HIST,CRDB,bull,capital-feasibility guard: growth cut from year 2 (base cut > 2 pp = STOP for the owner),PASS,0.01,cut 1 pp,Derived
+CURR,NMB,bear,capital-feasibility guard: growth cut from year 2 (base cut > 2 pp = STOP for the owner),PASS,0.0,cut 0 pp,Derived
+CURR,NMB,bull,capital-feasibility guard: growth cut from year 2 (base cut > 2 pp = STOP for the owner),PASS,0.0,cut 0 pp,Derived
+CURR,CRDB,bear,capital-feasibility guard: growth cut from year 2 (base cut > 2 pp = STOP for the owner),PASS,0.0,cut 0 pp,Derived
+CURR,CRDB,bull,capital-feasibility guard: growth cut from year 2 (base cut > 2 pp = STOP for the owner),PASS,0.0,cut 0 pp,Derived
+HIST,NMB,all,information cut-off: every input published on or before the valuation date,PASS,0.0,60 sourced inputs checked,Derived
+HIST,NMB,base,bank buffer: anchor-year headroom within 1 pp of the FY2015-anchor mean (else STOP for the owner),PASS,0.05202,"mean 0.0753, anchor 0.1273, base buffer 0.0753",Derived
+HIST,NMB,all,"register: every driver has base, bear and bull",PASS,0.0,,Derived
+HIST,NMB,all,register: values inside the evidence range,PASS,0.0,,Derived
+HIST,NMB,base,engine: balance sheet closes (A = L + E),PASS,8.620979120134568e-12,,Derived
+HIST,NMB,base,engine: asset side adds up,PASS,1.8223602262414775e-16,,Derived
+HIST,NMB,base,engine: Tier 1 >= k* x RWA,PASS,0.07242658587145537,k* = 0.2201; year 1 (nowcast) vs requirement 0.1448,Derived
+HIST,NMB,base,engine: year-1 gap to k* <= 1 pp (phase-in allowed; else STOP),PASS,-0.0660456933333296,,Derived
+HIST,NMB,base,engine: liquid assets >= floor,PASS,0.005136313684435719,,Derived
+HIST,NMB,base,engine: LDR within bounds,PASS,0.8741733887866114,bounds 0.40-1.10,Derived
+HIST,NMB,base,engine: wholesale share within bound,PASS,0.0,max 0.30,Derived
+HIST,NMB,base,engine: clean surplus (E = E_-1 + NP_attr - Div),PASS,1.6975589561460626e-16,,Derived
+HIST,NMB,base,engine: terminal: g = ROE* (1 - payout*),PASS,0.0,,Derived
+HIST,NMB,base,engine: fade dividends non-negative,PASS,646781628774.3032,,Derived
+HIST,NMB,base,run completes without a named engine error,PASS,0.0,,Derived
+HIST,NMB,base,RIM and DDM within 10% (else flagged),PASS,0.0,,Derived
+HIST,NMB,base,target-price identity V1 = V0 (1 + r) - Div (carried),PASS,0.0,,Derived
+HIST,NMB,base,r > g and ROE* > g,PASS,0.09130987200000001,,Derived
+HIST,NMB,bear,engine: balance sheet closes (A = L + E),PASS,1.7580516356355708e-11,,Derived
+HIST,NMB,bear,engine: asset side adds up,PASS,1.88532765715267e-16,,Derived
+HIST,NMB,bear,engine: Tier 1 >= k* x RWA,PASS,0.05511866524478668,k* = 0.2201; year 1 (nowcast) vs requirement 0.1448,Derived
+HIST,NMB,bear,engine: year-1 gap to k* <= 1 pp (phase-in allowed; else STOP),PASS,-0.05582226424469405,,Derived
+HIST,NMB,bear,engine: liquid assets >= floor,PASS,0.0034770115652429353,,Derived
+HIST,NMB,bear,engine: LDR within bounds,PASS,0.8741733887866115,bounds 0.40-1.10,Derived
+HIST,NMB,bear,engine: wholesale share within bound,PASS,0.0,max 0.30,Derived
+HIST,NMB,bear,engine: clean surplus (E = E_-1 + NP_attr - Div),PASS,2.3181244838047883e-16,,Derived
+HIST,NMB,bear,engine: terminal: g = ROE* (1 - payout*),PASS,0.0,,Derived
+HIST,NMB,bear,engine: fade dividends non-negative,PASS,370089500218.89795,,Derived
+HIST,NMB,bear,run completes without a named engine error,PASS,0.0,,Derived
+HIST,NMB,bear,RIM and DDM within 10% (else flagged),PASS,5.699702351864607e-16,,Derived
+HIST,NMB,bear,target-price identity V1 = V0 (1 + r) - Div (carried),PASS,0.0,,Derived
+HIST,NMB,bear,r > g and ROE* > g,PASS,0.126758872,,Derived
+HIST,NMB,bull,engine: balance sheet closes (A = L + E),PASS,7.222325612383156e-12,,Derived
+HIST,NMB,bull,engine: asset side adds up,PASS,1.5457472548052296e-16,,Derived
+HIST,NMB,bull,engine: Tier 1 >= k* x RWA,PASS,0.13303011422761743,k* = 0.1648; year 1 (nowcast) vs requirement 0.1448,Derived
+HIST,NMB,bull,engine: year-1 gap to k* <= 1 pp (phase-in allowed; else STOP),PASS,-0.12989680109248247,,Derived
+HIST,NMB,bull,engine: liquid assets >= floor,PASS,0.004610387441683608,,Derived
+HIST,NMB,bull,engine: LDR within bounds,PASS,0.8741733887866114,bounds 0.40-1.10,Derived
+HIST,NMB,bull,engine: wholesale share within bound,PASS,0.0,max 0.30,Derived
+HIST,NMB,bull,engine: clean surplus (E = E_-1 + NP_attr - Div),PASS,2.1666705767429025e-16,,Derived
+HIST,NMB,bull,engine: terminal: g = ROE* (1 - payout*),PASS,-1.3877787807814457e-17,,Derived
+HIST,NMB,bull,engine: fade dividends non-negative,PASS,809996605501.8987,,Derived
+HIST,NMB,bull,run completes without a named engine error,PASS,0.0,,Derived
+HIST,NMB,bull,RIM and DDM within 10% (else flagged),PASS,0.0,,Derived
+HIST,NMB,bull,target-price identity V1 = V0 (1 + r) - Div (carried),PASS,1.6122392424096957e-16,,Derived
+HIST,NMB,bull,r > g and ROE* > g,PASS,0.05586087200000002,,Derived
+HIST,NMB,base,COE: approach A computed; B and reconciliation,PASS,0.02238209366015642,|A - B| >= 150 bp: investigate; central = A pending the register,Derived
+HIST,NMB,base,"COE A equals chapter 5's valuation-date COE (same inputs, LP 1.5%)",PASS,2.7755575615628914e-17,,Derived
+HIST,NMB,base,sensitivity grid coe_x_g computed (9 x 9),PASS,0.0,cells with r <= g are left empty,Derived
+HIST,NMB,base,sensitivity grid coe_x_roe_star computed (9 x 9),PASS,0.0,cells with r <= g are left empty,Derived
+HIST,NMB,base,sensitivity grid nim_x_cor computed (9 x 9),PASS,0.0,cells with r <= g are left empty,Derived
+HIST,NMB,base,Monte Carlo reproducible with the seed (500 dry-run draws; 10000 in the published run),PASS,0.0,,Derived
+HIST,NMB,all,scenarios bear / base / bull computed,PASS,0.0,,Derived
+HIST,NMB,base,implied COE solved by bracketed root,PASS,0.0,root found,Derived
+HIST,NMB,base,implied ROE* solved by bracketed root,PASS,0.0,root found,Derived
+HIST,NMB,base,iso-value surface (lambda x ER*) computed,PASS,0.0,lambdas with no ER* matching the price inside -5%..+15%,Derived
+HIST,NMB,base,justified P/B and P/E computed,PASS,0.0,,Derived
+HIST,CRDB,all,information cut-off: every input published on or before the valuation date,PASS,0.0,60 sourced inputs checked,Derived
+HIST,CRDB,base,bank buffer: anchor-year headroom within 1 pp of the FY2015-anchor mean (else STOP for the owner),PASS,-0.0008999999999999668,"mean 0.0279, anchor 0.0270, base buffer 0.0270",Derived
+HIST,CRDB,all,"register: every driver has base, bear and bull",PASS,0.0,,Derived
+HIST,CRDB,all,register: values inside the evidence range,PASS,0.0,,Derived
+HIST,CRDB,base,engine: balance sheet closes (A = L + E),PASS,1.6574491928268746e-12,,Derived
+HIST,CRDB,base,engine: asset side adds up,PASS,0.0,,Derived
+HIST,CRDB,base,engine: Tier 1 >= k* x RWA,PASS,-2.8423267822800223e-17,k* = 0.1630; year 1 (nowcast) vs requirement 0.1360; k* phased in from the year-1 ratio (D56),Derived
+HIST,CRDB,base,engine: year-1 gap to k* <= 1 pp (phase-in allowed; else STOP),PASS,0.0015755583165247,,Derived
+HIST,CRDB,base,engine: liquid assets >= floor,PASS,0.0,,Derived
+HIST,CRDB,base,engine: LDR within bounds,PASS,1.0042052862915558,bounds 0.40-1.10,Derived
+HIST,CRDB,base,engine: wholesale share within bound,PASS,0.1397265086718519,max 0.30,Derived
+HIST,CRDB,base,engine: clean surplus (E = E_-1 + NP_attr - Div),PASS,1.5758623029886373e-16,,Derived
+HIST,CRDB,base,engine: terminal: g = ROE* (1 - payout*),PASS,0.0,,Derived
+HIST,CRDB,base,engine: fade dividends non-negative,PASS,342845881367.6841,,Derived
+HIST,CRDB,base,run completes without a named engine error,PASS,0.0,,Derived
+HIST,CRDB,base,RIM and DDM within 10% (else flagged),PASS,0.0,,Derived
+HIST,CRDB,base,target-price identity V1 = V0 (1 + r) - Div (carried),PASS,0.0,,Derived
+HIST,CRDB,base,r > g and ROE* > g,PASS,0.09130987200000001,,Derived
+HIST,CRDB,bear,engine: balance sheet closes (A = L + E),PASS,1.0333953555122815e-12,,Derived
+HIST,CRDB,bear,engine: asset side adds up,PASS,0.0,,Derived
+HIST,CRDB,bear,engine: Tier 1 >= k* x RWA,PASS,-2.5454192917909825e-17,k* = 0.1630; year 1 (nowcast) vs requirement 0.1360; k* phased in from the year-1 ratio (D56),Derived
+HIST,CRDB,bear,engine: year-1 gap to k* <= 1 pp (phase-in allowed; else STOP),PASS,0.008108486616209887,,Derived
+HIST,CRDB,bear,engine: liquid assets >= floor,PASS,0.0,,Derived
+HIST,CRDB,bear,engine: LDR within bounds,PASS,0.9969429767938373,bounds 0.40-1.10,Derived
+HIST,CRDB,bear,engine: wholesale share within bound,PASS,0.1367761074738998,max 0.30,Derived
+HIST,CRDB,bear,engine: clean surplus (E = E_-1 + NP_attr - Div),PASS,2.0006284566562453e-16,,Derived
+HIST,CRDB,bear,engine: terminal: g = ROE* (1 - payout*),PASS,0.0,,Derived
+HIST,CRDB,bear,engine: fade dividends non-negative,PASS,86195049721.3316,,Derived
+HIST,CRDB,bear,run completes without a named engine error,PASS,0.0,,Derived
+HIST,CRDB,bear,RIM and DDM within 10% (else flagged),PASS,1.2883753632011012e-15,,Derived
+HIST,CRDB,bear,target-price identity V1 = V0 (1 + r) - Div (carried),PASS,-3.6810724662888603e-16,,Derived
+HIST,CRDB,bear,r > g and ROE* > g,PASS,0.126758872,,Derived
+HIST,CRDB,bull,engine: balance sheet closes (A = L + E),PASS,7.033788189800173e-12,,Derived
+HIST,CRDB,bull,engine: asset side adds up,PASS,0.0,,Derived
+HIST,CRDB,bull,engine: Tier 1 >= k* x RWA,PASS,0.0,k* = 0.1495; year 1 (nowcast) vs requirement 0.1360,Derived
+HIST,CRDB,bull,engine: year-1 gap to k* <= 1 pp (phase-in allowed; else STOP),PASS,0.0,,Derived
+HIST,CRDB,bull,engine: liquid assets >= floor,PASS,0.0,,Derived
+HIST,CRDB,bull,engine: LDR within bounds,PASS,1.0196316468386104,bounds 0.40-1.10,Derived
+HIST,CRDB,bull,engine: wholesale share within bound,PASS,0.16491941412054253,max 0.30,Derived
+HIST,CRDB,bull,engine: clean surplus (E = E_-1 + NP_attr - Div),PASS,2.0629329165476181e-16,,Derived
+HIST,CRDB,bull,engine: terminal: g = ROE* (1 - payout*),PASS,0.0,,Derived
+HIST,CRDB,bull,engine: fade dividends non-negative,PASS,566728144573.0391,,Derived
+HIST,CRDB,bull,run completes without a named engine error,PASS,0.0,,Derived
+HIST,CRDB,bull,RIM and DDM within 10% (else flagged),PASS,0.0,,Derived
+HIST,CRDB,bull,target-price identity V1 = V0 (1 + r) - Div (carried),PASS,0.0,,Derived
+HIST,CRDB,bull,r > g and ROE* > g,PASS,0.05586087200000002,,Derived
+HIST,CRDB,base,COE: approach A computed; B and reconciliation,PASS,0.02238209366015642,|A - B| >= 150 bp: investigate; central = A pending the register,Derived
+HIST,CRDB,base,"COE A equals chapter 5's valuation-date COE (same inputs, LP 1.5%)",PASS,2.7755575615628914e-17,,Derived
+HIST,CRDB,base,sensitivity grid coe_x_g computed (9 x 9),PASS,0.0,cells with r <= g are left empty,Derived
+HIST,CRDB,base,sensitivity grid coe_x_roe_star computed (9 x 9),PASS,0.0,cells with r <= g are left empty,Derived
+HIST,CRDB,base,sensitivity grid nim_x_cor computed (9 x 9),PASS,0.0,cells with r <= g are left empty,Derived
+HIST,CRDB,base,Monte Carlo reproducible with the seed (500 dry-run draws; 10000 in the published run),PASS,0.0,,Derived
+HIST,CRDB,all,scenarios bear / base / bull computed,PASS,0.0,,Derived
+HIST,CRDB,base,implied COE solved by bracketed root,PASS,0.0,root found,Derived
+HIST,CRDB,base,implied ROE* solved by bracketed root,PASS,0.0,root found,Derived
+HIST,CRDB,base,iso-value surface (lambda x ER*) computed,PASS,0.0,lambdas with no ER* matching the price inside -5%..+15%,Derived
+HIST,CRDB,base,justified P/B and P/E computed,PASS,0.0,,Derived
+CURR,NMB,all,information cut-off: every input published on or before the valuation date,PASS,0.0,59 sourced inputs checked,Derived
+CURR,NMB,base,bank buffer: anchor-year headroom within 1 pp of the FY2015-anchor mean (else STOP for the owner),PASS,0.024745454545454543,"mean 0.0778, anchor 0.1025, base buffer 0.0778",Derived
+CURR,NMB,all,"register: every driver has base, bear and bull",PASS,0.0,,Derived
+CURR,NMB,all,register: values inside the evidence range,PASS,0.0,,Derived
+CURR,NMB,base,engine: balance sheet closes (A = L + E),PASS,5.429266295382162e-13,,Derived
+CURR,NMB,base,engine: asset side adds up,PASS,1.8001546072222025e-16,,Derived
+CURR,NMB,base,engine: Tier 1 >= k* x RWA,PASS,0.02741909583289675,k* = 0.2224; year 1 (nowcast) vs requirement 0.1446,Derived
+CURR,NMB,base,engine: year-1 gap to k* <= 1 pp (phase-in allowed; else STOP),PASS,-0.03479837615845935,,Derived
+CURR,NMB,base,engine: liquid assets >= floor,PASS,0.0,,Derived
+CURR,NMB,base,engine: LDR within bounds,PASS,0.9665607555925857,bounds 0.40-1.10,Derived
+CURR,NMB,base,engine: wholesale share within bound,PASS,0.08393215075876675,max 0.30,Derived
+CURR,NMB,base,engine: clean surplus (E = E_-1 + NP_attr - Div),PASS,1.971536369720955e-16,,Derived
+CURR,NMB,base,engine: terminal: g = ROE* (1 - payout*),PASS,0.0,,Derived
+CURR,NMB,base,engine: fade dividends non-negative,PASS,733776790954.9342,,Derived
+CURR,NMB,base,run completes without a named engine error,PASS,0.0,,Derived
+CURR,NMB,base,RIM and DDM within 10% (else flagged),PASS,5.62669117617019e-16,,Derived
+CURR,NMB,base,target-price identity V1 = V0 (1 + r) - Div (carried),PASS,2.813345588085095e-16,,Derived
+CURR,NMB,base,r > g and ROE* > g,PASS,0.07834453884200199,,Derived
+CURR,NMB,bear,engine: balance sheet closes (A = L + E),PASS,1.194365085274911e-12,,Derived
+CURR,NMB,bear,engine: asset side adds up,PASS,1.465406867008416e-16,,Derived
+CURR,NMB,bear,engine: Tier 1 >= k* x RWA,PASS,-5.375068975476787e-17,k* = 0.2624; year 1 (nowcast) vs requirement 0.1446,Derived
+CURR,NMB,bear,engine: year-1 gap to k* <= 1 pp (phase-in allowed; else STOP),PASS,0.0,,Derived
+CURR,NMB,bear,engine: liquid assets >= floor,PASS,0.0,,Derived
+CURR,NMB,bear,engine: LDR within bounds,PASS,0.9665607555925859,bounds 0.40-1.10,Derived
+CURR,NMB,bear,engine: wholesale share within bound,PASS,0.06646488825898804,max 0.30,Derived
+CURR,NMB,bear,engine: clean surplus (E = E_-1 + NP_attr - Div),PASS,2.073512260544326e-16,,Derived
+CURR,NMB,bear,engine: terminal: g = ROE* (1 - payout*),PASS,-6.938893903907228e-18,,Derived
+CURR,NMB,bear,engine: fade dividends non-negative,PASS,339292743092.19885,,Derived
+CURR,NMB,bear,run completes without a named engine error,PASS,0.0,,Derived
+CURR,NMB,bear,RIM and DDM within 10% (else flagged),PASS,1.837058402502986e-15,,Derived
+CURR,NMB,bear,target-price identity V1 = V0 (1 + r) - Div (carried),PASS,-3.674116805005972e-16,,Derived
+CURR,NMB,bear,r > g and ROE* > g,PASS,0.11337078467124634,,Derived
+CURR,NMB,bull,engine: balance sheet closes (A = L + E),PASS,2.3580611174667435e-13,,Derived
+CURR,NMB,bull,engine: asset side adds up,PASS,0.0,,Derived
+CURR,NMB,bull,engine: Tier 1 >= k* x RWA,PASS,0.09223942702038608,k* = 0.1646; year 1 (nowcast) vs requirement 0.1446,Derived
+CURR,NMB,bull,engine: year-1 gap to k* <= 1 pp (phase-in allowed; else STOP),PASS,-0.10140079656828554,,Derived
+CURR,NMB,bull,engine: liquid assets >= floor,PASS,0.0,,Derived
+CURR,NMB,bull,engine: LDR within bounds,PASS,0.9665607555925857,bounds 0.40-1.10,Derived
+CURR,NMB,bull,engine: wholesale share within bound,PASS,0.084515620648492,max 0.30,Derived
+CURR,NMB,bull,engine: clean surplus (E = E_-1 + NP_attr - Div),PASS,3.091067858152553e-16,,Derived
+CURR,NMB,bull,engine: terminal: g = ROE* (1 - payout*),PASS,1.3877787807814457e-17,,Derived
+CURR,NMB,bull,engine: fade dividends non-negative,PASS,1008200604010.0532,,Derived
+CURR,NMB,bull,run completes without a named engine error,PASS,0.0,,Derived
+CURR,NMB,bull,RIM and DDM within 10% (else flagged),PASS,0.0,,Derived
+CURR,NMB,bull,target-price identity V1 = V0 (1 + r) - Div (carried),PASS,-4.371282334763479e-16,,Derived
+CURR,NMB,bull,r > g and ROE* > g,PASS,0.04331829301275765,,Derived
+CURR,NMB,base,COE: approach A computed; B and reconciliation,PASS,-0.0035925976840042173,|A - B| < 150 bp: midpoint,Derived
+CURR,NMB,base,"COE A equals chapter 5's valuation-date COE (same inputs, LP 1.5%)",PASS,8.326672684688674e-17,,Derived
+CURR,NMB,base,sensitivity grid coe_x_g computed (9 x 9),PASS,0.0,cells with r <= g are left empty,Derived
+CURR,NMB,base,sensitivity grid coe_x_roe_star computed (9 x 9),PASS,0.0,cells with r <= g are left empty,Derived
+CURR,NMB,base,sensitivity grid nim_x_cor computed (9 x 9),PASS,0.0,cells with r <= g are left empty,Derived
+CURR,NMB,base,Monte Carlo reproducible with the seed (500 dry-run draws; 10000 in the published run),PASS,0.0,,Derived
+CURR,NMB,all,scenarios bear / base / bull computed,PASS,0.0,,Derived
+CURR,NMB,base,implied COE solved by bracketed root,PASS,0.0,root found,Derived
+CURR,NMB,base,implied ROE* solved by bracketed root,PASS,0.0,root found,Derived
+CURR,NMB,base,iso-value surface (lambda x ER*) computed,PASS,0.0,lambdas with no ER* matching the price inside -5%..+15%,Derived
+CURR,NMB,base,justified P/B and P/E computed,PASS,0.0,,Derived
+CURR,CRDB,all,information cut-off: every input published on or before the valuation date,PASS,0.0,59 sourced inputs checked,Derived
+CURR,CRDB,base,bank buffer: anchor-year headroom within 1 pp of the FY2015-anchor mean (else STOP for the owner),PASS,0.0046363636363636745,"mean 0.0284, anchor 0.0330, base buffer 0.0284",Derived
+CURR,CRDB,all,"register: every driver has base, bear and bull",PASS,0.0,,Derived
+CURR,CRDB,all,register: values inside the evidence range,PASS,0.0,,Derived
+CURR,CRDB,base,engine: balance sheet closes (A = L + E),PASS,9.104124429720628e-13,,Derived
+CURR,CRDB,base,engine: asset side adds up,PASS,0.0,,Derived
+CURR,CRDB,base,engine: Tier 1 >= k* x RWA,PASS,0.0,k* = 0.1564; year 1 (nowcast) vs requirement 0.1280,Derived
+CURR,CRDB,base,engine: year-1 gap to k* <= 1 pp (phase-in allowed; else STOP),PASS,2.7755575615628914e-17,,Derived
+CURR,CRDB,base,engine: liquid assets >= floor,PASS,0.0,,Derived
+CURR,CRDB,base,engine: LDR within bounds,PASS,1.0189468294658173,bounds 0.40-1.10,Derived
+CURR,CRDB,base,engine: wholesale share within bound,PASS,0.14787072923133715,max 0.30,Derived
+CURR,CRDB,base,engine: clean surplus (E = E_-1 + NP_attr - Div),PASS,2.1331983689168602e-16,,Derived
+CURR,CRDB,base,engine: terminal: g = ROE* (1 - payout*),PASS,0.0,,Derived
+CURR,CRDB,base,engine: fade dividends non-negative,PASS,551940570212.0665,,Derived
+CURR,CRDB,base,run completes without a named engine error,PASS,0.0,,Derived
+CURR,CRDB,base,RIM and DDM within 10% (else flagged),PASS,6.089918941451156e-16,,Derived
+CURR,CRDB,base,target-price identity V1 = V0 (1 + r) - Div (carried),PASS,4.059945960967438e-16,,Derived
+CURR,CRDB,base,r > g and ROE* > g,PASS,0.07834453884200199,,Derived
+CURR,CRDB,bear,engine: balance sheet closes (A = L + E),PASS,6.568704571479758e-13,,Derived
+CURR,CRDB,bear,engine: asset side adds up,PASS,0.0,,Derived
+CURR,CRDB,bear,engine: Tier 1 >= k* x RWA,PASS,0.004373456463076545,k* = 0.1564; year 1 (nowcast) vs requirement 0.1280,Derived
+CURR,CRDB,bear,engine: year-1 gap to k* <= 1 pp (phase-in allowed; else STOP),PASS,2.7755575615628914e-17,,Derived
+CURR,CRDB,bear,engine: liquid assets >= floor,PASS,0.0,,Derived
+CURR,CRDB,bear,engine: LDR within bounds,PASS,1.0189468294658173,bounds 0.40-1.10,Derived
+CURR,CRDB,bear,engine: wholesale share within bound,PASS,0.14385123828175306,max 0.30,Derived
+CURR,CRDB,bear,engine: clean surplus (E = E_-1 + NP_attr - Div),PASS,1.9996986955253583e-16,,Derived
+CURR,CRDB,bear,engine: terminal: g = ROE* (1 - payout*),PASS,-6.938893903907228e-18,,Derived
+CURR,CRDB,bear,engine: fade dividends non-negative,PASS,141547924804.07056,,Derived
+CURR,CRDB,bear,run completes without a named engine error,PASS,0.0,,Derived
+CURR,CRDB,bear,RIM and DDM within 10% (else flagged),PASS,1.6228846877231445e-15,,Derived
+CURR,CRDB,bear,target-price identity V1 = V0 (1 + r) - Div (carried),PASS,-2.496745673420222e-16,,Derived
+CURR,CRDB,bear,r > g and ROE* > g,PASS,0.11337078467124634,,Derived
+CURR,CRDB,bull,engine: balance sheet closes (A = L + E),PASS,4.6889829773128945e-12,,Derived
+CURR,CRDB,bull,engine: asset side adds up,PASS,0.0,,Derived
+CURR,CRDB,bull,engine: Tier 1 >= k* x RWA,PASS,0.0,k* = 0.1445; year 1 (nowcast) vs requirement 0.1280,Derived
+CURR,CRDB,bull,engine: year-1 gap to k* <= 1 pp (phase-in allowed; else STOP),PASS,-0.003312451301156538,,Derived
+CURR,CRDB,bull,engine: liquid assets >= floor,PASS,0.0,,Derived
+CURR,CRDB,bull,engine: LDR within bounds,PASS,1.0189468294658173,bounds 0.40-1.10,Derived
+CURR,CRDB,bull,engine: wholesale share within bound,PASS,0.16111971550297904,max 0.30,Derived
+CURR,CRDB,bull,engine: clean surplus (E = E_-1 + NP_attr - Div),PASS,2.1018458360910169e-16,,Derived
+CURR,CRDB,bull,engine: terminal: g = ROE* (1 - payout*),PASS,0.0,,Derived
+CURR,CRDB,bull,engine: fade dividends non-negative,PASS,962736104471.6833,,Derived
+CURR,CRDB,bull,run completes without a named engine error,PASS,0.0,,Derived
+CURR,CRDB,bull,RIM and DDM within 10% (else flagged),PASS,2.7828555173128995e-16,,Derived
+CURR,CRDB,bull,target-price identity V1 = V0 (1 + r) - Div (carried),PASS,1.3914277586564497e-16,,Derived
+CURR,CRDB,bull,r > g and ROE* > g,PASS,0.04331829301275765,,Derived
+CURR,CRDB,base,COE: approach A computed; B and reconciliation,PASS,-0.0035925976840042173,|A - B| < 150 bp: midpoint,Derived
+CURR,CRDB,base,"COE A equals chapter 5's valuation-date COE (same inputs, LP 1.5%)",PASS,8.326672684688674e-17,,Derived
+CURR,CRDB,base,sensitivity grid coe_x_g computed (9 x 9),PASS,0.0,cells with r <= g are left empty,Derived
+CURR,CRDB,base,sensitivity grid coe_x_roe_star computed (9 x 9),PASS,0.0,cells with r <= g are left empty,Derived
+CURR,CRDB,base,sensitivity grid nim_x_cor computed (9 x 9),PASS,0.0,cells with r <= g are left empty,Derived
+CURR,CRDB,base,Monte Carlo reproducible with the seed (500 dry-run draws; 10000 in the published run),PASS,0.0,,Derived
+CURR,CRDB,all,scenarios bear / base / bull computed,PASS,0.0,,Derived
+CURR,CRDB,base,implied COE solved by bracketed root,PASS,0.0,root found,Derived
+CURR,CRDB,base,implied ROE* solved by bracketed root,PASS,0.0,root found,Derived
+CURR,CRDB,base,iso-value surface (lambda x ER*) computed,PASS,0.0,lambdas with no ER* matching the price inside -5%..+15%,Derived
+CURR,CRDB,base,justified P/B and P/E computed,PASS,0.0,,Derived
+HIST->CURR,NMB,base,five-step bridge computed in the fixed order; residual reported,PASS,0.0,"steps: time, dividends, new information, forecast revisions, COE",Derived
+HIST->CURR,CRDB,base,five-step bridge computed in the fixed order; residual reported,PASS,0.0,"steps: time, dividends, new information, forecast revisions, COE",Derived

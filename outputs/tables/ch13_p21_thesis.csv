@@ -1,0 +1,36 @@
+row,step,text,evidence_class,register_version,input_hash
+Key question,1,Are they central to the banking system?,Derived,v1.3,cc2c85e4eef09300
+Key question,2,What is each franchise built on?,Derived,v1.3,cc2c85e4eef09300
+Key question,3,How do the franchises become profit?,Derived,v1.3,cc2c85e4eef09300
+Key question,4,What return do shareholders get?,Derived,v1.3,cc2c85e4eef09300
+Key question,5,"Does ROE beat the 14.8% cost of equity, and does it last?",Derived,v1.3,cc2c85e4eef09300
+Key question,6,What is a lasting rent worth?,Derived,v1.3,cc2c85e4eef09300
+Key question,7,Does value justify the price?,Derived,v1.3,cc2c85e4eef09300
+Together,1,"49.4% of banking assets, 64.2% of sector pre-tax profit (2025); 61.8% of DSE domestic market value",Derived,v1.3,cc2c85e4eef09300
+Together,2,71% of commercial-bank agricultural and 59% of household credit (FY2023),Derived,v1.3,cc2c85e4eef09300
+Together,3,,Derived,v1.3,cc2c85e4eef09300
+Together,4,,Derived,v1.3,cc2c85e4eef09300
+Together,5,,Derived,v1.3,cc2c85e4eef09300
+Together,6,,Derived,v1.3,cc2c85e4eef09300
+Together,7,,Derived,v1.3,cc2c85e4eef09300
+NMB,1,"22.7% of banking assets, 33.1% of sector pre-tax profit (2025)",Derived,v1.3,cc2c85e4eef09300
+NMB,2,Households and personal 56% of the book,Derived,v1.3,cc2c85e4eef09300
+NMB,3,"Earns on assets: yield, fees, cheap deposits. Cost of risk 0.84%; cost-to-income 37.1%",Derived,v1.3,cc2c85e4eef09300
+NMB,4,FY2025 ROE 26.9%; capital headroom 10.25 pts,Derived,v1.3,cc2c85e4eef09300
+NMB,5,+11.2 pts over the cost of equity in FY2025; 4.7% a year over the full cycle,Derived,v1.3,cc2c85e4eef09300
+NMB,6,"Value TZS 1,388 per share",Derived,v1.3,cc2c85e4eef09300
+NMB,7,"Value 1,388 vs price 1,820; 12-month return -12.7%. SELL",Derived,v1.3,cc2c85e4eef09300
+CRDB,1,"26.7% of banking assets, 31.1% of sector pre-tax profit (2025)",Derived,v1.3,cc2c85e4eef09300
+CRDB,2,"Agriculture 24% of the book, policy-supported",Derived,v1.3,cc2c85e4eef09300
+CRDB,3,Earns on equity: leverage and a kind credit cycle. Cost of risk 1.26%; cost-to-income 41.9%,Derived,v1.3,cc2c85e4eef09300
+CRDB,4,FY2025 ROE 30.0%; capital headroom 3.30 pts,Derived,v1.3,cc2c85e4eef09300
+CRDB,5,+14.4 pts over the cost of equity in FY2025; 0.4% a year over the full cycle,Derived,v1.3,cc2c85e4eef09300
+CRDB,6,"Value TZS 1,842 per share",Derived,v1.3,cc2c85e4eef09300
+CRDB,7,"Value 1,842 vs price 2,840; 12-month return -25.7%. SELL",Derived,v1.3,cc2c85e4eef09300
+Report finding,1,"Central, not monopolistic; the safety net protects depositors and the state",Derived,v1.3,cc2c85e4eef09300
+Report finding,2,Both have a cheap-deposit moat against smaller banks,Derived,v1.3,cc2c85e4eef09300
+Report finding,3,Net of credit losses the loan yields are close,Derived,v1.3,cc2c85e4eef09300
+Report finding,4,ROE = operating performance x leverage x capital allocation,Derived,v1.3,cc2c85e4eef09300
+Report finding,5,Conditional on the credit cycle and the bill rate,Derived,v1.3,cc2c85e4eef09300
+Report finding,6,"Breaks on a repeat 2015-18 stress, the bill rate or the cost of equity",Derived,v1.3,cc2c85e4eef09300
+Report finding,7,Price implies 10.1% (NMB) and 6.1% (CRDB) excess return; value meets price only at 91% / nan% weight on 2015-18 being exceptional,Derived,v1.3,cc2c85e4eef09300

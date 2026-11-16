@@ -1,0 +1,8 @@
+bank,fiscal_year,roe,roa,cost_to_income,npl_ratio,npl_coverage,tier1_ratio,loan_to_deposit,cost_of_deposits,pb,pb_basis,pe,dividend_yield,evidence_class,register_version,input_hash
+CRDB,2025,0.3002091955888585,0.0373549962088241,0.416,0.029,0.611,0.161,0.936,0.0218528504268473,1.4546898527768828,year-end price x shares / equity attributable,5.455764684507077,0.058823529411764705,Derived,v1.3,cc2c85e4eef09300
+NMB,2025,0.2686198627781666,0.0484864042492968,0.38,0.025,0.96,0.2471,0.86,0.0236581448069635,1.355786402864917,year-end price x shares / equity attributable,5.53529822159622,0.059959571938168844,Derived,v1.3,cc2c85e4eef09300
+DCB,2025,-0.0196627974682601,-0.0024411491978464,0.9408,0.0638,0.3923,0.1534,0.7183,,1.368967138476196,year-end price x shares / total equity (no NCI split held),,0.0,Derived,v1.3,cc2c85e4eef09300
+MBP,2025,0.1944671034471967,0.0268970125608238,0.6125,0.0452,0.277,0.171,0.8099,0.060858633949826,0.7595068355806803,reported market capitalisation / total equity (no NCI split held),,,Derived,v1.3,cc2c85e4eef09300
+MKCB,2024,0.2535240204402551,0.0336006019451751,0.57,0.038,0.3655,0.1693,0.75,,0.31730256895344033,reported market capitalisation / total equity (no NCI split held),,,Derived,v1.3,cc2c85e4eef09300
+MCB,2025,0.0208844183737474,0.0037568102978008,0.9469,0.0144,1.04,0.371,0.8728,,1.672803514581359,reported market capitalisation / total equity (no NCI split held),,,Derived,v1.3,cc2c85e4eef09300
+MUCOBA,2024,-0.0254723582925122,-0.0045966560589988,0.8887,0.1728,0.2612,,1.1405,,3.885051119093672,reported market capitalisation / total equity (no NCI split held),,,Derived,v1.3,cc2c85e4eef09300

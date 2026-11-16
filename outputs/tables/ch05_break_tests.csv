@@ -1,0 +1,29 @@
+bank_id,test,break_year,n,F,df1,df2,p_value,method,evidence_class
+B01,Chow FY2018 (IFRS 9),2018.0,15,2.212413656610869,2,11,0.15575717433560266,F test of intercept and slope shift (known date),Estimated
+B01,Chow 2015-18 episode,2015.0,15,3.2934789710315915,2,11,0.07570259743401739,F test of intercept and slope shift (known date),Estimated
+B01,"Chow 2015-18 episode, FY2018 excluded",2015.0,13,3.930617014354017,2,9,0.05930471034870283,F test of intercept and slope shift (known date),Estimated
+B01,sup-F (unknown date),2015.0,15,3.9827676945027464,2,11,0.324,max Chow F with >= 4 pairs per side; p-value from 499 parametric-bootstrap draws of the fitted AR(1) (no break),Estimated
+B02,Chow FY2018 (IFRS 9),2018.0,16,1.7522212410627955,2,12,0.21495648451772129,F test of intercept and slope shift (known date),Estimated
+B02,Chow 2015-18 episode,2015.0,16,7.262122665701055,2,12,0.008574903852523732,F test of intercept and slope shift (known date),Estimated
+B02,"Chow 2015-18 episode, FY2018 excluded",2015.0,14,8.848165815768242,2,10,0.006136047972312541,F test of intercept and slope shift (known date),Estimated
+B02,sup-F (unknown date),2020.0,16,3.9611739227138663,2,12,0.416,max Chow F with >= 4 pairs per side; p-value from 499 parametric-bootstrap draws of the fitted AR(1) (no break),Estimated
+B03,Chow FY2018 (IFRS 9),2018.0,8,2.7714045048981313,2,4,0.17569828356819925,F test of intercept and slope shift (known date),Estimated
+B03,Chow 2015-18 episode,2015.0,8,0.1600049638711769,2,4,0.8573348798343862,F test of intercept and slope shift (known date),Estimated
+B03,"Chow 2015-18 episode, FY2018 excluded",2015.0,6,1.8055091395706993,2,2,0.35644154064421285,F test of intercept and slope shift (known date),Estimated
+B03,sup-F (unknown date),,8,,2,4,,not run: 8 pairs < 12,Estimated
+B04,Chow FY2018 (IFRS 9),2018.0,9,,2,5,,F test of intercept and slope shift (known date); not computable: fewer than 2 pairs in a regime,Estimated
+B04,Chow 2015-18 episode,2015.0,9,1.7359915304859206,2,5,0.267585338491531,F test of intercept and slope shift (known date),Estimated
+B04,"Chow 2015-18 episode, FY2018 excluded",2015.0,7,,2,3,,F test of intercept and slope shift (known date); not computable: fewer than 2 pairs in a regime,Estimated
+B04,sup-F (unknown date),,9,,2,5,,not run: 9 pairs < 12,Estimated
+B05,Chow FY2018 (IFRS 9),2018.0,9,0.06357173974479054,2,5,0.9391529634836576,F test of intercept and slope shift (known date),Estimated
+B05,Chow 2015-18 episode,2015.0,9,0.11374740014139093,2,5,0.8947279145624413,F test of intercept and slope shift (known date),Estimated
+B05,"Chow 2015-18 episode, FY2018 excluded",2015.0,7,2.296232838854718,2,3,0.24837485471281281,F test of intercept and slope shift (known date),Estimated
+B05,sup-F (unknown date),,9,,2,5,,not run: 9 pairs < 12,Estimated
+B06,Chow FY2018 (IFRS 9),2018.0,9,,2,5,,F test of intercept and slope shift (known date); not computable: fewer than 2 pairs in a regime,Estimated
+B06,Chow 2015-18 episode,2015.0,9,2.4858984573457956,2,5,0.17802928519349756,F test of intercept and slope shift (known date),Estimated
+B06,"Chow 2015-18 episode, FY2018 excluded",2015.0,7,,2,3,,F test of intercept and slope shift (known date); not computable: fewer than 2 pairs in a regime,Estimated
+B06,sup-F (unknown date),,9,,2,5,,not run: 9 pairs < 12,Estimated
+B07,Chow FY2018 (IFRS 9),2018.0,4,,2,0,,F test of intercept and slope shift (known date); not computable: fewer than 2 pairs in a regime,Estimated
+B07,Chow 2015-18 episode,2015.0,4,,2,0,,F test of intercept and slope shift (known date); not computable: fewer than 2 pairs in a regime,Estimated
+B07,"Chow 2015-18 episode, FY2018 excluded",2015.0,3,,2,-1,,F test of intercept and slope shift (known date); not computable: fewer than 2 pairs in a regime,Estimated
+B07,sup-F (unknown date),,4,,2,0,,not run: 4 pairs < 12,Estimated

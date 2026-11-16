@@ -1,0 +1,15 @@
+item,entity,date,value_tzs,source,evidence_class
+total_market_cap,DSE,2026-10-30,38567910000000.0,dse/30_Oct_2026_DSE_Mkt_Info.pdf,Observed
+total_market_cap,DSE,2026-09-30,40573590000000.0,dse/30_Oct_2026_DSE_Mkt_Info.pdf,Observed
+total_market_cap,DSE,2025-10-31,21714700000000.0,dse/30_Oct_2026_DSE_Mkt_Info.pdf,Observed
+domestic_market_cap,DSE,2026-10-30,26742630000000.0,dse/30_Oct_2026_DSE_Mkt_Info.pdf,Observed
+domestic_market_cap,DSE,2026-09-30,28112020000000.0,dse/30_Oct_2026_DSE_Mkt_Info.pdf,Observed
+domestic_market_cap,DSE,2025-10-31,13805080000000.0,dse/30_Oct_2026_DSE_Mkt_Info.pdf,Observed
+equity_turnover,DSE,2026-10-30 (day),3765160000.0,dse/30_Oct_2026_DSE_Mkt_Info.pdf,Observed
+equity_turnover,DSE,Oct-Dec 2026 (to date),96928070000.0,dse/30_Oct_2026_DSE_Mkt_Info.pdf,Observed
+equity_turnover,DSE,Jul-Sep 2026,824084890000.0,dse/30_Oct_2026_DSE_Mkt_Info.pdf,Observed
+equity_turnover,DSE,Oct-Dec 2025,135686130000.0,dse/30_Oct_2026_DSE_Mkt_Info.pdf,Observed
+counter_market_cap,NMB,2026-10-30,9100000000000.0,dse/30_Oct_2026_DSE_Mkt_Info.pdf,Observed
+counter_turnover,NMB,2026-10-30 (day),1345500760.0,dse/30_Oct_2026_DSE_Mkt_Info.pdf,Observed
+counter_market_cap,CRDB,2026-10-30,7417620000000.0,dse/30_Oct_2026_DSE_Mkt_Info.pdf,Observed
+counter_turnover,CRDB,2026-10-30 (day),1569751080.0,dse/30_Oct_2026_DSE_Mkt_Info.pdf,Observed

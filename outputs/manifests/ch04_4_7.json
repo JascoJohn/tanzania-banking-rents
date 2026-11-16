@@ -1,0 +1,27 @@
+{
+  "chapter": "04",
+  "subsection": "4.7",
+  "title": "Comparative business-model map",
+  "hypotheses": [
+    "H4.1",
+    "H4.2"
+  ],
+  "status": "built",
+  "tables": [
+    {
+      "path": "outputs/tables/ch04_business_model_map.csv",
+      "description": "Comparative business-model map (claims, evidence, 4.0 numbers, contradiction flag)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_7.md"
+    }
+  ],
+  "figures": [],
+  "notes": [
+    "outputs/notes/ch04_4_7.md"
+  ],
+  "inputs": [
+    "outputs/tables/ch04_4_0_*.csv ... ch04_4_6_risk.csv"
+  ],
+  "module": "tzbank.chapters.ch04.business_model_map",
+  "run_log_stage": "profitability"
+}

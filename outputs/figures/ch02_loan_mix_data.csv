@@ -1,0 +1,32 @@
+book,fiscal_year,category,share,evidence_class
+BoT commercial banks,2023,agriculture,0.1037297042386141,Derived
+BoT commercial banks,2023,financial institutions,0.014704834879504686,Derived
+BoT commercial banks,2023,hotels and tourism,0.0350248125128298,Derived
+BoT commercial banks,2023,households and personal,0.41205775903229525,Derived
+BoT commercial banks,2023,manufacturing,0.09527061706697362,Derived
+BoT commercial banks,2023,other,0.15993617423345766,Derived
+BoT commercial banks,2023,trade,0.1360736434061838,Derived
+BoT commercial banks,2023,transport and communication,0.04320245463014103,Derived
+CRDB,2023,agriculture,0.19886584826110432,Derived
+CRDB,2023,financial institutions,0.007795709144475905,Derived
+CRDB,2023,hotels and tourism,0.00978552591576162,Derived
+CRDB,2023,households and personal,0.37377087273498605,Derived
+CRDB,2023,manufacturing,0.07383071764984413,Derived
+CRDB,2023,other,0.18244432308863714,Derived
+CRDB,2023,trade,0.12853261761041732,Derived
+CRDB,2023,transport and communication,0.024974385594773538,Derived
+NMB,2023,agriculture,0.09163273844580865,Derived
+NMB,2023,financial institutions,0.0,Derived
+NMB,2023,households and personal,0.6009763226597075,Derived
+NMB,2023,manufacturing,0.05184520630278708,Derived
+NMB,2023,other,0.12602907356899556,Derived
+NMB,2023,trade,0.10818911480867151,Derived
+NMB,2023,transport and communication,0.02132754421402969,Derived
+NMB + CRDB,2023,agriculture,0.146864565170858,Derived
+NMB + CRDB,2023,financial institutions,0.004015282755561374,Derived
+NMB + CRDB,2023,hotels and tourism,0.005040164112779772,Derived
+NMB + CRDB,2023,households and personal,0.4839511607219054,Derived
+NMB + CRDB,2023,manufacturing,0.06316913372850325,Derived
+NMB + CRDB,2023,other,0.15508649148298032,Derived
+NMB + CRDB,2023,trade,0.11866730408866111,Derived
+NMB + CRDB,2023,transport and communication,0.023205897938750757,Derived

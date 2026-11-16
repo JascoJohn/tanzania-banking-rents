@@ -1,0 +1,28 @@
+window_days,metric,nmb_pre,nmb_post,nmb_change,crdb_pre,crdb_post,did_vs_crdb,reading,evidence_class,market_pre,market_post,did_log_vs_market,did_coefficient,hac_se,t_stat,p_value,n,register_version,input_hash
+5,days,5.0,5.0,0.0,5.0,5.0,0.0,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+5,trading_day_share,0.6,1.0,0.4,1.0,1.0,0.4,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+5,mean_turnover_tzs,2304060536.0,9769303162.0,7465242626.0,1220892038.0,2190222374.0,6495912290.0,descriptive (difference-in-differences of window means),Derived,1134464513.0,1488561618.0,1.172922570695412,,,,,,v1.3,cc2c85e4eef09300
+5,mean_shares_traded_adj,1301704.0,4853197.4,3551493.4000000004,454560.6,822848.6,3183205.4000000004,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+5,block_share_of_turnover,0.0,0.3968688134360509,0.3968688134360509,0.0,0.0,0.3968688134360509,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+5,amihud_per_tzs_bn,0.0001068331055129592,0.006267515401163939,0.00616068229565098,0.0020107265058635017,0.0016279369142126944,0.006543471887301787,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+5,roll_spread,,,,,,,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+5,corwin_schultz_spread,0.00896860986547104,0.0,-0.00896860986547104,0.016154300818171766,0.010305584765044824,-0.003119893812344097,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+20,days,20.0,20.0,0.0,20.0,20.0,0.0,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+20,trading_day_share,0.9,1.0,0.09999999999999998,1.0,1.0,0.09999999999999998,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+20,mean_turnover_tzs,2934269296.5,6749169270.5,3814899974.0,1739477841.5,4173966505.0,1380411310.5,descriptive (difference-in-differences of window means),Derived,2508329008.75,2300685340.0,0.9193707114161143,,,,,,v1.3,cc2c85e4eef09300
+20,mean_shares_traded_adj,1679079.5,3215770.5,1536691.0,662404.4,1516886.2,682209.2000000001,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+20,block_share_of_turnover,0.0,0.4702817772512111,0.4702817772512111,0.0,0.5169102399157849,-0.04662846266457377,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+20,amihud_per_tzs_bn,0.000889493746914835,0.005612209724278991,0.0047227159773641555,0.004378670275176066,0.005231830238368254,0.003869556014171968,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+20,roll_spread,,,,,,,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+20,corwin_schultz_spread,0.0024310411950801236,0.010188275695780454,0.00775723450070033,0.007994660623159405,0.013867524932479619,0.0018843701913801164,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+60,days,60.0,48.0,-12.0,60.0,48.0,0.0,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+60,trading_day_share,0.9666666666666667,1.0,0.033333333333333326,1.0,1.0,0.033333333333333326,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+60,mean_turnover_tzs,5343927396.166667,3871239677.2916665,-1472687718.8750005,6820890395.666667,2870145793.75,2478056883.0416665,descriptive (difference-in-differences of window means),Derived,1485969130.0833333,1538182059.6875,-0.35692013043960014,,,,,,v1.3,cc2c85e4eef09300
+60,mean_shares_traded_adj,3364227.0,1886683.0416666667,-1477543.9583333333,2669746.1,1034421.1875,157780.95416666684,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+60,block_share_of_turnover,0.7022188939839463,0.46371988009128934,-0.23849901389265699,0.7844635603927422,0.4189599953982012,0.12700455110188402,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+60,amihud_per_tzs_bn,0.004132853824149097,0.005265565447439304,0.0011327116232902074,0.0043236242669542155,0.004724368954745591,0.0007319669354988317,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+60,roll_spread,,,,,,,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+60,corwin_schultz_spread,0.001724635862367123,0.011296076920629205,0.009571441058262083,0.008983688147302297,0.00973132052234183,0.00882380868322255,descriptive (difference-in-differences of window means),Derived,,,,,,,,,v1.3,cc2c85e4eef09300
+60,DiD regression: log(1 + TZS turnover),,,,,,,"test: OLS with Newey-West (5 lags) errors, NMB vs CRDB",Estimated,,,,0.8511564392360739,0.8182883920696046,1.0401668256387455,0.29826240119315395,216.0,v1.3,cc2c85e4eef09300
+60,DiD regression: trading-day indicator,,,,,,,"test: OLS with Newey-West (5 lags) errors, NMB vs CRDB",Estimated,,,,0.033333333333334124,0.03132039396606183,1.064269286314006,0.2872067274161001,216.0,v1.3,cc2c85e4eef09300
+60,DiD regression: log(1 + split-adjusted shares traded),,,,,,,"test: OLS with Newey-West (5 lags) errors, NMB vs CRDB",Estimated,,,,0.4537071642016727,0.6338263827126972,0.7158224658618075,0.474100978482046,216.0,v1.3,cc2c85e4eef09300

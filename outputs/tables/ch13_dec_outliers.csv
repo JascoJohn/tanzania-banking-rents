@@ -1,0 +1,2 @@
+bank,fiscal_year,roe,reason,panel_mean_roe_with,panel_mean_roe_without,affects_nmb_crdb_findings,evidence_class,register_version,input_hash
+MUCOBA,2020,0.6052409129332206,"MUCOBA FY2020: near-zero average equity (recapitalisation year); shown, not estimated",0.16637845690093608,0.0786059656944792,no (NMB and CRDB rows unchanged),Derived,v1.3,cc2c85e4eef09300

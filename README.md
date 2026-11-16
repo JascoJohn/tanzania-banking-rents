@@ -1,0 +1,193 @@
+# Dominant Banks, Conditional Rents
+
+*NMB, CRDB and the price of dominance in Tanzania*
+
+Independent research by Jasco John, CPA(T) (ORCID [0009-0007-3630-7943](https://orcid.org/0009-0007-3630-7943)).
+Code version 0.9; findings pack v1.17; valuation date 31 October 2026.
+
+## What this is
+
+NMB Bank and CRDB Bank hold about half of Tanzania's banking assets and most of the domestic market value of the Dar
+es Salaam Stock Exchange (DSE). This project keeps three questions apart:
+
+- **why** the two banks earn returns above their cost of equity;
+- **whether** they will keep earning them, and for how long;
+- **whether** the share prices pay a fair price for that persistence.
+
+The work has three parts, each with a chapter range:
+
+- **Part I, the architecture of dominance:** chapters 1-3, market structure.
+- **Part II, the economics of banking profits:** chapters 4-8, profitability, persistence, funding, capital and
+  credit risk.
+- **Part III, investment valuation:** chapters 9-12, value, market-implied persistence, scenarios and USD returns.
+
+The hypotheses were set before the analysis was run ([`docs/RESEARCH_HYPOTHESES.md`](docs/RESEARCH_HYPOTHESES.md)).
+The valuation method is in [`docs/VALUATION_SPEC.md`](docs/VALUATION_SPEC.md).
+
+This repository holds:
+
+1. the pipeline that rebuilds every table, figure and verdict;
+2. the final dataset;
+3. the dashboard;
+4. the documentation needed to reproduce the work.
+
+## The four reports
+
+- **Dominant Banks, Conditional Rents** (main report). NMB and CRDB are central and highly profitable: 51.4% of
+  banking assets and 65.2% of sector pre-tax profit in 2025. But their rents depend on the credit cycle and on
+  policy, and today's prices already pay for more than the record supports.
+- **NMB Bank Plc, company report: Sell.** The stronger franchise, already priced for a rent that must last. Value
+  TZS 1,388 against a price of TZS 1,820; expected 12-month return −12.7%.
+- **CRDB Bank Plc, company report: Sell.** A leveraged growth franchise, priced for a rent it has not yet proved.
+  Value TZS 1,842 against a price of TZS 2,840; expected 12-month return −25.7%.
+- **Tanzanian Bank Equities for Foreign Investors, investor note.** Not investable at today's prices for a dollar
+  investor: the expected 12-month USD return is −16.1% for NMB and −28.5% for CRDB (at 3.8% a year depreciation),
+  against a USD hurdle of 12.7%.
+
+The report PDFs are on Zenodo (report DOI: to be added). Every figure in them is a row of the findings pack
+[`outputs/findings/findings_pack_v1.17.csv`](outputs/findings/findings_pack_v1.17.csv), which is also what the
+dashboard shows.
+
+## Reproduce
+
+Python 3.11 or later, with the dependencies pinned in [`requirements.txt`](requirements.txt). **Tested on Python
+3.14:** the release checks (clean install, tests, a full rebuild and the dashboard) ran on 3.14 with the pinned
+versions. Python 3.11 is the minimum the package declares, but it has not yet been tested.
+
+**System dependency for OCR: Tesseract.** Some scanned quarterly statements have no usable text layer. Their text
+copies in `data/ocr/` are rebuilt with `python -m tzbank.extract.ocr`, which needs
+[Tesseract OCR](https://github.com/tesseract-ocr/tesseract) 5.x with the `eng` and `osd` language data on the `PATH`.
+On Windows, set `TZBANK_TESSERACT` to the folder holding `tesseract.exe` if it is not on the `PATH`. OCRmyPDF is
+installed from `requirements.txt`; Ghostscript and Poppler are not needed. Everything else runs without Tesseract.
+
+```bash
+python -m venv .venv
+source .venv/bin/activate            # Windows PowerShell: .venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+pip install -e .
+python -m pytest                     # without the raw files, tests that need them skip with a message
+```
+
+**Rebuild everything.** The repository holds the owner-compiled inputs: the valuation inputs workbook, the Phase 1
+bank panel, the BoT research databases, the manual entries and MANIFEST. It does not hold the third-party raw files:
+- bank reports;
+- BoT, IMF and World Bank documents;
+- DSE site snapshots;
+- broker and peer-bank reports;
+- FinScope microdata.
+
+To rebuild:
+
+1. **Fetch the raw files.** [`docs/DATA_REQUIREMENTS.md`](docs/DATA_REQUIREMENTS.md), section "Raw files to fetch",
+   says what to fetch, from where and where to put it. [`docs/SOURCE_REGISTER.md`](docs/SOURCE_REGISTER.md) gives
+   every document's URL, and [`data/raw/MANIFEST.csv`](data/raw/MANIFEST.csv) gives every file's sha256.
+2. **Check the files:** `python -m tzbank info`. Every file should match its MANIFEST hash.
+3. **Run the pipeline:** `python -m tzbank run all`. It takes about an hour on a laptop and rewrites `outputs/`.
+   Each stage also runs alone (`python -m tzbank run <stage>`), and each run writes a run log with the git commit,
+   the input hashes and the configuration.
+4. **Compare:** `git diff --stat outputs/findings/ outputs/tables/ outputs/valuation/` shows whether the findings
+   pack and the dataset were reproduced. In the release test (a clean clone, with the raw files placed as
+   DATA_REQUIREMENTS describes), all three were reproduced byte for byte.
+
+**Two things a rebuild does not reproduce exactly:**
+
+- **DSE site snapshots.** The DSE data library (`data/raw/dse/`) is built from snapshots of the exchange's public
+  website (`python -m tzbank.ingest.dse_library fetch`). The snapshots used here are not redistributed. A new fetch
+  gives a library as of the day you fetch it, with new hashes, so its MANIFEST rows will not match. Chapters 13 and
+  14 read the library. Their datasets stop at the cut-off in `config/settings.yaml` (`library.cutoff`, 30 October
+  2026), so a later fetch should give the same rows unless the exchange has revised its history; any difference
+  shows in those chapters' tables and findings.
+- **Regenerated documents.** The pipeline also rewrites the chapter notes and manifests (`outputs/notes/`,
+  `outputs/manifests/`) and two documents (`docs/SOURCE_REGISTER.md`, `docs/VARIABLE_DICTIONARY.md`). The published
+  copies of these files were cleaned for release, with internal task references removed, so after a rebuild git shows
+  them as modified. The changes are in wording only: no number or verdict changes. Run logs also differ by
+  timestamp.
+
+The point-in-time rules in [`docs/PUBLICATION_DATE_RULES.md`](docs/PUBLICATION_DATE_RULES.md) decide which data
+counted as public at each valuation date.
+
+## Data
+
+The final dataset is in this repository and, as the same files, in the Zenodo dataset record (data DOI: to be added).
+It contains:
+
+- the derived tables in `outputs/tables/` and `outputs/valuation/`;
+- the findings pack;
+- `data/raw/MANIFEST.csv`;
+- [`DATA_README.md`](DATA_README.md).
+
+Every table carries an `evidence_class` column (Observed, Derived, Estimated, Scenario or Interpretation). Units:
+- money is in full TZS;
+- ratios are decimals;
+- per-share values are as reported; NMB's 1:10 split, effective 24 August 2026, is applied in code.
+
+Further references:
+- variables: [`docs/VARIABLE_DICTIONARY.md`](docs/VARIABLE_DICTIONARY.md) and
+  [`docs/DEFINITIONS.md`](docs/DEFINITIONS.md);
+- methods: [`docs/EMPIRICAL_METHODOLOGY.md`](docs/EMPIRICAL_METHODOLOGY.md);
+- evidence classes and limitations: [`docs/EVIDENCE_AND_LIMITATIONS.md`](docs/EVIDENCE_AND_LIMITATIONS.md);
+- decisions: [`docs/DECISION_LOG.md`](docs/DECISION_LOG.md), the method decisions D1-D97 that tables and documents
+  cite by id.
+
+| Source | Used for |
+| --- | --- |
+| NMB and CRDB audited annual reports and BoT-format quarterly statements | Financials, capital, interims |
+| Seven-bank Phase 1 panel (owner-compiled) | Peer financials FY2008-FY2025 |
+| Bank of Tanzania reports and statistics | Sector totals, rates, credit by activity, payments |
+| Dar es Salaam Stock Exchange daily reports and filings | Prices, turnover, corporate actions |
+| IMF, World Bank, Moody's | Macro context, stress tests |
+| Broker notes and peer-bank reports | Analyst comparison, African peers |
+| FinScope Tanzania (FSD Tanzania) | Financial inclusion profile |
+
+## Dashboard
+
+```bash
+streamlit run dashboard/app.py
+```
+
+The dashboard reads the committed outputs and computes nothing. It has a landing page, chapters 1-14 and chapter 4
+subpages 4.0-4.7. Each page shows:
+- the research question and hypotheses;
+- the results, with their evidence classes;
+- the limitations;
+- the run-log ID of what it displays.
+
+Public URL: to be added. To deploy on Streamlit Community Cloud, use entry file `dashboard/app.py`; the requirements
+are in `dashboard/requirements.txt` and the theme in `.streamlit/config.toml`. No secrets are needed.
+
+| Landing page | Chapter 5: persistence |
+| --- | --- |
+| ![Landing page](docs/screenshots/dashboard_landing.png) | ![Chapter 5](docs/screenshots/dashboard_ch05.png) |
+
+## How to cite
+
+John, J. (2026). *Dominant Banks, Conditional Rents: NMB, CRDB and the price of dominance in Tanzania*. Independent
+research report, 31 October 2026. DOI: to be added.
+
+- **Code:** John, J. (2026). *Dominant Banks, Conditional Rents* (code, version 0.9). DOI: to be added.
+- **Data:** John, J. (2026). *Dominant Banks, Conditional Rents: dataset*. DOI: to be added.
+- **Machine-readable:** [`CITATION.cff`](CITATION.cff).
+
+## Licences
+
+- **Code:** MIT ([`LICENSE`](LICENSE)).
+- **Data, tables, documentation and reports:** CC BY 4.0 ([`LICENSE-DATA.md`](LICENSE-DATA.md)).
+- **Third-party sources** keep their own terms and are not redistributed.
+
+## Disclaimer
+
+This is independent, non-commercial research. It is **not investment advice** and not a recommendation to buy or sell
+any security.
+
+- **Ratings.** The ratings (Buy, Hold, Sell) come from a stated rule applied to a model and its assumptions at the
+  valuation date. They change as prices, data and assumptions change.
+- **No payment, no client.** No fee, commission or other consideration was received for this work, and it was not
+  prepared for any client.
+- **No holdings.** The author holds no shares in NMB or CRDB.
+
+Check figures against the cited sources before relying on them.
+
+## Contact
+
+Jasco John, CPA(T): jasco.john98@gmail.com · ORCID 0009-0007-3630-7943. Corrections are welcome through the
+repository's issues.

@@ -1,0 +1,267 @@
+{
+  "chapter": "13",
+  "title": "Report support",
+  "hypotheses": [],
+  "status": "built - report support",
+  "register_version": "v1.3",
+  "input_hash": "cc2c85e4eef09300",
+  "tables": [
+    {
+      "path": "outputs/tables/ch13_roe_reconcile.csv",
+      "description": "1. Year-1 base ROE vs reported (definitions)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_cr2_profit_direct.csv",
+      "description": "2. CR2 profit share vs asset share, 2011-2025, all banking institutions (BoT appendices) and commercial banks (Estimated)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_cr2_profit_2023_sensitivity.csv",
+      "description": "2. Profit-share conclusions with FY2023 excluded and interpolated",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_constant_coe_sensitivity.csv",
+      "description": "5. Excess return against a constant COE (the central valuation COE) vs each year's COE",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_implied_credit_shares.csv",
+      "description": "2. Bank share of system credit by category (amounts)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_earnings_bridge.csv",
+      "description": "3. Attributable profit bridge FY2025A -> FY2027E",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_roe_waterfall.csv",
+      "description": "3. Forward ROE waterfall FY2025A -> FY2027E (base)",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_roe_sustainable_bridge.csv",
+      "description": "3. Reported FY2025 ROE -> sustainable ROE* (credit, rate, capital)",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_rating_flips.csv",
+      "description": "4. Rating flip per key assumption",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_stress_mixture.csv",
+      "description": "4. P(value > price) vs the weight on a stress regime",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_rate_consistent.csv",
+      "description": "4. Rate-consistent valuation (rate path and COE together)",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_named_scenarios.csv",
+      "description": "4. Named scenario: dominance without excess return",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_deposit_migration.csv",
+      "description": "5. Deposit migration: CASA repriced to the T-bill",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_rate_sensitivity.csv",
+      "description": "5. ROE per 1 pp T-bill fall (deposit beta, falling-rate beta, CASA floor)",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_asset_beta.csv",
+      "description": "5b. Asset betas by component: sample, n, method, 90% interval; lagged pass-through (13b item 1)",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_rate_sensitivity_repricing.csv",
+      "description": "5b. ROE per 1 pp T-bill fall, years 1-3, bond book repricing at maturity vs the engine (13b item 1)",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_repricing_profile.csv",
+      "description": "5b. IFRS 7 repricing profiles FY2025 (page-checked)",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_casa_floor.csv",
+      "description": "5. CASA cost and its floor",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_event_2018.csv",
+      "description": "5. 2018 bank-closure event test (deposit growth)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_valuation_bands.csv",
+      "description": "6. Own-history P/B and P/E bands",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_kpi_table.csv",
+      "description": "6. Seven-bank KPI table (latest FY)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_capacity_windows.csv",
+      "description": "7. Capacity: pre-rally vs 2026 windows",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_block_board.csv",
+      "description": "7. Block vs board turnover by quarter",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_franchise_breakeven.csv",
+      "description": "8. Net deposit franchise break-even T-bill",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_surplus_drag.csv",
+      "description": "8. Capital surplus drag at the v1.3 rate path: vs the regulatory minimum and vs the model target k*",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_financial_table.csv",
+      "description": "10. Financial table FY2024A-FY2028E",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_price_series.csv",
+      "description": "10. 1-year price series (adjusted, post-split)",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_price_lines.csv",
+      "description": "10. 52-week range and rating price lines (v1.3)",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_price_monthly.csv",
+      "description": "10. Monthly close, range, turnover and days traded (report annex)",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_usd_exports.csv",
+      "description": "13. Foreign-investor exports",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_peers.csv",
+      "description": "11. African peer panel (collected, dated sources)",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_benchmarks.csv",
+      "description": "12. Benchmark figures (collected, dated sources)",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_peer_kpi.csv",
+      "description": "11. African peer KPIs (latest FY held)",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_peer_persistence.csv",
+      "description": "11. Peer ROE persistence (chapter 5 method)",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_peer_market.csv",
+      "description": "11. Peer and NMB / CRDB multiples at both dates (PIT), COE approach A, excess ROE",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_peer_coe.csv",
+      "description": "11. Country COE by approach A at both dates",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_peer_shortfalls.csv",
+      "description": "11. Peer data shortfalls per bank",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/tables/ch13_peer_pb_roe_regression.csv",
+      "description": "11. P/B-ROE regression with NMB and CRDB, both dates",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch13_pb_roe_anchor.png",
+      "data": "outputs/figures/ch13_pb_roe_anchor_data.csv",
+      "description": "P/B against ROE with the justified P/B anchor",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/figures/ch13_stress_mixture.png",
+      "data": "outputs/figures/ch13_stress_mixture_data.csv",
+      "description": "Stress-regime mixture",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13.md"
+    },
+    {
+      "path": "outputs/figures/ch13_price_lines.png",
+      "data": "outputs/figures/ch13_price_lines_data.csv",
+      "description": "1-year price with the 52-week range and rating price lines",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch13.md"
+  ],
+  "exhibits": "outputs/exhibits/index.csv",
+  "module": "tzbank.chapters.ch13_report_support",
+  "run_log_stage": "support"
+}

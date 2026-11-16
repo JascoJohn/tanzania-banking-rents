@@ -1,0 +1,65 @@
+valuation,bank,assumption,direction,base_rating,base_expected_return,shift_to_flip,flipped_rating,value_at_flip,scan_range,evidence_class,register_version,input_hash
+HIST,NMB,COE,down,Hold,0.5138587185951244,,no flip in range,,-0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,COE,up,Hold,0.5138587185951244,0.0275,Sell,8077.568330638845,0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,ROE*,down,Hold,0.5138587185951244,-0.05,Sell,8038.040354043134,-0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,ROE*,up,Hold,0.5138587185951244,,no flip in range,,0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,terminal g,down,Hold,0.5138587185951244,,no flip in range,,-0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,terminal g,up,Hold,0.5138587185951244,,no flip in range,,0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,lambda,down,Hold,0.5138587185951244,,no flip in range,,-0.8,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,lambda,up,Hold,0.5138587185951244,,no flip in range,,0.8,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,rate path,down,Hold,0.5138587185951244,,no flip in range,,-0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,rate path,up,Hold,0.5138587185951244,,no flip in range,,0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,NIM,down,Hold,0.5138587185951244,,no flip in range,,-0.04,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,NIM,up,Hold,0.5138587185951244,,no flip in range,,0.04,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,cost of risk,down,Hold,0.5138587185951244,,no flip in range,,-0.04,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,cost of risk,up,Hold,0.5138587185951244,0.038,Sell,8060.4092769802555,0.04,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,loan and deposit growth,down,Hold,0.5138587185951244,,no flip in range,,-0.2,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,loan and deposit growth,up,Hold,0.5138587185951244,,no flip in range,,0.2,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,COE,down,Sell,-0.15438567138008705,-0.02,Hold,1526.1177260187446,-0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,COE,up,Sell,-0.15438567138008705,,no flip in range,,0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,ROE*,down,Sell,-0.15438567138008705,,no flip in range,,-0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,ROE*,up,Sell,-0.15438567138008705,0.0325,Hold,1489.2385985573173,0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,terminal g,down,Sell,-0.15438567138008705,,no flip in range,,-0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,terminal g,up,Sell,-0.15438567138008705,,no flip in range,,0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,lambda,down,Sell,-0.15438567138008705,,no flip in range,,-0.8,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,lambda,up,Sell,-0.15438567138008705,,no flip in range,,0.8,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,rate path,down,Sell,-0.15438567138008705,,no flip in range,,-0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,rate path,up,Sell,-0.15438567138008705,,no flip in range,,0.1,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,NIM,down,Sell,-0.15438567138008705,,no flip in range,,-0.04,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,NIM,up,Sell,-0.15438567138008705,0.029,Hold,1474.229384627602,0.04,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,cost of risk,down,Sell,-0.15438567138008705,,no flip in range,,-0.04,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,cost of risk,up,Sell,-0.15438567138008705,,no flip in range,,0.04,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,loan and deposit growth,down,Sell,-0.15438567138008705,,no flip in range,,-0.2,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,loan and deposit growth,up,Sell,-0.15438567138008705,,no flip in range,,0.2,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,COE,down,Sell,-0.12688153685515288,-0.015,Hold,1757.0182445414114,-0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,COE,up,Sell,-0.12688153685515288,,no flip in range,,0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,ROE*,down,Sell,-0.12688153685515288,,no flip in range,,-0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,ROE*,up,Sell,-0.12688153685515288,0.045,Hold,1745.432677378582,0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,terminal g,down,Sell,-0.12688153685515288,,no flip in range,,-0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,terminal g,up,Sell,-0.12688153685515288,0.0425,Hold,1765.3964277018547,0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,lambda,down,Sell,-0.12688153685515288,,no flip in range,,-0.8,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,lambda,up,Sell,-0.12688153685515288,,no flip in range,,0.8,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,rate path,down,Sell,-0.12688153685515288,,no flip in range,,-0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,rate path,up,Sell,-0.12688153685515288,,no flip in range,,0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,NIM,down,Sell,-0.12688153685515288,,no flip in range,,-0.04,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,NIM,up,Sell,-0.12688153685515288,,no flip in range,,0.04,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,cost of risk,down,Sell,-0.12688153685515288,,no flip in range,,-0.04,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,cost of risk,up,Sell,-0.12688153685515288,,no flip in range,,0.04,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,loan and deposit growth,down,Sell,-0.12688153685515288,,no flip in range,,-0.2,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,loan and deposit growth,up,Sell,-0.12688153685515288,,no flip in range,,0.2,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,COE,down,Sell,-0.25705455193519794,-0.025,Hold,2839.791331857921,-0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,COE,up,Sell,-0.25705455193519794,,no flip in range,,0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,ROE*,down,Sell,-0.25705455193519794,,no flip in range,,-0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,ROE*,up,Sell,-0.25705455193519794,0.0525,Hold,2762.400759879763,0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,terminal g,down,Sell,-0.25705455193519794,,no flip in range,,-0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,terminal g,up,Sell,-0.25705455193519794,,no flip in range,,0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,lambda,down,Sell,-0.25705455193519794,,no flip in range,,-0.8,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,lambda,up,Sell,-0.25705455193519794,,no flip in range,,0.8,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,rate path,down,Sell,-0.25705455193519794,,no flip in range,,-0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,rate path,up,Sell,-0.25705455193519794,,no flip in range,,0.1,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,NIM,down,Sell,-0.25705455193519794,,no flip in range,,-0.04,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,NIM,up,Sell,-0.25705455193519794,,no flip in range,,0.04,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,cost of risk,down,Sell,-0.25705455193519794,,no flip in range,,-0.04,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,cost of risk,up,Sell,-0.25705455193519794,,no flip in range,,0.04,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,loan and deposit growth,down,Sell,-0.25705455193519794,,no flip in range,,-0.2,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,loan and deposit growth,up,Sell,-0.25705455193519794,,no flip in range,,0.2,Scenario,v1.3,cc2c85e4eef09300

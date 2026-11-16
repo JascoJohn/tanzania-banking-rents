@@ -1,0 +1,49 @@
+{
+  "chapter": "hypotheses",
+  "title": "All registered hypotheses and verdicts",
+  "status": "complete",
+  "hypotheses": [
+    "H1.1",
+    "H1.2",
+    "H2.1",
+    "H2.2",
+    "H3.1",
+    "H3.2",
+    "H4.1",
+    "H4.2",
+    "H5.1",
+    "H5.2",
+    "H5.3",
+    "H6.1",
+    "H6.2",
+    "H7.1",
+    "H7.2",
+    "H7.3",
+    "H8.1",
+    "H8.2",
+    "H9.1",
+    "H10.1",
+    "H11.1",
+    "H12.1",
+    "H12.2"
+  ],
+  "tables": [
+    {
+      "path": "outputs/tables/hypotheses_all.csv",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/hypotheses.md",
+      "description": "Every registered hypothesis (docs/RESEARCH_HYPOTHESES.md) with its verdict as worded in the chapter tables"
+    }
+  ],
+  "figures": [],
+  "notes": [
+    "outputs/notes/hypotheses.md"
+  ],
+  "inputs": [
+    "docs/RESEARCH_HYPOTHESES.md",
+    "outputs/tables/ch*_hypotheses.csv",
+    "outputs/tables/hypotheses_status.csv"
+  ],
+  "module": "tzbank.reporting.hypotheses_all",
+  "run_log_stage": "findings"
+}

@@ -1,0 +1,36 @@
+{
+  "chapter": "04",
+  "subsection": "4.2",
+  "title": "Funding economics",
+  "hypotheses": [
+    "H4.1",
+    "H4.2"
+  ],
+  "status": "built - GDFA is a proxy",
+  "tables": [
+    {
+      "path": "outputs/tables/ch04_4_2_funding.csv",
+      "description": "Cost of deposits and funds, deposit mix, gross deposit funding advantage (proxy)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_2.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch04_4_2_cost_of_deposits.png",
+      "data": "outputs/figures/ch04_4_2_cost_of_deposits_data.csv",
+      "description": "Cost of deposits and T-bill yield",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_2.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch04_4_2.md"
+  ],
+  "inputs": [
+    "data/processed/bank_year_wide.csv",
+    "data/processed/rates_quarterly.csv"
+  ],
+  "module": "tzbank.chapters.ch04.funding",
+  "run_log_stage": "profitability"
+}

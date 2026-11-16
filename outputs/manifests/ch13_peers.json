@@ -1,0 +1,74 @@
+{
+  "chapter": "13_peers",
+  "title": "Peer banks",
+  "status": "complete",
+  "hypotheses": [],
+  "tables": [
+    {
+      "path": "outputs/tables/ch13_peers_checks.csv",
+      "description": "A. Extraction checks per bank-year",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_peers.md"
+    },
+    {
+      "path": "outputs/tables/ch13_peers_roe_oneoffs.csv",
+      "description": "A. ROE with and without one-offs",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_peers.md"
+    },
+    {
+      "path": "outputs/tables/ch13_peers_valuation.csv",
+      "description": "B. Multiples, COE and justified P/B per bank and date",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_peers.md"
+    },
+    {
+      "path": "outputs/tables/ch13_peers_table.csv",
+      "description": "C1. Peer table with NMB and CRDB; medians with and without GTCO",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_peers.md"
+    },
+    {
+      "path": "outputs/tables/ch13_peers_premium.csv",
+      "description": "C4. Premium to justified P/B",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_peers.md"
+    },
+    {
+      "path": "outputs/tables/ch13_peers_annex.csv",
+      "description": "Peer annex of the bank reports",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_peers.md"
+    },
+    {
+      "path": "outputs/tables/ch13_peers_paths.csv",
+      "description": "C3. ROE and P/B paths",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_peers.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch13_peers_scatter.png",
+      "data": "outputs/figures/ch13_peers_scatter_data.csv",
+      "description": "C2. P/B against ROE - COE",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch13_peers.md"
+    },
+    {
+      "path": "outputs/figures/ch13_peers_paths.png",
+      "data": "outputs/figures/ch13_peers_paths_data.csv",
+      "description": "C3. ROE and P/B paths",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_peers.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch13_peers.md"
+  ],
+  "inputs": [
+    "data\\raw\\manual_entries\\peers"
+  ],
+  "module": "tzbank.chapters.ch13_peers",
+  "run_log_stage": "market_ext"
+}

@@ -1,0 +1,140 @@
+bank,fy,field,value,unit,currency,basis,source_file,page,column,note
+GCB,2020,equity_attributable,2185998,thousands,GHS,group,GCB_AR_FY2021.pdf,61,comparative,Prior-year column in FY2021 report (no FY2020 file); not labelled restated
+GCB,2020,profit_attributable,445389,thousands,GHS,group,GCB_AR_FY2021.pdf,60,comparative,Prior-year column in FY2021 report (no FY2020 file); not labelled restated
+GCB,2020,total_assets,15453897,thousands,GHS,group,GCB_AR_FY2021.pdf,61,comparative,Prior-year column in FY2021 report (no FY2020 file); not labelled restated
+GCB,2021,customer_deposits,13154527,thousands,GHS,group,GCB_AR_FY2021.pdf,61,current,"Deposits from customers, Group; excludes deposits from banks and other FIs"
+GCB,2021,dividends_paid,66250,thousands,GHS,group,GCB_AR_FY2021.pdf,65,current,SoCE Group 'Dividends'
+GCB,2021,dps_declared,0.5,per_share,GHS,group,GCB_AR_FY2021.pdf,25,current,"Final dividend GHS 0.50 per share recommended by the Board (Chairman's statement), subject to BoG approval; paid in 2022 (Group SoCE 2022 dividends 132,500)"
+GCB,2021,eps_basic,2.16,per_share,GHS,group,GCB_AR_FY2021.pdf,60,current,Printed as 216 GHp (pesewas); converted to GHS
+GCB,2021,equity_attributable,2698471,thousands,GHS,group,GCB_AR_FY2021.pdf,61,current,"Total shareholders' equity, Group; no non-controlling interest"
+GCB,2021,equity_opening,2185998,thousands,GHS,group,GCB_AR_FY2021.pdf,65,current,"SoCE Group, balance at 1 January, total equity column (no NCI)"
+GCB,2021,fee_commission_income,410277,thousands,GHS,group,GCB_AR_FY2021.pdf,59,current,Gross 'Fee and commission income' line
+GCB,2021,gross_loans,5203715,thousands,GHS,group,GCB_AR_FY2021.pdf,135,current,"Note Loans and advances to customers, Group. Gross loans and advances BEFORE deduction of interest in suspense (87,256)"
+GCB,2021,impairment_charge,324800,thousands,GHS,group,GCB_AR_FY2021.pdf,59,current,'Net impairment loss on financial assets' (all on loans; no securities impairment in 2021)
+GCB,2021,min_total_capital_ratio,0.115,ratio,,group,GCB_AR_FY2021.pdf,25,current,Chairman's statement: industry CAR 'well above the 11.5 percent regulatory minimum threshold' (COVID-era reduced buffer)
+GCB,2021,net_interest_income,1894843,thousands,GHS,group,GCB_AR_FY2021.pdf,59,current,
+GCB,2021,net_loans,4306380,thousands,GHS,group,GCB_AR_FY2021.pdf,61,current,"Loans and advances to customers (net), Group; excludes advances to banks"
+GCB,2021,npl_ratio,0.1598,ratio,,group,GCB_AR_FY2021.pdf,120,current,"Regulatory 'NPL Ratio (Non-performing loans (sub-standard to loss) / total gross loans)', Bank of Ghana classification; Bank and Group columns identical"
+GCB,2021,oci_attributable,6442,thousands,GHS,group,GCB_AR_FY2021.pdf,65,current,SoCE Group 'Total other comprehensive income'
+GCB,2021,operating_expenses,1263747,thousands,GHS,group,GCB_AR_FY2021.pdf,21,current,Five-year financial summary (Group) 'Operating expenses' = personnel + depreciation and amortisation + other expenses as on income statement p59; excludes impairment
+GCB,2021,other_equity_movements,0,thousands,GHS,group,GCB_AR_FY2021.pdf,65,current,No other movements in SoCE total equity column (statutory and credit-risk reserve transfers net to zero)
+GCB,2021,profit_attributable,572281,thousands,GHS,group,GCB_AR_FY2021.pdf,60,current,Profit attributable to owners of the parent; NCI nil
+GCB,2021,profit_before_tax,831975,thousands,GHS,group,GCB_AR_FY2021.pdf,59,current,"Profit/(loss) before income tax, Group (after share of associates)"
+GCB,2021,shares_outstanding_ye,265000000,shares,,group,GCB_AR_FY2021.pdf,147,current,"Note 'Capital and reserves - Stated capital': 265,000 (thousands) ordinary shares of no par value issued; no movement"
+GCB,2021,shares_weighted,265000000,shares,,group,GCB_AR_FY2021.pdf,134,current,"Printed as 265,000 (thousands); basic and diluted"
+GCB,2021,total_assets,18404927,thousands,GHS,group,GCB_AR_FY2021.pdf,61,current,"Statement of financial position, Group column"
+GCB,2021,total_capital_ratio,0.2172,ratio,,group,GCB_AR_FY2021.pdf,120,current,"Capital Adequacy Ratio under BoG Capital Requirements Directive (Basel II/III), Group column (Bank 20.90%)"
+GCB,2021,total_operating_income,2427493,thousands,GHS,group,GCB_AR_FY2021.pdf,59,current,'Operating income' = net interest income + net fee and commission income + net trading income + other operating income (before impairment)
+GCB,2021,equity_attributable,2698471,thousands,GHS,group,GCB_AR_FY2022.pdf,74,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+GCB,2021,oneoff_govt_bond_impairment,0,thousands,GHS,group,GCB_AR_FY2022.pdf,72,comparative,2021 comparative of 'Net impairment loss on Investment securities' shown as nil (pre-DDEP)
+GCB,2021,profit_attributable,572281,thousands,GHS,group,GCB_AR_FY2022.pdf,73,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+GCB,2021,total_assets,18404927,thousands,GHS,group,GCB_AR_FY2022.pdf,74,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+GCB,2022,customer_deposits,17515911,thousands,GHS,group,GCB_AR_FY2022.pdf,74,current,"Deposits from customers, Group; excludes deposits from banks and other FIs"
+GCB,2022,dividends_paid,132500,thousands,GHS,group,GCB_AR_FY2022.pdf,78,current,SoCE Group 'Dividends'
+GCB,2022,dps_declared,0,per_share,GHS,group,GCB_AR_FY2022.pdf,27,current,No dividend: Bank of Ghana suspended dividends after the DDEP
+GCB,2022,eps_basic,-2.24,per_share,GHS,group,GCB_AR_FY2022.pdf,73,current,Printed as -224 GHp (pesewas); converted to GHS
+GCB,2022,equity_attributable,1998872,thousands,GHS,group,GCB_AR_FY2022.pdf,74,current,"Total shareholders' equity, Group; no non-controlling interest"
+GCB,2022,equity_opening,2698472,thousands,GHS,group,GCB_AR_FY2022.pdf,78,current,"SoCE Group, balance at 1 January, total equity column (no NCI)"
+GCB,2022,fee_commission_income,458316,thousands,GHS,group,GCB_AR_FY2022.pdf,72,current,Gross 'Fee and commission income' line
+GCB,2022,gross_loans,6716431,thousands,GHS,group,GCB_AR_FY2022.pdf,155,current,"Note Loans and advances to customers, Group. Gross loans and advances BEFORE deduction of interest in suspense (150,086)"
+GCB,2022,impairment_charge,274051,thousands,GHS,group,GCB_AR_FY2022.pdf,72,current,Net impairment loss on loans and advances only; impairment/derecognition/release on investment (government) securities recorded separately as one-offs
+GCB,2022,min_cet1_ratio,0.055,ratio,,group,GCB_AR_FY2022.pdf,134,current,Minimum CET1 under DDEP reliefs (6.5% without reliefs)
+GCB,2022,min_total_capital_ratio,0.1,ratio,,group,GCB_AR_FY2022.pdf,134,current,Minimum CAR under DDEP reliefs (capital conservation buffer cut from 3% to 0); 13% without reliefs
+GCB,2022,net_interest_income,2107502,thousands,GHS,group,GCB_AR_FY2022.pdf,72,current,
+GCB,2022,net_loans,5482215,thousands,GHS,group,GCB_AR_FY2022.pdf,74,current,"Loans and advances to customers (net), Group; excludes advances to banks"
+GCB,2022,npl_ratio,0.2059,ratio,,group,GCB_AR_FY2022.pdf,135,current,"Regulatory 'NPL Ratio (Non-performing loans (sub-standard to loss) / total gross loans)', Bank of Ghana classification; Bank and Group columns identical"
+GCB,2022,oci_attributable,26298,thousands,GHS,group,GCB_AR_FY2022.pdf,78,current,SoCE Group 'Total other comprehensive income'
+GCB,2022,oneoff_govt_bond_impairment,1831208,thousands,GHS,group,GCB_AR_FY2022.pdf,72,current,"DDEP: 'Net impairment loss on Investment securities' line (above operating expenses, inside operating profit and PBT); note 15b p146: eligible GoG/ESLA/Daakye bonds treated as credit-impaired (PD 100%); GHS 1.7bn relates directly to eligible bonds (p134). Bank 1,814,474"
+GCB,2022,operating_expenses,1631952,thousands,GHS,group,GCB_AR_FY2022.pdf,21,current,Five-year financial summary (Group) 'Operating expenses' = personnel + depreciation and amortisation + other expenses as on income statement p72; excludes impairment
+GCB,2022,other_equity_movements,0,thousands,GHS,group,GCB_AR_FY2022.pdf,78,current,No other movements in SoCE total equity column (statutory and credit-risk reserve transfers net to zero)
+GCB,2022,profit_attributable,-593398,thousands,GHS,group,GCB_AR_FY2022.pdf,73,current,Profit attributable to owners of the parent; NCI nil
+GCB,2022,profit_before_tax,-743459,thousands,GHS,group,GCB_AR_FY2022.pdf,72,current,"Profit/(loss) before income tax, Group (after share of associates)"
+GCB,2022,shares_outstanding_ye,265000000,shares,,group,GCB_AR_FY2022.pdf,167,current,"Note 'Capital and reserves - Stated capital': 265,000 (thousands) ordinary shares of no par value issued; no movement"
+GCB,2022,shares_weighted,265000000,shares,,group,GCB_AR_FY2022.pdf,153,current,"Printed as 265,000 (thousands); basic and diluted"
+GCB,2022,total_assets,21494418,thousands,GHS,group,GCB_AR_FY2022.pdf,74,current,"Statement of financial position, Group column"
+GCB,2022,total_capital_ratio,0.1825,ratio,,group,GCB_AR_FY2022.pdf,135,current,"CAR WITH DDEP regulatory reliefs (only 25% of eligible-bond ECL counted, p134), Group column (Bank 17.86%). Without reliefs Bank CAR was 7.59% (p27)"
+GCB,2022,total_operating_income,3005667,thousands,GHS,group,GCB_AR_FY2022.pdf,72,current,'Operating income' = net interest income + net fee and commission income + net trading income + other operating income (before impairment)
+GCB,2022,equity_attributable,1998872,thousands,GHS,group,GCB_AR_FY2023.pdf,77,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+GCB,2022,profit_attributable,-593398,thousands,GHS,group,GCB_AR_FY2023.pdf,76,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+GCB,2022,total_assets,21494418,thousands,GHS,group,GCB_AR_FY2023.pdf,77,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+GCB,2023,customer_deposits,21437093,thousands,GHS,group,GCB_AR_FY2023.pdf,77,current,"Deposits from customers, Group; excludes deposits from banks and other FIs"
+GCB,2023,dividends_paid,0,thousands,GHS,group,GCB_AR_FY2023.pdf,81,current,SoCE Group 'Dividends'
+GCB,2023,dps_declared,0,per_share,GHS,group,GCB_AR_FY2023.pdf,45,current,No dividend: BoG directed banks not to declare dividends for 2023
+GCB,2023,eps_basic,3.81,per_share,GHS,group,GCB_AR_FY2023.pdf,76,current,Printed as 381 GHp (pesewas); converted to GHS
+GCB,2023,equity_attributable,3080096,thousands,GHS,group,GCB_AR_FY2023.pdf,77,current,"Total shareholders' equity, Group; no non-controlling interest"
+GCB,2023,equity_opening,1998872,thousands,GHS,group,GCB_AR_FY2023.pdf,81,current,"SoCE Group, balance at 1 January, total equity column (no NCI)"
+GCB,2023,fee_commission_income,558291,thousands,GHS,group,GCB_AR_FY2023.pdf,75,current,Gross 'Fee and commission income' line
+GCB,2023,gross_loans,7932490,thousands,GHS,group,GCB_AR_FY2023.pdf,158,current,"Note Loans and advances to customers, Group. DEFINITION CHANGE: from FY2023 'Gross loans and advances' is shown AFTER deducting interest in suspense (266,930); FY2023 report restates 2022 to 6,566,345 on this basis"
+GCB,2023,impairment_charge,199319,thousands,GHS,group,GCB_AR_FY2023.pdf,75,current,Net impairment loss on loans and advances only; impairment/derecognition/release on investment (government) securities recorded separately as one-offs
+GCB,2023,min_cet1_ratio,0.055,ratio,,group,GCB_AR_FY2023.pdf,140,current,Minimum CET1 under DDEP reliefs (6.5% without reliefs)
+GCB,2023,min_total_capital_ratio,0.1,ratio,,group,GCB_AR_FY2023.pdf,140,current,Minimum CAR with reliefs; 13% without reliefs
+GCB,2023,net_interest_income,2895732,thousands,GHS,group,GCB_AR_FY2023.pdf,75,current,
+GCB,2023,net_loans,6692514,thousands,GHS,group,GCB_AR_FY2023.pdf,77,current,"Loans and advances to customers (net), Group; excludes advances to banks"
+GCB,2023,npl_ratio,0.202,ratio,,group,GCB_AR_FY2023.pdf,141,current,"Regulatory 'NPL Ratio (Non-performing loans (sub-standard to loss) / total gross loans)', Bank of Ghana classification; Bank and Group columns identical"
+GCB,2023,oci_attributable,71502,thousands,GHS,group,GCB_AR_FY2023.pdf,81,current,SoCE Group 'Total other comprehensive income'
+GCB,2023,oneoff_govt_bond_impairment,233635,thousands,GHS,group,GCB_AR_FY2023.pdf,75,current,DDEP phase 2/residual: 'Net impairment loss on Investment securities' line (inside operating profit); note 14 p151: all government securities incl. cocoa bills and local USD bonds exchanged Aug 2023 assessed for impairment
+GCB,2023,operating_expenses,1814667,thousands,GHS,group,GCB_AR_FY2023.pdf,21,current,Five-year financial summary (Group) 'Operating expenses' = personnel + depreciation and amortisation + other expenses as on income statement p75; excludes impairment
+GCB,2023,other_equity_movements,0,thousands,GHS,group,GCB_AR_FY2023.pdf,81,current,No other movements in SoCE total equity column (statutory and credit-risk reserve transfers net to zero)
+GCB,2023,profit_attributable,1009722,thousands,GHS,group,GCB_AR_FY2023.pdf,76,current,Profit attributable to owners of the parent; NCI nil
+GCB,2023,profit_before_tax,1547382,thousands,GHS,group,GCB_AR_FY2023.pdf,75,current,"Profit/(loss) before income tax, Group (after share of associates)"
+GCB,2023,shares_outstanding_ye,265000000,shares,,group,GCB_AR_FY2023.pdf,170,current,"Note 'Capital and reserves - Stated capital': 265,000 (thousands) ordinary shares of no par value issued; no movement"
+GCB,2023,shares_weighted,265000000,shares,,group,GCB_AR_FY2023.pdf,156,current,"Printed as 265,000 (thousands); basic and diluted"
+GCB,2023,total_assets,27155660,thousands,GHS,group,GCB_AR_FY2023.pdf,77,current,"Statement of financial position, Group column"
+GCB,2023,total_capital_ratio,0.197,ratio,,group,GCB_AR_FY2023.pdf,141,current,"CAR with DDEP regulatory reliefs (four-year spread of derecognition losses), Group column (Bank 19.20%)"
+GCB,2023,total_operating_income,3784175,thousands,GHS,group,GCB_AR_FY2023.pdf,75,current,'Operating income' = net interest income + net fee and commission income + net trading income + other operating income (before impairment)
+GCB,2023,equity_attributable,3080096,thousands,GHS,group,GCB_AR_FY2024.pdf,90,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+GCB,2023,profit_attributable,1009722,thousands,GHS,group,GCB_AR_FY2024.pdf,89,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+GCB,2023,total_assets,27155660,thousands,GHS,group,GCB_AR_FY2024.pdf,90,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+GCB,2024,customer_deposits,33970718,thousands,GHS,group,GCB_AR_FY2024.pdf,90,current,"Deposits from customers, Group; excludes deposits from banks and other FIs"
+GCB,2024,dividends_paid,750,thousands,GHS,group,GCB_AR_FY2024.pdf,94,current,SoCE Group 'Dividends' (750 in Group only; Bank SoCE shows nil; not explained in report)
+GCB,2024,dps_declared,1.0,per_share,GHS,group,GCB_AR_FY2024.pdf,59,current,"Directors recommended GHS 1.00 per share (GHS 265m) subject to BoG approval; FY2025 report p39 states the regulator did NOT approve it, so it was never paid (no dividend in 2025 SoCE)"
+GCB,2024,eps_basic,4.53,per_share,GHS,group,GCB_AR_FY2024.pdf,89,current,Printed as 453 GHp (pesewas); converted to GHS
+GCB,2024,equity_attributable,4342338,thousands,GHS,group,GCB_AR_FY2024.pdf,90,current,"Total shareholders' equity, Group; no non-controlling interest"
+GCB,2024,equity_opening,3080096,thousands,GHS,group,GCB_AR_FY2024.pdf,94,current,"SoCE Group, balance at 1 January, total equity column (no NCI)"
+GCB,2024,fee_commission_income,794025,thousands,GHS,group,GCB_AR_FY2024.pdf,88,current,Gross 'Fee and commission income' line
+GCB,2024,gross_loans,11934614,thousands,GHS,group,GCB_AR_FY2024.pdf,173,current,"Note Loans and advances to customers, Group. Term loans + overdrafts + staff loans; no interest-in-suspense line shown"
+GCB,2024,impairment_charge,427179,thousands,GHS,group,GCB_AR_FY2024.pdf,88,current,Net impairment loss on loans and advances only; impairment/derecognition/release on investment (government) securities recorded separately as one-offs
+GCB,2024,min_cet1_ratio,0.055,ratio,,group,GCB_AR_FY2024.pdf,154,current,Minimum CET1 under DDEP reliefs (6.5% without reliefs)
+GCB,2024,min_total_capital_ratio,0.1,ratio,,group,GCB_AR_FY2024.pdf,154,current,Minimum CAR with reliefs; 13% without reliefs
+GCB,2024,net_interest_income,3388686,thousands,GHS,group,GCB_AR_FY2024.pdf,88,current,
+GCB,2024,net_loans,10229504,thousands,GHS,group,GCB_AR_FY2024.pdf,90,current,"Loans and advances to customers (net), Group; excludes advances to banks"
+GCB,2024,npl_ratio,0.1506,ratio,,group,GCB_AR_FY2024.pdf,155,current,"Regulatory 'NPL Ratio (Non-performing loans (sub-standard to loss) / total gross loans)', Bank of Ghana classification; Bank and Group columns identical"
+GCB,2024,oci_attributable,62120,thousands,GHS,group,GCB_AR_FY2024.pdf,94,current,SoCE Group 'Total other comprehensive income'
+GCB,2024,oneoff_govt_bond_impairment,297212,thousands,GHS,group,GCB_AR_FY2024.pdf,88,current,"'Derecognition loss on investment securities' line (inside operating profit): Eurobond haircut 183,971 + Eurobond derecognition loss 70,434 + loss on DDEP bonds received in settlement of interbank placement with Consolidated Bank Ghana 42,807 (note 14ii p165). Offsetting ECL writeback recorded as oneoff_other"
+GCB,2024,oneoff_other,251110,thousands,GHS,group,GCB_AR_FY2024.pdf,88,current,"'Net impairment writeback on Investment securities' (release of sovereign-securities ECL; income statement line inside operating profit); sign: positive = gain to profit (pipeline convention for oneoff_other). Net sovereign-debt effect 2024 = 297,212 - 251,110 = 46,102 loss"
+GCB,2024,operating_expenses,2111430,thousands,GHS,group,GCB_AR_FY2024.pdf,31,current,Five-year financial summary (Group) 'Operating expenses' = personnel + depreciation and amortisation + other expenses as on income statement p88; excludes impairment
+GCB,2024,other_equity_movements,0,thousands,GHS,group,GCB_AR_FY2024.pdf,94,current,No other movements in SoCE total equity column (statutory and credit-risk reserve transfers net to zero)
+GCB,2024,profit_attributable,1200872,thousands,GHS,group,GCB_AR_FY2024.pdf,89,current,Profit attributable to owners of the parent; NCI nil
+GCB,2024,profit_before_tax,1906758,thousands,GHS,group,GCB_AR_FY2024.pdf,88,current,"Profit/(loss) before income tax, Group (after share of associates)"
+GCB,2024,shares_outstanding_ye,265000000,shares,,group,GCB_AR_FY2024.pdf,186,current,"Note 'Capital and reserves - Stated capital': 265,000 (thousands) ordinary shares of no par value issued; no movement"
+GCB,2024,shares_weighted,265000000,shares,,group,GCB_AR_FY2024.pdf,171,current,"Printed as 265,000 (thousands); basic and diluted"
+GCB,2024,total_assets,42796072,thousands,GHS,group,GCB_AR_FY2024.pdf,90,current,"Statement of financial position, Group column"
+GCB,2024,total_capital_ratio,0.175,ratio,,group,GCB_AR_FY2024.pdf,155,current,"CAR with DDEP regulatory reliefs still in force, Group column (Bank 17.47%)"
+GCB,2024,total_operating_income,4476729,thousands,GHS,group,GCB_AR_FY2024.pdf,88,current,'Operating income' = net interest income + net fee and commission income + net trading income + other operating income (before impairment)
+GCB,2024,equity_attributable,4342338,thousands,GHS,group,GCB_AR_FY2025.pdf,88,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+GCB,2024,profit_attributable,1200872,thousands,GHS,group,GCB_AR_FY2025.pdf,87,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+GCB,2024,total_assets,42796072,thousands,GHS,group,GCB_AR_FY2025.pdf,88,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+GCB,2025,customer_deposits,41042734,thousands,GHS,group,GCB_AR_FY2025.pdf,88,current,"Deposits from customers, Group; excludes deposits from banks and other FIs"
+GCB,2025,dividends_paid,0,thousands,GHS,group,GCB_AR_FY2025.pdf,92,current,SoCE Group 'Dividends'
+GCB,2025,dps_declared,1.0,per_share,GHS,group,GCB_AR_FY2025.pdf,55,current,Final dividend GHS 1.00 per share (GHS 265m) recommended; BoG approval granted (p39)
+GCB,2025,eps_basic,7.78,per_share,GHS,group,GCB_AR_FY2025.pdf,87,current,Printed as 778 GHp (pesewas); converted to GHS
+GCB,2025,equity_attributable,6230130,thousands,GHS,group,GCB_AR_FY2025.pdf,88,current,"Total shareholders' equity, Group; no non-controlling interest"
+GCB,2025,equity_opening,4342338,thousands,GHS,group,GCB_AR_FY2025.pdf,92,current,"SoCE Group, balance at 1 January, total equity column (no NCI)"
+GCB,2025,fee_commission_income,1144115,thousands,GHS,group,GCB_AR_FY2025.pdf,86,current,Gross 'Fee and commission income' line
+GCB,2025,gross_loans,17827122,thousands,GHS,group,GCB_AR_FY2025.pdf,167,current,"Note Loans and advances to customers, Group. Term loans + overdrafts + staff loans; no interest-in-suspense line shown"
+GCB,2025,impairment_charge,188797,thousands,GHS,group,GCB_AR_FY2025.pdf,86,current,Net impairment loss on loans and advances only; impairment/derecognition/release on investment (government) securities recorded separately as one-offs
+GCB,2025,net_interest_income,4587810,thousands,GHS,group,GCB_AR_FY2025.pdf,86,current,
+GCB,2025,net_loans,16038002,thousands,GHS,group,GCB_AR_FY2025.pdf,88,current,"Loans and advances to customers (net), Group; excludes advances to banks"
+GCB,2025,npl_ratio,0.103,ratio,,group,GCB_AR_FY2025.pdf,149,current,"Regulatory 'NPL Ratio (Non-performing loans (sub-standard to loss) / total gross loans)', Bank of Ghana classification; Bank and Group columns identical"
+GCB,2025,oci_attributable,-168356,thousands,GHS,group,GCB_AR_FY2025.pdf,92,current,SoCE Group 'Total other comprehensive income'
+GCB,2025,oneoff_govt_bond_impairment,0,thousands,GHS,group,GCB_AR_FY2025.pdf,86,current,'Derecognition loss on investment securities' nil in 2025
+GCB,2025,oneoff_other,25657,thousands,GHS,group,GCB_AR_FY2025.pdf,86,current,'Net impairment release on Investment securities' (sovereign-securities ECL release; income statement line inside operating profit); sign: positive = gain to profit (pipeline convention for oneoff_other)
+GCB,2025,operating_expenses,2978536,thousands,GHS,group,GCB_AR_FY2025.pdf,33,current,Five-year financial summary (Group) 'Operating expenses' = personnel + depreciation and amortisation + other expenses as on income statement p86; excludes impairment
+GCB,2025,other_equity_movements,-4592,thousands,GHS,group,GCB_AR_FY2025.pdf,92,current,'Prior Year Adjustment*' line in SoCE (audit adjustments to GCB Capital deferred tax and G-Money 2024 accounts passed after the 2024 group accounts were signed; note p163); shown outside total comprehensive income
+GCB,2025,profit_attributable,2060740,thousands,GHS,group,GCB_AR_FY2025.pdf,87,current,Profit attributable to owners of the parent; NCI nil
+GCB,2025,profit_before_tax,3185205,thousands,GHS,group,GCB_AR_FY2025.pdf,86,current,"Profit/(loss) before income tax, Group (after share of associates)"
+GCB,2025,shares_outstanding_ye,265000000,shares,,group,GCB_AR_FY2025.pdf,180,current,"Note 'Capital and reserves - Stated capital': 265,000 (thousands) ordinary shares of no par value issued; no movement"
+GCB,2025,shares_weighted,265000000,shares,,group,GCB_AR_FY2025.pdf,165,current,"Printed as 265,000 (thousands); basic and diluted"
+GCB,2025,total_assets,52633491,thousands,GHS,group,GCB_AR_FY2025.pdf,88,current,"Statement of financial position, Group column"
+GCB,2025,total_capital_ratio,0.1816,ratio,,group,GCB_AR_FY2025.pdf,149,current,"CAR computed WITHOUT reliefs (reliefs expired Dec 2025, p148), Group column (Bank 18.02%)"
+GCB,2025,total_operating_income,6308890,thousands,GHS,group,GCB_AR_FY2025.pdf,86,current,'Operating income' = net interest income + net fee and commission income + net trading income + other operating income (before impairment)

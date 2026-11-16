@@ -1,0 +1,35 @@
+{
+  "chapter": "04",
+  "subsection": "4.6",
+  "title": "Risk economics",
+  "hypotheses": [
+    "H4.1",
+    "H4.2"
+  ],
+  "status": "built - business-model level",
+  "tables": [
+    {
+      "path": "outputs/tables/ch04_4_6_risk.csv",
+      "description": "Cost of risk, NPLs, coverage, risk-adjusted NIM, return on RWA",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_6.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch04_4_6_risk.png",
+      "data": "outputs/figures/ch04_4_6_risk_data.csv",
+      "description": "Cost of risk and risk-adjusted NIM",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_6.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch04_4_6.md"
+  ],
+  "inputs": [
+    "data/processed/bank_year_wide.csv"
+  ],
+  "module": "tzbank.chapters.ch04.risk",
+  "run_log_stage": "profitability"
+}

@@ -1,0 +1,61 @@
+{
+  "chapter": "01",
+  "title": "Concentration and market position",
+  "hypotheses": [
+    "H1.1",
+    "H1.2"
+  ],
+  "status": "built",
+  "tables": [
+    {
+      "path": "outputs/tables/ch01_shares.csv",
+      "description": "CR2 shares of sector assets, deposits and loans",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch01.md"
+    },
+    {
+      "path": "outputs/tables/ch01_hhi_bound.csv",
+      "description": "HHI lower bound from the 7 banks held (a bound, not the HHI)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch01.md"
+    },
+    {
+      "path": "outputs/tables/ch01_profit_vs_assets.csv",
+      "description": "Profit share minus asset share (via sector ROA)",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch01.md"
+    },
+    {
+      "path": "outputs/tables/ch01_dse_shares.csv",
+      "description": "DSE market-cap and turnover shares",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch01.md"
+    },
+    {
+      "path": "outputs/tables/ch01_dse_report.csv",
+      "description": "DSE market report figures used",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch01.md"
+    },
+    {
+      "path": "outputs/tables/ch01_hypotheses.csv",
+      "description": "H1.1-H1.2",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/ch01.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch01_cr2.png",
+      "data": "outputs/figures/ch01_cr2_data.csv",
+      "description": "CR2 over time",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch01.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch01.md"
+  ],
+  "module": "tzbank.chapters.ch01_concentration",
+  "run_log_stage": "part1"
+}

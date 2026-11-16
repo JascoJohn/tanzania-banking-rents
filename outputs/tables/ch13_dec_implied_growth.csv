@@ -1,0 +1,5 @@
+valuation,date,bank,price,coe,guard_g,value_at_guard_g,price_post_split,value_at_guard_g_post_split,value_at_guard_vs_price,admissible_solution,status,evidence_class,register_version,input_hash
+HIST,2025-12-31,NMB,8410.0,0.156309872,0.1163098719999999,13826.189931013088,841.0,1382.618993101309,1.6440178277066693,no,price below value for every g from -10% to 11.6%: no implied growth,Scenario,v1.3,cc2c85e4eef09300
+HIST,2025-12-31,CRDB,1530.0,0.156309872,0.1163098719999999,1064.1689749824675,1530.0,1064.1689749824675,0.6955352777663186,no,price above value for every g from -10% to the COE - g guard (11.6%): no implied growth,Scenario,v1.3,cc2c85e4eef09300
+CURR,2026-10-31,NMB,1820.0,0.1483445388420019,0.1083445388420019,1693.533485128579,1820.0,1693.533485128579,0.9305129039168016,no,price above value for every g from -10% to the COE - g guard (10.8%): no implied growth,Scenario,v1.3,cc2c85e4eef09300
+CURR,2026-10-31,CRDB,2840.0,0.1483445388420019,0.1083445388420019,1894.8226956829044,2840.0,1894.8226956829044,0.6671910900291916,no,price above value for every g from -10% to the COE - g guard (10.8%): no implied growth,Scenario,v1.3,cc2c85e4eef09300

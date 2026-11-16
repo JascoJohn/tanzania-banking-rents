@@ -1,0 +1,5 @@
+numerator_basis,case,share_2023,premium_2023,years,mean_premium_all,mean_premium_2019_25,years_premium_positive,latest_premium_2025,evidence_class,register_version,input_hash
+NMB + CRDB Group (consolidated),FY2023 excluded (default),,,14,0.25816672405480057,0.2541167097266816,14,0.1376485609858994,Derived,v1.3,cc2c85e4eef09300
+NMB + CRDB Group (consolidated),FY2023 interpolated (Estimated),0.6154705164307467,0.14667075580110822,15,0.25073365950455445,0.23876728773731395,15,0.1376485609858994,Estimated,v1.3,cc2c85e4eef09300
+NMB Group + CRDB Bank-solo,FY2023 excluded (default),,,3,0.17559611343471782,0.17559611343471782,3,0.14826419134062058,Derived,v1.3,cc2c85e4eef09300
+NMB Group + CRDB Bank-solo,FY2023 interpolated (Estimated),0.6094491357568826,0.15320256810685828,4,0.16999772710275296,0.16999772710275296,4,0.14826419134062058,Estimated,v1.3,cc2c85e4eef09300

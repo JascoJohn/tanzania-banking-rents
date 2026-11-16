@@ -1,0 +1,229 @@
+# Project settings. All paths are relative to the repository root (CLAUDE.md section 4).
+project:
+  title: "The Economics of Dominance and Rents"
+  subtitle: "Market Structure, Profitability Persistence and the Investment Value of CRDB and NMB"
+  package: tzbank
+
+paths:
+  raw: data/raw
+  documents: data/raw/documents
+  manifest: data/raw/MANIFEST.csv
+  interim: data/interim
+  processed: data/processed
+  reports: reports
+  validation: reports/validation
+  outputs: outputs
+  tables: outputs/tables
+  figures: outputs/figures
+  notes: outputs/notes
+  manifests: outputs/manifests
+  run_logs: outputs/run_logs
+  docs: docs
+  config: config
+
+inputs:
+  phase1: data/raw/Tanzania_DSE_Commercial_Banks_Phase1_v2_disclosure.xlsx
+  inputs_workbook: data/raw/NMB_CRDB_Valuation_Inputs.xlsx
+  auctions: data/raw/Treasury_Bonds_Auction_Results_-_2026-11-06.xlsx
+  nps: data/raw/NPS_MultiYear_Panel_Dataset.xlsx
+  finscope_csv: data/raw/finscope/FinScope.csv
+  finscope_datamap: data/raw/finscope/FinScope_Datamap.xlsx
+  daily_trading_original: data/raw/NMB_CRDB_52wk_and_trading_value.xlsx
+  banks: config/banks.yaml
+  crosswalk: config/variable_crosswalk.csv
+  corporate_actions: config/corporate_actions.csv
+
+# Decision D1: two valuation dates with strict publication-date cut-offs.
+valuation_dates:
+  historical: "2025-12-31"
+  current: "2026-10-31"
+
+random_seed: 20261106
+
+# Blueprint section 6: every output row carries exactly one of these.
+evidence_classes:
+  - Observed
+  - Derived
+  - Estimated
+  - Scenario
+  - Interpretation
+
+focus_banks: [B01, B02]
+
+# Banks for which an inputs-workbook value replaces Phase 1 for the same key (CLAUDE.md 3.8; D26).
+precedence_banks: [B01, B02, B03, B04, B05, B06, B07]
+
+# Prompt 01 section 6.2: identity tolerances (relative unless stated).
+identity_tolerances:
+  nii: 0.005
+  pbt_tax: 0.005
+  profit_split: 0.005
+  equity_split: 0.005
+  eps: 0.02
+  loans: 0.02
+  tier1_ratio_pp: 0.002
+
+conflict_threshold: 0.01
+
+panel_years: [2008, 2025]
+
+auction_years: [2012, 2025]
+
+# Inputs required by chapters 4-8 for the five non-focus banks (prompt 01 section 8.2).
+non_focus_gap_variables:
+  - interest_income
+  - interest_expense
+  - interest_expense_deposits
+  - customer_deposits
+  - rwa_total
+  - tier1_capital
+  - impairment_charges
+  - gross_loans
+
+# Chapter 5 persistence (blueprint section 2; D12 guardrails; prompt 04). Seeds derive from random_seed.
+persistence:
+  bootstrap_reps: 2000        # moving-block bootstrap replicates (pairs (ER_t, ER_t-1) resampled in blocks)
+  block_length: 3             # about n^(1/3) for 15-17 annual pairs
+  interval: 0.90              # percentile interval
+  supf_reps: 499              # parametric-bootstrap replicates for the sup-F p-value
+  supf_min_pairs: 12          # sup-F only where the sample allows
+  supf_min_regime: 4          # minimum pairs on each side of a candidate break
+  coe_band_bp: 200            # COE +/- band (blueprint section 2)
+  min_pairs: 6                # minimum (ER_t, ER_t-1) pairs to estimate an AR(1)
+  coverage_lambdas: [0.3, 0.6, 0.9]   # coverage study (prompt 05 pre-flight 2)
+  coverage_pairs: 16
+  coverage_sims: 400
+  coverage_reps: 500          # bootstrap replicates per simulated sample (standard and Kilian stages)
+  andrews_sims: 2000          # simulations per grid point for the Andrews quantile functions
+
+# Deferred-fix parameters (CLAUDE.md section 10; owner instruction 2026-11-09). Each OPEN issue that affects a value is a
+# parameter here with its current default; resolving the issue is a config change plus `run all`. Listed by name in
+# docs/OPEN_ISSUES.md.
+capital_rules:
+  crdb_requirement_reading: A       # A: 12.5% / 14.5% include the conservation buffer (D52 accepted); B: buffer stacks
+  ccb_start: "2017-08-01"           # conservation-buffer start (earlier stated date, D52 amended); alt 2018-08-01
+  ccb_rate: 0.025                   # capital conservation buffer (BoT Capital Adequacy Regulations 2014); prompt 13b item 3
+  constraint: binding               # tier1 | total | binding (the tighter of Tier 1 and total capital, Tier 2 held)
+  dsib_surcharge_pp: 0.0            # D-SIB capital surcharge, base (open issue 1); scenarios below
+  dsib_surcharge_scenarios: [0.02, 0.04]
+  dsib_visible_at:                  # whether a D-SIB designation is public by the valuation date (D1; open issue 1)
+    "2025-12-31": {B01: false, B02: false}   # false until BoT's announcement date is found
+    "2026-10-31": {B01: false, B02: true}    # NMB FY2025 annual report (published 2026) states the designation
+
+# Part I, chapters 1-3 (prompt 10; D59).
+part1:
+  sector_roa_basis: pretax          # CR2 ROA basis compared with the BoT FSI sector ROA (open issue 26): pretax | posttax
+
+# Chapter 12: USD returns and implementation (prompt 11; D60 proposed). Deferred-fix parameters listed in OPEN_ISSUES.
+ch12:
+  positions_usd: [5000000, 20000000, 50000000]
+  participation: [0.10, 0.20, 0.33]           # share of average daily traded value
+  base_position_usd: 20000000                 # H12.1 base case: USD 20m at 20% participation
+  base_participation: 0.20
+  large_fund_position_usd: 50000000           # H12.2: a large fund
+  capacity_days_binding: 20                   # trading days to build at 20% participation above which capacity binds
+  base_depreciation: history                  # history (BoT end-Dec CAGR to the date) | ppp | none | stress
+  inflation_us: null                          # null -> macro US inflation forecast at the date (IMF WEO, D64); a number overrides
+  div_wht_foreign: 0.05                       # dividend WHT for a foreign holder, DSE-listed (desk research; issue 35)
+  # USD hurdle = rf_US + beta (ERP + CRP) + LP with the TZS COE's register beta and LP (issue 33 resolved, owner)
+  block_multiple: 5                           # a day with turnover above 5x the window median is a possible block
+  fees:                                       # DSE schedule, desk research (open issue 32: owner to supply / confirm)
+    brokerage_tiers: [[10000000, 0.017], [50000000, 0.015], [null, 0.008]]   # TZS band upper bounds; last open
+    brokerage_vat: 0.18
+    market_fees: 0.003960                     # DSE 0.1652% + CMSA 0.14% + fidelity 0.02% + CDS 0.0708% (VAT incl.)
+    max_total_per_side: 0.023768              # DSE FAQ cap
+    mode: cap                                 # owner 2026-11-12 (issue 32): cost per side = the DSE cap (conservative) | schedule
+
+# Valuation engine (prompt 09a; VALUATION_SPEC sections 2-8). Judgements live in the assumption register; these are
+# mechanics and conventions.
+valuation:
+  explicit_end: {"2025-12-31": 2029, "2026-10-31": 2030}
+  fade_years: 10
+  fade_shape: lambda                # lambda: ER_t - ER* = lambda (ER_t-1 - ER*) (owner pre-flight D, D8); linear: spec 4
+  weights: {rim: 0.60, ddm: 0.40}
+  rim_ddm_gap_flag: 0.10
+  coe_reconcile_bp: 150
+  inflation_tz_forward: null        # approach B override; null -> macro MA-0007 / MA-0029 (IMF WEO / REO, D64)
+  inflation_us_forward: null        # override; null -> macro MA-0008 / MA-0030 (IMF WEO, D64)
+  coe_central: reconcile            # D93 (owner, prompt 24): the registered rule (midpoint when |A - B| < coe_reconcile_bp); reverses the 2026-11-12 override (A | reconcile)
+  ldr_bounds: [0.40, 1.10]
+  wholesale_share_max: 0.30       # CRDB 9M 2026: 25.1% of deposits + borrowings
+  grid_step_bp: 50
+  grid_half_width_bp: 200
+  mc_draws: 10000
+  mc_persistence_method: kilian    # D58 amended (owner issue 25): Kilian bias-corrected replicates | moving_block
+  dividend_pay_lag_months: 6       # owner issue 17 / D62 amended: dividends paid this many months after year-end (RIM, DDM)
+  terminal_real_growth: 0.03       # D64 amended: terminal g = IMF final-year Tanzanian inflation + this
+  coe_g_min_gap: 0.04              # D64 amended guard: COE - g >= 4 pp in every scenario; the stage stops otherwise
+  mc_draws_dry_run: 500
+  mc_correlation: {NIM_rate: 0.6, CoR_growth: -0.4}
+  identity_tolerance: 1.0e-6
+  payout_floor: 0.20               # D56: base-case ICG growth cap keeps payout >= floor
+
+# Draft figure checker (prompt 13b pre-flight A). Figures from external sources are tagged "external" and never matched
+# to pack values. Three ways: an [ext] or [ext: <source>] tag in the sentence; a cited "(source: ...)" in the sentence;
+# or a context rule below. A rule is a regex tested on "<sentence up to the number>{N}<30 chars after>", where {N} is the
+# number. Defaults cover the owner's list (BoT HHI, the 1,800 reference, DIF, KES figures, agents/accounts).
+checker:
+  external_rules:
+    - '(Herfindahl|HHI)[^;]{0,120}\{N\}'                # BoT HHI (BoT publication, not a pipeline figure)
+    - '\{N\}\s*(level\s+)?(used\s+as\s+the\s+)?(concentration\s+)?reference'  # the 1,800 HHI reference
+    - '1,800\s*(concentration\s+)?reference'
+    - '(Insurance Fund|\bDIF\b)[^;]*\{N\}'                # DIF balance and ratios (whole sentence)
+    - 'insurable accounts|million limit'                 # DIF coverage
+    - '(KES|KSh|UGX|RWF|NGN|GHS)\s*\{N\}'                # figures in other currencies
+    - '\{N\}\s*(million\s+)?(Wakala\s+)?(agents|accounts)\b'
+
+# Report support (prompt 13 / 13b; chapter 13 page). Mechanics of the asset-beta diagnostics (prompt 13b item 1).
+support:
+  beta_lags: 2                              # distributed-lag pass-through: T-bill change at t, t-1, ..., t-lags (years)
+  repricing_passthrough: 1.0                # pass-through to the bill when a security / interbank asset reprices
+  repricing_windows:                        # repricing bucket -> [start, end] in years (uniform within; a point if equal)
+    "on demand": [0.0, 0.0]
+    "up to 1 month": [0.0, 0.0833]
+    "1-3 months": [0.0833, 0.25]
+    "up to 3 months": [0.0, 0.25]
+    "3-12 months": [0.25, 1.0]
+    "1-5 years": [1.0, 5.0]
+    "over 5 years": [5.0, 10.0]
+
+# DSE daily trading history collector (tzbank.ingest.dse_trading_history; D71). The company-profile page is a
+# Next.js page: the full history ships in its embedded flight payload ("rows"), paginated client-side.
+dse:
+  page_url: "https://dse.co.tz/en/main-market/company-profile/{ticker}/trading-history"
+  tickers: [CRDB]                       # securities collected by `fetch`; add tickers once CRDB is verified
+  user_agent: "Mozilla/5.0 (compatible; tanzania-banking-rents research; private academic use)"
+  min_refetch_hours: 12                 # do not re-download a ticker within this window (politeness; force overrides)
+  pause_seconds: 2.0                    # pause between tickers
+  vwap_tolerance: 0.005                 # turnover / volume must lie within [low, high] widened by this share (flag only)
+  library:                              # DSE data library (D72): data/library/dse/
+    break_threshold: 0.40               # close-to-close jump flagged as a candidate corporate action (never applied)
+    block_multiple: 5                   # block proxy: turnover above this multiple of the ticker's median traded-day turnover
+    min_nonstale_share: 0.5             # rolling-correlation windows need this share of non-stale days for both banks (figure only)
+    cutoff: "2026-10-30"                # chapter datasets derived from the library stop here (last trading day <= 31 Oct 2026)
+
+# Prompts 19-20 (D87-D89): peer-bank extraction, analyst register, quarterly statements.
+peers:
+  banks:  # ticker: [name, country, currency, exchange]
+    EQTY: [Equity Group Holdings, Kenya, KES, NSE]
+    KCB: [KCB Group, Kenya, KES, NSE]
+    SBU: [Stanbic Uganda Holdings, Uganda, UGX, USE]
+    BKG: [BK Group, Rwanda, RWF, RSE]
+    GCB: [GCB Bank, Ghana, GHS, GSE]
+    ZNCO: [Zanaco, Zambia, ZMW, LuSE]
+    GTCO: [GTCO, Nigeria, NGN, NGX]
+  # long-run nominal growth for the justified P/B (owner, prompt 21, issue 69): IMF final-year inflation of the vintage
+  # public at the date (peer_macro_collected.csv, field imf_inflation_final_year) + valuation.terminal_real_growth, the
+  # same rule as Tanzania (D64); the COE - g >= valuation.coe_g_min_gap guard applies. terminal_g is the fallback only.
+  terminal_g_rule: imf_inflation_plus_real
+  terminal_g: {Kenya: 0.06, Uganda: 0.06, Rwanda: 0.06, Ghana: 0.06, Zambia: 0.06, Nigeria: 0.06}
+  flagged_years: {GTCO: [2023, 2024], GCB: [2022, 2023]}  # currency events: ROE shown with and without one-offs
+  # owner decision (prompt 21, issue 73): only these items and years are removed for ROE ex one-offs
+  oneoff_policy:
+    GTCO: {fields: [oneoff_fx_revaluation_gain], years: [2023, 2024]}   # net FX revaluation gains
+    GCB: {fields: [oneoff_govt_bond_impairment], years: [2022, 2023]}   # debt-exchange (DDEP) impairment
+  check_tolerance: 0.02  # equity bridge and BVPS x shares
+  restatement_tolerance: 0.005
+quarterly:
+  # the model uses audited annual figures; first-published Q4 statements are a separate vintage (prompt 20)
+  roll_dates: ["2026-06-30", "2026-09-30"]  # sensitivity only: CURR valuation with year 1 re-based on the quarter

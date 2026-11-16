@@ -1,0 +1,17 @@
+bank,step_no,step,roe_pts,evidence_class,register_version,input_hash
+NMB,0,FY2025A ROE (average equity),0.2686198627781666,Derived,v1.3,cc2c85e4eef09300
+NMB,1,NII / equity,0.0683040395000456,Scenario,v1.3,cc2c85e4eef09300
+NMB,2,NonII / equity,0.048375213397449573,Scenario,v1.3,cc2c85e4eef09300
+NMB,3,OpEx / equity,-0.043286032715627226,Scenario,v1.3,cc2c85e4eef09300
+NMB,4,Imp / equity,-0.023842121346048635,Scenario,v1.3,cc2c85e4eef09300
+NMB,5,equity base (denominator),-0.08189424481368898,Scenario,v1.3,cc2c85e4eef09300
+NMB,6,"tax, other and NCI",0.006237835778025981,Scenario,v1.3,cc2c85e4eef09300
+NMB,7,"FY2027E ROE (average equity, base)",0.24251455257832288,Scenario,v1.3,cc2c85e4eef09300
+CRDB,0,FY2025A ROE (average equity),0.3002091955888585,Derived,v1.3,cc2c85e4eef09300
+CRDB,1,NII / equity,0.07949634441718807,Scenario,v1.3,cc2c85e4eef09300
+CRDB,2,NonII / equity,0.0917829368662284,Scenario,v1.3,cc2c85e4eef09300
+CRDB,3,OpEx / equity,-0.07173647571989933,Scenario,v1.3,cc2c85e4eef09300
+CRDB,4,Imp / equity,-0.04316680593774724,Scenario,v1.3,cc2c85e4eef09300
+CRDB,5,equity base (denominator),-0.1318810682859002,Scenario,v1.3,cc2c85e4eef09300
+CRDB,6,"tax, other and NCI",0.020308364988346872,Scenario,v1.3,cc2c85e4eef09300
+CRDB,7,"FY2027E ROE (average equity, base)",0.24501249191707508,Scenario,v1.3,cc2c85e4eef09300

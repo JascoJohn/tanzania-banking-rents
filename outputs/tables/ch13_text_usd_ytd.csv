@@ -1,0 +1,18 @@
+bank,measure,value,unit,evidence_class
+,"TZS per USD, 31 Dec 2025",2447.46,TZS,Scenario
+,"TZS per USD, 30 Oct 2026",2640.73,TZS,Scenario
+,"TZS depreciation, 31 Dec 2025 to date",0.0789675827184102,ratio,Scenario
+,effect on a USD holder of a TZS asset (1 / (1 + d) - 1),-0.07318809571595741,ratio,Scenario
+,depreciation: history assumption (base),0.0384380542142772,ratio,Scenario
+,depreciation: realised 2026 move as year 1,0.0789675827184102,ratio,Scenario
+,depreciation: realised 2026 move annualised as year 1,0.0959476875731226,ratio,Scenario
+NMB,2026 YTD total return in TZS (31 Dec 2025 - 31 Oct 2026),1.2240499405469678,ratio,Scenario
+NMB,2026 YTD total return in USD (31 Dec 2025 - 31 Oct 2026),1.0612759606211473,ratio,Scenario
+NMB,expected 12-month USD return: history assumption (base),-0.1605457940514549,ratio,Scenario
+NMB,expected 12-month USD return: realised 2026 move as year 1,-0.1916501456502831,ratio,Scenario
+NMB,expected 12-month USD return: realised 2026 move annualised as year 1,-0.2040008126180258,ratio,Scenario
+CRDB,2026 YTD total return in TZS (31 Dec 2025 - 31 Oct 2026),0.9150326797385622,ratio,Scenario
+CRDB,2026 YTD total return in USD (31 Dec 2025 - 31 Oct 2026),0.7748750846746701,ratio,Scenario
+CRDB,expected 12-month USD return: history assumption (base),-0.2853834429652395,ratio,Scenario
+CRDB,expected 12-month USD return: realised 2026 move as year 1,-0.311963036147352,ratio,Scenario
+CRDB,expected 12-month USD return: realised 2026 move annualised as year 1,-0.322516303735613,ratio,Scenario

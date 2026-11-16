@@ -1,0 +1,13 @@
+bank,step,roe_pts_exact,roe_pts_printed,evidence_class
+NMB,Reported FY2025,26.86198627781666,26.9,Scenario
+NMB,Cost of risk to through-cycle,-2.40789614056848,-2.4,Scenario
+NMB,Leverage to the k* path,-1.01060495457037,-1.0,Scenario
+NMB,"Fade to ROE*, mix, efficiency",-3.94731240011308,-4.0,Scenario
+NMB,Sustainable ROE*,19.49617278256471,19.5,Scenario
+NMB,ROE the 31 Oct 2026 price requires (ch10),24.9361990842773,24.9,Estimated
+CRDB,Reported FY2025,30.02091955888585,30.0,Scenario
+CRDB,Cost of risk to through-cycle,-2.6361051124548203,-2.6,Scenario
+CRDB,Leverage to the k* path,-0.27773267699228,-0.3,Scenario
+CRDB,"Fade to ROE*, mix, efficiency",-11.88830602650561,-11.9,Scenario
+CRDB,Sustainable ROE*,15.218775742933119,15.2,Scenario
+CRDB,ROE the 31 Oct 2026 price requires (ch10),20.911351303055508,20.9,Estimated

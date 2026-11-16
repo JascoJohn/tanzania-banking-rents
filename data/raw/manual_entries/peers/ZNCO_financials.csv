@@ -1,0 +1,174 @@
+bank,fy,field,value,unit,currency,basis,source_file,page,column,note
+ZNCO,2020,cet1_ratio,0.131,ratio,,bank,ZNCO_AR_FY2020.pdf,166,current,"'Tier 1 (Regulatory minimum - 5%)' = primary capital / total risk-weighted assets, Bank of Zambia rules (capital management note; regulatory return of the licensed bank). No separate CET1 ratio in the note"
+ZNCO,2020,customer_deposits,15698089,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,56,current,"Customer deposits, Group; excludes deposits from other banks"
+ZNCO,2020,dividends_paid,75128,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,57,current,SoCE Group 'Dividend paid' (prior-year final dividend)
+ZNCO,2020,dps_declared,0.057,per_share,ZMW,group,ZNCO_AR_FY2021.pdf,106,current,"Dividend per share (Kwacha) in respect of FY2020, from 'Dividends paid' note of the FY2021 report (paid in 2021); the FY2020 report itself does not print a proposed DPS"
+ZNCO,2020,eps_basic,0.143,per_share,ZMW,group,ZNCO_AR_FY2020.pdf,54,current,"Basic and diluted EPS (Kwacha), Group"
+ZNCO,2020,equity_attributable,1171798,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,56,current,"Total equity, Group; no non-controlling interest presented (subsidiaries wholly owned)"
+ZNCO,2020,equity_opening,926280,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,57,current,"SoCE Group, balance at 1 January, total column"
+ZNCO,2020,fee_commission_income,474969,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,54,current,Gross fee and commission income (income statement line)
+ZNCO,2020,gross_loans,7622241,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,89,current,"Note Loans and advances to customers: on-balance-sheet facilities gross carrying amount, Group (before ECL)"
+ZNCO,2020,impairment_charge,210987,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,54,current,"Income statement 'Impairment' line (loans, investment securities, other assets, net of recoveries of written-off loans); positive = charge, negative = net credit"
+ZNCO,2020,min_cet1_ratio,0.05,ratio,,bank,ZNCO_AR_FY2020.pdf,166,current,Bank of Zambia minimum primary (tier 1) capital ratio as printed; no buffers stated
+ZNCO,2020,min_total_capital_ratio,0.1,ratio,,bank,ZNCO_AR_FY2020.pdf,166,current,Bank of Zambia minimum total capital ratio as printed; no buffers stated
+ZNCO,2020,net_interest_income,1449696,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,54,current,
+ZNCO,2020,net_loans,7328493,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,56,current,"Loans and advances to customers (net of ECL), Group"
+ZNCO,2020,npl_ratio,0.063,ratio,,bank,ZNCO_AR_FY2020.pdf,18,current,MD/CEO statement: 'The NPL ratio stood at 6.3% at the end of 2020' (definition not given; stage 3/gross on-balance loans per note p93 = 5.7%); stated for the Bank
+ZNCO,2020,oci_attributable,113988,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,55,current,"Statement of OCI 'Other comprehensive income for the year, net of tax'; equals OCI items in SoCE"
+ZNCO,2020,oneoff_fx_revaluation_gain,-1751,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,83,current,Note 7(a) 'Net exchange (loss)/gain' within other operating income; negative = loss
+ZNCO,2020,oneoff_other,-209079,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,54,current,"'Transformation costs' (early retirement and redundancy costs, FY2021 note 8(ii)) - separate income statement line below operating expenses, inside PBT; sign: negative = cost to profit (pipeline convention for oneoff_other: positive = gain)"
+ZNCO,2020,operating_expenses,1535999,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,54,current,"Income statement 'Operating expenses' line as originally reported; excludes transformation costs 209,079 and finance cost 62,470 (separate lines). FY2021 report re-presents 2020 opex as 1,433,712 (finance cost 13,097)"
+ZNCO,2020,other_equity_movements,0,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,57,current,No other movements in SoCE total column (general reserve and revaluation transfers net to zero)
+ZNCO,2020,profit_attributable,206658,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,54,current,"'Profit for the year', Group; no NCI, so equal to profit attributable to shareholders"
+ZNCO,2020,profit_before_tax,354239,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,54,current,"Profit before income tax, Group"
+ZNCO,2020,shares_outstanding_ye,1443750531,shares,,group,ZNCO_AR_FY2020.pdf,42,current,"Directors' report: issued and fully paid 1,443,750,531 ordinary shares of 6 ngwee. Share-capital note gives 1,443,750,000 (FY2020-22) / 1,443,750,731 (FY2023-25) - immaterial inconsistency"
+ZNCO,2020,shares_weighted,1443750000,shares,,group,ZNCO_AR_FY2020.pdf,87,current,"EPS note: 'Weighted number of ordinary shares in issue (thousands)' printed as 1,443,750"
+ZNCO,2020,total_assets,19340292,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,56,current,"Statement of financial position, Group column"
+ZNCO,2020,total_capital_ratio,0.135,ratio,,bank,ZNCO_AR_FY2020.pdf,166,current,"'Tier 1 + Tier 2 (Regulatory minimum - 10%)', Bank of Zambia rules"
+ZNCO,2020,total_operating_income,2372774,thousands,ZMW,group,ZNCO_AR_FY2020.pdf,54,current,"'Total Operating income' as originally reported = net interest income + GROSS fee and commission income + other operating income (fee expense not deducted on the face). FY2021 report re-presents 2020 as 2,221,114 using net fees"
+ZNCO,2020,equity_attributable,1171798,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,76,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+ZNCO,2020,profit_attributable,206658,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,74,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+ZNCO,2020,total_assets,19340292,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,76,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+ZNCO,2021,cet1_ratio,0.171,ratio,,bank,ZNCO_AR_FY2021.pdf,203,current,"'Tier 1 (Regulatory minimum - 5%)' = primary capital / total risk-weighted assets, Bank of Zambia rules (capital management note; regulatory return of the licensed bank). No separate CET1 ratio in the note"
+ZNCO,2021,customer_deposits,19323139,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,76,current,"Customer deposits, Group; excludes deposits from other banks"
+ZNCO,2021,dividends_paid,82078,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,77,current,SoCE Group 'Dividend paid' (prior-year final dividend)
+ZNCO,2021,dps_declared,0.252,per_share,ZMW,group,ZNCO_AR_FY2022.pdf,118,current,"Dividend per share (Kwacha) in respect of FY2021, from 'Dividends paid' note of the FY2022 report (paid in 2022); the FY2021 report itself does not print a proposed DPS"
+ZNCO,2021,eps_basic,0.686,per_share,ZMW,group,ZNCO_AR_FY2021.pdf,74,current,"Basic and diluted EPS (Kwacha), Group"
+ZNCO,2021,equity_attributable,2053652,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,76,current,"Total equity, Group; no non-controlling interest presented (subsidiaries wholly owned)"
+ZNCO,2021,equity_opening,1171798,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,77,current,"SoCE Group, balance at 1 January, total column"
+ZNCO,2021,fee_commission_income,588964,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,103,current,Gross fee and commission income total in note 'Net fee and commission income' (income statement shows net only)
+ZNCO,2021,gross_loans,9879523,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,110,current,"Note Loans and advances to customers: on-balance-sheet facilities gross carrying amount, Group (before ECL)"
+ZNCO,2021,impairment_charge,-62152,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,74,current,"Income statement 'Impairment' line (loans, investment securities, other assets, net of recoveries of written-off loans); positive = charge, negative = net credit"
+ZNCO,2021,min_cet1_ratio,0.05,ratio,,bank,ZNCO_AR_FY2021.pdf,203,current,Bank of Zambia minimum primary (tier 1) capital ratio as printed; no buffers stated
+ZNCO,2021,min_total_capital_ratio,0.1,ratio,,bank,ZNCO_AR_FY2021.pdf,203,current,Bank of Zambia minimum total capital ratio as printed; no buffers stated
+ZNCO,2021,net_interest_income,2538687,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,74,current,
+ZNCO,2021,net_loans,9566818,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,76,current,"Loans and advances to customers (net of ECL), Group"
+ZNCO,2021,npl_ratio,0.031,ratio,,bank,ZNCO_AR_FY2021.pdf,24,current,Narrative: 'Our Non-performing loans ratio was 3.1% as at 31st December 2021' (definition not given); stated for the Bank
+ZNCO,2021,oci_attributable,-26352,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,75,current,"Statement of OCI 'Other comprehensive income for the year, net of tax'; SoCE OCI items sum to -26,351 (K1k rounding)"
+ZNCO,2021,oneoff_fx_revaluation_gain,324581,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,103,current,Note 7(a) 'Net exchange gain/(loss)' within other operating income (kwacha appreciation in 2021)
+ZNCO,2021,oneoff_other,-107278,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,74,current,"'Transformation costs' (early retirement and redundancy costs, FY2021 note 8(ii)) - separate income statement line below operating expenses, inside PBT; sign: negative = cost to profit (pipeline convention for oneoff_other: positive = gain)"
+ZNCO,2021,operating_expenses,1864645,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,74,current,"Income statement 'Operating expenses' line; excludes transformation costs 107,278 and finance cost 13,755 (separate lines)"
+ZNCO,2021,other_equity_movements,0,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,77,current,No other movements in SoCE total column (general reserve and revaluation transfers net to zero)
+ZNCO,2021,profit_attributable,990283,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,74,current,"'Profit for the year', Group; no NCI, so equal to profit attributable to shareholders"
+ZNCO,2021,profit_before_tax,1588132,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,74,current,"Profit before income tax, Group"
+ZNCO,2021,shares_outstanding_ye,1443750531,shares,,group,ZNCO_AR_FY2021.pdf,60,current,"Directors' report: issued and fully paid 1,443,750,531 ordinary shares of 6 ngwee. Share-capital note gives 1,443,750,000 (FY2020-22) / 1,443,750,731 (FY2023-25) - immaterial inconsistency"
+ZNCO,2021,shares_weighted,1443750000,shares,,group,ZNCO_AR_FY2021.pdf,107,current,"EPS note: 'Weighted number of ordinary shares in issue (thousands)' printed as 1,443,750"
+ZNCO,2021,total_assets,26104104,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,76,current,"Statement of financial position, Group column"
+ZNCO,2021,total_capital_ratio,0.173,ratio,,bank,ZNCO_AR_FY2021.pdf,203,current,"'Tier 1 + Tier 2 (Regulatory minimum - 10%)', Bank of Zambia rules"
+ZNCO,2021,total_operating_income,3511658,thousands,ZMW,group,ZNCO_AR_FY2021.pdf,74,current,'Total operating income' = net interest income + NET fee and commission income + other operating income
+ZNCO,2021,equity_attributable,2053652,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,88,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+ZNCO,2021,profit_attributable,990283,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,86,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+ZNCO,2021,total_assets,26104105,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,88,comparative,"Prior-year column in following report; not labelled restated; total assets 26,104,105 vs 26,104,104 originally (K1k rounding; other assets/intangibles re-presented)"
+ZNCO,2022,cet1_ratio,0.174,ratio,,bank,ZNCO_AR_FY2022.pdf,213,current,"'Tier 1 (Regulatory minimum - 5%)' = primary capital / total risk-weighted assets, Bank of Zambia rules (capital management note; regulatory return of the licensed bank). No separate CET1 ratio in the note"
+ZNCO,2022,customer_deposits,29688891,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,88,current,"Customer deposits, Group; excludes deposits from other banks"
+ZNCO,2022,dividends_paid,363937,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,89,current,SoCE Group 'Dividend paid' (prior-year final dividend)
+ZNCO,2022,dps_declared,0.292,per_share,ZMW,group,ZNCO_AR_FY2023.pdf,112,current,"Dividend per share (Kwacha) in respect of FY2022, from 'Dividends paid' note of the FY2023 report (paid in 2023); the FY2022 report itself does not print a proposed DPS"
+ZNCO,2022,eps_basic,0.808,per_share,ZMW,group,ZNCO_AR_FY2022.pdf,86,current,"Basic and diluted EPS (Kwacha), Group"
+ZNCO,2022,equity_attributable,2851823,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,88,current,"Total equity, Group; no non-controlling interest presented (subsidiaries wholly owned)"
+ZNCO,2022,equity_opening,2053652,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,89,current,"SoCE Group, balance at 1 January, total column"
+ZNCO,2022,fee_commission_income,793732,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,115,current,Gross fee and commission income total in note 'Net fee and commission income' (income statement shows net only)
+ZNCO,2022,gross_loans,12412346,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,122,current,"Note Loans and advances to customers: on-balance-sheet facilities gross carrying amount, Group (before ECL)"
+ZNCO,2022,impairment_charge,186152,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,86,current,"Income statement 'Impairment' line (loans, investment securities, other assets, net of recoveries of written-off loans); positive = charge, negative = net credit"
+ZNCO,2022,min_cet1_ratio,0.05,ratio,,bank,ZNCO_AR_FY2022.pdf,213,current,Bank of Zambia minimum primary (tier 1) capital ratio as printed; no buffers stated
+ZNCO,2022,min_total_capital_ratio,0.1,ratio,,bank,ZNCO_AR_FY2022.pdf,213,current,Bank of Zambia minimum total capital ratio as printed; no buffers stated
+ZNCO,2022,net_interest_income,3001549,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,86,current,
+ZNCO,2022,net_loans,12056527,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,88,current,"Loans and advances to customers (net of ECL), Group"
+ZNCO,2022,npl_ratio,0.057,ratio,,bank,ZNCO_AR_FY2022.pdf,40,current,Narrative: 'Our Non-performing loans ratio was 5.7% as of 31st December 2022' (definition not given); stated for the Bank
+ZNCO,2022,oci_attributable,-4889,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,87,current,"Statement of OCI 'Other comprehensive income for the year, net of tax'; equals OCI items in SoCE"
+ZNCO,2022,oneoff_fx_revaluation_gain,-40104,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,115,current,Note 7(a) 'Net exchange gain/(loss)' within other operating income; negative = loss. Line no longer shown from FY2023
+ZNCO,2022,oneoff_other,-6855,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,86,current,"'Transformation costs' (early retirement and redundancy costs, FY2021 note 8(ii)) - separate income statement line below operating expenses, inside PBT; sign: negative = cost to profit (pipeline convention for oneoff_other: positive = gain)"
+ZNCO,2022,operating_expenses,1964011,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,86,current,"Income statement 'Operating expenses' line; excludes transformation costs 6,855 and finance cost 12,042 (separate lines). FY2023 report re-presents 2022 opex in three lines totalling 1,998,397"
+ZNCO,2022,other_equity_movements,0,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,89,current,No other movements in SoCE total column (general reserve and revaluation transfers net to zero)
+ZNCO,2022,profit_attributable,1166997,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,86,current,"'Profit for the year', Group; no NCI, so equal to profit attributable to shareholders"
+ZNCO,2022,profit_before_tax,1732375,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,86,current,"Profit before income tax, Group"
+ZNCO,2022,shares_outstanding_ye,1443750531,shares,,group,ZNCO_AR_FY2022.pdf,72,current,"Directors' report: issued and fully paid 1,443,750,531 ordinary shares of 6 ngwee. Share-capital note gives 1,443,750,000 (FY2020-22) / 1,443,750,731 (FY2023-25) - immaterial inconsistency"
+ZNCO,2022,shares_weighted,1443750000,shares,,group,ZNCO_AR_FY2022.pdf,119,current,"EPS note: 'Weighted number of ordinary shares in issue (thousands)' printed as 1,443,750"
+ZNCO,2022,total_assets,35851960,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,88,current,"Statement of financial position, Group column"
+ZNCO,2022,total_capital_ratio,0.176,ratio,,bank,ZNCO_AR_FY2022.pdf,213,current,"'Tier 1 + Tier 2 (Regulatory minimum - 10%)', Bank of Zambia rules"
+ZNCO,2022,total_operating_income,3901435,thousands,ZMW,group,ZNCO_AR_FY2022.pdf,86,current,"'Total operating income' = net interest income + net fee and commission income + other operating income. FY2023 report re-presents 2022 as 3,935,821 (interest income and fee lines reclassified)"
+ZNCO,2022,equity_attributable,2851823,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,82,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+ZNCO,2022,profit_attributable,1166997,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,80,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+ZNCO,2022,total_assets,35851895,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,82,comparative,"Prior-year column in following report; not labelled restated; total assets 35,851,895 vs 35,851,960 originally (-65: property & equipment and other liabilities re-presented); not labelled restated"
+ZNCO,2023,cet1_ratio,0.193,ratio,,bank,ZNCO_AR_FY2023.pdf,206,current,"'Tier 1 (Regulatory minimum - 5%)' = primary capital / total risk-weighted assets, Bank of Zambia rules (capital management note; regulatory return of the licensed bank). No separate CET1 ratio in the note"
+ZNCO,2023,customer_deposits,33859372,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,82,current,"Customer deposits, Group; excludes deposits from other banks"
+ZNCO,2023,dividends_paid,421575,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,83,current,SoCE Group 'Dividend paid' (prior-year final dividend)
+ZNCO,2023,dps_declared,0.429,per_share,ZMW,group,ZNCO_AR_FY2024.pdf,123,current,"Dividend per share (Kwacha) in respect of FY2023, from 'Dividends paid' note of the FY2024 report (paid in 2024); the FY2023 report itself does not print a proposed DPS"
+ZNCO,2023,eps_basic,1.204,per_share,ZMW,group,ZNCO_AR_FY2023.pdf,80,current,"Basic and diluted EPS (Kwacha), Group"
+ZNCO,2023,equity_attributable,4264535,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,82,current,"Total equity, Group; no non-controlling interest presented (subsidiaries wholly owned)"
+ZNCO,2023,equity_opening,2851823,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,83,current,"SoCE Group, balance at 1 January, total column"
+ZNCO,2023,fee_commission_income,1016310,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,80,current,Gross fee and commission income (income statement line)
+ZNCO,2023,gross_loans,16629878,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,116,current,"Note Loans and advances to customers: on-balance-sheet facilities gross carrying amount, Group (before ECL)"
+ZNCO,2023,impairment_charge,21753,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,80,current,"Income statement 'Impairment' line (loans, investment securities, other assets, net of recoveries of written-off loans); positive = charge, negative = net credit"
+ZNCO,2023,min_cet1_ratio,0.05,ratio,,bank,ZNCO_AR_FY2023.pdf,206,current,Bank of Zambia minimum primary (tier 1) capital ratio as printed; no buffers stated
+ZNCO,2023,min_total_capital_ratio,0.1,ratio,,bank,ZNCO_AR_FY2023.pdf,206,current,Bank of Zambia minimum total capital ratio as printed; no buffers stated
+ZNCO,2023,net_interest_income,3474478,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,80,current,
+ZNCO,2023,net_loans,16176644,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,82,current,"Loans and advances to customers (net of ECL), Group"
+ZNCO,2023,npl_ratio,0.037,ratio,,bank,ZNCO_AR_FY2023.pdf,39,current,CFO overview: 'Non-Performing Loans ratio was 3.7% as of 31st December 2023' (definition not given); stated for the Bank
+ZNCO,2023,oci_attributable,95905,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,81,current,"Statement of OCI 'Other comprehensive income for the year, net of tax'; equals OCI items in SoCE"
+ZNCO,2023,oneoff_other,0,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,80,current,"'Transformation costs' (early retirement and redundancy costs, FY2021 note 8(ii)) - separate income statement line below operating expenses, inside PBT; sign: negative = cost to profit (pipeline convention for oneoff_other: positive = gain) ('-' printed for 2023)"
+ZNCO,2023,operating_expenses,2541652,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,80,current,"Sum of printed Group lines 'Employee benefits' 1,199,802 + 'Administrative and general expenses' 1,236,063 + 'Other expenses' 105,787 (no single total line printed); excludes transformation costs and finance cost (separate lines)"
+ZNCO,2023,other_equity_movements,0,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,83,current,No other movements in SoCE total column (general reserve and revaluation transfers net to zero)
+ZNCO,2023,profit_attributable,1738382,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,80,current,"'Profit for the year', Group; no NCI, so equal to profit attributable to shareholders"
+ZNCO,2023,profit_before_tax,2705713,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,80,current,"Profit before income tax, Group"
+ZNCO,2023,shares_outstanding_ye,1443750531,shares,,group,ZNCO_AR_FY2023.pdf,68,current,"Directors' report: issued and fully paid 1,443,750,531 ordinary shares of 6 ngwee. Share-capital note gives 1,443,750,000 (FY2020-22) / 1,443,750,731 (FY2023-25) - immaterial inconsistency"
+ZNCO,2023,shares_weighted,1443750000,shares,,group,ZNCO_AR_FY2023.pdf,113,current,"EPS note: 'Weighted number of ordinary shares in issue (thousands)' printed as 1,443,750"
+ZNCO,2023,total_assets,44800219,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,82,current,"Statement of financial position, Group column"
+ZNCO,2023,total_capital_ratio,0.197,ratio,,bank,ZNCO_AR_FY2023.pdf,206,current,"'Tier 1 + Tier 2 (Regulatory minimum - 10%)', Bank of Zambia rules"
+ZNCO,2023,total_operating_income,5282361,thousands,ZMW,group,ZNCO_AR_FY2023.pdf,80,current,'Total operating income' = net interest income + net fee and commission income + other operating income
+ZNCO,2023,equity_attributable,4264535,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,93,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+ZNCO,2023,profit_attributable,1738382,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,91,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+ZNCO,2023,total_assets,44800219,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,93,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+ZNCO,2024,cet1_ratio,0.202,ratio,,bank,ZNCO_AR_FY2024.pdf,214,current,"'Tier 1 (Regulatory minimum - 5%)' = primary capital / total risk-weighted assets, Bank of Zambia rules (capital management note; regulatory return of the licensed bank). No separate CET1 ratio in the note"
+ZNCO,2024,customer_deposits,36023424,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,93,current,"Customer deposits, Group; excludes deposits from other banks"
+ZNCO,2024,dividends_paid,619181,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,94,current,SoCE Group 'Dividend paid' (prior-year final dividend)
+ZNCO,2024,dps_declared,0.438,per_share,ZMW,group,ZNCO_AR_FY2025.pdf,124,current,"Dividend per share (Kwacha) in respect of FY2024, from 'Dividends paid' note of the FY2025 report (paid in 2025); the FY2024 report itself does not print a proposed DPS"
+ZNCO,2024,eps_basic,1.242,per_share,ZMW,group,ZNCO_AR_FY2024.pdf,91,current,"Basic and diluted EPS (Kwacha), Group"
+ZNCO,2024,equity_attributable,5430903,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,93,current,"Total equity, Group; no non-controlling interest presented (subsidiaries wholly owned)"
+ZNCO,2024,equity_opening,4264535,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,94,current,"SoCE Group, balance at 1 January, total column"
+ZNCO,2024,fee_commission_income,1159976,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,91,current,Gross fee and commission income (income statement line)
+ZNCO,2024,gross_loans,20503188,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,127,current,"Note Loans and advances to customers: on-balance-sheet facilities gross carrying amount, Group (before ECL)"
+ZNCO,2024,impairment_charge,193198,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,91,current,"Income statement 'Impairment' line (loans, investment securities, other assets, net of recoveries of written-off loans); positive = charge, negative = net credit"
+ZNCO,2024,min_cet1_ratio,0.05,ratio,,bank,ZNCO_AR_FY2024.pdf,214,current,Bank of Zambia minimum primary (tier 1) capital ratio as printed; no buffers stated
+ZNCO,2024,min_total_capital_ratio,0.1,ratio,,bank,ZNCO_AR_FY2024.pdf,214,current,Bank of Zambia minimum total capital ratio as printed; no buffers stated
+ZNCO,2024,net_interest_income,3799706,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,91,current,
+ZNCO,2024,net_loans,19979657,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,93,current,"Loans and advances to customers (net of ECL), Group"
+ZNCO,2024,npl_ratio,0.054,ratio,,bank,ZNCO_AR_FY2024.pdf,38,current,Narrative: 'NPL ratio increased to 5.4% from 3.7%' (p41 CFO review rounds to 5%; definition not given); stated for the Bank
+ZNCO,2024,oci_attributable,-7808,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,92,current,"Statement of OCI 'Other comprehensive income for the year, net of tax'; equals OCI items in SoCE"
+ZNCO,2024,oneoff_other,-53631,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,91,current,"'Transformation costs' (early retirement and redundancy costs, FY2021 note 8(ii)) - separate income statement line below operating expenses, inside PBT; sign: negative = cost to profit (pipeline convention for oneoff_other: positive = gain)"
+ZNCO,2024,operating_expenses,2748885,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,91,current,"Sum of printed Group lines 'Employee benefits' 1,332,003 + 'Administrative and general expenses' 1,312,368 + 'Other expenses' 104,514 (no single total line printed); excludes transformation costs and finance cost (separate lines)"
+ZNCO,2024,other_equity_movements,0,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,94,current,No other movements in SoCE total column (general reserve and revaluation transfers net to zero)
+ZNCO,2024,profit_attributable,1793357,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,91,current,"'Profit for the year', Group; no NCI, so equal to profit attributable to shareholders"
+ZNCO,2024,profit_before_tax,2573626,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,91,current,"Profit before income tax, Group"
+ZNCO,2024,shares_outstanding_ye,1443750531,shares,,group,ZNCO_AR_FY2024.pdf,67,current,"Directors' report: issued and fully paid 1,443,750,531 ordinary shares of 6 ngwee. Share-capital note gives 1,443,750,000 (FY2020-22) / 1,443,750,731 (FY2023-25) - immaterial inconsistency"
+ZNCO,2024,shares_weighted,1443750000,shares,,group,ZNCO_AR_FY2024.pdf,124,current,"EPS note: 'Weighted number of ordinary shares in issue (thousands)' printed as 1,443,750"
+ZNCO,2024,total_assets,48078761,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,93,current,"Statement of financial position, Group column"
+ZNCO,2024,total_capital_ratio,0.205,ratio,,bank,ZNCO_AR_FY2024.pdf,214,current,"'Tier 1 + Tier 2 (Regulatory minimum - 10%)', Bank of Zambia rules"
+ZNCO,2024,total_operating_income,5584079,thousands,ZMW,group,ZNCO_AR_FY2024.pdf,91,current,'Total operating income' = net interest income + net fee and commission income + net trading income + other operating income
+ZNCO,2024,equity_attributable,5430903,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,93,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+ZNCO,2024,profit_attributable,1793357,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,91,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+ZNCO,2024,total_assets,48078761,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,93,comparative,Prior-year column in following report; not labelled restated; equal to originally reported
+ZNCO,2025,cet1_ratio,0.221,ratio,,bank,ZNCO_AR_FY2025.pdf,216,current,"'Tier 1 (Regulatory minimum - 5%)' = primary capital / total risk-weighted assets, Bank of Zambia rules (capital management note; regulatory return of the licensed bank). No separate CET1 ratio in the note"
+ZNCO,2025,customer_deposits,45061312,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,93,current,"Customer deposits, Group; excludes deposits from other banks"
+ZNCO,2025,dividends_paid,631788,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,94,current,SoCE Group 'Dividend paid' (prior-year final dividend)
+ZNCO,2025,eps_basic,1.384,per_share,ZMW,group,ZNCO_AR_FY2025.pdf,91,current,"Basic and diluted EPS (Kwacha), Group"
+ZNCO,2025,equity_attributable,6828960,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,93,current,"Total equity, Group; no non-controlling interest presented (subsidiaries wholly owned)"
+ZNCO,2025,equity_opening,5430903,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,94,current,"SoCE Group, balance at 1 January, total column"
+ZNCO,2025,fee_commission_income,1324642,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,91,current,Gross fee and commission income (income statement line)
+ZNCO,2025,gross_loans,24217592,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,128,current,"Note Loans and advances to customers: on-balance-sheet facilities gross carrying amount, Group (before ECL)"
+ZNCO,2025,impairment_charge,-23213,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,91,current,"Income statement 'Impairment' line (loans, investment securities, other assets, net of recoveries of written-off loans); positive = charge, negative = net credit"
+ZNCO,2025,min_cet1_ratio,0.05,ratio,,bank,ZNCO_AR_FY2025.pdf,216,current,Bank of Zambia minimum primary (tier 1) capital ratio as printed; no buffers stated
+ZNCO,2025,min_total_capital_ratio,0.1,ratio,,bank,ZNCO_AR_FY2025.pdf,216,current,Bank of Zambia minimum total capital ratio as printed; no buffers stated
+ZNCO,2025,net_interest_income,4417391,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,91,current,
+ZNCO,2025,net_loans,23684982,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,93,current,"Loans and advances to customers (net of ECL), Group"
+ZNCO,2025,npl_ratio,0.045,ratio,,bank,ZNCO_AR_FY2025.pdf,42,current,"CFO review: 'NPL ratio of 4.5%, a reduction from 5.4%' (definition not given); stated for the Bank"
+ZNCO,2025,oci_attributable,31115,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,92,current,"Statement of OCI 'Other comprehensive income for the year, net of tax'; equals OCI items in SoCE"
+ZNCO,2025,oneoff_other,-27154,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,91,current,"'Transformation costs' (early retirement and redundancy costs, FY2021 note 8(ii)) - separate income statement line below operating expenses, inside PBT; sign: negative = cost to profit (pipeline convention for oneoff_other: positive = gain)"
+ZNCO,2025,operating_expenses,3204024,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,91,current,"Sum of printed Group lines 'Employee benefits' 1,653,288 + 'Administrative and general expenses' 1,540,878 + 'Other expenses' 9,858 (no single total line printed); excludes transformation costs and finance cost (separate lines)"
+ZNCO,2025,other_equity_movements,0,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,94,current,No other movements in SoCE total column (general reserve and revaluation transfers net to zero)
+ZNCO,2025,profit_attributable,1998730,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,91,current,"'Profit for the year', Group; no NCI, so equal to profit attributable to shareholders"
+ZNCO,2025,profit_before_tax,2932777,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,91,current,"Profit before income tax, Group"
+ZNCO,2025,shares_outstanding_ye,1443750531,shares,,group,ZNCO_AR_FY2025.pdf,66,current,"Directors' report: issued and fully paid 1,443,750,531 ordinary shares of 6 ngwee. Share-capital note gives 1,443,750,000 (FY2020-22) / 1,443,750,731 (FY2023-25) - immaterial inconsistency"
+ZNCO,2025,shares_weighted,1443750000,shares,,group,ZNCO_AR_FY2025.pdf,125,current,"EPS note: 'Weighted number of ordinary shares in issue (thousands)' printed as 1,443,750"
+ZNCO,2025,total_assets,58190767,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,93,current,"Statement of financial position, Group column"
+ZNCO,2025,total_capital_ratio,0.224,ratio,,bank,ZNCO_AR_FY2025.pdf,216,current,"'Tier 1 + Tier 2 (Regulatory minimum - 10%)', Bank of Zambia rules"
+ZNCO,2025,total_operating_income,6154973,thousands,ZMW,group,ZNCO_AR_FY2025.pdf,91,current,'Total operating income' = net interest income + net fee and commission income + net trading income + other operating income

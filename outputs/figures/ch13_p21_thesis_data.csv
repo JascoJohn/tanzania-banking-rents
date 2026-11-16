@@ -1,0 +1,36 @@
+row,step,text,evidence_class
+Key question,1,Are they central to the banking system?,Derived
+Key question,2,What is each franchise built on?,Derived
+Key question,3,How do the franchises become profit?,Derived
+Key question,4,What return do shareholders get?,Derived
+Key question,5,"Does ROE beat the 14.8% cost of equity, and does it last?",Derived
+Key question,6,What is a lasting rent worth?,Derived
+Key question,7,Does value justify the price?,Derived
+Together,1,"49.4% of banking assets, 64.2% of sector pre-tax profit (2025); 61.8% of DSE domestic market value",Derived
+Together,2,71% of commercial-bank agricultural and 59% of household credit (FY2023),Derived
+Together,3,,Derived
+Together,4,,Derived
+Together,5,,Derived
+Together,6,,Derived
+Together,7,,Derived
+NMB,1,"22.7% of banking assets, 33.1% of sector pre-tax profit (2025)",Derived
+NMB,2,Households and personal 56% of the book,Derived
+NMB,3,"Earns on assets: yield, fees, cheap deposits. Cost of risk 0.84%; cost-to-income 37.1%",Derived
+NMB,4,FY2025 ROE 26.9%; capital headroom 10.25 pts,Derived
+NMB,5,+11.2 pts over the cost of equity in FY2025; 4.7% a year over the full cycle,Derived
+NMB,6,"Value TZS 1,388 per share",Derived
+NMB,7,"Value 1,388 vs price 1,820; 12-month return -12.7%. SELL",Derived
+CRDB,1,"26.7% of banking assets, 31.1% of sector pre-tax profit (2025)",Derived
+CRDB,2,"Agriculture 24% of the book, policy-supported",Derived
+CRDB,3,Earns on equity: leverage and a kind credit cycle. Cost of risk 1.26%; cost-to-income 41.9%,Derived
+CRDB,4,FY2025 ROE 30.0%; capital headroom 3.30 pts,Derived
+CRDB,5,+14.4 pts over the cost of equity in FY2025; 0.4% a year over the full cycle,Derived
+CRDB,6,"Value TZS 1,842 per share",Derived
+CRDB,7,"Value 1,842 vs price 2,840; 12-month return -25.7%. SELL",Derived
+Report finding,1,"Central, not monopolistic; the safety net protects depositors and the state",Derived
+Report finding,2,Both have a cheap-deposit moat against smaller banks,Derived
+Report finding,3,Net of credit losses the loan yields are close,Derived
+Report finding,4,ROE = operating performance x leverage x capital allocation,Derived
+Report finding,5,Conditional on the credit cycle and the bill rate,Derived
+Report finding,6,"Breaks on a repeat 2015-18 stress, the bill rate or the cost of equity",Derived
+Report finding,7,Price implies 10.1% (NMB) and 6.1% (CRDB) excess return; value meets price only at 91% / nan% weight on 2015-18 being exceptional,Derived

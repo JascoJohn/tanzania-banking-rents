@@ -1,0 +1,23 @@
+topic,label_variant,canonical_label,basis,status
+bank_assets,total,total_asset,v1 'Total' (1993-2015) and v2 'Total assets' (2006-2025) are the A3.6 column total,proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_assets,foreign_asset_liquid,liquid_foreign_asset,word order differs (v1 'Foreign assets: liquid'; v2 'Liquid foreign assets'),proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_assets,foreign_asset_other,other_foreign_asset,word order differs (v1 'Foreign assets: other'; v2 'Other foreign assets'),proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_assets,treasury_securitie_treasury_bill_in_older_report,treasury_securitie,v1 label notes older reports call the line 'Treasury bills',proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_assets,other_govt_securitie_other_securitie,other_securitie,v1 'Other govt securities / other securities' is v2 'Other securities',proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_deposits,total,total_deposit,A3.12 column total,proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_deposits,central_govt,central_government,abbreviation,proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_deposits,deposit_non_resident,non_resident,v1 'Deposits: non-resident' is v2 'Non-resident',proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_deposits,other_deposit_national_currency,other_deposit_in_national_currency,'in' dropped,proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_deposits,transferrable_deposit_national_currency,transferable_deposit_in_national_currency,spelling and 'in',proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_deposits,other_nonfinancial_corporation,other_non_financial_corporation,hyphenation,proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_deposits,public_nonfinancial_corporation,public_non_financial_corporation,hyphenation,proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_deposits,other_depository_corporation,deposit_depository_corporation,v1 'Other depository corporations' is v2 'Deposits of depository corporations' (A3.12 row),proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_deposits,other_resident_other_resident_sector,other_resident,v1 label repeats the sector name,proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_liabilities,total,total_liabilitie,A3.7 column total,proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_liabilities,foreign_liabilitie_due_to_bank,foreign_bank,v1 'Foreign liabilities: due to banks' is v2 'Foreign banks',proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+bank_liabilities,foreign_liabilitie_other,due_to_other_foreign_partie,v1 'Foreign liabilities: other' is v2 'Due to other foreign parties',proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+lending_and_securities,loan_to_central_bank_repo,loan_to_bank_tanzania_repo,central bank = Bank of Tanzania,proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+lending_and_securities,loan_to_nonresident,loan_to_non_resident,hyphenation,proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+lending_and_securities,loan_to_other_nonfinancial_corporation,loan_to_other_non_financial_corporation,hyphenation,proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+lending_and_securities,loan_to_public_nonfinancial_corporation,loan_to_public_non_financial_corporation,hyphenation,proposed; overlap checked in reports/validation/bot_crosswalk_check.csv
+credit_by_activity,agriculture_hunting_forestry,agriculture,"v1 ISIC heading 'Agriculture, hunting and forestry' is v2 'Agriculture' (v2 also shows hunting and forestry sub-rows 2010-21)",REJECTED: all 5 overlapping years differ (v2 'Agriculture' excludes hunting and forestry); not merged

@@ -1,0 +1,67 @@
+{
+  "chapter": "13_qtr",
+  "title": "Quarterly statements",
+  "status": "complete",
+  "hypotheses": [],
+  "tables": [
+    {
+      "path": "outputs/tables/ch13_qtr_checks.csv",
+      "description": "Checks per statement",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_qtr.md"
+    },
+    {
+      "path": "outputs/tables/ch13_qtr_ttm.csv",
+      "description": "TTM metrics at 30 Sep 2026",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_qtr.md"
+    },
+    {
+      "path": "outputs/tables/ch13_qtr_monitor.csv",
+      "description": "r0-r9 refreshed to the latest quarter",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_qtr.md"
+    },
+    {
+      "path": "outputs/tables/ch13_qtr_five.csv",
+      "description": "Five-quarter exhibit data",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_qtr.md"
+    },
+    {
+      "path": "outputs/tables/ch13_qtr_ldr.csv",
+      "description": "Loan-to-deposit path",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_qtr.md"
+    },
+    {
+      "path": "outputs/tables/ch13_qtr_eps_split.csv",
+      "description": "NMB EPS around the split",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_qtr.md"
+    },
+    {
+      "path": "outputs/tables/ch13_qtr_roll.csv",
+      "description": "CURR valuation re-based on the latest quarter (owner decision)",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch13_qtr.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch13_qtr_five.png",
+      "data": "outputs/figures/ch13_qtr_five_data.csv",
+      "description": "Five quarters: ROE, NPL, CIR, CET1, deposits",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch13_qtr.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch13_qtr.md"
+  ],
+  "inputs": [
+    "data\\raw\\manual_entries\\quarterly\\quarterly_transcribed.csv"
+  ],
+  "module": "tzbank.chapters.ch13_quarterly",
+  "run_log_stage": "market_ext"
+}

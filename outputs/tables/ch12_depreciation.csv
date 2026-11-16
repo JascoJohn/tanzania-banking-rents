@@ -1,0 +1,11 @@
+valuation,scenario,depreciation,basis,base,evidence_class
+HIST,none,0.0,no change in TZS/USD,False,Scenario
+HIST,ppp,0.0107421875,"relative PPP: (1 + Tanzania inflation 3.5%, IMF forecast as at 2025-12-31) / (1 + US inflation 2.4%, IMF forecast as at 2025-12-31) - 1 (D64)",False,Scenario
+HIST,history,0.035347206487153615,"BoT TZS/USD CAGR Dec 2010 (1,453.5) to 2025-12-31 (2,447.5), 15.0 years",True,Scenario
+HIST,stress,0.24492988758836476,"worst held calendar year: 2015 (1,725.8 -> 2,148.5)",False,Scenario
+CURR,none,0.0,no change in TZS/USD,False,Scenario
+CURR,ppp,0.02060843964671255,"relative PPP: (1 + Tanzania inflation 4.0%, IMF forecast as at 2026-10-31) / (1 + US inflation 1.9%, IMF forecast as at 2026-10-31) - 1 (D64)",False,Scenario
+CURR,history,0.03843805421427726,"BoT TZS/USD CAGR Dec 2010 (1,453.5) to 2026-10-30 (2,640.7), 15.8 years",True,Scenario
+CURR,stress,0.24492988758836476,"worst held calendar year: 2015 (1,725.8 -> 2,148.5)",False,Scenario
+CURR,realised_ytd,0.0789675827184102,"realised move Dec 2025 (2,447.5) to 2026-10-30 (2,640.7), 10 months, as the next 12 months (sensitivity, prompt 17 B8)",False,Scenario
+CURR,realised_ytd_annualised,0.09594768757312266,the same move annualised over 10 months (sensitivity),False,Scenario

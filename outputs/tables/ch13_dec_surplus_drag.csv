@@ -1,0 +1,7 @@
+bank,fiscal_year,hurdle,role,hurdle_ratio,tier1_ratio,headroom,drag_tzs,drag_share_of_profit,evidence_class,register_version,input_hash
+NMB,2025,(a) regulatory minimum ex conservation buffer,upper bound (counts all capital above the minimum as idle; no bank runs there),0.1195999999999999,0.2471,0.1275,154716542401.53375,0.2036628304415519,Estimated,v1.3,cc2c85e4eef09300
+NMB,2025,requirement incl. conservation buffer (reference),headline (with the conservation buffer),0.1445999999999999,0.2471,0.1025,124379965460.05658,0.163728942119679,Estimated,v1.3,cc2c85e4eef09300
+NMB,2025,"(b) model target k* (requirement + bank buffer + D-SIB, register base)",lower bound (the model's own target; partly circular),0.2223545454545454,0.2471,0.0247454545454545,30027695430.8004,0.0395272887316866,Estimated,v1.3,cc2c85e4eef09300
+CRDB,2025,(a) regulatory minimum ex conservation buffer,upper bound (counts all capital above the minimum as idle; no bank runs there),0.103,0.161,0.0579999999999999,86466204570.68658,0.1180495299665189,Estimated,v1.3,cc2c85e4eef09300
+CRDB,2025,requirement incl. conservation buffer (reference),headline (with the conservation buffer),0.128,0.161,0.033,49196288807.45961,0.0671661118775021,Estimated,v1.3,cc2c85e4eef09300
+CRDB,2025,"(b) model target k* (requirement + bank buffer + D-SIB, register base)",lower bound (the model's own target; partly circular),0.1563636363636363,0.161,0.0046363636363637,6911875286.998576,0.0094365611728723,Estimated,v1.3,cc2c85e4eef09300

@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, its data or the reports, please cite them as below."
+title: "Dominant Banks, Conditional Rents: NMB, CRDB and the price of dominance in Tanzania"
+abstract: >-
+  Code, derived data and dashboard for an independent study of Tanzania's banking market: market structure,
+  the persistence of bank profitability and the investment value of NMB Bank Plc and CRDB Bank Plc.
+type: software
+authors:
+  - family-names: John
+    given-names: Jasco
+    orcid: "https://orcid.org/0009-0007-3630-7943"
+version: "0.9.0"
+date-released: "2026-11-16"
+license: MIT
+# Placeholders, set at release (docs/RELEASE.md): the repository URL (step 1) and the code DOI (step 2)
+repository-code: "https://github.com/OWNER/tanzania-banking-rents"
+doi: "10.5281/zenodo.0000000"
+keywords:
+  - banking
+  - Tanzania
+  - market concentration
+  - profitability persistence
+  - bank valuation
+  - economic rents
+  - NMB Bank
+  - CRDB Bank
+  - Dar es Salaam Stock Exchange
+references:
+  - type: report
+    title: "Dominant Banks, Conditional Rents: NMB, CRDB and the price of dominance in Tanzania"
+    authors:
+      - family-names: John
+        given-names: Jasco
+        orcid: "https://orcid.org/0009-0007-3630-7943"
+    year: 2026
+    doi: "10.5281/zenodo.0000000"  # placeholder: the report DOI (docs/RELEASE.md step 5)
+    license: CC-BY-4.0
+  - type: dataset
+    title: "Dominant Banks, Conditional Rents: derived tables and findings packs"
+    authors:
+      - family-names: John
+        given-names: Jasco
+        orcid: "https://orcid.org/0009-0007-3630-7943"
+    year: 2026
+    doi: "10.5281/zenodo.0000000"  # placeholder: the dataset DOI (docs/RELEASE.md step 3)
+    license: CC-BY-4.0

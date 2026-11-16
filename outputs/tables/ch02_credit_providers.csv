@@ -1,0 +1,30 @@
+canonical_name,year,value,unit,source_report,provider,evidence_class
+incl_crd_sacco_main_loan_amt,2019.0,1610.0,TZS bn,2023,"SACCOs, Mainland",Observed
+incl_crd_sacco_main_loan_amt,2020.0,1400.0,TZS bn,2023,"SACCOs, Mainland",Observed
+incl_crd_sacco_main_loan_amt,2021.0,1250.0,TZS bn,2023,"SACCOs, Mainland",Observed
+incl_crd_sacco_main_loan_amt,2022.0,1050.0,TZS bn,2023,"SACCOs, Mainland",Observed
+incl_crd_sacco_main_loan_amt,2023.0,1113.7,TZS bn,2025,"SACCOs, Mainland",Observed
+incl_crd_sacco_main_loan_amt,2024.0,1203.0,TZS bn,2025,"SACCOs, Mainland",Observed
+incl_crd_sacco_main_loan_amt,2025.0,1310.2,TZS bn,2025,"SACCOs, Mainland",Observed
+incl_crd_sacco_znz_loan_amt,2020.0,20.0,TZS bn,2023,"SACCOs, Zanzibar",Observed
+incl_crd_sacco_znz_loan_amt,2021.0,30.0,TZS bn,2023,"SACCOs, Zanzibar",Observed
+incl_crd_sacco_znz_loan_amt,2022.0,30.0,TZS bn,2023,"SACCOs, Zanzibar",Observed
+incl_crd_sacco_znz_loan_amt,2023.0,20.0,TZS bn,2023,"SACCOs, Zanzibar",Observed
+incl_crd_sacco_znz_loan_amt,2025.0,16.0,TZS bn,2025,"SACCOs, Zanzibar",Observed
+incl_crd_bank_loan_amt,2019.0,22070.0,TZS bn,2023,banks (loan amount),Observed
+incl_crd_bank_loan_amt,2020.0,17560.0,TZS bn,2023,banks (loan amount),Observed
+incl_crd_bank_loan_amt,2021.0,23630.0,TZS bn,2023,banks (loan amount),Observed
+incl_crd_bank_loan_amt,2022.0,26610.0,TZS bn,2023,banks (loan amount),Observed
+incl_crd_bank_loan_amt,2023.0,33007.0,TZS bn,2025,banks (loan amount),Observed
+incl_crd_bank_loan_amt,2024.0,37801.0,TZS bn,2025,banks (loan amount),Observed
+incl_crd_bank_loan_amt,2025.0,48434.0,TZS bn,2025,banks (loan amount),Observed
+code_nps_table_h12_digital_credit_value_of_transactions_tzs_billions_,2019.0,183.49,TZS billion,2023,"digital credit (value of transactions, a flow)",Observed
+code_nps_table_h12_digital_credit_value_of_transactions_tzs_billions_,2020.0,490.28,TZS billion,2024,"digital credit (value of transactions, a flow)",Observed
+code_nps_table_h12_digital_credit_value_of_transactions_tzs_billions_,2021.0,737.49,TZS billion,2025,"digital credit (value of transactions, a flow)",Observed
+code_nps_table_h12_digital_credit_value_of_transactions_tzs_billions_,2022.0,1220.48,TZS billion,2025,"digital credit (value of transactions, a flow)",Observed
+code_nps_table_h12_digital_credit_value_of_transactions_tzs_billions_,2023.0,2201.81,TZS billion,2025,"digital credit (value of transactions, a flow)",Observed
+code_nps_table_h12_digital_credit_value_of_transactions_tzs_billions_,2024.0,4216.26,TZS billion,2025,"digital credit (value of transactions, a flow)",Observed
+code_nps_table_h12_digital_credit_value_of_transactions_tzs_billions_,2025.0,5577.73,TZS billion,2025,"digital credit (value of transactions, a flow)",Observed
+incl_crd_t2_loan_amt,2023.0,1056.5,TZS bn,2025,tier-2 microfinance,Observed
+incl_crd_t2_loan_amt,2024.0,1270.9,TZS bn,2025,tier-2 microfinance,Observed
+incl_crd_t2_loan_amt,2025.0,1391.6,TZS bn,2025,tier-2 microfinance,Observed

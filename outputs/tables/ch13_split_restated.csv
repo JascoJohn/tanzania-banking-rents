@@ -1,0 +1,38 @@
+source_table,valuation,bank,case,column,reported,ratio,post_split,split_effective,evidence_class
+ch09_valuations,HIST,NMB,,rim_per_share,11062.153602174956,10.0,1106.2153602174956,2026-08-24,Derived
+ch09_valuations,HIST,NMB,,ddm_per_share,11062.153602174953,10.0,1106.2153602174953,2026-08-24,Derived
+ch09_valuations,HIST,NMB,,value_per_share,11062.153602174954,10.0,1106.2153602174953,2026-08-24,Derived
+ch09_valuations,HIST,NMB,,price,8410.0,10.0,841.0,2026-08-24,Derived
+ch09_valuations,HIST,NMB,,target_price_12m,12255.433466607774,10.0,1225.5433466607774,2026-08-24,Derived
+ch09_valuations,HIST,NMB,,expected_dps_12m,476.1183567772218,10.0,47.611835677722176,2026-08-24,Derived
+ch09_valuations,HIST,NMB,,bear_value_per_share,5140.071040800188,10.0,514.0071040800187,2026-08-24,Derived
+ch09_valuations,HIST,NMB,,bull_value_per_share,24228.724231780983,10.0,2422.8724231780984,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,bear,value_per_share,5140.071040800188,10.0,514.0071040800187,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,bear,price,8410.0,10.0,841.0,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,bear,eps_2025,1368.2140670817942,10.0,136.8214067081794,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,bear,eps_2026,1146.0578980390706,10.0,114.60578980390706,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,bear,eps_2027,1205.0825352550837,10.0,120.50825352550837,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,base,value_per_share,11062.153602174954,10.0,1106.2153602174953,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,base,price,8410.0,10.0,841.0,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,base,eps_2025,1435.5826102701517,10.0,143.55826102701516,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,base,eps_2026,1535.850235102647,10.0,153.5850235102647,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,base,eps_2027,1723.8751363684732,10.0,172.38751363684733,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,bull,value_per_share,24228.724231780983,10.0,2422.8724231780984,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,bull,price,8410.0,10.0,841.0,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,bull,eps_2025,1447.3451924114038,10.0,144.7345192411404,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,bull,eps_2026,1601.4458733250449,10.0,160.1445873325045,2026-08-24,Derived
+ch11_scenarios,HIST,NMB,bull,eps_2027,1824.17012389374,10.0,182.417012389374,2026-08-24,Derived
+ch11_monte_carlo,HIST,NMB,base-centred (primary),price,8410.0,10.0,841.0,2026-08-24,Derived
+ch11_monte_carlo,HIST,NMB,base-centred (primary),p5,7428.088310458512,10.0,742.8088310458512,2026-08-24,Derived
+ch11_monte_carlo,HIST,NMB,base-centred (primary),p10,8038.112679171053,10.0,803.8112679171053,2026-08-24,Derived
+ch11_monte_carlo,HIST,NMB,base-centred (primary),p50,10726.43478255079,10.0,1072.6434782550791,2026-08-24,Derived
+ch11_monte_carlo,HIST,NMB,base-centred (primary),p90,14433.462204702828,10.0,1443.3462204702828,2026-08-24,Derived
+ch11_monte_carlo,HIST,NMB,base-centred (primary),p95,16004.10865237749,10.0,1600.410865237749,2026-08-24,Derived
+ch11_monte_carlo,HIST,NMB,base-centred (primary),mean,11057.036582867304,10.0,1105.7036582867304,2026-08-24,Derived
+ch11_monte_carlo,HIST,NMB,bull-centred (sensitivity),price,8410.0,10.0,841.0,2026-08-24,Derived
+ch11_monte_carlo,HIST,NMB,bull-centred (sensitivity),p5,10660.47868314667,10.0,1066.047868314667,2026-08-24,Derived
+ch11_monte_carlo,HIST,NMB,bull-centred (sensitivity),p10,11368.776640314112,10.0,1136.8776640314113,2026-08-24,Derived
+ch11_monte_carlo,HIST,NMB,bull-centred (sensitivity),p50,14184.25966010333,10.0,1418.425966010333,2026-08-24,Derived
+ch11_monte_carlo,HIST,NMB,bull-centred (sensitivity),p90,18058.4515469566,10.0,1805.8451546956599,2026-08-24,Derived
+ch11_monte_carlo,HIST,NMB,bull-centred (sensitivity),p95,19527.17827854749,10.0,1952.717827854749,2026-08-24,Derived
+ch11_monte_carlo,HIST,NMB,bull-centred (sensitivity),mean,14510.393600566891,10.0,1451.039360056689,2026-08-24,Derived

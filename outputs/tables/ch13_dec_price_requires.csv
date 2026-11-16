@@ -1,0 +1,19 @@
+bank,step_no,step,roe_pts,source,evidence_class,register_version,input_hash
+NMB,0,FY2025A reported ROE,0.2686198627781666,ch13_roe_sustainable_bridge,Scenario,v1.3,cc2c85e4eef09300
+NMB,1,credit: cost of risk to through-the-cycle,-0.0240789614056848,ch13_roe_sustainable_bridge,Scenario,v1.3,cc2c85e4eef09300
+NMB,2,rate: T-bill path (v1.3),0.0,ch13_roe_sustainable_bridge,Scenario,v1.3,cc2c85e4eef09300
+NMB,3,capital: leverage to the k* path,-0.0101060495457037,ch13_roe_sustainable_bridge,Scenario,v1.3,cc2c85e4eef09300
+NMB,4,"residual: fade to ROE*, mix, efficiency",-0.0394731240011308,ch13_roe_sustainable_bridge,Scenario,v1.3,cc2c85e4eef09300
+NMB,5,sustainable ROE* (register v1.3 base),0.1949617278256471,ch13_roe_sustainable_bridge,Scenario,v1.3,cc2c85e4eef09300
+NMB,99,ROE* the 31 Oct 2026 price requires (chapter 10),0.249361990842773,ch10_implied,Estimated,v1.3,cc2c85e4eef09300
+NMB,98,fee-income advantage narrowing: not a separate engine driver; see ch13_rate_sensitivity_repricing / ch04 fee tables,,not quantified,Interpretation,v1.3,cc2c85e4eef09300
+NMB,98,deposit competition (repricing test): not a separate engine driver; see ch13_rate_sensitivity_repricing / ch04 fee tables,,not quantified,Interpretation,v1.3,cc2c85e4eef09300
+CRDB,0,FY2025A reported ROE,0.3002091955888585,ch13_roe_sustainable_bridge,Scenario,v1.3,cc2c85e4eef09300
+CRDB,1,credit: cost of risk to through-the-cycle,-0.0263610511245482,ch13_roe_sustainable_bridge,Scenario,v1.3,cc2c85e4eef09300
+CRDB,2,rate: T-bill path (v1.3),0.0,ch13_roe_sustainable_bridge,Scenario,v1.3,cc2c85e4eef09300
+CRDB,3,capital: leverage to the k* path,-0.0027773267699228,ch13_roe_sustainable_bridge,Scenario,v1.3,cc2c85e4eef09300
+CRDB,4,"residual: fade to ROE*, mix, efficiency",-0.1188830602650561,ch13_roe_sustainable_bridge,Scenario,v1.3,cc2c85e4eef09300
+CRDB,5,sustainable ROE* (register v1.3 base),0.1521877574293312,ch13_roe_sustainable_bridge,Scenario,v1.3,cc2c85e4eef09300
+CRDB,99,ROE* the 31 Oct 2026 price requires (chapter 10),0.2091135130305551,ch10_implied,Estimated,v1.3,cc2c85e4eef09300
+CRDB,98,fee-income advantage narrowing: not a separate engine driver; see ch13_rate_sensitivity_repricing / ch04 fee tables,,not quantified,Interpretation,v1.3,cc2c85e4eef09300
+CRDB,98,deposit competition (repricing test): not a separate engine driver; see ch13_rate_sensitivity_repricing / ch04 fee tables,,not quantified,Interpretation,v1.3,cc2c85e4eef09300

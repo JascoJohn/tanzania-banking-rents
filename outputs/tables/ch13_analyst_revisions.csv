@@ -1,0 +1,4 @@
+broker,bank,from,to,target_from,target_to,target_change,price_from,price_to,price_change,target_to_price_after,rating_from,rating_to,evidence_class,register_version,input_hash
+Kadoo,CRDB,2025-11-06,2026-01-31,1716.56,2283.27,0.3301428438271894,1170.0,2050.0,0.7521367521367521,0.11379024390243897,Buy,Hold (accumulate on dips),Derived,v1.3,cc2c85e4eef09300
+Solomon,CRDB,2026-03-31,2026-04-30,2934.63,2756.4,-0.0607333803580008,2700.0,2830.0,0.04814814814814805,-0.026007067137809203,Buy,Sell,Derived,v1.3,cc2c85e4eef09300
+Solomon,NMB,2026-03-31,2026-04-30,1634.702,1354.403,-0.1714679495100636,1398.0,1351.0,-0.03361945636623753,0.002518874907476043,Buy,Hold,Derived,v1.3,cc2c85e4eef09300

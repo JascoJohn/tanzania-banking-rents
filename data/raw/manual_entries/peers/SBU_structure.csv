@@ -1,0 +1,5 @@
+bank,fy,item,value,source_file,page,note
+SBU,2025,shareholder,Stanbic Africa Holdings Limited: 80%,SBU_AR_FY2025.pdf,197,"40,950,935,760 shares; SAHL (UK) is wholly owned by Standard Bank Group (JSE-listed); same 80.0% in FY2020 report p103"
+SBU,2025,government_stake,0,SBU_AR_FY2025.pdf,6,"No direct Government of Uganda holding: government divested Stanbic Bank Uganda through the USE listing in 2007 (p6). State-linked holders below 5%: National Social Security Fund 4.52% (p197; state-managed fund per p116) and Bank of Uganda Defined Benefits Scheme 0.41% (p197)"
+SBU,2025,listing,Uganda Securities Exchange,SBU_AR_FY2025.pdf,6,"Stanbic Bank Uganda listed on USE in 2007; Stanbic Uganda Holdings Ltd is the listed holding company (timeline p6: reorganisation into a holding structure begun 2018)"
+SBU,2025,foreign_subsidiary,none,SBU_AR_FY2025.pdf,191,"All subsidiaries incorporated in Uganda (note 40): Stanbic Bank Uganda Ltd, Stanbic Properties Ltd, Stanbic Business Incubator Ltd, SBG Securities Uganda Ltd, FLYHUB Uganda Ltd (investment nil at end-2025)"

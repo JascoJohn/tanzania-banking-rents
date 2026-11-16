@@ -1,0 +1,85 @@
+source: Phase 1 workbook, sheet BANK_UNIVERSE (rows B01-B07); reporting basis read from Phase 1 Notes columns
+generated: '2026-11-06'
+banks:
+- bank_id: B01
+  name: CRDB Bank
+  legal_name: CRDB Bank Plc
+  ticker: CRDB
+  listing_year: 2009
+  listing_date_as_recorded: 17 June 2009
+  commercial_bank_status: 'YES'
+  reporting_basis: GROUP
+  focus: true
+  basis_note: Phase 1 notes state Group basis for most rows; some early rows are Bank basis (flagged per row).
+  bank_equals_group: false
+- bank_id: B02
+  name: NMB Bank
+  legal_name: NMB Bank Plc
+  ticker: NMB
+  listing_year: 2008
+  listing_date_as_recorded: '31 Oct 2008 (Solomon: official listing of 500m shares) / ~13 Nov 2008 (Reuters: first trading day)'
+  commercial_bank_status: 'YES'
+  reporting_basis: GROUP
+  focus: true
+  basis_note: Phase 1 notes state Group basis for most rows; regulatory capital is Bank-solo (decision D2).
+  bank_equals_group: false
+- bank_id: B03
+  name: DCB Commercial Bank
+  legal_name: DCB Commercial Bank Plc
+  ticker: DCB
+  listing_year: 2008
+  listing_date_as_recorded: 2008 (exact date not yet confirmed; IPO price TZS 275/share, 67,827,897 shares)
+  commercial_bank_status: 'YES'
+  reporting_basis: BANK
+  focus: false
+  basis_note: 'No subsidiaries: no consolidated statements in any held report (text or OCR); ''subsidiary'' appears only in directors''-responsibility boilerplate (data/extraction/subsidiary_check.csv).
+    Bank figures are comparable to Group figures (D23).'
+  bank_equals_group: true
+- bank_id: B04
+  name: Maendeleo Bank
+  legal_name: Maendeleo Bank Plc
+  ticker: MBP
+  listing_year: 2013
+  listing_date_as_recorded: 9 September 2013 (per Solomon Stockbrokers); DSE profile also cites founding/EGM listing 2013
+  commercial_bank_status: 'YES'
+  reporting_basis: BANK
+  focus: false
+  basis_note: 'No subsidiaries: no consolidated statements in any held report (text or OCR); ''subsidiary'' appears only in directors''-responsibility boilerplate (data/extraction/subsidiary_check.csv).
+    Bank figures are comparable to Group figures (D23).'
+  bank_equals_group: true
+- bank_id: B05
+  name: Mkombozi Commercial Bank
+  legal_name: Mkombozi Commercial Bank Plc
+  ticker: MKCB
+  listing_year: 2014
+  listing_date_as_recorded: 29 December 2014 (RESOLVED)
+  commercial_bank_status: 'YES'
+  reporting_basis: BANK
+  focus: false
+  basis_note: 'No subsidiaries: no consolidated statements in any held report (text or OCR); ''subsidiary'' appears only in directors''-responsibility boilerplate (data/extraction/subsidiary_check.csv).
+    Bank figures are comparable to Group figures (D23).'
+  bank_equals_group: true
+- bank_id: B06
+  name: Mwalimu Commercial Bank
+  legal_name: Mwalimu Commercial Bank Plc
+  ticker: MCB
+  listing_year: 2015
+  listing_date_as_recorded: 27 November 2015 (per Solomon Stockbrokers)
+  commercial_bank_status: 'YES'
+  reporting_basis: BANK
+  focus: false
+  basis_note: 'No subsidiaries: no consolidated statements in any held report (text or OCR); ''subsidiary'' appears only in directors''-responsibility boilerplate (data/extraction/subsidiary_check.csv).
+    Bank figures are comparable to Group figures (D23).'
+  bank_equals_group: true
+- bank_id: B07
+  name: Mucoba Bank (Mufindi Community Bank)
+  legal_name: Mucoba Bank Plc (formerly Mufindi Community Bank Ltd)
+  ticker: MUCOBA
+  listing_year: 2016
+  listing_date_as_recorded: 8 June 2016 (per Solomon Stockbrokers and african-markets)
+  commercial_bank_status: REQUIRES DEFINITIONAL DECISION
+  reporting_basis: BANK
+  focus: false
+  basis_note: 'No subsidiaries: no consolidated statements in any held report (text or OCR); ''subsidiary'' appears only in directors''-responsibility boilerplate (data/extraction/subsidiary_check.csv).
+    Bank figures are comparable to Group figures (D23).'
+  bank_equals_group: true

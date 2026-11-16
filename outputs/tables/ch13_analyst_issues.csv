@@ -1,0 +1,18 @@
+id,field,seed,prior_register,pdf,resolution,evidence_class,register_version,input_hash
+4,price_in_note,none,,"TZS 560 at 27 Sep 2024 (p2, p33)",PDF,Observed,v1.3,cc2c85e4eef09300
+4,terminal_g,SGR,,"5.94%, real, tied to GDP projections (p32)",PDF,Observed,v1.3,cc2c85e4eef09300
+7,date,2025-Q4 (undated),2025-09-30 (plotted at the quarter end),"undated; uses Q3 results published 28 Oct 2025; price 1,170 = DSE close on 6, 7, 10-12 Nov and 8 Dec 2025",PDF + DSE: 2025-11-06 (earliest date consistent with both); the prompt 18 date was before the results were public,Observed,v1.3,cc2c85e4eef09300
+9,target_or_fair_value,2283.27,2283 (about),"table 2,283.27; text 2,281.77 (p6)","PDF table: 2,283.27",Observed,v1.3,cc2c85e4eef09300
+9,price_in_note,none,none,"not stated; P/E 7.4 x EPS 277 = 2,050 = DSE close 30 Jan 2026",DSE price,Observed,v1.3,cc2c85e4eef09300
+11,date,2026-03-31,2026-03-31,data as of 31 Mar 2026; cites moves as of 8 Apr 2026 (p14),"PDF: dated 2026-04-08 (publication), data_as_of 2026-03-31",Observed,v1.3,cc2c85e4eef09300
+12,date,2026-03-31,2026-03-31,as id 11,"PDF: dated 2026-04-08, data_as_of 2026-03-31",Observed,v1.3,cc2c85e4eef09300
+10,date,2026-Q1,,price as of 2 Feb 2026; cover 'Dec 2025' is the reporting quarter,PDF: 2026-02-02,Observed,v1.3,cc2c85e4eef09300
+13,date,2026-04,,price as of 6 May 2026 (p3),PDF: 2026-05-06,Observed,v1.3,cc2c85e4eef09300
+16,price_in_note,none,none,"TZS 16,090 pre-split (p8) = DSE close 25 Jun 2026",PDF,Observed,v1.3,cc2c85e4eef09300
+16,target_or_fair_value,16100,16100,"printed 16,100; equity value 8,007,308m / 500m = 16,015; the note's split text uses 16,015","printed value kept (16,100); inconsistency listed",Observed,v1.3,cc2c85e4eef09300
+16,rating,Hold/Buy,Hold/Buy,"'HOLD/BUY' p1, 'BUY/HOLD' p7",p1 kept,Observed,v1.3,cc2c85e4eef09300
+17,date,2025 (annual),,no date printed; ETF listing 28 Jan 2026 mentioned; PDF metadata 2 Apr 2026,"2026-04-02 (publication proxy), data_as_of 2025-12-31",Observed,v1.3,cc2c85e4eef09300
+1,method_weights,not stated,,"DDM 60%, market comparable 40% (p11)",PDF,Observed,v1.3,cc2c85e4eef09300
+1,rf_tenor,5y bond (last auction),,"p8 says 5-year, p9 table says 10-year (9.85%)",both recorded,Observed,v1.3,cc2c85e4eef09300
+2,rf_rate,not in seed,,"12.03%, 10-year bond (p7)",PDF,Observed,v1.3,cc2c85e4eef09300
+2,data_as_of,,,price as at 31 May 2024 (p7),PDF: data_as_of 2024-05-31,Observed,v1.3,cc2c85e4eef09300

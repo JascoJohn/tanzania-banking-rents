@@ -1,0 +1,6 @@
+measure,period,cr2_value_tzs,market_value_tzs,share,source,evidence_class
+market cap share of total market cap,2026-10-30,16517620000000.0,38567910000000.0,0.42827366066763795,dse/30_Oct_2026_DSE_Mkt_Info.pdf; data/processed/market_daily.csv,Derived
+market cap share of domestic market cap,2026-10-30,16517620000000.0,26742630000000.0,0.617651293085235,dse/30_Oct_2026_DSE_Mkt_Info.pdf; data/processed/market_daily.csv,Derived
+equity turnover share,Jul-Sep 2026,697275272040.0,824084890000.0,0.84612068550365,dse/30_Oct_2026_DSE_Mkt_Info.pdf; data/processed/market_daily.csv,Derived
+equity turnover share,Oct-Dec 2025,102541930740.0,135686130000.0,0.7557289071476945,dse/30_Oct_2026_DSE_Mkt_Info.pdf; data/processed/market_daily.csv,Derived
+equity turnover share,2026-10-30 (day),2915251840.0,3765160000.0,0.7742703736361801,dse/30_Oct_2026_DSE_Mkt_Info.pdf; data/processed/market_daily.csv,Derived

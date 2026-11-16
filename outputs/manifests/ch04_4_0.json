@@ -1,0 +1,67 @@
+{
+  "chapter": "04",
+  "subsection": "4.0",
+  "title": "Extended DuPont and ROE-gap attribution",
+  "hypotheses": [
+    "H4.1",
+    "H4.2"
+  ],
+  "status": "built - attribution descriptive",
+  "tables": [
+    {
+      "path": "outputs/tables/ch04_4_0_components.csv",
+      "description": "Extended DuPont components and reconstructed ROE, every bank-year",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_0.md"
+    },
+    {
+      "path": "outputs/tables/ch04_4_0_gap_attribution.csv",
+      "description": "NMB - CRDB ROE gap: Shapley contributions by component, each year",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_0.md"
+    },
+    {
+      "path": "outputs/tables/ch04_4_0_change_attribution.csv",
+      "description": "Each bank's ROE change between periods: Shapley contributions",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_0.md"
+    },
+    {
+      "path": "outputs/tables/ch04_4_0_subsection_ranking.csv",
+      "description": "Subsection ranking (sum of contributions by subsection)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_0.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch04_4_0_gap_waterfall.png",
+      "data": "outputs/figures/ch04_4_0_gap_waterfall_data.csv",
+      "description": "NMB - CRDB ROE gap FY2025, by subsection",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_0.md"
+    },
+    {
+      "path": "outputs/figures/ch04_4_0_change_waterfall_CRDB.png",
+      "data": "outputs/figures/ch04_4_0_change_waterfall_CRDB_data.csv",
+      "description": "CRDB ROE recovery after the 2015-18 stress",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_0.md"
+    },
+    {
+      "path": "outputs/figures/ch04_4_0_change_waterfall_NMB.png",
+      "data": "outputs/figures/ch04_4_0_change_waterfall_NMB_data.csv",
+      "description": "NMB ROE recovery after the 2015-18 stress",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch04_4_0.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch04_4_0.md"
+  ],
+  "inputs": [
+    "data/processed/bank_year_wide.csv"
+  ],
+  "module": "tzbank.chapters.ch04.dupont_attribution",
+  "run_log_stage": "profitability"
+}

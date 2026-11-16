@@ -1,0 +1,163 @@
+bank,fy,field,value,unit,basis,source_file,page,label_as_printed,note
+CRDB,2009,fee_commission_income_gross,39525,TZS million,Bank (no group statements; BAFIA s.32(3) published audited extract),data/raw/documents/CRDB/2009.pdf,1,6.2 Fees and Commissions,"Income statement; 1-page published audited extract, no full FY2009 annual report in folder; listed under 6. Non-Interest Income (55,882); net fee not printed"
+CRDB,2009,fee_commission_expense,-414,TZS million,Bank (no group statements; BAFIA s.32(3) published audited extract),data/raw/documents/CRDB/2009.pdf,1,7.2 Fees and Commissions,"Income statement; printed in parentheses, sign kept negative; listed under 7. Non-Interest Expense"
+CRDB,2009,net_interest_income,109968,TZS million,Bank (no group statements; BAFIA s.32(3) published audited extract),data/raw/documents/CRDB/2009.pdf,1,Net interest income,Income statement
+CRDB,2010,fee_commission_income_gross,47061862,TZS thousand,Group,data/raw/documents/CRDB/2010.pdf,32,Fees and commission income,"Income statement; fee note on p.58; note 9: Commission income 8,574,677 + Fees and other charges 38,487,185"
+CRDB,2010,fee_commission_expense,-470934,TZS thousand,Group,data/raw/documents/CRDB/2010.pdf,32,Fees and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2010,net_fee_commission_income,46590928,TZS thousand,Group,data/raw/documents/CRDB/2010.pdf,32,Net fee and commission income,Income statement
+CRDB,2010,net_interest_income,125005122,TZS thousand,Group,data/raw/documents/CRDB/2010.pdf,32,Net interest income,Income statement
+CRDB,2010,total_operating_income,195737003,TZS thousand,Group,data/raw/documents/CRDB/2010.pdf,56,Total operating income,"Segment note only (heading says Bank's reportable segments but totals equal Group IS); not on income statement; = NII + net fee + net FX + other operating income, before impairment"
+CRDB,2011,fee_commission_income_gross,58801,TZS million,Group,data/raw/documents/CRDB/2011.pdf,39,Fee and commission income,"Income statement; fee note on p.71; FY2012 report restates 2011 Group to 62,806 (NII 153,385)"
+CRDB,2011,fee_commission_expense,-892,TZS million,Group,data/raw/documents/CRDB/2011.pdf,39,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2011,net_fee_commission_income,57909,TZS million,Group,data/raw/documents/CRDB/2011.pdf,39,Net fee and commission income,Income statement
+CRDB,2011,net_interest_income,157390,TZS million,Group,data/raw/documents/CRDB/2011.pdf,39,Net interest income,Income statement
+CRDB,2011,total_operating_income,218213,TZS million,Group,data/raw/documents/CRDB/2011.pdf,68,Total operating income,"Segment note only; not on income statement; = NII + net fee + net FX + other operating income + derivative gain, before impairment"
+CRDB,2012,fee_commission_income_gross,75171,TZS million,Group,data/raw/documents/CRDB/2012.pdf,74,Fee and commission income,Income statement; fee note on p.134
+CRDB,2012,fee_commission_expense,-566,TZS million,Group,data/raw/documents/CRDB/2012.pdf,74,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative; Bank-only expense printed (7,380) exceeds Group (commission paid to subsidiary MFSC, eliminated on consolidation)"
+CRDB,2012,net_fee_commission_income,74605,TZS million,Group,data/raw/documents/CRDB/2012.pdf,74,Net fee and commission income,Income statement
+CRDB,2012,net_interest_income,206276,TZS million,Group,data/raw/documents/CRDB/2012.pdf,74,Net interest income,Income statement
+CRDB,2013,fee_commission_income_gross,92759,TZS million,Group,data/raw/documents/CRDB/2013.pdf,88,Fee and commission income,Income statement; fee note on p.140
+CRDB,2013,fee_commission_expense,-644,TZS million,Group,data/raw/documents/CRDB/2013.pdf,88,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2013,net_fee_commission_income,92115,TZS million,Group,data/raw/documents/CRDB/2013.pdf,88,Net fee and commission income,Income statement
+CRDB,2013,net_interest_income,235601,TZS million,Group,data/raw/documents/CRDB/2013.pdf,88,Net interest income,Income statement
+CRDB,2014,fee_commission_income_gross,121498,TZS million,Group,data/raw/documents/CRDB/2014.pdf,82,Fee and commission income,Income statement; fee note on p.135 (income) and 136 (expense)
+CRDB,2014,fee_commission_expense,-2894,TZS million,Group,data/raw/documents/CRDB/2014.pdf,82,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2014,net_fee_commission_income,118604,TZS million,Group,data/raw/documents/CRDB/2014.pdf,82,Net fee and commission income,Income statement
+CRDB,2014,net_interest_income,276187,TZS million,Group,data/raw/documents/CRDB/2014.pdf,82,Net interest income,Income statement
+CRDB,2015,fee_commission_income_gross,156432,TZS million,Group,data/raw/documents/CRDB/2015.pdf,31,Fee and commission income,Income statement; fee note on p.106
+CRDB,2015,fee_commission_expense,-7476,TZS million,Group,data/raw/documents/CRDB/2015.pdf,31,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2015,net_fee_commission_income,148956,TZS million,Group,data/raw/documents/CRDB/2015.pdf,31,Net fee and commission income,Income statement
+CRDB,2015,net_interest_income,390649,TZS million,Group,data/raw/documents/CRDB/2015.pdf,31,Net interest income,Income statement
+CRDB,2016,fee_commission_income_gross,165939,TZS million,Group,data/raw/documents/CRDB/Annual-Report-2016-.pdf,130,Fee and commission income,"Income statement; fee note on p.198 (income) and 199 (expense); note 8(a) total is after a VAT output line of (11,633); FY2017 report restates 2016 to 163,821"
+CRDB,2016,fee_commission_expense,-11405,TZS million,Group,data/raw/documents/CRDB/Annual-Report-2016-.pdf,130,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2016,net_fee_commission_income,154534,TZS million,Group,data/raw/documents/CRDB/Annual-Report-2016-.pdf,130,Net fee and commission income,Income statement
+CRDB,2016,net_interest_income,432116,TZS million,Group,data/raw/documents/CRDB/Annual-Report-2016-.pdf,130,Net interest income,Income statement
+CRDB,2017,fee_commission_income_gross,178222,TZS million,Group,data/raw/documents/CRDB/2017-Annual-Report.pdf,123,Fee and commission income,"Income statement; fee note on p.205 (income) and 206 (expense); FY2018 report restates 2017 to 163,295 (difference 14,927 = 2017 excise duty on fees)"
+CRDB,2017,fee_commission_expense,-13997,TZS million,Group,data/raw/documents/CRDB/2017-Annual-Report.pdf,123,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2017,net_fee_commission_income,164225,TZS million,Group,data/raw/documents/CRDB/2017-Annual-Report.pdf,123,Net fee and commission income,Income statement
+CRDB,2017,net_interest_income,409716,TZS million,Group,data/raw/documents/CRDB/2017-Annual-Report.pdf,123,Net interest income,Income statement
+CRDB,2018,fee_commission_income_gross,173198,TZS million,Group,data/raw/documents/CRDB/2018.pdf,99,Fee and commission income,"Income statement; fee note on p.192; 2018.pdf is byte-identical to Annual Report 2018.pdf; FY2019 report restates 2018 to 147,497 (NII 468,545)"
+CRDB,2018,fee_commission_expense,-19433,TZS million,Group,data/raw/documents/CRDB/2018.pdf,99,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2018,net_fee_commission_income,153765,TZS million,Group,data/raw/documents/CRDB/2018.pdf,99,Net fee and commission income,Income statement
+CRDB,2018,net_interest_income,442844,TZS million,Group,data/raw/documents/CRDB/2018.pdf,99,Net interest income,Income statement
+CRDB,2019,fee_commission_income_gross,182524,TZS million,Group,data/raw/documents/CRDB/CRDB-Bank-Annual-Report-2019.pdf,135,Fee and commission income,"Income statement; fee note on p.257; FY2020 report restates 2019 to 189,719 (expense 33,155; NII 529,086)"
+CRDB,2019,fee_commission_expense,-26048,TZS million,Group,data/raw/documents/CRDB/CRDB-Bank-Annual-Report-2019.pdf,135,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2019,net_fee_commission_income,156476,TZS million,Group,data/raw/documents/CRDB/CRDB-Bank-Annual-Report-2019.pdf,135,Net fee and commission income,Income statement
+CRDB,2019,net_interest_income,544089,TZS million,Group,data/raw/documents/CRDB/CRDB-Bank-Annual-Report-2019.pdf,135,Net interest income,Income statement
+CRDB,2020,fee_commission_income_gross,204092,TZS million,Group,data/raw/documents/CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,143,Fee and commission income,"Income statement; fee note on p.292 (13A, Gross fee and commission income) and 296 (13B)"
+CRDB,2020,fee_commission_expense,-36433,TZS million,Group,data/raw/documents/CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,143,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2020,net_fee_commission_income,167659,TZS million,Group,data/raw/documents/CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,143,Net fee and commission income,Income statement
+CRDB,2020,net_interest_income,580480,TZS million,Group,data/raw/documents/CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,143,Net interest income,Income statement
+CRDB,2020,total_operating_income,735637,TZS million,Group,data/raw/documents/CRDB/CRDB-BANK-AND-GROUP-ANNUAL-REPORT-2020_eng_compressed.pdf,143,Net operating income,"Income statement subtotal; AFTER credit loss expense (73,065); includes FX, FVPL/FVOCI gains and other operating income"
+CRDB,2021,fee_commission_income_gross,257305,TZS million,Group,data/raw/documents/CRDB/CRDB-Group-and-Bank-Annual-Report-2021.pdf,166,Fees and commission income,"Income statement; fee note on p.317 (13A, Gross fee and commission income) and 321 (13B)"
+CRDB,2021,fee_commission_expense,-51248,TZS million,Group,data/raw/documents/CRDB/CRDB-Group-and-Bank-Annual-Report-2021.pdf,166,Fees and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2021,net_fee_commission_income,206057,TZS million,Group,data/raw/documents/CRDB/CRDB-Group-and-Bank-Annual-Report-2021.pdf,166,Net fees and Commission Income,Income statement
+CRDB,2021,net_interest_income,645875,TZS million,Group,data/raw/documents/CRDB/CRDB-Group-and-Bank-Annual-Report-2021.pdf,166,Net interest income,Income statement
+CRDB,2021,total_operating_income,900715,TZS million,Group,data/raw/documents/CRDB/CRDB-Group-and-Bank-Annual-Report-2021.pdf,166,Net Operating Income,"Income statement subtotal; AFTER credit loss expense (23,255); includes FX, FVPL/FVOCI gains and other operating income"
+CRDB,2022,fee_commission_income_gross,333909,TZS million,Group,data/raw/documents/CRDB/2022 CRDB Annual Report-final_.pdf,95,Fees and commission income,Income statement; fee note on p.183 right half (13A) and 185 right half (13B); PDF holds two printed pages per PDF page; IS is right half of PDF p.95 (printed p.189)
+CRDB,2022,fee_commission_expense,-70737,TZS million,Group,data/raw/documents/CRDB/2022 CRDB Annual Report-final_.pdf,95,Fees and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2022,net_fee_commission_income,263172,TZS million,Group,data/raw/documents/CRDB/2022 CRDB Annual Report-final_.pdf,95,Net fees and Commission Income,Income statement
+CRDB,2022,net_interest_income,745833,TZS million,Group,data/raw/documents/CRDB/2022 CRDB Annual Report-final_.pdf,95,Net interest income,Income statement
+CRDB,2022,total_operating_income,1052511,TZS million,Group,data/raw/documents/CRDB/2022 CRDB Annual Report-final_.pdf,95,Net Operating Income,"Income statement subtotal; AFTER credit loss expense (60,435); right half of spread (printed p.189)"
+CRDB,2023,fee_commission_income_gross,428839,TZS million,Group,data/raw/documents/CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,124,Fees and commission income,Income statement; fee note on p.295 (note 14) and 298 (note 15)
+CRDB,2023,fee_commission_expense,-86415,TZS million,Group,data/raw/documents/CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,124,Fees and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2023,net_fee_commission_income,342424,TZS million,Group,data/raw/documents/CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,124,Net fees and Commission Income,Income statement
+CRDB,2023,net_interest_income,877298,TZS million,Group,data/raw/documents/CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,124,Net interest income,Income statement
+CRDB,2023,total_operating_income,1254680,TZS million,Group,data/raw/documents/CRDB/2023 CRDB BANK ANNUAL REPORT.pdf,124,Net Operating Income,"Income statement subtotal; AFTER credit loss expense (39,658); FY2024 report restates 2023 to 1,255,549"
+CRDB,2024,fee_commission_income_gross,517641,TZS million,Group,data/raw/documents/CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,169,Fees and commission income,"Income statement; fee note on p.267 (note 14) and 269 (note 15); FY2025 report restates 2024 to 538,925 (net 452,912; NII 1,106,759)"
+CRDB,2024,fee_commission_expense,-86013,TZS million,Group,data/raw/documents/CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,169,Fees and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2024,net_fee_commission_income,431628,TZS million,Group,data/raw/documents/CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,169,Net fees and Commission Income,Income statement
+CRDB,2024,net_interest_income,1139461,TZS million,Group,data/raw/documents/CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,169,Net interest income,Income statement
+CRDB,2024,total_operating_income,1518364,TZS million,Group,data/raw/documents/CRDB/2024 Integrated Annual Report and Consolidated Audited Financial Statements.pdf,169,Net Operating Income,"Income statement subtotal; AFTER credit loss expense (95,187); includes insurance service result; left half of spread"
+CRDB,2025,fee_commission_income_gross,599314,TZS million,Group,data/raw/documents/CRDB/crdb-ir-2025-8th-may-2026.pdf,195,Fees and commission income,"Income statement; fee note on p.287 (note 14) and 289 (note 15); matches check value 599,314"
+CRDB,2025,fee_commission_expense,-87764,TZS million,Group,data/raw/documents/CRDB/crdb-ir-2025-8th-may-2026.pdf,195,Fees and commission expense,"Income statement; printed in parentheses, sign kept negative"
+CRDB,2025,net_fee_commission_income,511550,TZS million,Group,data/raw/documents/CRDB/crdb-ir-2025-8th-may-2026.pdf,195,Net fees and commission income,"Income statement; matches check value 511,550"
+CRDB,2025,net_interest_income,1393250,TZS million,Group,data/raw/documents/CRDB/crdb-ir-2025-8th-may-2026.pdf,195,Net interest income,"Income statement; excludes Islamic income; next printed subtotal 'Net interest income and net income from Islamic financing and investment products' = 1,408,168"
+CRDB,2025,total_operating_income,1883844,TZS million,Group,data/raw/documents/CRDB/crdb-ir-2025-8th-may-2026.pdf,195,Net operating income,"Income statement subtotal; AFTER credit loss expense (153,589); includes Islamic, insurance, FX and other income"
+NMB,2008,fee_commission_income_gross,21864,TZS million,Bank (no group statements),data/raw/documents/NMB/2008.pdf,43,Fee and commission income,"Income statement; fee note on p.69; note 7: Commissions 14,004 + Fees 7,860 (2007: 28,376)"
+NMB,2008,fee_commission_expense,-782,TZS million,Bank (no group statements),data/raw/documents/NMB/2008.pdf,43,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+NMB,2008,net_fee_commission_income,21082,TZS million,Bank (no group statements),data/raw/documents/NMB/2008.pdf,43,Net fee and commission income,Income statement
+NMB,2008,net_interest_income,122701,TZS million,Bank (no group statements),data/raw/documents/NMB/2008.pdf,43,Net interest income,Income statement
+NMB,2009,fee_commission_income_gross,32781,TZS million,Bank (no group statements),data/raw/documents/NMB/2009.pdf,37,Fee and commission income,"Income statement; fee note on p.59; SCANNED: raw PDF has no text layer; read from OCR copy data/ocr/NMB/2009.pdf (same page) and verified on rendered page image; FY2010 report restates 2009 to 33,466"
+NMB,2009,fee_commission_expense,-1357,TZS million,Bank (no group statements),data/raw/documents/NMB/2009.pdf,37,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative; SCANNED (OCR + image check)"
+NMB,2009,net_fee_commission_income,31424,TZS million,Bank (no group statements),data/raw/documents/NMB/2009.pdf,37,Net fee and commission income,Income statement; SCANNED (OCR + image check)
+NMB,2009,net_interest_income,127518,TZS million,Bank (no group statements),data/raw/documents/NMB/2009.pdf,37,Net interest income,Income statement; SCANNED (OCR + image check)
+NMB,2010,fee_commission_income_gross,54623,TZS million,Bank (no group statements),data/raw/documents/NMB/2010.pdf,24,Fee and commission income,"Income statement; fee note on p.41; IS on right half of PDF p.24 (printed p.45); FY2011 report restates 2010 to 54,426"
+NMB,2010,fee_commission_expense,-1583,TZS million,Bank (no group statements),data/raw/documents/NMB/2010.pdf,24,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+NMB,2010,net_fee_commission_income,53040,TZS million,Bank (no group statements),data/raw/documents/NMB/2010.pdf,24,Net fee and commission income,Income statement
+NMB,2010,net_interest_income,130410,TZS million,Bank (no group statements),data/raw/documents/NMB/2010.pdf,24,Net interest income,Income statement
+NMB,2011,fee_commission_income_gross,67995,TZS million,Bank (no group statements),data/raw/documents/NMB/2011.pdf,50,Fee and commission income,Income statement; fee note on p.87
+NMB,2011,fee_commission_expense,-856,TZS million,Bank (no group statements),data/raw/documents/NMB/2011.pdf,50,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+NMB,2011,net_fee_commission_income,67139,TZS million,Bank (no group statements),data/raw/documents/NMB/2011.pdf,50,Net fee and commission income,Income statement
+NMB,2011,net_interest_income,185173,TZS million,Bank (no group statements),data/raw/documents/NMB/2011.pdf,50,Net interest income,Income statement
+NMB,2011,total_operating_income,240560,TZS million,Bank (no group statements),data/raw/documents/NMB/2011.pdf,50,Total operating income,Income statement subtotal = NII after loan impairment + net fee income ONLY (excludes FX and other income); same table repeated on p.167
+NMB,2012,fee_commission_income_gross,84201,TZS million,Group,data/raw/documents/NMB/2012.pdf,52,Fee and commission income,Income statement; fee note on p.94; first consolidated year; Bank statement p.53 shows identical fee lines
+NMB,2012,fee_commission_expense,-3639,TZS million,Group,data/raw/documents/NMB/2012.pdf,52,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+NMB,2012,net_fee_commission_income,80562,TZS million,Group,data/raw/documents/NMB/2012.pdf,52,Net fee and commission income,Income statement
+NMB,2012,net_interest_income,278576,TZS million,Group,data/raw/documents/NMB/2012.pdf,52,Net interest income,Income statement
+NMB,2012,total_operating_income,333287,TZS million,Group,data/raw/documents/NMB/2012.pdf,52,Total operating income,Income statement subtotal = NII after loan impairment + net fee income ONLY (excludes FX and other income)
+NMB,2013,fee_commission_income_gross,98279,TZS million,Group,data/raw/documents/NMB/2013.pdf,27,Fee and commission income,"Income statement; fee note on p.45 (note 9(a) Group); IS on right half of PDF p.27; Bank fee income 98,378 (p.28) exceeds Group by 99"
+NMB,2013,fee_commission_expense,-6000,TZS million,Group,data/raw/documents/NMB/2013.pdf,27,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+NMB,2013,net_fee_commission_income,92279,TZS million,Group,data/raw/documents/NMB/2013.pdf,27,Net fee and commission income,Income statement
+NMB,2013,net_interest_income,329793,TZS million,Group,data/raw/documents/NMB/2013.pdf,27,Net interest income,Income statement
+NMB,2013,total_operating_income,398306,TZS million,Group,data/raw/documents/NMB/2013.pdf,27,Total operating income,Income statement subtotal = NII after loan impairment + net fee income ONLY (excludes FX and other income); right half of PDF p.27
+NMB,2014,fee_commission_income_gross,117113,TZS million,Group,data/raw/documents/NMB/2014.pdf,31,Fee and commission income,Income statement; fee note on p.51 (note 9(a) Group)
+NMB,2014,fee_commission_expense,-7369,TZS million,Group,data/raw/documents/NMB/2014.pdf,31,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative; text layer uses garbled glyphs for this figure; read from rendered page image, consistent with FY2015 comparative"
+NMB,2014,net_fee_commission_income,109744,TZS million,Group,data/raw/documents/NMB/2014.pdf,31,Net fee and commission income,Income statement
+NMB,2014,net_interest_income,377226,TZS million,Group,data/raw/documents/NMB/2014.pdf,31,Net interest income,Income statement
+NMB,2014,total_operating_income,470381,TZS million,Group,data/raw/documents/NMB/2014.pdf,31,Total operating income,Income statement subtotal = NII after loan impairment + net fee income ONLY (excludes FX and other income); left half of PDF p.31
+NMB,2015,fee_commission_income_gross,124671,TZS million,Group,data/raw/documents/NMB/2015.pdf,75,Fee and commission income,Income statement; fee note on p.117 (note 9(a) Group); in the note the total line is mislabelled 'Fees and commission expense'
+NMB,2015,fee_commission_expense,-10253,TZS million,Group,data/raw/documents/NMB/2015.pdf,75,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+NMB,2015,net_fee_commission_income,114418,TZS million,Group,data/raw/documents/NMB/2015.pdf,75,Net fee and commission income,Income statement
+NMB,2015,net_interest_income,368190,TZS million,Group,data/raw/documents/NMB/2015.pdf,75,Net interest income,Income statement
+NMB,2015,total_operating_income,469599,TZS million,Group,data/raw/documents/NMB/2015.pdf,75,Total operating income,Income statement subtotal = NII after loan impairment + net fee income ONLY (excludes FX and other income)
+NMB,2016,fee_commission_income_gross,143622,TZS million,Group,data/raw/documents/NMB/2016.pdf,79,Fee and commission income,Income statement; fee note on p.132 (note 9 Group and Bank)
+NMB,2016,fee_commission_expense,-13758,TZS million,Group,data/raw/documents/NMB/2016.pdf,79,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+NMB,2016,net_fee_commission_income,129864,TZS million,Group,data/raw/documents/NMB/2016.pdf,79,Net fee and commission income,Income statement
+NMB,2016,net_interest_income,446799,TZS million,Group,data/raw/documents/NMB/2016.pdf,79,Net interest income,Income statement
+NMB,2016,total_operating_income,546423,TZS million,Group,data/raw/documents/NMB/2016.pdf,79,Total operating income,Income statement subtotal = NII after loan impairment + net fee income ONLY (excludes FX and other income)
+NMB,2017,fee_commission_income_gross,154880,TZS million,Group,data/raw/documents/NMB/2017.pdf,77,Fee and commission income,Income statement; fee note on p.133 (note 9 Group and Bank)
+NMB,2017,fee_commission_expense,-17549,TZS million,Group,data/raw/documents/NMB/2017.pdf,77,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative; FY2018 report restates 2017 expense to (19,543), net to 135,337"
+NMB,2017,net_fee_commission_income,137331,TZS million,Group,data/raw/documents/NMB/2017.pdf,77,Net fee and commission income,Income statement
+NMB,2017,net_interest_income,465221,TZS million,Group,data/raw/documents/NMB/2017.pdf,77,Net interest income,Income statement
+NMB,2017,total_operating_income,471556,TZS million,Group,data/raw/documents/NMB/2017.pdf,77,Total operating income,"Income statement subtotal = NII after loan impairment + net fee income ONLY (excludes FX and other income); FY2018 report restates 2017 to 491,106 (broader definition)"
+NMB,2018,fee_commission_income_gross,203003,TZS million,Group,data/raw/documents/NMB/2018.pdf,101,Fee and commission income,Income statement; fee note on p.185
+NMB,2018,fee_commission_expense,-36721,TZS million,Group,data/raw/documents/NMB/2018.pdf,101,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+NMB,2018,net_fee_commission_income,166282,TZS million,Group,data/raw/documents/NMB/2018.pdf,101,Net fee and commission income,Income statement
+NMB,2018,net_interest_income,490940,TZS million,Group,data/raw/documents/NMB/2018.pdf,101,Net interest income,Income statement
+NMB,2018,total_operating_income,549458,TZS million,Group,data/raw/documents/NMB/2018.pdf,101,Total operating income,DEFINITION CHANGE from FY2018: Income statement subtotal = NII after impairment + net fee + trading/realised gains + FX + other income
+NMB,2019,fee_commission_income_gross,215816,TZS million,Group,data/raw/documents/NMB/2019.pdf,95,Fee and commission income,Income statement; fee note on p.178
+NMB,2019,fee_commission_expense,-46663,TZS million,Group,data/raw/documents/NMB/2019.pdf,95,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+NMB,2019,net_fee_commission_income,169153,TZS million,Group,data/raw/documents/NMB/2019.pdf,95,Net fee and commission income,Income statement
+NMB,2019,net_interest_income,522375,TZS million,Group,data/raw/documents/NMB/2019.pdf,95,Net interest income,Income statement
+NMB,2019,total_operating_income,626374,TZS million,Group,data/raw/documents/NMB/2019.pdf,95,Total operating income,Income statement subtotal = NII after impairment + net fee + trading/realised gains + FX + other income
+NMB,2020,fee_commission_income_gross,284812,TZS million,Group,data/raw/documents/NMB/2020.pdf,111,Fee and commission income,Income statement; fee note on p.199
+NMB,2020,fee_commission_expense,-58412,TZS million,Group,data/raw/documents/NMB/2020.pdf,111,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative; FY2021 report reclassifies 2,984 from other operating expenses: 2020 restated to (61,396), net 223,416"
+NMB,2020,net_fee_commission_income,226400,TZS million,Group,data/raw/documents/NMB/2020.pdf,111,Net fee and commission income,Income statement
+NMB,2020,net_interest_income,571165,TZS million,Group,data/raw/documents/NMB/2020.pdf,111,Net interest income,Income statement
+NMB,2020,total_operating_income,723132,TZS million,Group,data/raw/documents/NMB/2020.pdf,111,Total operating income,Income statement subtotal = NII after impairment + net fee + trading/realised gains + FX + other income
+NMB,2021,fee_commission_income_gross,323432,TZS million,Group,data/raw/documents/NMB/2021.pdf,224,Fee and commission income,Income statement; fee note on p.318
+NMB,2021,fee_commission_expense,-74891,TZS million,Group,data/raw/documents/NMB/2021.pdf,224,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+NMB,2021,net_fee_commission_income,248541,TZS million,Group,data/raw/documents/NMB/2021.pdf,224,Net fee and commission income,Income statement
+NMB,2021,net_interest_income,679840,TZS million,Group,data/raw/documents/NMB/2021.pdf,224,Net Interest Income,Income statement
+NMB,2021,total_operating_income,872549,TZS million,Group,data/raw/documents/NMB/2021.pdf,224,Net operating income,"Income statement subtotal = NII after impairment + net fee + trading/realised gains + FX + other income; Group label changes to Net operating income (Bank statement p.225 keeps Total operating income 868,953)"
+NMB,2022,fee_commission_income_gross,419189,TZS million,Group,data/raw/documents/NMB/2022.pdf,122,Fee and commission income,Income statement; fee note on p.168 right half (note 10); IS on right half of PDF p.122
+NMB,2022,fee_commission_expense,-94260,TZS million,Group,data/raw/documents/NMB/2022.pdf,122,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative; in note 10 the expense line is mislabelled 'Credit related fees and commissions'"
+NMB,2022,net_fee_commission_income,324929,TZS million,Group,data/raw/documents/NMB/2022.pdf,122,Net fee and commission income,Income statement
+NMB,2022,net_interest_income,789636,TZS million,Group,data/raw/documents/NMB/2022.pdf,122,Net interest income,Income statement
+NMB,2022,total_operating_income,1110588,TZS million,Group,data/raw/documents/NMB/2022.pdf,122,Net operating income,Income statement subtotal = NII after impairment + net fee + trading/realised gains + FX + other income; right half of PDF p.122
+NMB,2023,fee_commission_income_gross,469306,TZS million,Group,data/raw/documents/NMB/NMB Integrated Annual Report 2023.pdf,140,Fee and commission income,Income statement; fee note on p.190 right half (note 13); IS on right half of PDF p.140; same figures and pages in 'NMB 2023 Integrated.pdf' (different file hash)
+NMB,2023,fee_commission_expense,-102819,TZS million,Group,data/raw/documents/NMB/NMB Integrated Annual Report 2023.pdf,140,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+NMB,2023,net_fee_commission_income,366487,TZS million,Group,data/raw/documents/NMB/NMB Integrated Annual Report 2023.pdf,140,Net fee and commission income,Income statement
+NMB,2023,net_interest_income,937238,TZS million,Group,data/raw/documents/NMB/NMB Integrated Annual Report 2023.pdf,140,Net interest income,Income statement
+NMB,2023,total_operating_income,1321183,TZS million,Group,data/raw/documents/NMB/NMB Integrated Annual Report 2023.pdf,140,Total operating income,Income statement subtotal = NII after impairment + net fee + trading/realised gains + FX + other income; right half of PDF p.140
+NMB,2024,fee_commission_income_gross,574762,TZS million,Group,data/raw/documents/NMB/NMB_Intergrated_Annual_Report_2024.pdf,122,Fee and commission income,Income statement; fee note on p.172 (note 13); IS on right half of PDF p.122
+NMB,2024,fee_commission_expense,-135396,TZS million,Group,data/raw/documents/NMB/NMB_Intergrated_Annual_Report_2024.pdf,122,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+NMB,2024,net_fee_commission_income,439366,TZS million,Group,data/raw/documents/NMB/NMB_Intergrated_Annual_Report_2024.pdf,122,Net fee and commission income,Income statement
+NMB,2024,net_interest_income,1058407,TZS million,Group,data/raw/documents/NMB/NMB_Intergrated_Annual_Report_2024.pdf,122,Net interest income,Income statement
+NMB,2024,total_operating_income,1549677,TZS million,Group,data/raw/documents/NMB/NMB_Intergrated_Annual_Report_2024.pdf,122,Total operating income,Income statement subtotal = NII after impairment + net fee + trading/realised gains + FX + other income; right half of PDF p.122
+NMB,2025,fee_commission_income_gross,630634,TZS million,Group,data/raw/documents/NMB/NMB_Integrated_Annual_Report_2025.pdf,150,Fee and commission income,Income statement; fee note on p.199 (note 13); IS on left half of PDF p.150; file byte-identical to 'NMB_Integrated Annual Report_2025_.pdf'
+NMB,2025,fee_commission_expense,-146164,TZS million,Group,data/raw/documents/NMB/NMB_Integrated_Annual_Report_2025.pdf,150,Fee and commission expense,"Income statement; printed in parentheses, sign kept negative"
+NMB,2025,net_fee_commission_income,484470,TZS million,Group,data/raw/documents/NMB/NMB_Integrated_Annual_Report_2025.pdf,150,Net fee and commission income,Income statement
+NMB,2025,net_interest_income,1191080,TZS million,Group,data/raw/documents/NMB/NMB_Integrated_Annual_Report_2025.pdf,150,Net interest income,Income statement
+NMB,2025,total_operating_income,1743977,TZS million,Group,data/raw/documents/NMB/NMB_Integrated_Annual_Report_2025.pdf,150,Total operating income,Income statement subtotal = NII after impairment + net fee + trading/realised gains + FX + other income; left half of PDF p.150

@@ -1,0 +1,103 @@
+{
+  "chapter": "05",
+  "title": "Persistence and economic rents",
+  "hypotheses": [
+    "H5.1",
+    "H5.2",
+    "H5.3"
+  ],
+  "status": "built - calibration not chosen",
+  "tables": [
+    {
+      "path": "outputs/tables/ch05_coe_annual.csv",
+      "description": "Annual cost of equity (approach A), inputs and sources, +/- 200 bp",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch05.md"
+    },
+    {
+      "path": "outputs/tables/ch05_excess_returns.csv",
+      "description": "ER and RI per bank-year, estimation flag and exclusion reason",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch05.md"
+    },
+    {
+      "path": "outputs/tables/ch05_persistence.csv",
+      "description": "Persistence estimates by bank and specification (lambda, ER*, half-life)",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch05.md"
+    },
+    {
+      "path": "outputs/tables/ch05_break_tests.csv",
+      "description": "Chow (FY2018, 2015-18) and sup-F break tests",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch05.md"
+    },
+    {
+      "path": "outputs/tables/ch05_sign_persistence.csv",
+      "description": "Sign persistence of ER by bank",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch05.md"
+    },
+    {
+      "path": "outputs/tables/ch05_rank_persistence.csv",
+      "description": "Rank persistence across banks (Spearman, lags 1, 3, 5)",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch05.md"
+    },
+    {
+      "path": "outputs/tables/ch05_hypotheses.csv",
+      "description": "H5.1-H5.3 verdicts",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/ch05.md"
+    },
+    {
+      "path": "outputs/tables/ch05_calibration_candidates.csv",
+      "description": "Calibration candidates for NMB and CRDB (not chosen)",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch05.md"
+    },
+    {
+      "path": "outputs/tables/ch05_interval_coverage.csv",
+      "description": "Coverage of the 90% interval for lambda: standard, Kilian, Andrews",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch05.md"
+    },
+    {
+      "path": "outputs/tables/ch05_beta_sensitivity.csv",
+      "description": "Sensitivity: 2012 EM bank beta replaced by the 2013 value",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch05.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch05_excess_returns.png",
+      "data": "outputs/figures/ch05_excess_returns_data.csv",
+      "description": "Excess returns by bank",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch05.md"
+    },
+    {
+      "path": "outputs/figures/ch05_coe_annual.png",
+      "data": "outputs/figures/ch05_coe_annual_data.csv",
+      "description": "Annual cost of equity",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch05.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch05.md"
+  ],
+  "inputs": [
+    "data/processed/coe_inputs_annual.csv",
+    "data/interim/inputs_macroeconomic_data.csv",
+    "data/processed/assumptions.csv",
+    "data/processed/bank_year_wide.csv",
+    "data/processed/bank_period_long.csv",
+    "data/processed/bank_year_flags.csv",
+    "data/processed/sector_totals.csv",
+    "outputs/tables/ch04_4_2_funding.csv"
+  ],
+  "module": "tzbank.chapters.ch05.persistence",
+  "run_log_stage": "persistence"
+}

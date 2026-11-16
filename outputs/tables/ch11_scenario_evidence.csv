@@ -1,0 +1,93 @@
+valuation,bank,symbol,parameter,bear_first_last,base_first_last,bull_first_last,evidence_chapter,evidence_class,register_version,input_hash
+HIST,NMB,CIR,Cost-to-income,0.4077 -> 0.4077,0.3777 -> 0.3777,0.3777 -> 0.3777,ch. 4.5 (cost-to-income range),Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,COE_A,"Cost of equity, approach A (derived)",0.1818 -> 0.1818,0.1563 -> 0.1563,0.1309 -> 0.1309,market inputs + beta / LP,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,CoR,Cost of risk,0.0152 -> 0.0267,0.0094 -> 0.0190,0.0094 -> 0.0190,"ch. 8 (2015-18 stress mean cost of risk, ch08_credit_history)",Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,CoR_ttc,Through-the-cycle cost of risk (terminal),0.0248 -> 0.0248,0.0190 -> 0.0190,0.0190 -> 0.0190,register rationale,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,ER_star,Long-run excess return ER* (D50),0.0000 -> 0.0000,0.0425 -> 0.0425,0.0966 -> 0.0966,register rationale,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,LP,Illiquidity premium,0.0300 -> 0.0300,0.0150 -> 0.0150,0.0000 -> 0.0000,register rationale,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,NIM,Net interest margin (at the base rate path),0.0963 -> 0.0963,0.0963 -> 0.0963,0.0988 -> 0.0988,ch. 4.6 (NIM range FY2019-25),Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,ROE_star,Sustainable ROE (COE base + ER*),0.1563 -> 0.1563,0.1988 -> 0.1988,0.2529 -> 0.2529,ch. 5 (D50: bear ER* = 0),Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,asset_beta,Asset beta (IEA yield on T-bill),0.3687 -> 0.3687,0.2687 -> 0.2687,0.1687 -> 0.1687,ch. 4.3 / 6 (IEA yield on T-bill),Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,beta,"Bank beta (levered, EM banks)",0.7228 -> 0.7228,0.6228 -> 0.6228,0.5228 -> 0.5228,register rationale,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,deposit_beta,Deposit beta (cost of deposits on T-bill),0.0752 -> 0.0752,0.0167 -> 0.0167,0.0167 -> 0.0167,"ch. 6 (deposit beta interval, ch06_deposit_beta)",Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,g,Terminal growth (nominal TZS),0.0550 -> 0.0550,0.0650 -> 0.0650,0.0750 -> 0.0750,macro placeholder (open issue 15),Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,g_D,Deposit growth,0.1856 -> 0.1002,0.1856 -> 0.1002,0.1856 -> 0.1202,ch. 6 (deposits follow loans; stress-period growth),Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,g_L,Net loan growth,0.1663 -> 0.1002,0.1663 -> 0.1002,0.1663 -> 0.1202,"ch. 6 (loan growth in the 2015-18 stress, ch06_liquidity)",Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,k_star,Target Tier 1 ratio (requirement + bank buffer + D-SIB),0.2201 -> 0.2201,0.2201 -> 0.2201,0.1648 -> 0.1648,"ch. 7 (requirement, headroom, D-SIB)",Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,payout_star,Terminal payout,0.6481 -> 0.6481,0.6731 -> 0.6731,0.7034 -> 0.7034,register rationale,Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,phi,Non-interest income / avg assets,0.0402 -> 0.0402,0.0447 -> 0.0447,0.0447 -> 0.0447,ch. 4.1 / 4.4 / 4.7 (fee income; mobile-money competition),Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,pi_max,Payout cap,0.3262 -> 0.3262,0.3317 -> 0.3317,0.3492 -> 0.3492,ch. 7 (payout history),Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,rate,T-bill path (BoT overall T-bill rate; rate driver),0.0849 -> 0.0749,0.0949 -> 0.0949,0.0999 -> 0.1049,ch. 6 (BoT easing path; rate-linked NIM via betas),Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,rho,RWA density,0.6547 -> 0.6547,0.6347 -> 0.6347,0.6147 -> 0.6147,ch. 7 (RWA density; Basel II/III),Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,s_W,Wholesale funding spread over deposit cost,0.0661 -> 0.0661,0.0561 -> 0.0561,0.0461 -> 0.0461,ch. 6 (cost of borrowings over deposits),Scenario,v1.3,cc2c85e4eef09300
+HIST,NMB,t,Effective tax rate,0.3200 -> 0.3200,0.3000 -> 0.3000,0.2963 -> 0.2963,tax history,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,CIR,Cost-to-income,0.4883 -> 0.4883,0.4583 -> 0.4583,0.4583 -> 0.4583,ch. 4.5 (cost-to-income range),Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,COE_A,"Cost of equity, approach A (derived)",0.1818 -> 0.1818,0.1563 -> 0.1563,0.1309 -> 0.1309,market inputs + beta / LP,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,CoR,Cost of risk,0.0197 -> 0.0350,0.0121 -> 0.0205,0.0121 -> 0.0160,"ch. 8 (2015-18 stress mean cost of risk, ch08_credit_history)",Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,CoR_ttc,Through-the-cycle cost of risk (terminal),0.0258 -> 0.0258,0.0205 -> 0.0205,0.0203 -> 0.0203,register rationale,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,ER_star,Long-run excess return ER* (D50),-0.0049 -> -0.0049,-0.0049 -> -0.0049,0.0387 -> 0.0387,register rationale,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,LP,Illiquidity premium,0.0300 -> 0.0300,0.0150 -> 0.0150,0.0000 -> 0.0000,register rationale,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,NIM,Net interest margin (at the base rate path),0.0900 -> 0.0826,0.0920 -> 0.0920,0.0945 -> 0.0945,ch. 4.6 (NIM range FY2019-25),Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,ROE_star,Sustainable ROE (COE base + ER*),0.1514 -> 0.1514,0.1514 -> 0.1514,0.1950 -> 0.1950,ch. 5 (D50: bear ER* = 0),Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,asset_beta,Asset beta (IEA yield on T-bill),0.2064 -> 0.2064,0.1064 -> 0.1064,0.0064 -> 0.0064,ch. 4.3 / 6 (IEA yield on T-bill),Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,beta,"Bank beta (levered, EM banks)",0.7228 -> 0.7228,0.6228 -> 0.6228,0.5228 -> 0.5228,register rationale,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,deposit_beta,Deposit beta (cost of deposits on T-bill),0.0771 -> 0.0771,0.0212 -> 0.0212,0.0212 -> 0.0212,"ch. 6 (deposit beta interval, ch06_deposit_beta)",Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,fx,Subsidiary currency depreciation vs TZS (a year),0.2950 -> 0.2950,0.1950 -> 0.1950,0.1950 -> 0.1950,subsidiary FX (VALUATION_SPEC §7 bear story),Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,g,Terminal growth (nominal TZS),0.0550 -> 0.0550,0.0650 -> 0.0650,0.0750 -> 0.0750,macro placeholder (open issue 15),Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,g_D,Deposit growth,0.2636 -> 0.0635,0.2636 -> 0.1002,0.2636 -> 0.1102,ch. 6 (deposits follow loans; stress-period growth),Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,g_L,Net loan growth,0.3295 -> 0.0635,0.3295 -> 0.1002,0.3295 -> 0.1102,"ch. 6 (loan growth in the 2015-18 stress, ch06_liquidity)",Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,k_star,Target Tier 1 ratio (requirement + bank buffer + D-SIB),0.1630 -> 0.1630,0.1630 -> 0.1630,0.1495 -> 0.1495,"ch. 7 (requirement, headroom, D-SIB)",Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,payout_star,Terminal payout,0.6368 -> 0.6368,0.5707 -> 0.5707,0.6154 -> 0.6154,register rationale,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,phi,Non-interest income / avg assets,0.0316 -> 0.0316,0.0316 -> 0.0316,0.0347 -> 0.0347,ch. 4.1 / 4.4 / 4.7 (fee income; mobile-money competition),Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,pi_max,Payout cap,0.3062 -> 0.3062,0.3062 -> 0.3062,0.5195 -> 0.5195,ch. 7 (payout history),Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,rate,T-bill path (BoT overall T-bill rate; rate driver),0.0849 -> 0.0749,0.0949 -> 0.0949,0.0999 -> 0.1049,ch. 6 (BoT easing path; rate-linked NIM via betas),Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,rho,RWA density,0.7260 -> 0.7260,0.7060 -> 0.7060,0.6860 -> 0.6860,ch. 7 (RWA density; Basel II/III),Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,s_W,Wholesale funding spread over deposit cost,0.1778 -> 0.1778,0.1678 -> 0.1678,0.1578 -> 0.1578,ch. 6 (cost of borrowings over deposits),Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,t,Effective tax rate,0.3132 -> 0.3132,0.2932 -> 0.2932,0.2919 -> 0.2919,tax history,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,u,Upstream ratio (subsidiary dividends / profit),0.1363 -> 0.1363,0.2727 -> 0.2727,0.2727 -> 0.2727,ch. 7 / subsidiary layer (upstreaming),Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,CIR,Cost-to-income,0.4010 -> 0.4010,0.3710 -> 0.3710,0.3710 -> 0.3710,ch. 4.5 (cost-to-income range),Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,COE_A,"Cost of equity, approach A (derived)",0.1713 -> 0.1713,0.1465 -> 0.1465,0.1218 -> 0.1218,market inputs + beta / LP,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,CoR,Cost of risk,0.0156 -> 0.0267,0.0100 -> 0.0184,0.0100 -> 0.0184,"ch. 8 (2015-18 stress mean cost of risk, ch08_credit_history)",Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,CoR_ttc,Through-the-cycle cost of risk (terminal),0.0248 -> 0.0248,0.0184 -> 0.0184,0.0184 -> 0.0184,register rationale,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,ER_star,Long-run excess return ER* (D50),0.0000 -> 0.0000,0.0466 -> 0.0466,0.1064 -> 0.1064,register rationale,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,LP,Illiquidity premium,0.0300 -> 0.0300,0.0150 -> 0.0150,0.0000 -> 0.0000,register rationale,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,NIM,Net interest margin (at the base rate path),0.0902 -> 0.0902,0.0902 -> 0.0902,0.0927 -> 0.0927,ch. 4.6 (NIM range FY2019-25),Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,ROE_star,Sustainable ROE (COE base + ER*),0.1465 -> 0.1465,0.1932 -> 0.1932,0.2529 -> 0.2529,ch. 5 (D50: bear ER* = 0),Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,asset_beta,Asset beta (IEA yield on T-bill),0.3672 -> 0.3672,0.2672 -> 0.2672,0.1672 -> 0.1672,ch. 4.3 / 6 (IEA yield on T-bill),Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,beta,"Bank beta (levered, EM banks)",0.7040 -> 0.7040,0.6040 -> 0.6040,0.5040 -> 0.5040,register rationale,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,deposit_beta,Deposit beta (cost of deposits on T-bill),0.0736 -> 0.0736,0.0172 -> 0.0172,0.0172 -> 0.0172,"ch. 6 (deposit beta interval, ch06_deposit_beta)",Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,g,Terminal growth (nominal TZS),0.0600 -> 0.0600,0.0700 -> 0.0700,0.0800 -> 0.0800,macro placeholder (open issue 15),Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,g_D,Deposit growth,0.0471 -> 0.1024,0.0471 -> 0.1024,0.0471 -> 0.1224,ch. 6 (deposits follow loans; stress-period growth),Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,g_L,Net loan growth,0.2147 -> 0.1024,0.2147 -> 0.1024,0.2147 -> 0.1224,"ch. 6 (loan growth in the 2015-18 stress, ch06_liquidity)",Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,k_star,Target Tier 1 ratio (requirement + bank buffer + D-SIB),0.2624 -> 0.2624,0.2224 -> 0.2224,0.1646 -> 0.1646,"ch. 7 (requirement, headroom, D-SIB)",Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,payout_star,Terminal payout,0.5906 -> 0.5906,0.6376 -> 0.6376,0.6837 -> 0.6837,register rationale,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,phi,Non-interest income / avg assets,0.0364 -> 0.0364,0.0405 -> 0.0405,0.0445 -> 0.0445,ch. 4.1 / 4.4 / 4.7 (fee income; mobile-money competition),Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,pi_max,Payout cap,0.3262 -> 0.3262,0.4016 -> 0.4016,0.4016 -> 0.4016,ch. 7 (payout history),Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,rate,T-bill path (BoT overall T-bill rate; rate driver),0.0529 -> 0.0429,0.0629 -> 0.0629,0.0679 -> 0.0729,ch. 6 (BoT easing path; rate-linked NIM via betas),Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,rho,RWA density,0.6816 -> 0.6816,0.6616 -> 0.6616,0.6416 -> 0.6416,ch. 7 (RWA density; Basel II/III),Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,s_W,Wholesale funding spread over deposit cost,0.0660 -> 0.0660,0.0560 -> 0.0560,0.0460 -> 0.0460,ch. 6 (cost of borrowings over deposits),Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,t,Effective tax rate,0.3164 -> 0.3164,0.2964 -> 0.2964,0.2875 -> 0.2875,tax history,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,CIR,Cost-to-income,0.4488 -> 0.4488,0.4188 -> 0.4188,0.4188 -> 0.4188,ch. 4.5 (cost-to-income range),Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,COE_A,"Cost of equity, approach A (derived)",0.1713 -> 0.1713,0.1465 -> 0.1465,0.1218 -> 0.1218,market inputs + beta / LP,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,CoR,Cost of risk,0.0204 -> 0.0350,0.0131 -> 0.0200,0.0131 -> 0.0155,"ch. 8 (2015-18 stress mean cost of risk, ch08_credit_history)",Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,CoR_ttc,Through-the-cycle cost of risk (terminal),0.0258 -> 0.0258,0.0200 -> 0.0200,0.0198 -> 0.0198,register rationale,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,ER_star,Long-run excess return ER* (D50),0.0000 -> 0.0000,0.0038 -> 0.0038,0.0583 -> 0.0583,register rationale,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,LP,Illiquidity premium,0.0300 -> 0.0300,0.0150 -> 0.0150,0.0000 -> 0.0000,register rationale,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,NIM,Net interest margin (at the base rate path),0.0859 -> 0.0826,0.0879 -> 0.0879,0.0904 -> 0.0904,ch. 4.6 (NIM range FY2019-25),Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,ROE_star,Sustainable ROE (COE base + ER*),0.1465 -> 0.1465,0.1504 -> 0.1504,0.2048 -> 0.2048,ch. 5 (D50: bear ER* = 0),Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,asset_beta,Asset beta (IEA yield on T-bill),0.2051 -> 0.2051,0.1051 -> 0.1051,0.0051 -> 0.0051,ch. 4.3 / 6 (IEA yield on T-bill),Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,beta,"Bank beta (levered, EM banks)",0.7040 -> 0.7040,0.6040 -> 0.6040,0.5040 -> 0.5040,register rationale,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,deposit_beta,Deposit beta (cost of deposits on T-bill),0.0764 -> 0.0764,0.0213 -> 0.0213,0.0213 -> 0.0213,"ch. 6 (deposit beta interval, ch06_deposit_beta)",Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,fx,Subsidiary currency depreciation vs TZS (a year),0.1606 -> 0.1606,0.0606 -> 0.0606,0.0606 -> 0.0606,subsidiary FX (VALUATION_SPEC §7 bear story),Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,g,Terminal growth (nominal TZS),0.0600 -> 0.0600,0.0700 -> 0.0700,0.0800 -> 0.0800,macro placeholder (open issue 15),Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,g_D,Deposit growth,0.2273 -> 0.0735,0.2273 -> 0.1024,0.2273 -> 0.1224,ch. 6 (deposits follow loans; stress-period growth),Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,g_L,Net loan growth,0.3606 -> 0.0735,0.3606 -> 0.1024,0.3606 -> 0.1224,"ch. 6 (loan growth in the 2015-18 stress, ch06_liquidity)",Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,k_star,Target Tier 1 ratio (requirement + bank buffer + D-SIB),0.1564 -> 0.1564,0.1564 -> 0.1564,0.1445 -> 0.1445,"ch. 7 (requirement, headroom, D-SIB)",Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,payout_star,Terminal payout,0.5906 -> 0.5906,0.5345 -> 0.5345,0.6094 -> 0.6094,register rationale,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,phi,Non-interest income / avg assets,0.0316 -> 0.0316,0.0323 -> 0.0323,0.0355 -> 0.0355,ch. 4.1 / 4.4 / 4.7 (fee income; mobile-money competition),Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,pi_max,Payout cap,0.3062 -> 0.3062,0.3209 -> 0.3209,0.5195 -> 0.5195,ch. 7 (payout history),Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,rate,T-bill path (BoT overall T-bill rate; rate driver),0.0529 -> 0.0429,0.0629 -> 0.0629,0.0679 -> 0.0729,ch. 6 (BoT easing path; rate-linked NIM via betas),Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,rho,RWA density,0.6632 -> 0.6632,0.6432 -> 0.6432,0.6232 -> 0.6232,ch. 7 (RWA density; Basel II/III),Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,s_W,Wholesale funding spread over deposit cost,0.1481 -> 0.1481,0.1381 -> 0.1381,0.1281 -> 0.1281,ch. 6 (cost of borrowings over deposits),Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,t,Effective tax rate,0.3129 -> 0.3129,0.2929 -> 0.2929,0.2919 -> 0.2919,tax history,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,u,Upstream ratio (subsidiary dividends / profit),0.1530 -> 0.1530,0.3061 -> 0.3061,0.3061 -> 0.3061,ch. 7 / subsidiary layer (upstreaming),Scenario,v1.3,cc2c85e4eef09300

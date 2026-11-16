@@ -1,0 +1,5 @@
+bank,k,series,label,n_windows,median,n_excl_stress_start,median_excl_stress_start,stress_windows_below_median,stress_windows_above_median,latest_window,latest,common_windows,common_median,common_windows_excl_stress,common_median_excl_stress,evidence_class
+CRDB,3,rore_primary,"RORE, primary (D52)",10,0.4378397270537745,6,0.4378397270537745,2,2,2022-2025,0.4175227743702644,10,0.4378397270537745,6,0.4378397270537745,Derived
+CRDB,3,rore_adjusted,"RORE, raise-adjusted (headline for CRDB)",13,0.4077454585621091,9,0.4077454585621091,2,2,2022-2025,0.4175227743702644,10,0.4378397270537745,6,0.4378397270537745,Derived
+CRDB,5,rore_primary,"RORE, primary (D52)",6,0.5292369427971972,2,0.4826560264132589,1,3,2020-2025,0.4749004067726732,6,0.5292369427971972,2,0.4826560264132588,Derived
+CRDB,5,rore_adjusted,"RORE, raise-adjusted (headline for CRDB)",11,0.2173566389937321,7,0.0857163449302534,1,3,2020-2025,0.4749004067726732,6,0.5292369427971972,2,0.4826560264132588,Derived

@@ -1,0 +1,15 @@
+bank,fy,item,value_tzs_m,basis,source_file,pdf_page,printed_ref,note
+CRDB,2025,loans_directors_kmp,12477,group,CRDB/crdb-ir-2025-8th-may-2026.pdf,331,Note 63,Loans to directors and key management personnel at 31 December
+CRDB,2025,loans_director_companies,23750,group,CRDB/crdb-ir-2025-8th-may-2026.pdf,331,Note 63,Loans to companies associated with directors at 31 December
+CRDB,2025,kmp_compensation,23390,group,CRDB/crdb-ir-2025-8th-may-2026.pdf,332,Note 63,Short-term benefits 17461 plus gratuity 5929
+CRDB,2025,directors_fees,2467,group,CRDB/crdb-ir-2025-8th-may-2026.pdf,291,Note 21,Board fees (Group); board expenses 8279 shown separately
+CRDB,2025,gross_loans,13971500,group,CRDB/crdb-ir-2025-8th-may-2026.pdf,301,Note 33,Gross loans and advances to customers
+CRDB,2025,profit_attributable,732457,group,CRDB/crdb-ir-2025-8th-may-2026.pdf,195,Income statement,Profit attributable to equity holders of the parent
+CRDB,2025,total_capital,2560049,group,CRDB/crdb-ir-2025-8th-may-2026.pdf,327,Note 57,Total regulatory capital (Group)
+NMB,2025,loans_directors_kmp,18593,group,NMB/NMB_Integrated_Annual_Report_2025.pdf,218,Note 45(a),Lending to key management personnel and directors (directors 9014)
+NMB,2025,loans_director_companies,0,group,NMB/NMB_Integrated_Annual_Report_2025.pdf,218,Note 45(a),No loans issued to companies controlled by the directors
+NMB,2025,kmp_compensation,16456,group,NMB/NMB_Integrated_Annual_Report_2025.pdf,219,Note 45(e),Salaries and short-term benefits 15331 plus defined contribution 1125
+NMB,2025,directors_fees,2094,group,NMB/NMB_Integrated_Annual_Report_2025.pdf,219,Note 45(g),Fees and other emoluments paid to directors
+NMB,2025,gross_loans,10688021,group,NMB/NMB_Integrated_Annual_Report_2025.pdf,203,Note 23,Gross loans and advances to customers
+NMB,2025,profit_attributable,759670,group,NMB/NMB_Integrated_Annual_Report_2025.pdf,150,Income statement,Attributable to owners of the bank
+NMB,2025,total_capital,2883923,bank,NMB/NMB_Integrated_Annual_Report_2025.pdf,198,Note 9.6,Total regulatory capital (bank only; no group figure)

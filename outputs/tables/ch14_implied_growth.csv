@@ -1,0 +1,5 @@
+valuation,bank,price,base_g,coe,g_upper_bound_guard,value_at_upper_bound,value_at_g_minus_10pct,implied_g,implied_minus_base,status,held,evidence_class,register_version,input_hash
+HIST,NMB,8410.0,0.065,0.156309872,0.11630987199999998,13826.189931013087,9601.409004071465,,,price below value for every g from -10% to 11.6%: no implied growth,"v1.3 ROE path, ROE*, lambda, payout",Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,1530.0,0.065,0.156309872,0.11630987199999998,1064.1689749824675,1147.1018742852773,,,price above value for every g from -10% to the COE - g guard (11.6%): no implied growth,"v1.3 ROE path, ROE*, lambda, payout",Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,1820.0,0.07,0.14834453884200194,0.10834453884200193,1693.533485128579,1160.5416292418552,,,price above value for every g from -10% to the COE - g guard (10.8%): no implied growth,"v1.3 ROE path, ROE*, lambda, payout",Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,2840.0,0.07,0.14834453884200194,0.10834453884200193,1894.8226956829044,1800.3272924979563,,,price above value for every g from -10% to the COE - g guard (10.8%): no implied growth,"v1.3 ROE path, ROE*, lambda, payout",Scenario,v1.3,cc2c85e4eef09300

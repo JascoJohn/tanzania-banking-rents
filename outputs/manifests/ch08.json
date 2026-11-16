@@ -1,0 +1,104 @@
+{
+  "chapter": "08",
+  "title": "Credit risk and capital efficiency",
+  "hypotheses": [
+    "H8.1",
+    "H8.2"
+  ],
+  "status": "built",
+  "tables": [
+    {
+      "path": "outputs/tables/ch08_credit_history.csv",
+      "description": "Cost of risk, NPL and coverage by bank-year, regime marked",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch08.md"
+    },
+    {
+      "path": "outputs/tables/ch08_ttc_cost_of_risk.csv",
+      "description": "Through-the-cycle cost of risk: primary cycle, boundary grid, sub-periods",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch08.md"
+    },
+    {
+      "path": "outputs/tables/ch08_ifrs9_transition.csv",
+      "description": "FY2018 IFRS 9 transition adjustment (opening equity, allowance)",
+      "evidence_class": "Observed",
+      "note": "outputs/notes/ch08.md"
+    },
+    {
+      "path": "outputs/tables/ch08_ifrs9_transition_ratios.csv",
+      "description": "Transition adjustment scaled by equity and loans (memo)",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch08.md"
+    },
+    {
+      "path": "outputs/tables/ch08_h81_cost_of_risk_gap.csv",
+      "description": "H8.1: current vs TTC cost of risk with bootstrap intervals",
+      "evidence_class": "Estimated",
+      "note": "outputs/notes/ch08.md"
+    },
+    {
+      "path": "outputs/tables/ch08_capital_efficiency.csv",
+      "description": "Return on RWA, PPOP / RWA, risk-adjusted RoRWA, RWA density",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch08.md"
+    },
+    {
+      "path": "outputs/tables/ch08_panel_summary.csv",
+      "description": "Seven-bank panel with coverage flags",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch08.md"
+    },
+    {
+      "path": "outputs/tables/ch08_h82_rorwa_difference.csv",
+      "description": "H8.2: NMB - CRDB risk-adjusted RoRWA by year",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch08.md"
+    },
+    {
+      "path": "outputs/tables/ch08_stress_lens.csv",
+      "description": "ROE at TTC and 2015-18 cost of risk through the 4.0 tree (09a input)",
+      "evidence_class": "Scenario",
+      "note": "outputs/notes/ch08.md"
+    },
+    {
+      "path": "outputs/tables/ch08_hypotheses.csv",
+      "description": "H8.1-H8.2 verdicts",
+      "evidence_class": "Interpretation",
+      "note": "outputs/notes/ch08.md"
+    }
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/ch08_cost_of_risk.png",
+      "data": "outputs/figures/ch08_cost_of_risk_data.csv",
+      "description": "Cost of risk with the IFRS 9 break and TTC levels",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch08.md"
+    },
+    {
+      "path": "outputs/figures/ch08_asset_quality.png",
+      "data": "outputs/figures/ch08_asset_quality_data.csv",
+      "description": "NPL ratio and coverage",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch08.md"
+    },
+    {
+      "path": "outputs/figures/ch08_rorwa.png",
+      "data": "outputs/figures/ch08_rorwa_data.csv",
+      "description": "Return on RWA and risk-adjusted RoRWA",
+      "evidence_class": "Derived",
+      "note": "outputs/notes/ch08.md"
+    }
+  ],
+  "notes": [
+    "outputs/notes/ch08.md"
+  ],
+  "inputs": [
+    "data/processed/bank_year_wide.csv",
+    "data/processed/capital_long.csv",
+    "data/processed/bank_period_long.csv"
+  ],
+  "module": "tzbank.chapters.ch08_credit",
+  "run_log_stage": "credit"
+}

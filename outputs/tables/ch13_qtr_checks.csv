@@ -1,0 +1,157 @@
+bank,basis,period_end,check,computed,reference,deviation,tolerance,status,note,evidence_class,register_version,input_hash
+NMB,group,2025-12-31,assets = liabilities + equity (current_quarter),17182708.0,17182708.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2025-12-31,assets = liabilities + equity (previous_quarter),15471399.0,15471399.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2025-12-31,NII = interest income + interest expense (current_quarter),313975.0,313975.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2025-12-31,PAT = PBT + tax (current_quarter),206441.0,206441.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2025-12-31,NII = interest income + interest expense (ytd_current),1193481.0,1193481.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2025-12-31,PAT = PBT + tax (ytd_current),749772.0,749772.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-03-31,assets = liabilities + equity (current_quarter),17921831.0,17921831.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-03-31,assets = liabilities + equity (previous_quarter),17615944.0,17615944.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-03-31,NII = interest income + interest expense (current_quarter),318638.0,318638.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-03-31,PAT = PBT + tax (current_quarter),193091.0,193091.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-03-31,NII = interest income + interest expense (ytd_current),318638.0,318638.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-03-31,PAT = PBT + tax (ytd_current),193091.0,193091.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-06-30,assets = liabilities + equity (current_quarter),18439388.0,18439388.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-06-30,assets = liabilities + equity (previous_quarter),17921831.0,17921831.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-06-30,NII = interest income + interest expense (current_quarter),343556.0,343556.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-06-30,PAT = PBT + tax (current_quarter),212683.0,212683.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-06-30,NII = interest income + interest expense (ytd_current),662194.0,662194.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-06-30,PAT = PBT + tax (ytd_current),405766.0,405766.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-09-30,assets = liabilities + equity (current_quarter),19308337.0,19308337.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-09-30,assets = liabilities + equity (previous_quarter),18439388.0,18439388.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-09-30,NII = interest income + interest expense (current_quarter),381500.0,381500.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-09-30,PAT = PBT + tax (current_quarter),228834.0,228834.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-09-30,NII = interest income + interest expense (ytd_current),1043694.0,1043694.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-09-30,PAT = PBT + tax (ytd_current),634602.0,634602.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-06-30,YTD nii: previous YTD + this quarter,662194.0,662194.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-06-30,YTD pat: previous YTD + this quarter,405774.0,405766.0,1.971579678938795e-05,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-06-30,YTD fees_commissions: previous YTD + this quarter,289351.0,289351.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-06-30,YTD impairment: previous YTD + this quarter,-52387.0,-52387.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-09-30,YTD nii: previous YTD + this quarter,1043694.0,1043694.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-09-30,YTD pat: previous YTD + this quarter,634600.0,634602.0,-3.151581621230193e-06,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-09-30,YTD fees_commissions: previous YTD + this quarter,449567.0,449567.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-09-30,YTD impairment: previous YTD + this quarter,-86527.0,-86527.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-03-31,equity roll-forward: closing - opening - PAT - OCI (= -dividends + other),9553.0,3097154.0,0.0030844446223855836,0.01,pass,a negative residual in Q2 is the final dividend paid,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-06-30,equity roll-forward: closing - opening - PAT - OCI (= -dividends + other),-310679.0,3306906.0,-0.09394854283732286,0.01,dividend in quarter,a negative residual in Q2 is the final dividend paid,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-09-30,equity roll-forward: closing - opening - PAT - OCI (= -dividends + other),412.0,3208640.0,0.00012840331106013763,0.01,pass,a negative residual in Q2 is the final dividend paid,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2025-12-31,assets = liabilities + equity (current_quarter),17219049.0,17219049.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2025-12-31,assets = liabilities + equity (previous_quarter),15509025.0,15509025.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2025-12-31,NII = interest income + interest expense (current_quarter),313600.0,313600.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2025-12-31,PAT = PBT + tax (current_quarter),205503.0,205503.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2025-12-31,NII = interest income + interest expense (ytd_current),1192048.0,1192048.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2025-12-31,PAT = PBT + tax (ytd_current),746094.0,746094.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-03-31,assets = liabilities + equity (current_quarter),17956745.0,17956745.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-03-31,assets = liabilities + equity (previous_quarter),17654288.0,17654288.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-03-31,NII = interest income + interest expense (current_quarter),318263.0,318263.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-03-31,PAT = PBT + tax (current_quarter),192200.0,192200.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-03-31,NII = interest income + interest expense (ytd_current),318263.0,318263.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-03-31,PAT = PBT + tax (ytd_current),192200.0,192200.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-06-30,assets = liabilities + equity (current_quarter),18483566.0,18483566.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-06-30,assets = liabilities + equity (previous_quarter),17956745.0,17956745.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-06-30,NII = interest income + interest expense (current_quarter),343081.0,343081.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-06-30,PAT = PBT + tax (current_quarter),211704.0,211704.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-06-30,NII = interest income + interest expense (ytd_current),661344.0,661344.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-06-30,PAT = PBT + tax (ytd_current),403903.0,403903.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-09-30,assets = liabilities + equity (current_quarter),19347835.0,19347835.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-09-30,assets = liabilities + equity (previous_quarter),18483566.0,18483566.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-09-30,NII = interest income + interest expense (current_quarter),381000.0,381000.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-09-30,PAT = PBT + tax (current_quarter),227871.0,227871.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-09-30,NII = interest income + interest expense (ytd_current),1042344.0,1042344.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-09-30,PAT = PBT + tax (ytd_current),631776.0,631776.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-06-30,YTD nii: previous YTD + this quarter,661344.0,661344.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-06-30,YTD pat: previous YTD + this quarter,403904.0,403903.0,2.475841971882886e-06,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-06-30,YTD fees_commissions: previous YTD + this quarter,289351.0,289351.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-06-30,YTD impairment: previous YTD + this quarter,-52387.0,-52387.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-09-30,YTD nii: previous YTD + this quarter,1042344.0,1042344.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-09-30,YTD pat: previous YTD + this quarter,631774.0,631776.0,-3.1656789748479852e-06,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-09-30,YTD fees_commissions: previous YTD + this quarter,449567.0,449567.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-09-30,YTD impairment: previous YTD + this quarter,-86527.0,-86527.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-03-31,equity roll-forward: closing - opening - PAT - OCI (= -dividends + other),9567.0,3080943.0,0.003105218110169516,0.01,pass,a negative residual in Q2 is the final dividend paid,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-06-30,equity roll-forward: closing - opening - PAT - OCI (= -dividends + other),-305076.0,3289818.0,-0.09273339740982632,0.01,dividend in quarter,a negative residual in Q2 is the final dividend paid,Derived,v1.3,cc2c85e4eef09300
+NMB,bank,2026-09-30,equity roll-forward: closing - opening - PAT - OCI (= -dividends + other),2.0,3196176.0,6.257477685834572e-07,0.01,pass,a negative residual in Q2 is the final dividend paid,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2025-12-31,EPS x shares = PAT (YTD; annualised where the bank prints it so),750000.0,749772.0,0.00030409244410289915,0.03,pass,shares 500.0m; EPS printed year to date,Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-03-31,EPS x shares = PAT (YTD; annualised where the bank prints it so),772500.0,772364.0,0.00017608277962199992,0.03,pass,shares 500.0m; EPS printed annualised (x 12 / months),Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-06-30,EPS x shares = PAT (YTD; annualised where the bank prints it so),811500.0,811532.0,-3.943159357855386e-05,0.03,pass,shares 500.0m; EPS printed annualised (x 12 / months),Derived,v1.3,cc2c85e4eef09300
+NMB,group,2026-09-30,EPS x shares = PAT (YTD; annualised where the bank prints it so),845000.0,846136.0,-0.0013425737706468377,0.03,pass,"shares 5,000.0m; EPS printed annualised (x 12 / months)",Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2025-12-31,assets = liabilities + equity (current_quarter),22215802.0,22215802.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2025-12-31,assets = liabilities + equity (previous_quarter),20457601.0,20457602.0,-4.888158444682489e-08,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2025-12-31,NII = interest income + interest expense (current_quarter),390555.0,390555.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2025-12-31,PAT = PBT + tax (current_quarter),204144.0,204144.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2025-12-31,NII = interest income + interest expense (ytd_current),1380503.0,1380503.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2025-12-31,PAT = PBT + tax (ytd_current),724609.0,724608.0,1.3800565270560838e-06,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-03-31,assets = liabilities + equity (current_quarter),23894555.0,23894556.0,-4.185053703587016e-08,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-03-31,assets = liabilities + equity (previous_quarter),22308937.0,22308936.0,4.482508719760858e-08,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-03-31,NII = interest income + interest expense (current_quarter),388753.0,388752.0,2.5723340331129663e-06,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-03-31,PAT = PBT + tax (current_quarter),206201.0,206201.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-03-31,NII = interest income + interest expense (ytd_current),388753.0,388752.0,2.5723340331129663e-06,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-03-31,PAT = PBT + tax (ytd_current),206201.0,206201.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-06-30,assets = liabilities + equity (current_quarter),26396026.0,26396026.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-06-30,assets = liabilities + equity (previous_quarter),23894555.0,23894556.0,-4.185053703587016e-08,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-06-30,NII = interest income + interest expense (current_quarter),404293.0,404293.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-06-30,PAT = PBT + tax (current_quarter),210658.0,210658.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-06-30,NII = interest income + interest expense (ytd_current),793046.0,793045.0,1.2609624926440688e-06,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-06-30,PAT = PBT + tax (ytd_current),416859.0,416858.0,2.398898425903795e-06,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-09-30,assets = liabilities + equity (current_quarter),27452240.0,27452240.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-09-30,assets = liabilities + equity (previous_quarter),26396026.0,26396026.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-09-30,NII = interest income + interest expense (current_quarter),474530.0,474530.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-09-30,PAT = PBT + tax (current_quarter),255209.0,255210.0,-3.918341757724875e-06,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-09-30,NII = interest income + interest expense (ytd_current),1267576.0,1267575.0,7.889079540746025e-07,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-09-30,PAT = PBT + tax (ytd_current),672068.0,672068.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-06-30,YTD nii: previous YTD + this quarter,793045.0,793045.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-06-30,YTD pat: previous YTD + this quarter,416859.0,416858.0,2.398898425903795e-06,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-06-30,YTD fees_commissions: previous YTD + this quarter,316770.0,316770.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-06-30,YTD impairment: previous YTD + this quarter,-83988.0,-83988.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-09-30,YTD nii: previous YTD + this quarter,1267575.0,1267575.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-09-30,YTD pat: previous YTD + this quarter,672068.0,672068.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-09-30,YTD fees_commissions: previous YTD + this quarter,508541.0,508541.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-09-30,YTD impairment: previous YTD + this quarter,-160397.0,-160396.0,6.234569440710658e-06,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-03-31,equity roll-forward: closing - opening - PAT - OCI (= -dividends + other),50030.0,2781805.0,0.017984725744615456,0.01,fail,a negative residual in Q2 is the final dividend paid,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-06-30,equity roll-forward: closing - opening - PAT - OCI (= -dividends + other),-264331.0,3056745.0,-0.0864746650440256,0.01,dividend in quarter,a negative residual in Q2 is the final dividend paid,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-09-30,equity roll-forward: closing - opening - PAT - OCI (= -dividends + other),8463.0,3018787.0,0.0028034438998180396,0.01,pass,a negative residual in Q2 is the final dividend paid,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2025-12-31,assets = liabilities + equity (current_quarter),20665754.0,20665755.0,-4.8389231399603716e-08,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2025-12-31,assets = liabilities + equity (previous_quarter),18815582.0,18815582.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2025-12-31,NII = interest income + interest expense (current_quarter),354413.0,354414.0,-2.821558967802673e-06,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2025-12-31,PAT = PBT + tax (current_quarter),193407.0,193407.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2025-12-31,NII = interest income + interest expense (ytd_current),1272385.0,1272385.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2025-12-31,PAT = PBT + tax (ytd_current),699534.0,699534.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-03-31,assets = liabilities + equity (current_quarter),22207414.0,22207414.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-03-31,assets = liabilities + equity (previous_quarter),20763416.0,20763416.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-03-31,NII = interest income + interest expense (current_quarter),359329.0,359329.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-03-31,PAT = PBT + tax (current_quarter),206277.0,206276.0,4.8478737226798074e-06,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-03-31,NII = interest income + interest expense (ytd_current),359329.0,359329.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-03-31,PAT = PBT + tax (ytd_current),206277.0,206276.0,4.8478737226798074e-06,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-06-30,assets = liabilities + equity (current_quarter),24263617.0,24263618.0,-4.121396901535235e-08,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-06-30,assets = liabilities + equity (previous_quarter),22207414.0,22207414.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-06-30,NII = interest income + interest expense (current_quarter),360103.0,360103.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-06-30,PAT = PBT + tax (current_quarter),189157.0,189157.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-06-30,NII = interest income + interest expense (ytd_current),719432.0,719431.0,1.3899873649858563e-06,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-06-30,PAT = PBT + tax (ytd_current),395433.0,395433.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-09-30,assets = liabilities + equity (current_quarter),25366802.0,25366803.0,-3.9421601538691675e-08,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-09-30,assets = liabilities + equity (previous_quarter),24263617.0,24263618.0,-4.121396901535235e-08,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-09-30,NII = interest income + interest expense (current_quarter),432786.0,432786.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-09-30,PAT = PBT + tax (current_quarter),236124.0,236125.0,-4.235044997358273e-06,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-09-30,NII = interest income + interest expense (ytd_current),1152218.0,1152218.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-09-30,PAT = PBT + tax (ytd_current),631558.0,631558.0,0.0,0.001,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-06-30,YTD nii: previous YTD + this quarter,719432.0,719431.0,1.3899873649858563e-06,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-06-30,YTD pat: previous YTD + this quarter,395433.0,395433.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-06-30,YTD fees_commissions: previous YTD + this quarter,269453.0,269453.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-06-30,YTD impairment: previous YTD + this quarter,-78368.0,-78367.0,1.2760473158346386e-05,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-09-30,YTD nii: previous YTD + this quarter,1152217.0,1152218.0,-8.678913191451088e-07,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-09-30,YTD pat: previous YTD + this quarter,631558.0,631558.0,0.0,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-09-30,YTD fees_commissions: previous YTD + this quarter,431135.0,431134.0,2.3194644820367927e-06,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-09-30,YTD impairment: previous YTD + this quarter,-148901.0,-148902.0,-6.7158265167899245e-06,0.002,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-03-31,equity roll-forward: closing - opening - PAT - OCI (= -dividends + other),3698.0,2636086.0,0.0014028373884615297,0.01,pass,a negative residual in Q2 is the final dividend paid,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-06-30,equity roll-forward: closing - opening - PAT - OCI (= -dividends + other),-236616.0,2867828.0,-0.08250704017116786,0.01,dividend in quarter,a negative residual in Q2 is the final dividend paid,Derived,v1.3,cc2c85e4eef09300
+CRDB,bank,2026-09-30,equity roll-forward: closing - opening - PAT - OCI (= -dividends + other),1425.0,2825713.0,0.0005042974994275781,0.01,pass,a negative residual in Q2 is the final dividend paid,Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2025-12-31,EPS x shares = PAT (YTD; annualised where the bank prints it so),723440.9,724608.0,-0.0016106639727963001,0.03,pass,"shares 2,611.7m; EPS printed year to date",Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-03-31,EPS x shares = PAT (YTD; annualised where the bank prints it so),206324.3,206201.0,0.0005979602426757769,0.03,pass,"shares 2,611.7m; EPS printed year to date",Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-06-30,EPS x shares = PAT (YTD; annualised where the bank prints it so),417872.0,416858.0,0.0024324830038047196,0.03,pass,"shares 2,611.7m; EPS printed year to date",Derived,v1.3,cc2c85e4eef09300
+CRDB,group,2026-09-30,EPS x shares = PAT (YTD; annualised where the bank prints it so),671206.9,672068.0,-0.0012812691572876567,0.03,pass,"shares 2,611.7m; EPS printed year to date",Derived,v1.3,cc2c85e4eef09300
+NMB,first column,2025-12-31,seed spot check: Total assets (first column),17182708.0,17182708.0,0.0,0.0,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,first column,2026-03-31,seed spot check: Total shareholders' funds (first column),3306906.0,3306906.0,0.0,0.0,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,first column,2026-06-30,seed spot check: Total assets (first column),18439388.0,18439388.0,0.0,0.0,pass,,Derived,v1.3,cc2c85e4eef09300
+NMB,first column,2026-09-30,seed spot check: Total shareholders' funds (first column),3435031.0,3435031.0,0.0,0.0,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,first column,2025-12-31,"seed spot check: Line 6.2 Fees and commissions, year to date, first column",541620.0,,,0.0,fail,,Derived,v1.3,cc2c85e4eef09300
+CRDB,first column,2026-03-31,seed spot check: Total assets (first column),23894556.0,23894556.0,0.0,0.0,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,first column,2026-06-30,seed spot check: Total assets (first column),26396026.0,26396026.0,0.0,0.0,pass,,Derived,v1.3,cc2c85e4eef09300
+CRDB,first column,2026-09-30,seed spot check: Customer deposits (first column),17409616.0,17409616.0,0.0,0.0,pass,,Derived,v1.3,cc2c85e4eef09300

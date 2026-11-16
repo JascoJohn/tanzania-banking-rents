@@ -1,0 +1,5 @@
+bank,window,events,mean_car,median_car,positive,sign_test_p,bootstrap_ci_lo,bootstrap_ci_hi,reading,evidence_class,register_version,input_hash
+CRDB,"[0,+20]",7,-0.01686852204348244,-0.0258117808206045,2,0.453125,-0.07287651751456954,0.052432216932375646,exploratory: few events and thin trading; a CI spanning zero means no reliable average effect,Estimated,v1.3,cc2c85e4eef09300
+CRDB,"[0,+5]",7,0.0210589226484247,0.0046529976349049,4,1.0,-0.019696762690159242,0.06952979600694378,exploratory: few events and thin trading; a CI spanning zero means no reliable average effect,Estimated,v1.3,cc2c85e4eef09300
+NMB,"[0,+20]",8,0.07101718517323967,0.03284981137499745,5,0.7265625,0.010534515690434875,0.1377725605128742,exploratory: few events and thin trading; a CI spanning zero means no reliable average effect,Estimated,v1.3,cc2c85e4eef09300
+NMB,"[0,+5]",8,0.016356082627274837,0.0011350874186146001,4,1.0,-0.0020302191664975764,0.03755573727183692,exploratory: few events and thin trading; a CI spanning zero means no reliable average effect,Estimated,v1.3,cc2c85e4eef09300

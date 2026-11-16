@@ -1,0 +1,5 @@
+valuation,bank,scenario,definition,value_per_share,price,value_to_price,rating,evidence_class,register_version,input_hash
+HIST,NMB,dominance without excess return,"ROE* = COE (ER* = 0); market shares, growth and every other driver base",8491.230185968845,8410.0,1.0096587617085429,Hold,Scenario,v1.3,cc2c85e4eef09300
+HIST,CRDB,dominance without excess return,"ROE* = COE (ER* = 0); market shares, growth and every other driver base",1174.6035361358668,1530.0,0.7677147295005665,Sell,Scenario,v1.3,cc2c85e4eef09300
+CURR,NMB,dominance without excess return,"ROE* = COE (ER* = 0); market shares, growth and every other driver base",1018.6898289240055,1820.0,0.5597196862219811,Sell,Scenario,v1.3,cc2c85e4eef09300
+CURR,CRDB,dominance without excess return,"ROE* = COE (ER* = 0); market shares, growth and every other driver base",1774.5212330807547,2840.0,0.6248314200988573,Sell,Scenario,v1.3,cc2c85e4eef09300
