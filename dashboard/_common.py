@@ -28,7 +28,8 @@ try:  # private repository: the release tool's cleaner; the public copies are al
 except ImportError:  # public repository (no release/ folder)
     _clean_line = None
 
-_IDS = re.compile(r"\s*\((?:D\d+|prompts? \d+[a-z]?|TO_VERIFY [A-Z]?\d+)(?:[,;/ ]+(?:D\d+|prompts? \d+[a-z]?))*\)")
+_IDS = re.compile(r"\s*\((?:D\d+|prompts? \d+[a-z]?|TO_VERIFY [A-Z]?\d+|(?:open )?issues? \d+)"
+                  r"(?:[,;/ ]+(?:D\d+|prompts? \d+[a-z]?|(?:open )?issues? \d+))*\)")
 
 
 def plain(text: str) -> str:

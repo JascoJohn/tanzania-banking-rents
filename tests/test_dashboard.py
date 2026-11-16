@@ -111,3 +111,13 @@ def test_download_matches_display_for_a_panel_chart() -> None:
     assert sorted(frame["roe"].dropna().round(12)) == sorted(pub["roe"].round(12))
     drawn = sorted(x for tr in at.session_state["_figs"]["ch04"] for x in _numbers(tr["y"]))
     assert np.allclose(drawn, sorted(frame["roe"].dropna()))
+
+
+def test_landing_page_runs_with_plain_labels() -> None:
+    """The landing page loads; its verdict table shows no file paths or internal issue numbers."""
+    at = AppTest.from_file(str(DASH / "app.py"), default_timeout=120)
+    at.run()
+    assert not at.exception, [e.message for e in at.exception]
+    verdicts = next(df.value for df in at.dataframe if "verdict" in df.value.columns)
+    assert "dashboard_page" not in verdicts.columns
+    assert not verdicts["verdict"].astype(str).str.contains(r"\(issue \d+\)").any()

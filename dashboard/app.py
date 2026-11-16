@@ -14,7 +14,7 @@ import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from _common import ROOT, manifest  # noqa: E402
+from _common import ROOT, manifest, plain  # noqa: E402
 
 from tzbank.reporting import blueprint as bp  # noqa: E402
 
@@ -91,9 +91,9 @@ def landing() -> None:
                             f"{val(f'CH09.VALUATIONS.EXPECTED_TOTAL_RETURN.{k}')}")
         v = pack[(pack["unit"] == "verdict") & pack["id"].str.endswith(".VERDICT") & (pack["chapter"] != "hypotheses")]
         st.markdown("**Hypothesis verdicts** (chapter registers; Interpretation)")
-        st.dataframe(v.assign(hypothesis=v["id"].str.split(".").str[1].str.replace("_", "."))[
-            ["chapter", "hypothesis", "value", "dashboard_page"]].rename(columns={"value": "verdict"}),
-            hide_index=True)
+        st.dataframe(v.assign(hypothesis=v["id"].str.split(".").str[1].str.replace("_", "."),
+                              value=v["value"].map(plain))[["chapter", "hypothesis", "value"]]
+                     .rename(columns={"value": "verdict"}), hide_index=True)
         with st.expander(f"All {len(h)} headline figures (findings pack, headline tier)"):
             st.dataframe(h[["id", "value", "unit", "bank", "date", "chapter", "source_file"]], hide_index=True)
         hyp = manifest("hypotheses")
