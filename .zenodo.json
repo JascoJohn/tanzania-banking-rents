@@ -1,14 +1,14 @@
 {
   "upload_type": "software",
   "title": "Dominant Banks, Conditional Rents: NMB, CRDB and the price of dominance in Tanzania (code)",
-  "description": "<p>Code for an independent study of Tanzania's banking market: market structure, the persistence of bank profitability and the investment value of NMB Bank Plc and CRDB Bank Plc. The Python package <code>tzbank</code> rebuilds every table, figure and findings pack from the inputs with one command (<code>python -m tzbank run all</code>); the interactive Streamlit dashboard reads the committed outputs and lets readers select banks, periods and measures, compare the seven listed Tanzanian banks and African peers, and download the data behind every chart.</p><p>This record holds the code. The derived dataset and the research reports have their own Zenodo records. Not investment advice.</p>",
+  "description": "<p>Code for an independent study of Tanzania's banking market: market structure, the persistence of bank profitability and the investment value of NMB Bank Plc and CRDB Bank Plc. The Python package <code>tzbank</code> rebuilds every table, figure and findings pack from the inputs with one command (<code>python -m tzbank run all</code>); the interactive Streamlit dashboard reads the committed outputs and lets readers select banks, periods and measures, compare the seven listed Tanzanian banks and African peers, and download the data behind every chart. An Excel companion model (Tanzania_Banking_Rents_Model.xlsx, attached to each GitHub release) reproduces the analysis with live formulas so readers without Python can change inputs and see the results recalculate.</p><p>This record holds the code. The derived dataset and the research reports have their own Zenodo records. Not investment advice.</p>",
   "creators": [
     {
       "name": "John, Jasco",
       "orcid": "0009-0007-3630-7943"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "access_right": "open",
   "language": "eng",

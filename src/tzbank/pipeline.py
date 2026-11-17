@@ -240,6 +240,13 @@ def stage_findings(root: Path) -> list[Path]:
     return refresh_index(root) + write_hypotheses(root) + write_findings(root)
 
 
+def stage_excel_model(root: Path) -> list[Path]:
+    """Step 20 (D104): the Excel companion model, recalculated and checked against the Python outputs."""
+    from tzbank.excel.check import write_excel_model
+
+    return write_excel_model(root)
+
+
 def stage_review(root: Path) -> list[Path]:
     """Review pack for the owner (prompt 02b section 4)."""
     from tzbank.reporting.review_pack import write_review_pack
@@ -267,12 +274,15 @@ STAGES: dict[str, Callable[[Path], list[Path]]] = {
     "market_ext": stage_market_ext,
     "findings": stage_findings,
     "review": stage_review,
+    "excel_model": stage_excel_model,
 }
 
 # Files that `run all` must produce (checked by tests/test_pipeline.py). Generated files outside outputs/ (data/,
 # reports/, docs/, the proposed register) are checked for existence but never deleted by the tests (owner, ch01-03
 # review A): inputs live beside them.
 GENERATED_FILES = [
+    "outputs/valuation/Tanzania_Banking_Rents_Model.xlsx", "outputs/valuation/excel_model_check.csv",
+    "outputs/valuation/excel_model_sheets.csv",
     "data/interim/phase1_long.csv", "data/interim/bond_auctions.csv", "data/interim/nps_long.csv",
     "data/interim/finscope_variables.csv", "data/interim/canonical_long.csv",
     "data/interim/daily_trading_original.csv", "data/interim/bond_auction_results.csv", "data/interim/bot_long.csv",

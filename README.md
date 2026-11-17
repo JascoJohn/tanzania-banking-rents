@@ -3,7 +3,7 @@
 *NMB, CRDB and the price of dominance in Tanzania*
 
 Independent research by Jasco John, CPA(T) (ORCID [0009-0007-3630-7943](https://orcid.org/0009-0007-3630-7943)).
-Code version 1.0; findings pack v1.17; valuation date 31 October 2026.
+Code version 1.1; findings pack v1.17; valuation date 31 October 2026.
 
 | | Link |
 | --- | --- |
@@ -200,6 +200,30 @@ use entry file `dashboard/app.py`; the requirements are in `dashboard/requiremen
 | ![Chapter 11](docs/screenshots/dashboard_ch11.png) | ![Chapter 12](docs/screenshots/dashboard_ch12.png) |
 | **African peers** | **DSE market data** |
 | ![Peers](docs/screenshots/dashboard_ch13_peers.png) | ![Market](docs/screenshots/dashboard_ch14_market.png) |
+
+## Excel model (no Python needed)
+
+`Tanzania_Banking_Rents_Model.xlsx` is a chapter-organised Excel companion to the pipeline: open it in Excel (2019 or
+later) or LibreOffice, change a blue input cell and the chapters, the engine runs and the Summary recalculate.
+**Download:** [Tanzania_Banking_Rents_Model.xlsx](https://github.com/JascoJohn/tanzania-banking-rents/releases/latest/download/Tanzania_Banking_Rents_Model.xlsx)
+(an asset of each GitHub release; written by `python -m tzbank run excel_model` to `outputs/valuation/`). No macros,
+no external links. The Summary shows each live value beside the published figure and their difference, and flags
+whether every engine run converged; every report figure is on its chapter sheet.
+
+- **Sheets:** README, Summary (value per share, target, rating and the bridge for both dates), Inputs (every
+  assumption, the point-in-time case inputs per date and bank, the full assumption register for base, bear and
+  bull, with named ranges), the NMB and CRDB data panel, chapters 1-14, and one engine sheet per bank, date and
+  scenario.
+- **Live (formulas):** ratios, the DuPont tree, cost of equity, excess returns, the deposit franchise, capital
+  headroom and payout, cost of risk and return on RWA, the driver-based forecast engine (fixed-point solve and the
+  base-case growth cap), RIM / DDM / justified P/B, payout path, sensitivity grids, implied ER*, lambda, COE and
+  ROE*, iso-value surfaces, the five-step bridge and rerating, scenarios, USD returns and breakeven depreciation.
+- **Static (grey, computed in Python):** persistence regressions and break tests, interval coverage, bootstraps,
+  the Monte Carlo, beta estimation, the NIM x cost-of-risk grid (81 full engine runs per bank and date), liquidity
+  and capacity from daily trading data, and chapters 13-14. Each block names its script and source table.
+- **Python is the source of truth.** Every build recalculates the workbook and compares each live cell with the
+  Python table (`outputs/valuation/excel_model_check.csv`: item, python, excel, diff, pass; tolerance 0.01% or
+  TZS 0.01 per share); the step fails on any difference or any formula error.
 
 ## How to cite
 

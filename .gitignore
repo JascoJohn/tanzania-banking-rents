@@ -39,3 +39,6 @@ outputs/findings/fill_list.md
 outputs/valuation/manifest_09a.json
 outputs/valuation/register_key_drivers.md
 docs/NPS_PANEL_NOTES.md
+# Step 20 (D104): the Excel companion model is a GitHub release asset, not a repository or dataset file
+outputs/valuation/Tanzania_Banking_Rents_Model.xlsx
+outputs/valuation/excel_model_*.csv
