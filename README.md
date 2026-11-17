@@ -206,7 +206,7 @@ use entry file `dashboard/app.py`; the requirements are in `dashboard/requiremen
 `Tanzania_Banking_Rents_Model.xlsx` is a chapter-organised Excel companion to the pipeline: open it in Excel (2019 or
 later) or LibreOffice, change a blue input cell and the chapters, the engine runs and the Summary recalculate.
 **Download:** [Tanzania_Banking_Rents_Model.xlsx](https://github.com/JascoJohn/tanzania-banking-rents/releases/latest/download/Tanzania_Banking_Rents_Model.xlsx)
-(an asset of each GitHub release; written by `python -m tzbank run excel_model` to `outputs/valuation/`). No macros,
+(an asset of each GitHub release, also committed at `outputs/valuation/`; written by `python -m tzbank run excel_model` to `outputs/valuation/`). No macros,
 no external links. The Summary shows each live value beside the published figure and their difference, and flags
 whether every engine run converged; every report figure is on its chapter sheet.
 

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tzbank"
-version = "1.1.0"
+version = "1.1.1"
 description = "The Economics of Dominance and Rents: market structure, profitability persistence and the investment value of CRDB and NMB"
 readme = "README.md"
 requires-python = ">=3.11"
